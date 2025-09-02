@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "notice": "공지",
+    "title": "언론홍보영상학부 홈페이지 리뉴얼 안내",
+    "author": "언론홍보영상학부 관리자",
+    "date": "2025-08-01",
+    "contentfile": "post1_언론홍보영상학부 홈페이지 리뉴얼 안내.html",
+    "file_attachment": []
+  },
+  {
+    "id": 2,
+    "notice": "공지",
+    "title": "학부 및 대학원 문의처 안내",
+    "author": "언론홍보영상학부 관리자",
+    "date": "2021-12-29",
+    "contentfile": "post2_학부 및 대학원 문의처 안내.html",
+    "file_attachment": []
+  },
+  {
+    "id": 3,
+    "notice": "",
+    "title": "주차권 등록 안내",
+    "author": "언론홍보영상학부 관리자",
+    "date": "2025-06-27",
+    "contentfile": "post3_주차권 등록 안내.html",
+    "file_attachment": []
+  },
+  {
+    "id": 4,
+    "notice": "",
+    "title": "2026학년도 1학기 연세대학교 언론홍보영상학부 강사 공개채용 공고",
+    "author": "언론홍보영상학부 학부장",
+    "date": "2025-05-27",
+    "contentfile": "post4_2026-1 강사 공개채용 공고.html",
+    "file_attachment": [
+      "data/files/2026-1 강사 공개채용 모집공고.pdf"
+    ]
+  },
+  {
+    "id": 5,
+    "notice": "",
+    "title": "학부 해외파견 교환학생 학점인정 절차 및 양식 안내",
+    "author": "언론홍보영상학부 관리자",
+    "date": "2025-08-03",
+    "contentfile": "post5_2026-1 학부 해외파견 교환학생 학점인정 절차 및 양식 안내.html",
+    "file_attachment": [
+      "data/files/인정학점-신청해외교환-유학_학생용.pdf"
+    ]
+  },
+  {
+    "id": 6,
+    "notice": "공지",
+    "title": "언론홍보영상학부 VR 미디어랩 운영 안내",
+    "author": "언론홍보영상학부 관리자",
+    "date": "2024-10-21",
+    "contentfile": "post6_2026-1 언론홍보영상학부 VR 미디어랩 운영 안내.html",
+    "file_attachment": []
+  }
+]

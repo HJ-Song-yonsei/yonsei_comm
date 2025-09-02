@@ -1,0 +1,216 @@
+<style>
+/* Sticky header inside scrollable modal body */
+table.long-inventory thead th {
+  position: sticky;
+  top: 0;
+  background: var(--bs-body-bg, #fff);
+  z-index: 2;
+}
+table.long-inventory td, table.long-inventory th { vertical-align: middle; }
+table.long-inventory td[colspan] { text-align: center; }
+</style>
+
+<table class="table table-hover table-sm long-inventory">
+  <colgroup>
+    <col style="width: 10%">
+    <col style="width: 25%">
+    <col style="width: 30%">
+    <col style="width: 25%">
+    <col style="width: 10%">
+  </colgroup>
+  <thead class="table-light">
+    <tr>
+      <th scope="col">세트</th>
+      <th scope="col">장비명</th>
+      <th scope="col">부품 (세부내용)</th>
+      <th scope="col">비고 및 분실</th>
+      <th scope="col">예약링크</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="9">세트1</td>
+      <td rowspan="6">SONY A6400(렌즈포함)</td>
+      <td>SONY A6400 본체</td>
+      <td>Sd 카드 없음</td>
+      <td rowspan="9"></td>
+    </tr>
+    <tr><td>EPZ18-105MM F4GOSS 카메라 렌즈</td><td></td></tr>
+    <tr><td>배터리 NP-FW50 3개</td><td></td></tr>
+    <tr><td>충전연결선 1개</td><td></td></tr>
+    <tr><td>LCS-SL10 가방</td><td></td></tr>
+    <tr><td>렌즈캡 3개</td><td></td></tr>
+    <tr><td>카이어 BV 30L 삼각대</td><td>삼각대 본체</td><td></td></tr>
+    <tr><td>카이어 BV 30L 삼각대</td><td>플레이트</td><td></td></tr>
+    <tr><td>카이어 BV 30L 삼각대</td><td>가방 케이스</td><td></td></tr>
+
+    <tr>
+      <td rowspan="3">세트2</td>
+      <td rowspan="3">SONY A6400(렌즈 미포함)</td>
+      <td>SONY A6400 16-50mm 본체</td>
+      <td>Sd 카드 없음</td>
+      <td rowspan="3"></td>
+    </tr>
+    <tr><td>배터리 NP-FW50 3개</td><td>충전연결선 1개 분실</td></tr>
+    <tr><td>LCS-BDM 가방 케이스</td><td>렌즈캡 1개 분실</td></tr>
+
+    <tr>
+      <td rowspan="6">세트3</td>
+      <td rowspan="4">SONY A7C(렌즈포함)</td>
+      <td>SONY A7C 본체</td>
+      <td>Sd 카드 없음</td>
+      <td rowspan="6"></td>
+    </tr>
+    <tr><td>28-60mm 렌즈</td><td>렌즈캡 1개 분실</td></tr>
+    <tr><td>배터리 NP-FZ100 1개</td><td>충전연결선 1개 (분실)</td></tr>
+    <tr><td>전용 가방</td><td></td></tr>
+    <tr><td>TASCAM DR-40X 녹음기</td><td>녹음기 본체</td><td>설명서 (분실)</td></tr>
+    <tr><td>TASCAM DR-40X 녹음기</td><td>마이크 연결선</td><td>tiltfoot 1개 (분실)</td></tr>
+
+    <tr>
+      <td rowspan="6">세트4</td>
+      <td rowspan="6">Canon EOS70D(렌즈포함)</td>
+      <td>Canon EOS70D 본체</td>
+      <td>Sd 카드 없음</td>
+      <td rowspan="6"></td>
+    </tr>
+    <tr><td>EPZ18-105MM F4GOSS 카메라 렌즈</td><td></td></tr>
+    <tr><td>충전기</td><td></td></tr>
+    <tr><td>먼지떨이</td><td></td></tr>
+    <tr><td>렌즈캡 2개 (1개 분실)</td><td></td></tr>
+    <tr><td>배터리 1개</td><td></td></tr>
+
+    <tr>
+      <td rowspan="20">세트5</td>
+      <td rowspan="7">SONY PXW-X70</td>
+      <td>SONY PXW-X70 본체</td>
+      <td>Sd 카드 없음</td>
+      <td rowspan="20"></td>
+    </tr>
+    <tr><td>렌즈 후드 1개</td><td>XLR 어댑터 분실</td></tr>
+    <tr><td>액세서리 슈키트 1개</td><td>렌즈 캡 1개 (분실)</td></tr>
+    <tr><td>가방</td><td>아이컵 1개 (분실)</td></tr>
+    <tr><td>배터리 NP-FV100A 1개</td><td>전원케이블과 AC어뎁터 1개 (분실)</td></tr>
+    <tr><td>배터리 NP-FV70A 1개</td><td></td></tr>
+    <tr><td>무선리모콘 1개</td><td></td></tr>
+    <tr><td>RODE NTG2 붐마이크</td><td>마이크 본체</td><td>USB 연결선 (분실)</td></tr>
+    <tr><td>RODE NTG2 붐마이크</td><td>마이크커버</td><td></td></tr>
+    <tr><td>RODE NTG2 붐마이크</td><td>스탠드 연결부품</td><td></td></tr>
+    <tr><td>RODE NTG2 붐마이크</td><td>가방케이스</td><td></td></tr>
+    <tr><td>젠하이저 MKH 416 붐마이크</td><td>마이크 본체</td><td></td></tr>
+    <tr><td>젠하이저 MKH 416 붐마이크</td><td>마이크커버</td><td></td></tr>
+    <tr><td>젠하이저 MKH 416 붐마이크</td><td>스탠드 연결부품</td><td></td></tr>
+    <tr><td>젠하이저 MKH 416 붐마이크</td><td>가방케이스</td><td></td></tr>
+    <tr><td>RODE 봄풀</td><td>봄풀</td><td></td></tr>
+    <tr><td>RODE 봄풀</td><td>커버케이스</td><td></td></tr>
+    <tr><td>카이어 BV 30L 삼각대</td><td>삼각대 본체</td><td></td></tr>
+    <tr><td>카이어 BV 30L 삼각대</td><td>플레이트</td><td></td></tr>
+    <tr><td>카이어 BV 30L 삼각대</td><td>가방 케이스</td><td></td></tr>
+
+    <tr>
+      <td rowspan="12">세트6</td>
+      <td rowspan="3">P1 Chamellite RGB 조명패드</td>
+      <td>조명패드 본체</td>
+      <td>Type-C 충전 케이블 2개 분실</td>
+      <td rowspan="12"></td>
+    </tr>
+    <tr><td>콜드 슈</td><td></td></tr>
+    <tr><td>패드 박스</td><td></td></tr>
+    <tr><td>P1 Chamellite RGB 조명패드</td><td>조명패드 본체</td><td>Type-C 충전 케이블 2개 분실</td></tr>
+    <tr><td>P1 Chamellite RGB 조명패드</td><td>콜드 슈</td><td></td></tr>
+    <tr><td>P1 Chamellite RGB 조명패드</td><td>패드 박스</td><td></td></tr>
+    <tr><td>카이어 BV 30L 삼각대</td><td>삼각대 본체</td><td></td></tr>
+    <tr><td>카이어 BV 30L 삼각대</td><td>플레이트</td><td></td></tr>
+    <tr><td>카이어 BV 30L 삼각대</td><td>가방 케이스</td><td></td></tr>
+    <tr><td>룩스패드 K63H 조명스탠드 2세트</td><td>조명패드 2개</td><td>패드 상자 부서짐</td></tr>
+    <tr><td>룩스패드 K63H 조명스탠드 2세트</td><td>전원 케이블 2개</td><td>배터리 FS-F970N 4개(분실)</td></tr>
+    <tr><td>룩스패드 K63H 조명스탠드 2세트</td><td>패드 연결 케이블 2개</td><td></td></tr>
+
+    <tr>
+      <td rowspan="29">세트7</td>
+      <td rowspan="4">SONY FX30 Digital Cinema Camera</td>
+      <td>본체</td>
+      <td>가방없음</td>
+      <td rowspan="29"></td>
+    </tr>
+    <tr><td>본체렌즈캡</td><td>sd카드없음</td></tr>
+    <tr><td>연결본체</td><td>배터리팩 없음</td></tr>
+    <tr><td>케이블</td><td></td></tr>
+    <tr><td>SONY FE 16–35mm f/2.8 GM 2 Lens</td><td>가방</td><td></td></tr>
+    <tr><td>SONY FE 16–35mm f/2.8 GM 2 Lens</td><td>렌즈후드</td><td></td></tr>
+    <tr><td>SONY FE 16–35mm f/2.8 GM 2 Lens</td><td>끈</td><td></td></tr>
+    <tr><td>SONY FE 16–35mm f/2.8 GM 2 Lens</td><td>렌즈캡 2개</td><td></td></tr>
+    <tr><td>SONY FE 16–35mm f/2.8 GM 2 Lens</td><td>본체</td><td></td></tr>
+    <tr><td>SONY FE 24–70mm f/2.8 GM 2 Lens</td><td>가방</td><td></td></tr>
+    <tr><td>SONY FE 24–70mm f/2.8 GM 2 Lens</td><td>렌즈후드</td><td></td></tr>
+    <tr><td>SONY FE 24–70mm f/2.8 GM 2 Lens</td><td>끈</td><td></td></tr>
+    <tr><td>SONY FE 24–70mm f/2.8 GM 2 Lens</td><td>렌즈캡2개</td><td></td></tr>
+    <tr><td>SONY FE 24–70mm f/2.8 GM 2 Lens</td><td>본체</td><td></td></tr>
+    <tr><td>XLR–K3M SYU XLR 단자 어댑터 키트</td><td>가방</td><td></td></tr>
+    <tr><td>XLR–K3M SYU XLR 단자 어댑터 키트</td><td>어댑터 본체</td><td></td></tr>
+    <tr><td>XLR–K3M SYU XLR 단자 어댑터 키트</td><td>마이크(윈드스크린 포함)</td><td></td></tr>
+    <tr><td>XLR–K3M SYU XLR 단자 어댑터 키트</td><td>커넥터 프로텍터갭</td><td></td></tr>
+    <tr><td>SONY UWP-D21 Wireless Omni Lavalier Mic System</td><td>가방</td><td></td></tr>
+    <tr><td>SONY UWP-D21 Wireless Omni Lavalier Mic System</td><td>UTX-B40</td><td></td></tr>
+    <tr><td>SONY UWP-D21 Wireless Omni Lavalier Mic System</td><td>URX-P40</td><td></td></tr>
+    <tr><td>SONY UWP-D21 Wireless Omni Lavalier Mic System</td><td>선2개</td><td></td></tr>
+    <tr><td>SONY UWP-D21 Wireless Omni Lavalier Mic System</td><td>마이크 연결선</td><td></td></tr>
+    <tr><td>SONY UWP-D21 Wireless Omni Lavalier Mic System</td><td>삼각대플레이트</td><td></td></tr>
+    <tr><td>RODE Wireless GO2 (x4)</td><td>케이스</td><td></td></tr>
+    <tr><td>RODE Wireless GO2 (x4)</td><td>리시버(퍼 포함)</td><td></td></tr>
+    <tr><td>RODE Wireless GO2 (x4)</td><td>트랜스미터2개(퍼)</td><td></td></tr>
+    <tr><td>RODE Wireless GO2 (x4)</td><td>USB케이블 3개</td><td></td></tr>
+    <tr><td>RODE Wireless GO2 (x4)</td><td>TRS케이블</td><td></td></tr>
+
+    <tr>
+      <td rowspan="26">세트8</td>
+      <td rowspan="6">GoPro HERO12 Black Creator Edition Bundle</td>
+      <td>가방</td>
+      <td></td>
+      <td rowspan="26"></td>
+    </tr>
+    <tr><td>본체</td><td></td></tr>
+    <tr><td>삼각대</td><td></td></tr>
+    <tr><td>캡</td><td></td></tr>
+    <tr><td>부속품4개</td><td></td></tr>
+    <tr><td>배터리</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>가방</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>본체</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>프토텍트 커버</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>미니삼각대</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>배터리 핸들</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>트랜스미터</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>마이크 클립 마그넷(퍼 포함)</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>스레드</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>케이블</td><td></td></tr>
+    <tr><td>DJI OSMO Pocket 3 Creator Combo</td><td>와이드앵글렌즈</td><td></td></tr>
+    <tr><td>DJI OSMO Mobile 6 Smartphone Gimbal</td><td>케이스</td><td></td></tr>
+    <tr><td>DJI OSMO Mobile 6 Smartphone Gimbal</td><td>본체</td><td></td></tr>
+    <tr><td>DJI OSMO Mobile 6 Smartphone Gimbal</td><td>폰클랩프</td><td></td></tr>
+    <tr><td>DJI OSMO Mobile 6 Smartphone Gimbal</td><td>삼각대</td><td></td></tr>
+    <tr><td>DJI OSMO Mobile 6 Smartphone Gimbal</td><td>케이블</td><td></td></tr>
+    <tr><td>DJI OSMO Mobile 6 Smartphone Gimbal</td><td>케이스</td><td></td></tr>
+    <tr><td>RODE Wireless GO2</td><td>리시버(퍼)</td><td></td></tr>
+    <tr><td>RODE Wireless GO2</td><td>트랜스미터2개(퍼)</td><td></td></tr>
+    <tr><td>RODE Wireless GO2</td><td>USB케이블 3개</td><td></td></tr>
+    <tr><td>RODE Wireless GO2</td><td>TRS케이블</td><td></td></tr>
+
+    <tr>
+      <td rowspan="11">세트9</td>
+      <td rowspan="6">SONY UWP-D21 Wireless Omni Lavalier Mic System</td>
+      <td>가방</td>
+      <td></td>
+      <td rowspan="11"></td>
+    </tr>
+    <tr><td>UTX-B40</td><td></td></tr>
+    <tr><td>URX-P40</td><td></td></tr>
+    <tr><td>선 2개</td><td></td></tr>
+    <tr><td>마이크 연결선</td><td></td></tr>
+    <tr><td>삼각대플레이트</td><td></td></tr>
+    <tr><td>RODE Wireless GO2</td><td>케이스</td><td></td></tr>
+    <tr><td>RODE Wireless GO2</td><td>리시버(퍼)</td><td></td></tr>
+    <tr><td>RODE Wireless GO2</td><td>트랜스미터2개(퍼)</td><td></td></tr>
+    <tr><td>RODE Wireless GO2</td><td>USB케이블 3개</td><td></td></tr>
+    <tr><td>RODE Wireless GO2</td><td>TRS케이블</td><td></td></tr>
+  </tbody>
+</table>
