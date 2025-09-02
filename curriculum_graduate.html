@@ -1,0 +1,940 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Department of Communication, Yonsei University</title>
+
+        <!-- CSS FILES -->        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+
+        <!-- DataTables Bootstrap5 테마 CSS -->
+        <link href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+
+        <!-- 1) Head에 CDN 라이브러리 로드 -->
+        <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <style>
+        /* 모든 셀 중앙 정렬 */
+        #excel-table .table th,
+        #excel-table .table td {
+          text-align: center;
+        }
+
+        /* 첫 번째 행(<tr>)의 모든 <td>를 헤더처럼 스타일링 */
+        #excel-table .table tbody tr:first-child > td {
+          background-color: var(--primary-color) !important;
+          color: #fff !important;
+          font-weight: bold;
+        }
+                /* #excel-table 안의 모든 테이블 셀(헤더 & 데이터)에 줄바꿈 금지 */
+        #excel-table .table th,
+        #excel-table .table td {
+          white-space: nowrap;
+          /* 혹시 글자가 너무 길면 셀 너비를 넘어가기도 하는데,
+             가로 스크롤이 필요하다면 table-responsive가 처리해 줍니다. */
+        }
+      </style>
+
+      <style>
+      /* 툴팁 내부 텍스트 기본 한 줄로 표시, 필요 시 가로 스크롤 */
+      #excel-table .tooltip-inner {
+        white-space: nowrap;
+        max-width: none !important;
+      }
+      /* 모바일 뷰포트(<768px)에서는 줄 바꿈 허용 */
+      @media (max-width: 767.98px) {
+        #excel-table .tooltip-inner {
+          white-space: normal;
+          /* 테이블 너비에 맞추려면 아래처럼 % 적용 가능 */
+          max-width: 90vw !important;
+        }
+      }
+    </style>
+
+
+<!--
+
+TemplateMo 581 Kind Heart Charity
+
+https://templatemo.com/tm-581-kind-heart-charity
+
+-->
+
+    </head>
+
+    <body id="section_1">
+
+ <!--        <header class="site-header">
+            <div class="container">
+                <div class="row"> -->
+                    
+<!--                     <div class="col-lg-8 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-geo-alt me-2"></i>
+                            Akershusstranda 20, 0150 Oslo, Norway
+                        </p>
+
+                        <p class="d-flex mb-0">
+                            <i class="bi-envelope me-2"></i>
+
+                            <a href="mailto:info@company.com">
+                                info@company.com
+                            </a>
+                        </p>
+                    </div> -->
+
+ <!--                    <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                        <ul class="social-icon">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-twitter"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-instagram"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-youtube"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-whatsapp"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div> -->
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" class="logo img-fluid" alt="Department of Communication" style="width:8%; height:auto;">
+                    <span>
+                        언론홍보영상학부
+                        <small>Department of Communication</small>
+                    </span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="index.html#top">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_2" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">학부소개</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="intro.html">인사말</a></li>
+                                <li><a class="dropdown-item" href="intro.html#more_history">학과연혁</a></li>
+                                <li><a class="dropdown-item" href="index.html#section_5">주요시설안내</a></li>
+                                <li><a class="dropdown-item" href="index.html#section_6">찾아오시는길</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_2" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">구성원</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="people.html">현직교수</a></li>
+                                <li><a class="dropdown-item" href="people_emeritus.html">명예교수</a></li>
+                                <li><a class="dropdown-item" href="people_emeritus.html#section_2">퇴임교수</a></li>
+                                <li><a class="dropdown-item" href="people_profpractice.html">비전임/겸임교수</a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_4" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">학사안내</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+
+                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/2347/subview.do">입학안내</a></li>
+                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/373/subview.do">학사일정</a></li>
+                                <li><a class="dropdown-item" href="curriculum.html#course-list">교과과정</a></li>
+                                <li><a class="dropdown-item" href="curriculum.html#graduation-requirement">졸업요건</a></li>
+                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/383/subview.do">복수전공/부전공</a></li>
+                                <li><a class="dropdown-item" href="https://oia.yonsei.ac.kr/partner/chStu.asp">교환학생/학점인정</a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">일반대학원</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/schedule.do">입학안내</a></li>
+                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/connect_schedule.do">학석사연계</a></li>
+                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/academic/calendar.do">학사일정</a></li>
+                                <li><a class="dropdown-item" href="curriculum_graduate.html">교과과정</a></li>
+                                <li><a class="dropdown-item" href="curriculum_graduate.html#graduation-requirement">졸업요건</a></li>
+                                <li><a class="dropdown-item" href="yonsei_uva.html">Yonsei-UvA</a></li>
+                                <li><a class="dropdown-item" href="yonsei_cityu.html">CityU 복수학위</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_6" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">특수전문대학원</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/index.do">언론홍보대학원</a></li>
+                                <li><a class="dropdown-item" href="https://www.yjs.or.kr/html/main.php">윤세영저널리즘스쿨</a></li>
+                                <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/jmc01/high01.do">언홍원 최고위과정</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">공지사항</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="notice.html">학사공지</a></li>
+                                <li><a class="dropdown-item" href="lend.html">장비대여신청</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <main>
+
+        <section class="people-detail-header-section text-center">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12">
+                            <h3 class="text-white">학사안내</h3>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="timetable-list" class="section-padding section-bg">
+                  <div class="container">
+                        <div class="row mb-5">
+                            <div class="col-12 text-center">
+                                <h2 class="d-inline">강의시간표 |</h2>
+                                <h5 class="d-inline text-muted ms-2">2025-2학기, 석박사과정(일반)</h5>
+                                <p></p>
+                        </div>
+                    <!-- curriculum.html 에서 커리큘럼 표 바로 아래에 붙여 넣으세요 -->
+                    <!-- 1) 과목 dot & hover-highlight 스타일 -->
+                    <style>
+                      .subject-dot {
+                        display: inline-block;
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        margin: 0 auto;
+                      }
+                    /* hover 시 하이라이트용 스타일 */
+                    .subject-highlight {
+                      background-color: rgba(255, 235, 59, 0.3) !important;
+                      transition: background-color 0.2s;
+                    }
+                    /* timetable 전체에 고정 레이아웃 적용 */
+                    #timetable {
+                      table-layout: fixed;
+                      width: 100%;
+                    }
+                    /* 1열(교시) / 2열(시간) 고정폭 */
+                    #timetable col:nth-child(1)  { width:  60px; }  /* 교시 */
+                    #timetable col:nth-child(2)  { width: 100px; }  /* 시간 */
+
+                    </style>
+
+                    <div class="container my-4">
+                      <!-- 필터 UI -->
+                      <div id="timetable-filters" class="mb-3">
+                        <div class="mb-2">
+                          <strong>요일:</strong>
+                          <span id="filter-days"></span>
+                        </div>
+                        <div>
+                          <strong>강의실:</strong>
+                          <span id="filter-rooms"></span>
+                        </div>
+                      </div>
+                      <!-- 테이블 자리 -->
+                      <div id="timetable-container" class="table-responsive"></div>
+                    </div>
+                    <h5 class="mt-0 text-start small text-muted">※ 보다 자세한 수업정보는 학사포털 <a href="https://underwood1.yonsei.ac.kr/com/lgin/SsoCtr/initExtPageWork.do?link=handbStfsc" target="_blank">수강편람조회</a>를 이용하시기 바랍니다.</h5>
+                  </div>
+
+                    
+<script>
+// ========= Global debug + robust pathing (safe for GitHub Pages) =========
+(function(){
+  function injectAlert(targetId, title, msg, details){
+    var target = document.getElementById(targetId) || document.getElementById('excel-table') || document.body;
+    if (!target) return;
+    var html = '<div class="alert alert-warning" role="alert" style="margin:1rem 0;">'
+             + '<strong>' + title + '</strong><br><code>' + String(msg).replace(/</g,'&lt;') + '</code>'
+             + (details ? '<details class="mt-2"><summary>Details</summary><pre style="white-space:pre-wrap">' + details.replace(/</g,'&lt;') + '</pre></details>' : '')
+             + '</div>';
+    target.insertAdjacentHTML('afterbegin', html);
+  }
+  window.addEventListener('error', function(e){
+    injectAlert('timetable-container', 'Script error', e.message || 'Unknown error', (e.filename||'') + ':' + (e.lineno||'') );
+  });
+  window.addEventListener('unhandledrejection', function(e){
+    injectAlert('timetable-container', 'Unhandled promise rejection', (e.reason && e.reason.message) ? e.reason.message : String(e.reason));
+  });
+
+  // Robust bytes fetcher that tries current-dir /data/ and root /data/
+  window.fetchBytes = async function(file, ctx){
+    const origins = [new URL('.', location.href), new URL('/', location.href)];
+    const bases = origins.map(o => new URL('data/', o).toString());
+    let last;
+    for (const base of bases){
+      const url = base + file;
+      try{
+        const res = await fetch(url, { cache: 'no-store' });
+        if (res.ok) return await res.arrayBuffer();
+        last = 'HTTP ' + res.status + ' for ' + url;
+      }catch(err){ last = String(err) + ' @ ' + url; }
+    }
+    throw new Error(last || ('Could not load '+file));
+  };
+})();
+</script>
+<script>
+                    (async () => {
+                      // 1) 엑셀 불러오기
+                      const buf   = await window.fetchBytes('curriculum_graduate.xlsx','timetable');
+                      const wb    = XLSX.read(buf, { type: 'array' });
+                      const sheet = wb.Sheets[wb.SheetNames[1]];
+                      const data  = XLSX.utils.sheet_to_json(sheet, {
+                        header:    1, blankrows: true, defval: ''
+                      });
+
+                      // 2) 헤더·바디 분리
+                      const daysRow  = data[0];
+                      const roomsRow = data[1];
+                      const bodyRows = data.slice(2);
+
+                      // 3) 테이블 렌더
+                      let html  = '<table id="timetable" class="table table-bordered text-center"><thead>';
+                      // 3.1 요일
+                      html += '<tr><th></th><th></th>';
+                      daysRow.slice(2).forEach(d => html += `<th data-day="${d}">${d}</th>`);
+                      html += '</tr>';
+                      // 3.2 강의실
+                      html += '<tr><th>교시</th><th>시간</th>';
+                      roomsRow.slice(2).forEach(r => html += `<th data-room="${r}">${r}</th>`);
+                      html += '</tr>';
+                      html += '</thead><tbody>';
+                      // 3.3 본문
+                      bodyRows.forEach(row => {
+                        html += '<tr>';
+                        html += `<th>${row[0]||''}</th><td>${row[1]||''}</td>`;
+                        row.slice(2).forEach((cell, idx) => {
+                          const ci = idx + 2;
+                          html += `<td data-day="${daysRow[ci]||''}" data-room="${roomsRow[ci]||''}">${cell||''}</td>`;
+                        });
+                        html += '</tr>';
+                      });
+                      html += '</tbody></table>';
+                      document.getElementById('timetable-container').innerHTML = html;
+                      // Ensure first two columns have fixed widths and correct sticky offsets
+                      (function fixStickyWidths(){
+                        const table = document.getElementById('timetable');
+                        if (!table) return;
+                        const firstColSel = 'thead th:nth-child(1), tbody th:nth-child(1), tbody td:nth-child(1)';
+                        const secondColSel = 'thead th:nth-child(2), tbody td:nth-child(2)';
+                        table.querySelectorAll(firstColSel).forEach(el => el.style.width = '60px');
+                        table.querySelectorAll(secondColSel).forEach(el => el.style.width = '100px');
+
+                        const ref = table.querySelector('thead tr:nth-child(2) th:nth-child(1)')
+                                   || table.querySelector('thead th:nth-child(1)')
+                                   || table.querySelector('tbody th:nth-child(1)');
+                        const leftPx = ref ? ref.getBoundingClientRect().width : 60;
+
+                        table.querySelectorAll('tbody td:nth-child(2)').forEach(td => {
+                          td.style.position = 'sticky';
+                          td.style.left = leftPx + 'px';
+                          td.style.background = 'white';
+                          td.style.zIndex = 1;
+                        });
+                      })();
+
+
+                      // 4) 필터 & dot 적용
+                      initFilters(daysRow.slice(2), roomsRow.slice(2));
+                      applySubjectDots();
+                    })();
+
+                    function initFilters(dayCells, roomCells) {
+                      // 요일 순서 강제
+                      const rawDays = [...new Set(dayCells.filter(d=>d))];
+                      const order   = ['월','화','수','목','금'];
+                      const dayList = order.filter(d=>rawDays.includes(d));
+                      const roomList = [...new Set(roomCells.filter(r=>r))].sort();
+
+                      const dcont = document.getElementById('filter-days');
+                      const rcont = document.getElementById('filter-rooms');
+
+                      dayList.forEach(d => dcont.insertAdjacentHTML('beforeend', `
+                        <label class="form-check form-check-inline">
+                          <input type="checkbox" class="form-check-input filter-day" value="${d}" checked>
+                          <span class="form-check-label">${d}</span>
+                        </label>`));
+                      roomList.forEach(r => rcont.insertAdjacentHTML('beforeend', `
+                        <label class="form-check form-check-inline">
+                          <input type="checkbox" class="form-check-input filter-room" value="${r}" checked>
+                          <span class="form-check-label">${r}</span>
+                        </label>`));
+
+                      const days = [...document.querySelectorAll('.filter-day')];
+                      const rooms = [...document.querySelectorAll('.filter-room')];
+                      const table = document.getElementById('timetable');
+
+                      [...days, ...rooms].forEach(cb => cb.addEventListener('change', applyFilters));
+                      applyFilters();
+
+                      function applyFilters() {
+                        const selD = days.filter(c=>c.checked).map(c=>c.value);
+                        const selR = rooms.filter(c=>c.checked).map(c=>c.value);
+                        const rows = table.rows, cols = rows[0].cells.length;
+
+                        for (let c=2; c<cols; c++) {
+                          const day  = rows[0].cells[c].dataset.day;
+                          const room = rows[1].cells[c].dataset.room;
+                          const show = selD.includes(day) && selR.includes(room);
+                          for (let r=0; r<rows.length; r++) {
+                            rows[r].cells[c].style.display = show ? '' : 'none';
+                          }
+                        }
+                        // 교시·시간 열 고정
+                        for (let r=0; r<rows.length; r++) {
+                          rows[r].cells[0].style.display = '';
+                          rows[r].cells[1].style.display = '';
+                        }
+                      }
+                    }
+
+                    function applySubjectDots() {
+                      const table = document.getElementById('timetable');
+                      // 시간 열은 data-day 속성이 없으므로 td[data-day] 만 선택
+                      const cells = Array.from(table.querySelectorAll('tbody td[data-day]'));
+
+                      // 과목명 리스트 생성
+                      const subjects = [...new Set(
+                        cells.map(td => td.textContent.trim()).filter(t => t)
+                      )];
+
+                      // 팔레트 & 매핑
+                      const palette = [
+                        '#e6194b','#3cb44b','#ffe119','#4363d8','#f58231',
+                        '#911eb4','#46f0f0','#f032e6','#bcf60c','#fabebe',
+                        '#008080','#e6beff','#9a6324','#fffac8','#800000'
+                      ];
+                      const colorMap = {};
+                      subjects.forEach((subj, i) => {
+                        colorMap[subj] = palette[i % palette.length];
+                      });
+
+                      // dot 생성 & hover 핸들러
+                      cells.forEach(td => {
+                        const subj = td.textContent.trim();
+                        if (!subj) return;
+
+                        const dot = document.createElement('span');
+                        dot.className = 'subject-dot';
+                        dot.style.backgroundColor = colorMap[subj];
+                        // tooltip
+                        dot.setAttribute('title', subj);
+                        dot.setAttribute('data-bs-toggle', 'tooltip');
+                        dot.setAttribute('data-bs-placement', 'top');
+                        dot.setAttribute('data-subject', subj);
+
+                        // mouseenter: 같은 subject를 가진 모든 dot의 td에 highlight 클래스 추가
+                        dot.addEventListener('mouseenter', () => {
+                          document
+                            .querySelectorAll(`.subject-dot[data-subject="${subj}"]`)
+                            .forEach(el => {
+                              const cell = el.closest('td');
+                              if (cell) cell.classList.add('subject-highlight');
+                            });
+                        });
+                        // mouseleave: 모두 제거
+                        dot.addEventListener('mouseleave', () => {
+                          document
+                            .querySelectorAll(`.subject-dot[data-subject="${subj}"]`)
+                            .forEach(el => {
+                              const cell = el.closest('td');
+                              if (cell) cell.classList.remove('subject-highlight');
+                            });
+                        });
+
+                        td.textContent = '';
+                        td.appendChild(dot);
+                      });
+
+                      // Bootstrap tooltip 초기화 (필요시)
+                      document
+                        .querySelectorAll('[data-bs-toggle="tooltip"]')
+                        .forEach(el => new bootstrap.Tooltip(el));
+                    }
+
+                    </script>
+        </div>
+        </section>
+
+
+
+        <section id="course-list" class="section-padding section-bg">
+          <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="d-inline">커리큘럼 |</h2>
+                        <h5 class="d-inline text-muted ms-2">대학원과정</h5>
+                        <p></p>
+                </div>
+                    <!-- 이곳에 자동 생성된 테이블이 들어갑니다 -->
+            <div id="excel-table" class="table-responsive mb-1"></div>
+            <h5 class="mt-0 text-start small text-muted">※ 이 표는 최근 4년간의 주요 커리큘럼을 기준으로 작성되었습니다. 보다 자세한 과목리스팅은 학사포털 <a href="https://underwood1.yonsei.ac.kr/com/lgin/SsoCtr/initExtPageWork.do?link=handbStfsc" target="_blank">수강편람조회</a>를 이용하시기 바랍니다.</h5>
+          </div>
+        </section>
+
+        <!-- 3) 엑셀을 불러와 테이블로 변환하고, 매핑 정보로 툴팁까지 적용하는 스크립트 -->
+        <script>
+          (async () => {
+            // 1) 커리큘럼 + 매핑 정보 엑셀 URL
+            const curriculumUrl = 'data/curriculum_graduate.xlsx';
+            const infoUrl       = 'data/course_info_graduate.xlsx'; // 학정번호–설명 매핑용
+
+            // 2) 두 파일을 병렬 fetch → ArrayBuffer
+            const [currBuf, infoBuf] = await Promise.all([
+              window.fetchBytes('curriculum_graduate.xlsx','curriculum'),
+              window.fetchBytes('course_info_graduate.xlsx','curriculum')
+            ]);
+
+            // 3) 매핑 정보 파싱 → { 코드: 설명 } 객체 생성
+            const infoWb    = XLSX.read(infoBuf, { type: 'array' });
+            const infoSheet = infoWb.Sheets[infoWb.SheetNames[0]];
+            const infoRows  = XLSX.utils.sheet_to_json(infoSheet, {
+              header: ['Code','Description'],
+              range: 1   // 첫 행 헤더 건너뛰기
+            });
+            const courseInfo = {};
+            infoRows.forEach(row => {
+              if (row.Code && row.Description) {
+                courseInfo[row.Code.toString().trim()] = row.Description.toString().trim();
+              }
+            });
+
+            // 4) 커리큘럼 엑셀 파싱 → HTML 테이블 생성
+            const currWb    = XLSX.read(currBuf, { type: 'array' });
+            const currSheet = currWb.Sheets[currWb.SheetNames[0]];
+            let html        = XLSX.utils.sheet_to_html(currSheet);
+            const tableHTML = html
+              .match(/<table[\s\S]*<\/table>/)[0]
+              .replace(
+                /<table[^>]*>/,
+                '<table class="table table-striped table-bordered table-hover table-sm text-nowrap">'
+              );
+            document.getElementById('excel-table').innerHTML = tableHTML;
+
+            // 5) “전기” / “전필” 강조
+            document
+              .querySelectorAll('#excel-table table tbody tr')
+              .forEach(tr => {
+                const type = tr.cells[0].textContent.trim();
+                if (type === '전기') {
+                  tr.classList.add('highlight-row1');
+                  ['0','1','3'].forEach(i => tr.cells[i].classList.add('fw-bold'));
+                }
+                if (type === '전필') {
+                  tr.classList.add('highlight-row2');
+                  ['0','1','3'].forEach(i => tr.cells[i].classList.add('fw-bold'));
+                }
+              });
+
+            // 6) 교과목 셀에 툴팁 적용
+            document
+              .querySelectorAll('#excel-table table tbody tr')
+              .forEach(tr => {
+                const code = tr.cells[1].textContent.trim();   // 학정번호
+                const info = courseInfo[code];                 // 이전에 만든 매핑 객체
+                if (info) {
+                  const nameCell = tr.cells[3];                // 교과목명 셀
+                  const nameText = nameCell.textContent.trim();
+                  nameCell.innerHTML = `
+                    <span
+                      class="d-inline-block course-name-tooltip"
+                      data-bs-toggle="tooltip"
+                      title="${info.replace(/"/g,'&quot;')}"
+                    >${nameText}</span>
+                  `;
+                }
+              });
+
+
+            // 7) Bootstrap Tooltip 초기화
+            const tooltipTriggerList = [].slice.call(
+              document.querySelectorAll('#excel-table [data-bs-toggle="tooltip"]')
+            );
+            tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el));
+          })();
+        </script>
+
+        
+    </div>
+</section>
+
+
+<section id="graduation-requirement" class="section-padding section-bg">
+        <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="d-inline">졸업요건 |</h2>
+                        <h5 class="d-inline text-muted ms-2">종합시험 &middot; 외국어시험 &middot; 학위논문</small></h5>
+                        <p></p>
+                    </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3 text-center">종합시험 응시자격</h5>
+
+                                        <h10><b>석사:</b> 3학기 이상 이수, 24학점(전공 18학점) 이상 취득<br>
+                                             <b>박사:</b> 4학기 이상 이수, 54학점 이상 취득<br><br>
+                                             <b>정규등록 혹은 연구등록</b> 상태에 있는 자. 
+                                        </h10>
+
+                                        <h10></h10>
+
+                                        <p class="text-muted"><small>* 아래 상세요건 참고.</small>
+
+
+                                        <div class="progress mt-4">
+                                            <div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#eligibilityModal">Learn More</a>
+
+                                </div>
+                            </div>
+                        </div>     
+
+                                                <!-- 2) 모달 마크업 (body 끝나기 직전 위치) -->
+                        <div class="modal fade" id="eligibilityModal" tabindex="-1"
+                             aria-labelledby="eligibilityModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="eligibilityModalLabel">
+                                  종합시험 응시자격 상세 정보
+                                </h5>
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <!-- Bootstrap 리스트로 석사·박사 조건 정리 -->
+                                <ul class="list-group list-group-flush mb-3">
+                                  <li class="list-group-item">
+                                    <strong>석사: </strong>
+                                    <span class="ms-2">정규등록 또는 연구등록이 되어있는 학생으로, 전공필수(커뮤니케이션이론, 조사방법론1, 기초통계, 커뮤니케이션워크샵) 및 온라인연구윤리교육을 포함한 전공과목 18학점 이상 취득한 자. 총 평량평균이 3.00 이상이어야 하며, 외국어시험을 합격하거나 면제된 자.</span>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <strong>박사: </strong>
+                                    <span class="ms-2">정규등록 또는 연구등록이 되어 있는 학생으로 4학기 이상을 이수하고 54학점 이상(석사과정 및 박사과정 누적)을 취득한 자로 취득학점의 총 평량평균이 3.00 이상이어야 하며, 외국어시험을 합격하거나 면제된 자.</span>
+                                  </li>
+                                </ul>
+
+                                <!-- 추가 설명이 필요할 때 -->
+                                <p class="text-muted"><small>
+                                  * 실제 학점 기준 및 학기 수는 학사운영 요강을 참고. 자세한 자격기준 충족여부는 대학원 사무실로 문의하세요.</small>
+                                </p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">닫기</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3 text-center">외국어시험 합격기준</h5>
+
+                                        <h10>아래 각 기준점수 이상:<br>
+                                             <b>TOEFL</b> 550 (CBT 213, IBT 80)<br> 
+                                             <b>TOEIC</b> 760, <b>TEPS</b> 395<br> 
+                                             <b>IELTS</b> 6.5
+                                        </h10>
+
+                                        <p class="text-muted"><small>
+                                  * 외국어시험 면제기준은 아래 상세요건 참고.</small>
+
+                                        <div class="progress mt-4">
+                                            <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#EnglishtestModal">Learn More</a>
+
+                                </div>
+                            </div>
+                        </div>    
+
+                        <!-- 2) 모달 마크업 (body 끝나기 직전 위치) -->
+                        <div class="modal fade" id="EnglishtestModal" tabindex="-1"
+                             aria-labelledby="EnglishtestModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="eligibilityModalLabel">
+                                  외국어시험 면제기준 상세 정보
+                                </h5>
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <!-- Bootstrap 리스트로 석사·박사 조건 정리 -->
+                                <ul class="list-group list-group-flush mb-3">
+                                  <li class="list-group-item">
+                                    <strong>1.</strong>
+                                    <span class="ms-2">입학지원 시 외국어시험 합격점 이상의 점수 증명을 제출한 자</span>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <strong>2.</strong>
+                                    <span class="ms-2">본교 일반대학원 또는 전문대학원 석사과정을 마치고 3년 이내에 박사과정에 진학하는 자</span>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <strong>3.</strong>
+                                    <span class="ms-2">영어권 국가에서 정규학위과정(학부과정)을 마친 자</span>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <strong>4.</strong>
+                                    <span class="ms-2">영어권 외국인</span>
+                                  </li>
+                                </ul>
+
+                                <!-- 추가 설명이 필요할 때 -->
+                                <p class="text-muted"><small>
+                                  * 실제 자세한 자격기준 충족여부는 대학원 사무실로 문의하세요.</small>
+                                </p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">닫기</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3 text-center">학위논문작성</h5>
+
+                                        <h10>종합시험과 외국어시험을 통과한 후 이수학점 및 평량평균 기준을 충족한 자는 학위논문 심사에 응시한다. 논문 제출은 학과의 논문제안서 양식에 맞추어야 하며, 논문 제출 예정자는 정해진 심사 일자 7일 전에 논문 심사본을 대학원 주임교수와 학과사무실에 제출하여야 한다. 
+                                        </h10>
+
+                                        <h10></h10>
+
+                                        <div class="progress mt-4">
+                                            <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#ThesisModal">Learn More</a>
+
+                                </div>
+                            </div>
+                        </div> 
+
+                        <!-- 2) 모달 마크업 (body 끝나기 직전 위치) -->
+                        <div class="modal fade" id="ThesisModal" tabindex="-1"
+                             aria-labelledby="ThesisModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="eligibilityModalLabel">
+                                  학위논문 작성 및 학위논문 심사 상세 정보
+                                </h5>
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <!-- Bootstrap 리스트로 석사·박사 조건 정리 -->
+                                <ul class="list-group list-group-flush mb-3">
+                                  <li class="list-group-item">
+                                    <strong>석사학위 논문 제출 예정자의 경우</strong>
+                                    <span class="ms-2">2학기를 이수한 후 논문지도교수를 결정한다. 석사학위 논문의 주부심배정은 학생들의 희망지도교수를 최대한 반영하되, 교수 1인 학기당 3명을 초과하지 않는 것을 원칙으로 한다(여기서 학생의 휴학·복학, 논문심사 연기·재응시의 경우는 제외한다).</span>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <strong></strong>
+                                    <span class="ms-2">석사학위 논문 제출 예정자는 3학기가 종료되기 이전까지 “논문제안서”를 지도교수와 주임교수에게 제출해야 하며, 주임교수가 논문제안서의 적합성 여부를 통보한다. 이후 석사과정 종합시험에 합격한 자에게만 4학기에 학위 논문 작성 자격이 주어진다. </span>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <strong></strong>
+                                    <span class="ms-2">논문작성 자격을 득한 자<span class="text-muted"><sup>*</sup></span>는 4학기 초에 논문지도교수와 부심이 배정되며, 해당 학기 내 혹은 그 이후 예비심사(공개)와 본심사(비공개)를 치른다. 논문 제출 예정자는 예비심사를 위해 학과가 정한 심사 일자 7일 전에 논문 심사본을 대학원 주임교수와 학과사무실에 제출해야 한다. 이때 <b>제출 전 지도교수로부터 제출 승인을 받아야 하며, 제출 일자를 지키지 않았을 경우 심사자격이 주어지지 않는다.</b></span>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <strong></strong>
+                                    <span class="ms-2">본심사는 학과가 정한 기한 내에 지도교수가 부심교수들과 함께 또는 개별적으로 진행할 수 있다. 본심사 심사본은 본심사 일자 7일 전에 지도교수와 부심교수들에게 전달해야 한다. 예비심사와 본심사 심사본 제출시 표절검사 확인서를 함께 제출해야 한다.</span>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <strong>박사학위 논문 제출 예정자의 경우</strong>
+                                    <span class="ms-2">2학기를 이수한 후 주임교수와 면담을 거쳐 논문지도교수와 부심교수를 결정한다. 단, 4학기가 종료되기 이전까지 학술평가요건<span class="text-muted"><sup>**</sup></span>을 갖춘 자에 한해 학위 논문 작성 자격이 주어진다. 5학기 이후 “논문제안서” 심사가 이루어지며, 심사위원 참석 하에 예비심사(비공개) 및 본심사(비공개)를 치른다.</span>
+                                  </li>
+                                </ul>
+
+                                <!-- 추가 설명이 필요할 때 -->
+                                <p class="text-muted"><small>* 실제 자세한 자격기준 충족여부는 대학원 사무실로 문의하세요.</small></p>
+                                <p class="text-muted"><small>** 연구처에서 인정하는 교내 2등급(한국연구재단 등재후보지) 이상의 학회지에 단독 혹은 공저로 출판한 논문 2편 이상</small></p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">닫기</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>      
+        </div>
+        <h5 class="mt-0 text-start small text-muted">※ 보다 자세한 사항은 <a href="mailto:gradcomm@yonsei.ac.kr">대학원사무실</a>로 문의바랍니다.</h5>
+          
+</section>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12 mb-4">
+                        <img src="images/logo.png" class="logo img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <h5 class="site-footer-title mb-3">Quick Links</h5>
+
+                        <ul class="footer-menu">
+                            <li class="footer-menu-item"><a href="https://portal.yonsei.ac.kr/" class="footer-menu-link">학사포털</a></li>
+                            <li class="footer-menu-item"><a href="https://socsci.yonsei.ac.kr/socsci/index.do" class="footer-menu-link">사회과학대학</a></li>
+                            <li class="footer-menu-item"><a href="https://library.yonsei.ac.kr/" class="footer-menu-link">학술문화처 도서관</a></li>
+                            <li class="footer-menu-item"><a href="https://ys.learnus.org/" class="footer-menu-link">LearnUS</a></li>
+                            <li class="footer-menu-item"><a href="https://career.yonsei.ac.kr/nonIndex.do" class="footer-menu-link">Career Center</a></li>
+                            <li class="footer-menu-item"><a href="https://counsel.yonsei.ac.kr/ysclinic/index.do" class="footer-menu-link">Counseling Center</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mx-auto">
+                        <h5 class="site-footer-title mb-3">Contact Infomation</h5>
+
+                        <p class="text-white mb-2 d-flex align-items-center">
+                          <i class="bi-telephone me-2"></i>
+                          <a href="tel:02-2123-2935" class="site-footer-link me-3 ms-3">
+                             학부: 02-2123-2935
+                          </a>
+                          <span class="text-white me-3">|</span>
+                          <a href="tel:02-2123-2970" class="site-footer-link">
+                            대학원: 02-2123-2970
+                          </a>
+                        </p>
+
+                        <p class="text-white mb-2 d-flex align-items-center">
+                          <i class="bi-envelope me-2"></i>
+                          <a href="mailto:masscomm@yonsei.ac.kr" class="site-footer-link me-3 ms-3">
+                             masscomm@yonsei.ac.kr
+                          </a>
+                          <span class="text-white me-3">|</span>
+                          <a href="mailto:gradcomm@yonsei.ac.kr" class="site-footer-link">
+                             gradcomm@yonsei.ac.kr
+                          </a>
+                        </p>
+
+                        <p class="text-white d-flex mt-3">
+                            <i class="bi-geo-alt me-2"></i>
+                            서울 서대문구 연세로 50, 언론홍보영상학부 (연희관 214호)
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-7 col-12">
+                            <p class="copyright-text mb-0">Copyright © 2025 Department of Communication, Yonsei University.<br>
+                            Design: <a href="https://hyunjinsong.com" target="_blank">Hyunjin (Jin) Song</a>, based on <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                            <ul class="social-icon">
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-facebook"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-linkedin"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.safe.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

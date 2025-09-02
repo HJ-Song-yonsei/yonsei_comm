@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Department of Communication — 공지사항</title>
+
+  <!-- CSS (relative paths for static hosting) -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+
+  <style>
+    .board-topbar { display:flex; gap:.5rem; align-items:center; justify-content:space-between; margin-bottom:.75rem; }
+    .board-topbar .search { max-width:320px; }
+    #board-table-container table { width:100%; }
+    #board-table-container thead th { background:#f8fbff; font-weight:600; }
+    #board-table-container tr.table-secondary { background:#f8f9fa; }
+    #board-detail::before { content:''; display:block; height:4px; background:#003E7E; margin:-1rem -1rem 1rem; }
+    #board-detail { background:#fff; padding:1rem; border:1px solid #dee2e6; border-radius:.25rem; }
+    .badge-pinned { background:#003E7E; }
+    .cursor-pointer { cursor:pointer; }
+    .text-truncate-2 { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  </style>
+
+  <!-- JS libs -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <script>
+    // ===== Helpers for robust static fetching =====
+    async function fetchTextSmart(file, bases) {
+      bases = bases && bases.length ? bases : ['data/', '/data/'];
+      let last;
+      for (const base of bases) {
+        const url = base + file;
+        try {
+          const res = await fetch(url, { cache: 'no-store' });
+          if (res.ok) return await res.text();
+          last = 'HTTP ' + res.status + ' for ' + url;
+        } catch (e) {
+          last = String(e) + ' @ ' + url;
+        }
+      }
+      throw new Error(last || ('Could not load ' + file));
+    }
+    function fmtDate(d) {
+      try { const x = new Date(d); return isNaN(x) ? (d||'') : x.toISOString().slice(0,10); } catch { return d || ''; }
+    }
+    function qs(sel, el=document){ return el.querySelector(sel); }
+    function qsa(sel, el=document){ return Array.from(el.querySelectorAll(sel)); }
+    function setView(list=true){ 
+      qs('#board-list').style.display = list ? '' : 'none';
+      qs('#board-detail').style.display = list ? 'none' : '';
+      if (list) history.replaceState({}, '', location.pathname); 
+    }
+    function backToList(){
+      try { history.replaceState({}, '', location.pathname); } catch(e){}
+      if (window.__BOARD_ITEMS) { renderList(window.__BOARD_ITEMS); }
+      setView(true);
+    }
+    function baseName(path) {
+      return (path||'').split('/').filter(Boolean).pop() || path || '';
+    }
+  </script>
+</head>
+<body id="section_1">
+
+  <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" class="logo img-fluid" alt="Department of Communication" style="width:8%; height:auto;">
+        <span>언론홍보영상학부<small>Department of Communication</small></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#top">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">학부소개</a>
+            <ul class="dropdown-menu dropdown-menu-light">
+              <li><a class="dropdown-item" href="intro.html">인사말</a></li>
+              <li><a class="dropdown-item" href="intro.html#more_history">학과연혁</a></li>
+              <li><a class="dropdown-item" href="index.html#section_5">주요시설안내</a></li>
+              <li><a class="dropdown-item" href="index.html#section_6">찾아오시는길</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">구성원</a>
+            <ul class="dropdown-menu dropdown-menu-light">
+              <li><a class="dropdown-item" href="people.html">현직교수</a></li>
+              <li><a class="dropdown-item" href="people_emeritus.html">명예교수</a></li>
+              <li><a class="dropdown-item" href="people_emeritus.html#section_2">퇴임교수</a></li>
+              <li><a class="dropdown-item" href="people_profpractice.html">비전임/겸임교수</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">학사안내</a>
+            <ul class="dropdown-menu dropdown-menu-light">
+              <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/2347/subview.do">입학안내</a></li>
+              <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/373/subview.do">학사일정</a></li>
+              <li><a class="dropdown-item" href="curriculum.html">교과과정</a></li>
+              <li><a class="dropdown-item" href="curriculum.html#graduation-requirement">졸업요건</a></li>
+              <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/383/subview.do">복수전공/부전공</a></li>
+              <li><a class="dropdown-item" href="https://oia.yonsei.ac.kr/partner/chStu.asp">교환학생/학점인정</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">일반대학원</a>
+            <ul class="dropdown-menu dropdown-menu-light">
+              <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/schedule.do">입학안내</a></li>
+              <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/connect_schedule.do">학석사연계</a></li>
+              <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/academic/calendar.do">학사일정</a></li>
+              <li><a class="dropdown-item" href="curriculum_graduate.html">교과과정</a></li>
+              <li><a class="dropdown-item" href="curriculum_graduate.html#graduation-requirement">졸업요건</a></li>
+              <li><a class="dropdown-item" href="yonsei_uva.html">Yonsei-UvA</a></li>
+              <li><a class="dropdown-item" href="yonsei_cityu.html">CityU 복수학위</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">특수전문대학원</a>
+            <ul class="dropdown-menu dropdown-menu-light">
+              <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/index.do">언론홍보대학원</a></li>
+              <li><a class="dropdown-item" href="https://www.yjs.or.kr/html/main.php">윤세영저널리즘스쿨</a></li>
+              <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/jmc01/high01.do">언홍원 최고위과정</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">공지사항</a>
+            <ul class="dropdown-menu dropdown-menu-light">
+              <li><a class="dropdown-item" href="notice.html">학사공지</a></li>
+              <li><a class="dropdown-item" href="lend.html">장비대여신청</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="people-detail-header-section text-center">
+      <div class="section-overlay"></div>
+      <div class="container"><div class="row"><div class="col-12"><h3 class="text-white">공지사항</h3></div></div></div>
+    </section>
+
+    <section class="section-padding section-bg">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12">
+            <div class="board-topbar">
+              <div class="h5 mb-0">학사공지</div>
+              <input id="searchInput" class="form-control form-control-sm search" placeholder="검색 (제목/작성자/분류)" />
+            </div>
+
+            <!-- 목록 -->
+            <div id="board-list" class="mb-4">
+              <div id="board-table-container" class="table-responsive"></div>
+            </div>
+
+            <!-- 상세 -->
+            <div id="board-detail" class="table-responsive mb-4" style="display:none;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12 mb-4"><img src="images/logo.png" class="logo img-fluid" alt=""></div>
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+          <h5 class="site-footer-title mb-3">Quick Links</h5>
+          <ul class="footer-menu">
+            <li class="footer-menu-item"><a href="https://portal.yonsei.ac.kr/" class="footer-menu-link">학사포털</a></li>
+            <li class="footer-menu-item"><a href="https://socsci.yonsei.ac.kr/socsci/index.do" class="footer-menu-link">사회과학대학</a></li>
+            <li class="footer-menu-item"><a href="https://library.yonsei.ac.kr/" class="footer-menu-link">학술문화처 도서관</a></li>
+            <li class="footer-menu-item"><a href="https://ys.learnus.org/" class="footer-menu-link">LearnUS</a></li>
+            <li class="footer-menu-item"><a href="https://career.yonsei.ac.kr/nonIndex.do" class="footer-menu-link">Career Center</a></li>
+            <li class="footer-menu-item"><a href="https://counsel.yonsei.ac.kr/ysclinic/index.do" class="footer-menu-link">Counseling Center</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mx-auto">
+          <h5 class="site-footer-title mb-3">Contact Information</h5>
+          <p class="text-white mb-2 d-flex align-items-center"><i class="bi-telephone me-2"></i>
+            <a href="tel:02-2123-2935" class="site-footer-link me-3 ms-3">학부: 02-2123-2935</a>
+            <span class="text-white me-3">|</span>
+            <a href="tel:02-2123-2970" class="site-footer-link">대학원: 02-2123-2970</a>
+          </p>
+          <p class="text-white mb-2 d-flex align-items-center"><i class="bi-envelope me-2"></i>
+            <a href="mailto:masscomm@yonsei.ac.kr" class="site-footer-link me-3 ms-3">masscomm@yonsei.ac.kr</a>
+            <span class="text-white me-3">|</span>
+            <a href="mailto:gradcomm@yonsei.ac.kr" class="site-footer-link">gradcomm@yonsei.ac.kr</a>
+          </p>
+          <p class="text-white d-flex mt-3"><i class="bi-geo-alt me-2"></i>서울 서대문구 연세로 50, 언론홍보영상학부 (연희관 214호)</p>
+        </div>
+      </div>
+    </div>
+    <div class="site-footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-7 col-12">
+            <p class="copyright-text mb-0">Copyright © 2025 Department of Communication, Yonsei University.<br>
+              Design: <a href="https://hyunjinsong.com" target="_blank">Hyunjin (Jin) Song</a>, based on <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+            <ul class="social-icon">
+              <li class="social-icon-item"><a href="#" class="social-icon-link bi-twitter"></a></li>
+              <li class="social-icon-item"><a href="#" class="social-icon-link bi-facebook"></a></li>
+              <li class="social-icon-item"><a href="#" class="social-icon-link bi-instagram"></a></li>
+              <li class="social-icon-item"><a href="#" class="social-icon-link bi-linkedin"></a></li>
+              <li class="social-icon-item"><a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Board logic (posts.json + .html/.md content) -->
+  <script>
+    /*
+      Data layout expected:
+      data/posts.json:
+      [
+        {
+          "id": 1,
+          "notice": "공지",     // "공지"면 pinned 처리, 아니면 일반
+          "title": "제목",
+          "author": "작성자",
+          "date": "YYYY-MM-DD",
+          "contentfile": "post1_....html", // 또는 .md
+          "file_attachment": ["data/files/file1.pdf", {"name":"file2","url":"data/files/file2.pdf"}]
+        }, ...
+      ]
+
+      Content files:
+        - If contentfile ends with .md  → parse with Marked
+        - If contentfile ends with .html → fetch and inject BODY content (if present), else raw HTML
+        - Search over title/author/notice
+    */
+
+    async function loadIndex() {
+      const raw = await fetchTextSmart('posts.json'); // tries data/ and /data/
+      const arr = JSON.parse(raw);
+      // normalize minimal fields
+      return arr.map(it => ({
+        id: it.id,
+        title: it.title || '',
+        author: it.author || '',
+        date: it.date || '',
+        notice: it.notice || '',
+        contentfile: it.contentfile || '',
+        attachments: Array.isArray(it.file_attachment) ? it.file_attachment : []
+      }));
+    }
+
+    function renderList(items) {
+      const query = (qs('#searchInput').value || '').trim().toLowerCase();
+      const filtered = !query ? items : items.filter(it => {
+        return [it.title, it.author, it.notice, it.date].filter(Boolean)
+          .some(v => String(v).toLowerCase().includes(query));
+      });
+
+      // Pinned if notice === "공지"
+      const pinned = filtered.filter(it => (it.notice||'').trim() === '공지');
+      const normal = filtered.filter(it => (it.notice||'').trim() !== '공지');
+
+      const rows = (arr, isPinned=false) => arr.map((it, idx) => `
+        <tr class="${isPinned ? 'table-secondary' : ''}">
+          <td class="text-center">${isPinned ? '<span class="badge badge-pill badge-pinned text-white">공지</span>' : (idx+1)}</td>
+          <td class="text-center">${it.notice || '일반'}</td>
+          <td>
+            <a class="text-decoration-none" href="?id=${encodeURIComponent(it.id)}">${it.title || ''}</a>
+            ${Array.isArray(it.attachments) && it.attachments.length ? ' <i class="bi-paperclip" title="첨부"></i>' : ''}
+          </td>
+          <td class="text-end">${fmtDate(it.date)}</td>
+        </tr>
+      `).join('');
+
+      const html = `
+        <table class="table table-hover align-middle">
+          <thead>
+            <tr>
+              <th style="width:100px" class="text-center">번호</th>
+              <th style="width:120px" class="text-center">분류</th>
+              <th>제목</th>
+              <th style="width:140px" class="text-end">게시일</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows(pinned, true)}
+            ${rows(normal, false)}
+          </tbody>
+        </table>
+      `;
+      qs('#board-table-container').innerHTML = html;
+    }
+
+    async function loadContentFile(contentfile) {
+      const lower = (contentfile||'').toLowerCase();
+      const bases = ['data/posts/', 'data/notices/', 'data/', '/data/posts/', '/data/notices/', '/data/'];
+
+      const text = await fetchTextSmart(contentfile, bases);
+      if (lower.endsWith('.md')) {
+        return { html: marked.parse(text) };
+      }
+      if (lower.endsWith('.html')) {
+        try {
+          const doc = new DOMParser().parseFromString(text, 'text/html');
+          const bodyHtml = doc && doc.body ? doc.body.innerHTML : text;
+          return { html: bodyHtml };
+        } catch (e) {
+          return { html: text }; // fallback
+        }
+      }
+      // plain text fallback
+      return { html: '<pre>' + text.replace(/[&<>]/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[s])) + '</pre>' };
+    }
+
+    function renderAttachments(attachments) {
+      if (!Array.isArray(attachments) || !attachments.length) return '';
+      const items = attachments.map(a => {
+        if (typeof a === 'string') {
+          return `<li><a href="${a}" target="_blank" rel="noopener">${baseName(a)}</a></li>`;
+        } else if (a && typeof a === 'object') {
+          const name = a.name || baseName(a.url||'');
+          const url = a.url || '#';
+          return `<li><a href="${url}" target="_blank" rel="noopener">${name}</a></li>`;
+        }
+        return '';
+      }).join('');
+      return items ? `<div class="mt-3"><h6>첨부</h6><ul class="mb-0">${items}</ul></div>` : '';
+    }
+
+    async function renderDetail(items, id) {
+      const it = items.find(x => String(x.id) === String(id));
+      if (!it) { qs('#board-detail').innerHTML = '<div class="alert alert-warning">해당 게시글을 찾을 수 없습니다.</div>'; setView(false); return; }
+
+      let content = { html: '' };
+      try {
+        content = await loadContentFile(it.contentfile);
+      } catch (e) {
+        content = { html: `<div class="alert alert-warning">본문을 불러오지 못했습니다. (${e.message||e})</div>` };
+      }
+
+      const html = `
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <div>
+            <div class="small text-muted">${(it.notice || '일반')} · ${it.author || ''}</div>
+            <h4 class="mb-0">${it.title || ''}</h4>
+          </div>
+          <div class="text-end small text-muted">${fmtDate(it.date)}</div>
+        </div>
+        <hr>
+        <div class="mb-3" id="board-detail-body">${content.html}</div>
+        ${renderAttachments(it.attachments)}
+        <div class="mt-4">
+          <button class="btn btn-outline-secondary btn-sm" onclick="backToList()">목록으로</button>
+        </div>
+      `;
+      qs('#board-detail').innerHTML = html;
+      setView(false);
+    }
+
+    (async function main(){
+      try {
+        const items = await loadIndex();
+        window.__BOARD_ITEMS = items;
+        // route
+        const params = new URLSearchParams(location.search);
+        const id = params.get('id');
+        if (id) {
+          await renderDetail(items, id);
+        } else {
+          renderList(items);
+          setView(true);
+          // Intercept clicks on list to avoid full page reload
+          const tableBox = qs('#board-table-container');
+          tableBox.addEventListener('click', (e) => {
+            const a = e.target.closest('a[href^="?id="]');
+            if (!a) return;
+            e.preventDefault();
+            const href = a.getAttribute('href');
+            const u = new URL(href, location.href);
+            const idClick = u.searchParams.get('id');
+            history.pushState({}, '', '?id=' + encodeURIComponent(idClick));
+            renderDetail(window.__BOARD_ITEMS, idClick);
+          });
+        }
+        // search
+        qs('#searchInput').addEventListener('input', () => renderList(items));
+        // popstate
+        window.addEventListener('popstate', () => {
+          const idNow = (new URLSearchParams(location.search)).get('id');
+          if (idNow) renderDetail(window.__BOARD_ITEMS, idNow); else { setView(true); renderList(window.__BOARD_ITEMS); }
+        });
+      } catch (e) {
+        qs('#board-table-container').innerHTML = `<div class="alert alert-warning">
+          <strong>공지 목록을 불러오지 못했습니다.</strong><br><code>${(e && e.message) ? e.message : e}</code>
+          <div class="small mt-2">확인: <code>data/posts.json</code>이 페이지와 같은 리포지토리에 존재하는지</div>
+        </div>`;
+      }
+    })();
+  </script>
+
+</body>
+</html>
