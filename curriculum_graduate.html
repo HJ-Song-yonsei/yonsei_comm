@@ -148,10 +148,6 @@
 
     <main>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-
-
         <section class="people-detail-header-section text-center">
                 <div class="section-overlay"></div>
 
@@ -166,6 +162,8 @@
                 </div>
         </section>
 
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 
         <section id="timetable-list" class="section-padding section-bg">
                   <div class="container">
@@ -431,9 +429,12 @@
                       });
 
                       // Bootstrap tooltip 초기화 (필요시)
-                      document
-                        .querySelectorAll('[data-bs-toggle="tooltip"]')
-                        .forEach(el => new bootstrap.Tooltip(el));
+                      function initTooltips(scope = document) {
+                          if (!window.bootstrap || !bootstrap.Tooltip) return;
+                          scope.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootstrap.Tooltip(el));
+                        }
+                        initTooltips(document);
+                        window.addEventListener('load', () => initTooltips(document), { once: true });
                     }
 
                     </script>
@@ -531,10 +532,12 @@
 
 
             // 7) Bootstrap Tooltip 초기화
-            const tooltipTriggerList = [].slice.call(
-              document.querySelectorAll('#excel-table [data-bs-toggle="tooltip"]')
-            );
-            tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el));
+            function initTooltips(scope = document) {
+              if (!window.bootstrap || !bootstrap.Tooltip) return;
+              scope.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootstrap.Tooltip(el));
+            }
+            initTooltips(document);
+            window.addEventListener('load', () => initTooltips(document), { once: true });
           })();
         </script>
 
