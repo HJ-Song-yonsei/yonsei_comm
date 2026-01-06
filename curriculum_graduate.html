@@ -148,6 +148,10 @@
 
     <main>
 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+
         <section class="people-detail-header-section text-center">
                 <div class="section-overlay"></div>
 
@@ -168,7 +172,7 @@
                         <div class="row mb-5">
                             <div class="col-12 text-center">
                                 <h2 class="d-inline">강의시간표 |</h2>
-                                <h5 class="d-inline text-muted ms-2">2025-2학기, 석박사과정(일반)</h5>
+                                <h5 class="d-inline text-muted ms-2">2026-1학기, 석박사과정(일반)</h5>
                                 <p></p>
                         </div>
                     <!-- curriculum.html 에서 커리큘럼 표 바로 아래에 붙여 넣으세요 -->
@@ -215,45 +219,45 @@
                     </div>
                     <h5 class="mt-0 text-start small text-muted">※ 보다 자세한 수업정보는 학사포털 <a href="https://underwood1.yonsei.ac.kr/com/lgin/SsoCtr/initExtPageWork.do?link=handbStfsc" target="_blank">수강편람조회</a>를 이용하시기 바랍니다.</h5>
                   </div>
-
                     
-<script>
-// ========= Global debug + robust pathing (safe for GitHub Pages) =========
-(function(){
-  function injectAlert(targetId, title, msg, details){
-    var target = document.getElementById(targetId) || document.getElementById('excel-table') || document.body;
-    if (!target) return;
-    var html = '<div class="alert alert-warning" role="alert" style="margin:1rem 0;">'
-             + '<strong>' + title + '</strong><br><code>' + String(msg).replace(/</g,'&lt;') + '</code>'
-             + (details ? '<details class="mt-2"><summary>Details</summary><pre style="white-space:pre-wrap">' + details.replace(/</g,'&lt;') + '</pre></details>' : '')
-             + '</div>';
-    target.insertAdjacentHTML('afterbegin', html);
-  }
-  window.addEventListener('error', function(e){
-    injectAlert('timetable-container', 'Script error', e.message || 'Unknown error', (e.filename||'') + ':' + (e.lineno||'') );
-  });
-  window.addEventListener('unhandledrejection', function(e){
-    injectAlert('timetable-container', 'Unhandled promise rejection', (e.reason && e.reason.message) ? e.reason.message : String(e.reason));
-  });
+                <script>
+                // ========= Global debug + robust pathing (safe for GitHub Pages) =========
+                (function(){
+                  function injectAlert(targetId, title, msg, details){
+                    var target = document.getElementById(targetId) || document.getElementById('excel-table') || document.body;
+                    if (!target) return;
+                    var html = '<div class="alert alert-warning" role="alert" style="margin:1rem 0;">'
+                             + '<strong>' + title + '</strong><br><code>' + String(msg).replace(/</g,'&lt;') + '</code>'
+                             + (details ? '<details class="mt-2"><summary>Details</summary><pre style="white-space:pre-wrap">' + details.replace(/</g,'&lt;') + '</pre></details>' : '')
+                             + '</div>';
+                    target.insertAdjacentHTML('afterbegin', html);
+                  }
+                  window.addEventListener('error', function(e){
+                    injectAlert('timetable-container', 'Script error', e.message || 'Unknown error', (e.filename||'') + ':' + (e.lineno||'') );
+                  });
+                  window.addEventListener('unhandledrejection', function(e){
+                    injectAlert('timetable-container', 'Unhandled promise rejection', (e.reason && e.reason.message) ? e.reason.message : String(e.reason));
+                  });
 
-  // Robust bytes fetcher that tries current-dir /data/ and root /data/
-  window.fetchBytes = async function(file, ctx){
-    const origins = [new URL('.', location.href), new URL('/', location.href)];
-    const bases = origins.map(o => new URL('data/', o).toString());
-    let last;
-    for (const base of bases){
-      const url = base + file;
-      try{
-        const res = await fetch(url, { cache: 'no-store' });
-        if (res.ok) return await res.arrayBuffer();
-        last = 'HTTP ' + res.status + ' for ' + url;
-      }catch(err){ last = String(err) + ' @ ' + url; }
-    }
-    throw new Error(last || ('Could not load '+file));
-  };
-})();
-</script>
-<script>
+                  // Robust bytes fetcher that tries current-dir /data/ and root /data/
+                  window.fetchBytes = async function(file, ctx){
+                    const origins = [new URL('.', location.href), new URL('/', location.href)];
+                    const bases = origins.map(o => new URL('data/', o).toString());
+                    let last;
+                    for (const base of bases){
+                      const url = base + file;
+                      try{
+                        const res = await fetch(url, { cache: 'no-store' });
+                        if (res.ok) return await res.arrayBuffer();
+                        last = 'HTTP ' + res.status + ' for ' + url;
+                      }catch(err){ last = String(err) + ' @ ' + url; }
+                    }
+                    throw new Error(last || ('Could not load '+file));
+                  };
+                })();
+                </script>
+
+                <script>
                     (async () => {
                       // 1) 엑셀 불러오기
                       const buf   = await window.fetchBytes('curriculum_graduate.xlsx','timetable');
@@ -855,7 +859,6 @@
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/counter.js"></script>
