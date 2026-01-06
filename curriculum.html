@@ -147,6 +147,9 @@
 
     <main>
 
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
         <section class="people-detail-header-section text-center">
                 <div class="section-overlay"></div>
 
@@ -360,17 +363,21 @@
                         throw new Error(last || ('Could not load '+file));
                       };
                     })();
+                    // ====== Safe tooltip initializer (Bootstrap 5) ======
+                    window.initTooltips = function(scope = document) {
+                      if (!window.bootstrap || !bootstrap.Tooltip) return;
+                      scope.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => {
+                        bootstrap.Tooltip.getOrCreateInstance(el);
+                      });
+                    };
+                    window.addEventListener('load', () => window.initTooltips(document), { once: true });
                     </script>
-
-                    <script src="js/bootstrap.bundle.min.js"></script>
-                    <script src="js/bootstrap.min.js"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 
                     <script>
                         
                     (async () => {
                       // 1) 엑셀 불러오기
-                      const resp  = await fetch('data/curriculum_undergraduate.xlsx');
+                      // const resp  = await fetch('data/curriculum_undergraduate.xlsx');
                       const buf   = await window.fetchBytes('curriculum_undergraduate.xlsx','timetable');
                       const wb    = XLSX.read(buf, { type: 'array' });
                       const sheet = wb.Sheets[wb.SheetNames[1]];
@@ -520,9 +527,7 @@
                       });
 
                       // Bootstrap tooltip 초기화 (필요시)
-                      document
-                        .querySelectorAll('[data-bs-toggle="tooltip"]')
-                        .forEach(el => new bootstrap.Tooltip(el));
+                      window.initTooltips(document);
                     }
 
                     </script>
@@ -621,10 +626,7 @@
 
 
             // 7) Bootstrap Tooltip 초기화
-            const tooltipTriggerList = [].slice.call(
-              document.querySelectorAll('#excel-table [data-bs-toggle="tooltip"]')
-            );
-            tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el));
+            window.initTooltips(document.getElementById('excel-table'));
           })();
         </script>
 
