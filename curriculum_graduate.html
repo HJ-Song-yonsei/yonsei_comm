@@ -15,54 +15,6 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
-
-        <!-- DataTables Bootstrap5 테마 CSS -->
-        <link href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" rel="stylesheet">
-
-        <!-- 1) Head에 CDN 라이브러리 로드 -->
-        <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-        <style>
-        /* 모든 셀 중앙 정렬 */
-        #excel-table .table th,
-        #excel-table .table td {
-          text-align: center;
-        }
-
-        /* 첫 번째 행(<tr>)의 모든 <td>를 헤더처럼 스타일링 */
-        #excel-table .table tbody tr:first-child > td {
-          background-color: var(--primary-color) !important;
-          color: #fff !important;
-          font-weight: bold;
-        }
-                /* #excel-table 안의 모든 테이블 셀(헤더 & 데이터)에 줄바꿈 금지 */
-        #excel-table .table th,
-        #excel-table .table td {
-          white-space: nowrap;
-          /* 혹시 글자가 너무 길면 셀 너비를 넘어가기도 하는데,
-             가로 스크롤이 필요하다면 table-responsive가 처리해 줍니다. */
-        }
-      </style>
-
-      <style>
-      /* 툴팁 내부 텍스트 기본 한 줄로 표시, 필요 시 가로 스크롤 */
-      #excel-table .tooltip-inner {
-        white-space: nowrap;
-        max-width: none !important;
-      }
-      /* 모바일 뷰포트(<768px)에서는 줄 바꿈 허용 */
-      @media (max-width: 767.98px) {
-        #excel-table .tooltip-inner {
-          white-space: normal;
-          /* 테이블 너비에 맞추려면 아래처럼 % 적용 가능 */
-          max-width: 90vw !important;
-        }
-      }
-    </style>
-
-
 <!--
 
 TemplateMo 581 Kind Heart Charity
@@ -72,55 +24,9 @@ https://templatemo.com/tm-581-kind-heart-charity
 -->
 
     </head>
-
+    
     <body id="section_1">
 
- <!--        <header class="site-header">
-            <div class="container">
-                <div class="row"> -->
-                    
-<!--                     <div class="col-lg-8 col-12 d-flex flex-wrap">
-                        <p class="d-flex me-4 mb-0">
-                            <i class="bi-geo-alt me-2"></i>
-                            Akershusstranda 20, 0150 Oslo, Norway
-                        </p>
-
-                        <p class="d-flex mb-0">
-                            <i class="bi-envelope me-2"></i>
-
-                            <a href="mailto:info@company.com">
-                                info@company.com
-                            </a>
-                        </p>
-                    </div> -->
-
- <!--                    <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
-                        <ul class="social-icon">
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link bi-twitter"></a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link bi-facebook"></a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link bi-instagram"></a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link bi-youtube"></a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link bi-whatsapp"></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div> -->
-        </header>
 
         <nav class="navbar navbar-expand-lg bg-light shadow-lg">
             <div class="container">
@@ -174,7 +80,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                                 <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/2347/subview.do">입학안내</a></li>
                                 <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/373/subview.do">학사일정</a></li>
-                                <li><a class="dropdown-item" href="curriculum.html#course-list">교과과정</a></li>
+                                <li><a class="dropdown-item" href="curriculum.html">교과과정</a></li>
                                 <li><a class="dropdown-item" href="curriculum.html#graduation-requirement">졸업요건</a></li>
                                 <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/383/subview.do">복수전공/부전공</a></li>
                                 <li><a class="dropdown-item" href="https://oia.yonsei.ac.kr/partner/chStu.asp">교환학생/학점인정</a></li>
