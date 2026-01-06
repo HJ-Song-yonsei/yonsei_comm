@@ -15,13 +15,13 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
-<!--
 
-TemplateMo 581 Kind Heart Charity
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
 
-https://templatemo.com/tm-581-kind-heart-charity
-
--->
+        <!-- Font Awesome CDN -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     </head>
     
@@ -122,13 +122,31 @@ https://templatemo.com/tm-581-kind-heart-charity
                                 <li><a class="dropdown-item" href="lend.html">장비대여신청</a></li>
                             </ul>
                         </li>
+
+                        <!-- Lang Translator -->   
+
+                            <div class="head-convert" id="langSwitcher">
+                              <button type="button" class="lang-toggle" aria-expanded="false" aria-controls="langMenu">
+                                  <i class="bi bi-translate" aria-hidden="true"></i>
+                                  <span class="lang-label">Language</span>
+                                  <i class="bi bi-caret-down-fill" aria-hidden="true"></i>
+                                </button>
+
+                              <div class="list-convert" id="langMenu" role="menu" aria-label="Language menu">
+                                  <ul>
+                                    <li role="none"><a href="#none" id="lang_ko" role="menuitem">한국어</a></li>
+                                    <li role="none"><a href="#none" id="lang_en" role="menuitem">English</a></li>
+                                    <li role="none"><a href="#none" id="lang_ja" role="menuitem">日本語</a></li>
+                                    <li role="none"><a href="#none" id="lang_zh-CN" role="menuitem">中文(简体)</a></li>
+                                  </ul>
+                              </div>
+                            <div id="google_translate_element" class="offscreen"></div>
                     </ul>
                 </div>
             </div>
         </nav>
 
-
-        <main>
+    <main>
 
         <section class="people-detail-header-section text-center">
                 <div class="section-overlay"></div>
@@ -837,10 +855,12 @@ https://templatemo.com/tm-581-kind-heart-charity
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.safe.js"></script>
+        <script src="js/click-scroll.js"></script>
         <script src="js/counter.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/langswitcher.js"></script>
 
     </body>
 </html>

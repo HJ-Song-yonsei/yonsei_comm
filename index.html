@@ -15,13 +15,13 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
-<!--
 
-TemplateMo 581 Kind Heart Charity
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
 
-https://templatemo.com/tm-581-kind-heart-charity
-
--->
+        <!-- Font Awesome CDN -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     </head>
     
@@ -122,6 +122,25 @@ https://templatemo.com/tm-581-kind-heart-charity
                                 <li><a class="dropdown-item" href="lend.html">장비대여신청</a></li>
                             </ul>
                         </li>
+
+                        <!-- Lang Translator -->   
+
+                            <div class="head-convert" id="langSwitcher">
+                              <button type="button" class="lang-toggle" aria-expanded="false" aria-controls="langMenu">
+                                  <i class="bi bi-translate" aria-hidden="true"></i>
+                                  <span class="lang-label">Language</span>
+                                  <i class="bi bi-caret-down-fill" aria-hidden="true"></i>
+                                </button>
+
+                              <div class="list-convert" id="langMenu" role="menu" aria-label="Language menu">
+                                  <ul>
+                                    <li role="none"><a href="#none" id="lang_ko" role="menuitem">한국어</a></li>
+                                    <li role="none"><a href="#none" id="lang_en" role="menuitem">English</a></li>
+                                    <li role="none"><a href="#none" id="lang_ja" role="menuitem">日本語</a></li>
+                                    <li role="none"><a href="#none" id="lang_zh-CN" role="menuitem">中文(简体)</a></li>
+                                  </ul>
+                              </div>
+                            <div id="google_translate_element" class="offscreen"></div>
                     </ul>
                 </div>
             </div>
@@ -233,7 +252,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                             <div class="featured-block d-flex justify-content-center align-items-center">
                                 <a href="curriculum_graduate.html" class="d-block">
                                     <img src="images/icons/graduate_icon.png" class="featured-block-image img-fluid" style="width:50%; height:auto; object-fit:contain;" alt="">
-                                    <p class="featured-block-text">일반대학원 <strong>석/박사과정</strong></p>
+                                    <p class="featured-block-text">일반대학원 <strong>학사안내</strong></p>
                                 </a>
                             </div>
                         </div>
@@ -554,13 +573,26 @@ https://templatemo.com/tm-581-kind-heart-charity
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>2호선 신촌역</td>
-            <td>2번 출구(연세대학교, 세브란스병원 방향)</td>
+           <tr>
+            <td>
+              <span class="subway-badge line-2" aria-label="서울지하철 2호선"><i class="bi bi-train-lightrail-front"></i> 2호선</span>
+              <span class="station-name">신촌역</span>
+           </td>
+           <td>2번 출구(연세대학교, 세브란스병원 방향)</td>
           </tr>
           <tr>
-            <td></td>
+            <td>
+              <span class="subway-badge line-2" aria-label="서울지하철 2호선"><i class="bi bi-train-lightrail-front"></i> 2호선</span>
+              <span class="station-name">신촌역</span>
+            </td>
             <td>3번 출구(연세대학교, 이화여자대학교 방향)</td>
+          </tr>
+          <tr>
+            <td>
+              <span class="subway-badge line-k3" aria-label="서울지하철 경의선"><i class="bi bi-train-lightrail-front"></i> 경의선</span>
+              <span class="station-name">신촌역</span>
+            </td>
+            <td>2번 출구(세브란스병원, 이화여자대학교 방향)</td>
           </tr>
         </tbody>
       </table>
@@ -579,30 +611,27 @@ https://templatemo.com/tm-581-kind-heart-charity
           <tr>
             <td>연세대학교/연대앞</td>
             <td>
-              <strong>간선</strong> 163, 171, 172, 272, 470, 601, 606, 672, 673, 674, 700, 710, 742, 750A, 750B<br>
-              <strong>지선</strong> 6714, 7737 / <strong>광역</strong> M6724 / <strong>공항</strong> 6011 / <strong>직행</strong> 1000, 1100, 1200, 1900, G7111, 7111‑1
+              <span class="subway-badge line-1" aria-label="간선"><strong>간선</strong></span>163, 171, 172, 272, 470, 601, 606, 672, 673, 674, 700, 710, 742, 750A, 750B
+               <div style="height:2px;font-size:1px;">&nbsp;</div>
+              <span class="subway-badge line-2" aria-label="지선"><strong>지선</strong></span>6714, 7737  <span class="subway-badge line-redbus" aria-label="광역"><strong>광역</strong></span>M6724  <span class="subway-badge line-airportbus" aria-label="공항"><strong>공항버스</strong></span>6011  <span class="subway-badge line-redbus" aria-label="직행"><strong>직행</strong></span>1000, 1100, 1200, 1900, G7111, 7111‑1
             </td>
           </tr>
           <tr>
             <td>연세대학교 정문</td>
             <td>
-              <strong>간선</strong> 163, 171, 172 / <strong>지선</strong> 7017, 7713, 7720, 7727, 7728, 7737 / <strong>광역</strong> M6724
+              <span class="subway-badge line-1" aria-label="간선"><strong>간선</strong></span>163, 171, 172   <span class="subway-badge line-2" aria-label="지선"><strong>지선</strong></span>7017, 7713, 7720, 7727, 7728, 7737, 서대문03, 서대문04, 서대문05   <span class="subway-badge line-redbus" aria-label="광역"><strong>광역</strong></span>M6724
             </td>
-          </tr>
-          <tr>
-            <td>마을버스</td>
-            <td>서대문03, 서대문04, 서대문05</td>
           </tr>
           <tr>
             <td>세브란스(중앙차선)</td>
             <td>
-              <strong>간선</strong> 272, 470, 601, 606, 672, 673, 700, 710, 742, 750A, 750B / <strong>지선</strong> 6714, 7737
+              <span class="subway-badge line-1" aria-label="간선"><strong>간선</strong></span>272, 470, 601, 606, 672, 673, 700, 710, 742, 750A, 750B   <span class="subway-badge line-2" aria-label="지선"><strong>지선</strong></span>6714, 7737
             </td>
           </tr>
           <tr>
             <td>세브란스병원</td>
             <td>
-              <strong>간선</strong> 163, 171, 172, 472 / <strong>지선</strong> 7017, 7024, 7713
+              <span class="subway-badge line-1" aria-label="간선"><strong>간선</strong></span>163, 171, 172, 472   <span class="subway-badge line-2" aria-label="지선"><strong>지선</strong></span>7017, 7024, 7713
             </td>
           </tr>
         </tbody>
@@ -707,11 +736,12 @@ https://templatemo.com/tm-581-kind-heart-charity
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.safe.js"></script>
+        <script src="js/click-scroll.js"></script>
         <script src="js/counter.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/langswitcher.js"></script>
 
     
 <script>

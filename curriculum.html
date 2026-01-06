@@ -16,140 +16,16 @@
 
         <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
 
-        <!-- DataTables Bootstrap5 테마 CSS -->
-        <link href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
 
-        <!-- 1) Head에 CDN 라이브러리 로드 -->
-        <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-        <style>
-        /* 모든 셀 중앙 정렬 */
-        #excel-table .table th,
-        #excel-table .table td {
-          text-align: center;
-        }
-
-        /* 첫 번째 행(<tr>)의 모든 <td>를 헤더처럼 스타일링 */
-        #excel-table .table tbody tr:first-child > td {
-          background-color: var(--primary-color) !important;
-          color: #fff !important;
-          font-weight: bold;
-        }
-                /* #excel-table 안의 모든 테이블 셀(헤더 & 데이터)에 줄바꿈 금지 */
-        #excel-table .table th,
-        #excel-table .table td {
-          white-space: nowrap;
-          /* 혹시 글자가 너무 길면 셀 너비를 넘어가기도 하는데,
-             가로 스크롤이 필요하다면 table-responsive가 처리해 줍니다. */
-        }
-      </style>
-
-      </style>
-
-<style>
-      /* 툴팁 내부 텍스트 기본 한 줄로 표시, 필요 시 가로 스크롤 */
-      #excel-table .tooltip-inner {
-        white-space: nowrap;
-        max-width: none !important;
-      }
-      /* 모바일 뷰포트(<768px)에서는 줄 바꿈 허용 */
-      @media (max-width: 767.98px) {
-        #excel-table .tooltip-inner {
-          white-space: normal;
-          /* 테이블 너비에 맞추려면 아래처럼 % 적용 가능 */
-          max-width: 90vw !important;
-        }
-      }
-<style>
-  /* ── 필터 박스 꾸미기 ───────────────────────────────── */
-  #timetable-filters {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  #timetable-filters .mb-2,
-  #timetable-filters > div:last-child {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  #timetable-filters strong {
-    min-width: 60px;
-    font-weight: 600;
-  }
-  #timetable-filters .form-check-inline {
-    margin-right: 0.5rem;
-  }
-
-  /* ── 테이블 기본 스타일 ───────────────────────────────── */
-  #timetable {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-  }
-  #timetable th,
-  #timetable td {
-    padding: 0.5rem;
-    vertical-align: middle;
-    text-align: center;
-    border: 1px solid #dee2e6;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-
-  /* ── 헤더 sticky + 배경색 ─────────────────────────────── */
-  #timetable thead th {
-    position: sticky;
-    top: 0;
-    background-color: #2a9df4;
-    color: white;
-    z-index: 2;
-  }
-  /* 첫 머리줄(요일) 조금 더 진한 색으로 구분 */
-  #timetable thead tr:nth-child(1) th {
-    background-color: #236cb2;
-  }
-
-  /* ── 본문 교차 행 배경색 ─────────────────────────────── */
-  #timetable tbody tr:nth-child(odd) {
-    background-color: #f7fbfe;
-  }
-  #timetable tbody tr:nth-child(even) {
-    background-color: #ffffff;
-  }
-  /* ── 첫 두 열(교시·시간)은 늘 고정 ─────────────────────── */
-  #timetable tbody th,
-  #timetable tbody td:nth-child(1),
-  #timetable tbody td:nth-child(2) {
-    position: sticky;
-    left: 0;
-    background-color: white;
-    z-index: 1;
-  }
-  /* 시간 열은 두 번째로 고정 */
-  #timetable tbody td:nth-child(2) {
-    left: 2rem; /* 첫 열 너비에 맞춰 조절하세요 */
-  }
-</style>
-
-<!--
-
-TemplateMo 581 Kind Heart Charity
-
-https://templatemo.com/tm-581-kind-heart-charity
-
--->
+        <!-- Font Awesome CDN -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     </head>
     
     <body id="section_1">
-        
-        </header>
 
         <nav class="navbar navbar-expand-lg bg-light shadow-lg">
             <div class="container">
@@ -245,14 +121,31 @@ https://templatemo.com/tm-581-kind-heart-charity
                                 <li><a class="dropdown-item" href="lend.html">장비대여신청</a></li>
                             </ul>
                         </li>
+
+                        <!-- Lang Translator -->   
+
+                            <div class="head-convert" id="langSwitcher">
+                              <button type="button" class="lang-toggle" aria-expanded="false" aria-controls="langMenu">
+                                  <i class="bi bi-translate" aria-hidden="true"></i>
+                                  <span class="lang-label">Language</span>
+                                  <i class="bi bi-caret-down-fill" aria-hidden="true"></i>
+                                </button>
+
+                              <div class="list-convert" id="langMenu" role="menu" aria-label="Language menu">
+                                  <ul>
+                                    <li role="none"><a href="#none" id="lang_ko" role="menuitem">한국어</a></li>
+                                    <li role="none"><a href="#none" id="lang_en" role="menuitem">English</a></li>
+                                    <li role="none"><a href="#none" id="lang_ja" role="menuitem">日本語</a></li>
+                                    <li role="none"><a href="#none" id="lang_zh-CN" role="menuitem">中文(简体)</a></li>
+                                  </ul>
+                              </div>
+                            <div id="google_translate_element" class="offscreen"></div>
                     </ul>
                 </div>
             </div>
         </nav>
 
-
-
-        <main>
+    <main>
 
         <section class="people-detail-header-section text-center">
                 <div class="section-overlay"></div>
@@ -268,17 +161,14 @@ https://templatemo.com/tm-581-kind-heart-charity
                 </div>
         </section>
 
-
-
         <section id="timetable-list" class="section-padding section-bg">
                   <div class="container">
                         <div class="row mb-5">
                             <div class="col-12 text-center">
                                 <h2 class="d-inline">강의시간표 |</h2>
-                                <h5 class="d-inline text-muted ms-2">2025-2학기, 학부과정</h5>
+                                <h5 class="d-inline text-muted ms-2">2026-1학기, 학부과정</h5>
                                 <p></p>
                         </div>
-                    <!-- curriculum.html 에서 커리큘럼 표 바로 아래에 붙여 넣으세요 -->
                     <!-- 1) 과목 dot & hover-highlight 스타일 -->
                     <style>
                       .subject-dot {
@@ -305,6 +195,117 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     </style>
 
+                    <style>
+                            /* 모든 셀 중앙 정렬 */
+                            #excel-table .table th,
+                            #excel-table .table td {
+                              text-align: center;
+                            }
+
+                            /* 첫 번째 행(<tr>)의 모든 <td>를 헤더처럼 스타일링 */
+                            #excel-table .table tbody tr:first-child > td {
+                              background-color: var(--primary-color) !important;
+                              color: #fff !important;
+                              font-weight: bold;
+                            }
+                                    /* #excel-table 안의 모든 테이블 셀(헤더 & 데이터)에 줄바꿈 금지 */
+                            #excel-table .table th,
+                            #excel-table .table td {
+                              white-space: nowrap;
+                            }
+                          </style>
+
+                          </style>
+
+                    <style>
+                          /* 툴팁 내부 텍스트 기본 한 줄로 표시, 필요 시 가로 스크롤 */
+                          #excel-table .tooltip-inner {
+                            white-space: nowrap;
+                            max-width: none !important;
+                          }
+                          /* 모바일 뷰포트(<768px)에서는 줄 바꿈 허용 */
+                          @media (max-width: 767.98px) {
+                            #excel-table .tooltip-inner {
+                              white-space: normal;
+                              /* 테이블 너비에 맞추려면 아래처럼 % 적용 가능 */
+                              max-width: 90vw !important;
+                            }
+                          }
+                    <style>
+                      /* ── 필터 박스 꾸미기 ───────────────────────────────── */
+                      #timetable-filters {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.5rem;
+                        margin-bottom: 1rem;
+                      }
+                      #timetable-filters .mb-2,
+                      #timetable-filters > div:last-child {
+                        display: flex;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        gap: 0.5rem;
+                      }
+                      #timetable-filters strong {
+                        min-width: 60px;
+                        font-weight: 600;
+                      }
+                      #timetable-filters .form-check-inline {
+                        margin-right: 0.5rem;
+                      }
+
+                      /* ── 테이블 기본 스타일 ───────────────────────────────── */
+                      #timetable {
+                        width: 100%;
+                        border-collapse: collapse;
+                        table-layout: fixed;
+                      }
+                      #timetable th,
+                      #timetable td {
+                        padding: 0.5rem;
+                        vertical-align: middle;
+                        text-align: center;
+                        border: 1px solid #dee2e6;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                      }
+
+                      /* ── 헤더 sticky + 배경색 ─────────────────────────────── */
+                      #timetable thead th {
+                        position: sticky;
+                        top: 0;
+                        background-color: #2a9df4;
+                        color: white;
+                        z-index: 2;
+                      }
+                      /* 첫 머리줄(요일) 조금 더 진한 색으로 구분 */
+                      #timetable thead tr:nth-child(1) th {
+                        background-color: #236cb2;
+                      }
+
+                      /* ── 본문 교차 행 배경색 ─────────────────────────────── */
+                      #timetable tbody tr:nth-child(odd) {
+                        background-color: #f7fbfe;
+                      }
+                      #timetable tbody tr:nth-child(even) {
+                        background-color: #ffffff;
+                      }
+                      /* ── 첫 두 열(교시·시간)은 늘 고정 ─────────────────────── */
+                      #timetable tbody th,
+                      #timetable tbody td:nth-child(1),
+                      #timetable tbody td:nth-child(2) {
+                        position: sticky;
+                        left: 0;
+                        background-color: white;
+                        z-index: 1;
+                      }
+                      /* 시간 열은 두 번째로 고정 */
+                      #timetable tbody td:nth-child(2) {
+                        left: 2rem; /* 첫 열 너비에 맞춰 조절하세요 */
+                      }
+                    </style>
+
                     <div class="container my-4">
                       <!-- 필터 UI -->
                       <div id="timetable-filters" class="mb-3">
@@ -324,43 +325,44 @@ https://templatemo.com/tm-581-kind-heart-charity
                   </div>
 
                     
-<script>
-// ========= Global debug + robust pathing (safe for GitHub Pages) =========
-(function(){
-  function injectAlert(targetId, title, msg, details){
-    var target = document.getElementById(targetId) || document.getElementById('excel-table') || document.body;
-    if (!target) return;
-    var html = '<div class="alert alert-warning" role="alert" style="margin:1rem 0;">'
-             + '<strong>' + title + '</strong><br><code>' + String(msg).replace(/</g,'&lt;') + '</code>'
-             + (details ? '<details class="mt-2"><summary>Details</summary><pre style="white-space:pre-wrap">' + details.replace(/</g,'&lt;') + '</pre></details>' : '')
-             + '</div>';
-    target.insertAdjacentHTML('afterbegin', html);
-  }
-  window.addEventListener('error', function(e){
-    injectAlert('timetable-container', 'Script error', e.message || 'Unknown error', (e.filename||'') + ':' + (e.lineno||'') );
-  });
-  window.addEventListener('unhandledrejection', function(e){
-    injectAlert('timetable-container', 'Unhandled promise rejection', (e.reason && e.reason.message) ? e.reason.message : String(e.reason));
-  });
+                    <script>
+                    // ========= Global debug + robust pathing (safe for GitHub Pages) =========
+                    (function(){
+                      function injectAlert(targetId, title, msg, details){
+                        var target = document.getElementById(targetId) || document.getElementById('excel-table') || document.body;
+                        if (!target) return;
+                        var html = '<div class="alert alert-warning" role="alert" style="margin:1rem 0;">'
+                                 + '<strong>' + title + '</strong><br><code>' + String(msg).replace(/</g,'&lt;') + '</code>'
+                                 + (details ? '<details class="mt-2"><summary>Details</summary><pre style="white-space:pre-wrap">' + details.replace(/</g,'&lt;') + '</pre></details>' : '')
+                                 + '</div>';
+                        target.insertAdjacentHTML('afterbegin', html);
+                      }
+                      window.addEventListener('error', function(e){
+                        injectAlert('timetable-container', 'Script error', e.message || 'Unknown error', (e.filename||'') + ':' + (e.lineno||'') );
+                      });
+                      window.addEventListener('unhandledrejection', function(e){
+                        injectAlert('timetable-container', 'Unhandled promise rejection', (e.reason && e.reason.message) ? e.reason.message : String(e.reason));
+                      });
 
-  // Robust bytes fetcher that tries current-dir /data/ and root /data/
-  window.fetchBytes = async function(file, ctx){
-    const origins = [new URL('.', location.href), new URL('/', location.href)];
-    const bases = origins.map(o => new URL('data/', o).toString());
-    let last;
-    for (const base of bases){
-      const url = base + file;
-      try{
-        const res = await fetch(url, { cache: 'no-store' });
-        if (res.ok) return await res.arrayBuffer();
-        last = 'HTTP ' + res.status + ' for ' + url;
-      }catch(err){ last = String(err) + ' @ ' + url; }
-    }
-    throw new Error(last || ('Could not load '+file));
-  };
-})();
-</script>
-<script>
+                      // Robust bytes fetcher that tries current-dir /data/ and root /data/
+                      window.fetchBytes = async function(file, ctx){
+                        const origins = [new URL('.', location.href), new URL('/', location.href)];
+                        const bases = origins.map(o => new URL('data/', o).toString());
+                        let last;
+                        for (const base of bases){
+                          const url = base + file;
+                          try{
+                            const res = await fetch(url, { cache: 'no-store' });
+                            if (res.ok) return await res.arrayBuffer();
+                            last = 'HTTP ' + res.status + ' for ' + url;
+                          }catch(err){ last = String(err) + ' @ ' + url; }
+                        }
+                        throw new Error(last || ('Could not load '+file));
+                      };
+                    })();
+                    </script>
+                    <script>
+                        
                     (async () => {
                       // 1) 엑셀 불러오기
                       const resp  = await fetch('data/curriculum_undergraduate.xlsx');
@@ -708,8 +710,10 @@ https://templatemo.com/tm-581-kind-heart-charity
                         </div>       
         </div>
         <h5 class="mt-0 text-start small text-muted">※ 개별 졸업사정 여부에 따라 졸업가능 여부가 달라질 수 있으니 보다 자세한 사항은 <a href="mailto:masscomm@yonsei.ac.kr">학부사무실</a>로 문의바랍니다.</h5>
-          
-</section>
+ 
+    </section>
+
+</main>
 
         <footer class="site-footer">
             <div class="container">
@@ -805,10 +809,12 @@ https://templatemo.com/tm-581-kind-heart-charity
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.safe.js"></script>
+        <script src="js/click-scroll.js"></script>
         <script src="js/counter.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/langswitcher.js"></script>
 
     </body>
 </html>
