@@ -523,3 +523,250 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+.head-convert {
+  position: relative;
+  display: inline-block;
+}
+
+.head-convert {
+  position: relative;
+  display: inline-block;
+}
+
+.head-convert .lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 0;
+  background: transparent;
+  color: #fff;           /* 헤더 배경에 맞춰 조정 */
+  cursor: pointer;
+}
+
+.head-convert .lang-toggle .bi-translate {
+  font-size: 28px;       /* 아이콘 크기 */
+  line-height: 1;
+}
+
+.head-convert .lang-label {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.head-convert .list-convert {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 1000;
+
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.75);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+
+  display: none;
+}
+
+.head-convert.is-open .list-convert {
+  display: block;
+}
+
+.head-convert .list-convert ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.head-convert .list-convert a {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.head-convert .list-convert a:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.head-convert .list-convert img {
+  width: 26px;     /* 기존 아이콘 이미지 크기 */
+  height: 26px;
+  display: block;
+}
+.head-convert .lang-toggle{
+  gap: 5px;
+  padding: 4px 6px;
+}
+
+/* 기본(PC) */
+.head-convert .lang-toggle{ gap: 6px; padding: 6px 8px; }
+.head-convert .lang-toggle .bi-translate{ font-size: 18px; }
+.head-convert .lang-label{ font-size: 16px; }
+.head-convert .lang-toggle .bi-caret-down-fill{ font-size: 12px; }
+
+/* 모바일(좁은 폭) */
+@media (max-width: 700px){
+  .head-convert .lang-toggle{ gap: 5px; padding: 4px 6px; }
+  .head-convert .lang-toggle .bi-translate{ font-size: 16px; }
+  .head-convert .lang-label{ font-size: 14px; }
+  .head-convert .lang-toggle .bi-caret-down-fill{ font-size: 10px; }
+}
+
+/* === Language switcher: final compact override === */
+.head-convert .lang-toggle{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px !important;
+  padding: 4px 6px !important;
+  line-height: 1 !important;
+}
+
+.head-convert .lang-toggle .bi-translate{
+  font-size: 16px !important;
+  line-height: 1 !important;
+}
+
+.head-convert .lang-label{
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+}
+
+.head-convert .lang-toggle .bi-caret-down-fill{
+  font-size: 10px !important;
+  line-height: 1 !important;
+}
+
+@media (min-width: 992px){
+  /* 데스크탑에서 살짝만 키우고 싶으면 여기서 조절 */
+  .head-convert .lang-toggle{ padding: 6px 8px !important; }
+  .head-convert .lang-toggle .bi-translate{ font-size: 18px !important; }
+  .head-convert .lang-label{ font-size: 16px !important; }
+  .head-convert .lang-toggle .bi-caret-down-fill{ font-size: 12px !important; }
+}
+
+/* Language 버튼 색상: 연세 딥블루 톤 */
+:root{
+  --yonsei-blue: #0B2F6A; /* 필요하면 #0A2A5E 등으로 미세조정 */
+}
+
+.head-convert .lang-toggle{
+  color: var(--yonsei-blue) !important; /* 텍스트/아이콘 색 */
+}
+
+.head-convert .lang-toggle .bi{
+  color: var(--yonsei-blue) !important;
+}
+
+.head-convert .lang-toggle:hover{
+  opacity: .85;
+}
+
+/* 체크표시를 넣을 공간 확보 */
+.head-convert .lang-list a{
+  position: relative;
+  padding-left: 28px; /* ✓ 자리 */
+}
+
+/* 공통 체크 마크(기본은 숨김) */
+.head-convert .lang-list a::before{
+  content: "✓";
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  font-weight: 700;
+}
+
+/* 현재 문서 언어(html lang=...)에 따라 해당 항목만 표시 */
+html[lang="ko"] .head-convert .lang-list a#lang_ko::before{ opacity: 1; }
+html[lang="en"] .head-convert .lang-list a#lang_en::before{ opacity: 1; }
+html[lang="ja"] .head-convert .lang-list a#lang_ja::before{ opacity: 1; }
+html[lang="zh-CN"] .head-convert .lang-list a#lang_zh-CN::before{ opacity: 1; }
+
+/* 선택된 항목 강조(선택) */
+html[lang="ko"] .head-convert .lang-list a#lang_ko,
+html[lang="en"] .head-convert .lang-list a#lang_en,
+html[lang="ja"] .head-convert .lang-list a#lang_ja,
+html[lang="zh-CN"] .head-convert .lang-list a#lang_zh-CN{
+  background: rgba(255,255,255,0.12);
+}
+
+/* 구글 기본 UI 숨김 */
+.goog-te-gadget,
+.goog-te-gadget *{
+  font-size: 0 !important;
+}
+
+/* 콤보박스 숨김 */
+.goog-te-combo{
+  display: none !important;
+}
+
+/* "Google 번역에서 제공" 텍스트 숨김 */
+.goog-logo-link,
+.goog-te-gadget span{
+  display: none !important;
+}
+
+/* 공통 배지(필 형태) */
+.subway-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color:#fff;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* 역명 텍스트 */
+.station-name{
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+/* 아이콘(선택) */
+.subway-icon{
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* 노선별 색상 (필요한 것만 쓰세요) */
+.line-1 { background:#0052A4; color:#fff; }   /* 1호선 */
+.line-2 { background:#00A84D; color:#fff; }   /* 2호선 */
+.line-3 { background:#EF7C1C; color:#fff; }   /* 3호선 */
+.line-4 { background:#00A5DE; color:#fff; }   /* 4호선 */
+.line-5 { background:#996CAC; color:#fff; }   /* 5호선 */
+.line-6 { background:#CD7C2F; color:#fff; }   /* 6호선 */
+.line-7 { background:#747F00; color:#fff; }   /* 7호선 */
+.line-8 { background:#E6186C; color:#fff; }   /* 8호선 */
+.line-9 { background:#BDB092; color:#fff; }   /* 9호선 */
+.line-k3 { background:#73C7A6; color:#fff; }   /* 중앙선 */
+.line-redbus { background:#FF0000; color:#fff; }   /* 광역버스 */
+.line-airportbus { background:#3d5bab; color:#fff; }   /* 광역버스 */
+
+/* 아이콘 색은 글자색을 따라가게(배경 없이 컬러만 주고 싶을 때) */
+.subway-icon.line-2{ color:#00A84D; } /* 예: 2호선 아이콘만 녹색 */
+
+
+.bi-camera2{
+  display:inline-flex;
+  width:100px; height:100px;
+  align-items:center; justify-content:center;
+  border-radius: 16px;
+  background: #0b2e63; /* 원하는 컬러 */
+}
+.bi-camera2 > .bi{ font-size:80px; color:#fff; }
+
+
