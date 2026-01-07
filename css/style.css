@@ -769,4 +769,16 @@ html[lang="zh-CN"] .head-convert .lang-list a#lang_zh-CN{
 }
 .bi-camera2 > .bi{ font-size:80px; color:#fff; }
 
+.navbar .dropdown-menu.dropdown-menu-light .dropdown-item{
+  display: flex;
+  align-items: center;
+  padding: .55rem 1rem;   /* 상하/좌우 통일 */
+  line-height: 1.2;       /* 줄높이 통일 */
+  margin: 0;              /* 혹시 모를 margin 제거 */
+}
 
+/* 마지막 항목만 추가 여백이 붙는 경우 방어 */
+.navbar .dropdown-menu.dropdown-menu-light li:last-child > .dropdown-item{
+  margin-bottom: 0 !important;
+  padding-bottom: .55rem;
+}
