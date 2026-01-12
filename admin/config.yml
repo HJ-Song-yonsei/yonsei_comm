@@ -2,7 +2,7 @@
 
 backend:
   name: github
-  repo: hj-song-yonsei.github.io/yonsei_comm
+  repo: hj-song-yonsei/yonsei_comm
   branch: main
 
 # 첨부 업로드 위치(레포 안에 저장)
