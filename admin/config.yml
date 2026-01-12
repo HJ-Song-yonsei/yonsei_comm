@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: YOUR_GITHUB_ORG_OR_USER/YOUR_REPO
+  branch: main
+
+# 첨부 업로드 위치(레포 안에 저장)
+media_folder: "data/files"
+public_folder: "data/files"
+
+collections:
+  - name: "notices"
+    label: "공지/자료"
+    folder: "data/posts"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "제목", name: "title", widget: "string" }
+      - { label: "작성자", name: "author", widget: "string", default: "언론홍보영상학부" }
+      - { label: "게시일", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+      - label: "분류"
+        name: "notice"
+        widget: "select"
+        default: "일반"
+        options: ["공지", "일반"]
+
+      # notice.html이 기대하는 file_attachment 형태를 그대로 만듦
+      - label: "첨부파일"
+        name: "file_attachment"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "표시명(선택)", name: "name", widget: "string", required: false }
+          - { label: "파일", name: "url", widget: "file", required: true }
+
+      - { label: "본문", name: "body", widget: "markdown" }
