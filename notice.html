@@ -314,7 +314,7 @@
       const lower = file.toLowerCase();
 
       // ✅ 정확 경로(그대로) → 상대경로 → 절대경로 순
-      const bases = ['', 'data/posts/', 'data/notices/', 'data/', '/data/posts/', '/data/notices/', '/data/'];
+      const bases = ['', 'data/posts/', 'data/notices/', 'data/'];
 
       const text = await fetchTextSmart(file, bases);
 
