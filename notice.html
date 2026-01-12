@@ -32,8 +32,17 @@
     async function fetchTextSmart(file, bases) {
       bases = bases && bases.length ? bases : ['data/', '/data/'];
       let last;
+
+      // contentfile에 "/data/posts/..." 같이 들어와도 안전하게
+      const f = String(file || '').replace(/^\/+/, '');
+
       for (const base of bases) {
-        const url = base + file;
+        // base가 ''일 수도 있게(= contentfile이 이미 경로를 포함한 경우)
+        const joined = (base ? base.replace(/\/+$/, '/') : '') + f;
+
+        // 한글/공백 파일명 대비
+        const url = encodeURI(joined);
+
         try {
           const res = await fetch(url, { cache: 'no-store' });
           if (res.ok) return await res.text();
@@ -300,23 +309,23 @@
     }
 
     async function loadContentFile(contentfile) {
-      const lower = (contentfile||'').toLowerCase();
-      const bases = ['data/posts/', 'data/notices/', 'data/', '/data/posts/', '/data/notices/', '/data/'];
+      const rawFile = String(contentfile || '');
+      const file = rawFile.replace(/^\/+/, '');     // "/data/posts/x.md" → "data/posts/x.md"
+      const lower = file.toLowerCase();
 
-      const text = await fetchTextSmart(contentfile, bases);
+      // ✅ 정확 경로(그대로) → 상대경로 → 절대경로 순
+      const bases = ['', 'data/posts/', 'data/notices/', 'data/', '/data/posts/', '/data/notices/', '/data/'];
+
+      const text = await fetchTextSmart(file, bases);
+
       if (lower.endsWith('.md')) {
         return { html: marked.parse(text) };
       }
       if (lower.endsWith('.html')) {
-        try {
-          const doc = new DOMParser().parseFromString(text, 'text/html');
-          const bodyHtml = doc && doc.body ? doc.body.innerHTML : text;
-          return { html: bodyHtml };
-        } catch (e) {
-          return { html: text }; // fallback
-        }
+        const doc = new DOMParser().parseFromString(text, 'text/html');
+        const bodyHtml = doc && doc.body ? doc.body.innerHTML : text;
+        return { html: bodyHtml };
       }
-      // plain text fallback
       return { html: '<pre>' + text.replace(/[&<>]/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[s])) + '</pre>' };
     }
 
