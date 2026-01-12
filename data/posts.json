@@ -1,49 +1,90 @@
 [
   {
-    "id": 1,
+    "id": "2026-01-12-웹사이트-테스트중입니다.",
     "notice": "공지",
-    "title": "언론홍보영상학부 홈페이지 리뉴얼 안내",
-    "author": "언론홍보영상학부 관리자",
-    "date": "2025-08-01",
-    "contentfile": "post1_renewal notice.html",
-    "file_attachment": []
-  },
-  {
-    "id": 2,
-    "notice": "공지",
-    "title": "학부 및 대학원 문의처 안내",
-    "author": "언론홍보영상학부 관리자",
-    "date": "2021-12-29",
-    "contentfile": "post2_inquiries.html",
-    "file_attachment": []
-  },
-  {
-    "id": 3,
-    "notice": "",
-    "title": "주차권 등록 안내",
-    "author": "언론홍보영상학부 관리자",
-    "date": "2025-06-27",
-    "contentfile": "post3_parking permit.html",
-    "file_attachment": []
-  },
-  {
-    "id": 4,
-    "notice": "",
-    "title": "학부 해외파견 교환학생 학점인정 절차 및 양식 안내",
-    "author": "언론홍보영상학부 관리자",
-    "date": "2025-08-03",
-    "contentfile": "post4_credit exchange 2026.html",
+    "title": "웹사이트 테스트중입니다.",
+    "author": "언론홍보영상학부",
+    "date": "2026-01-13",
+    "contentfile": "2026-01-12-웹사이트-테스트중입니다..md",
     "file_attachment": [
-      "data/files/인정학점-신청해외교환-유학_학생용.pdf"
+
     ]
   },
   {
-    "id": 5,
-    "notice": "공지",
-    "title": "언론홍보영상학부 VR 미디어랩 운영 안내",
-    "author": "언론홍보영상학부 관리자",
-    "date": "2024-10-21",
+    "id": "post1_renewal notice",
+    "notice": "일반",
+    "title": "",
+    "author": "",
+    "date": "2026-01-12",
+    "contentfile": "post1_renewal notice.html",
+    "file_attachment": [
+
+    ]
+  },
+  {
+    "id": "post2_inquiries",
+    "notice": "일반",
+    "title": "",
+    "author": "",
+    "date": "2026-01-12",
+    "contentfile": "post2_inquiries.html",
+    "file_attachment": [
+
+    ]
+  },
+  {
+    "id": "post3_parking permit",
+    "notice": "일반",
+    "title": "",
+    "author": "",
+    "date": "2026-01-12",
+    "contentfile": "post3_parking permit.html",
+    "file_attachment": [
+
+    ]
+  },
+  {
+    "id": "post4_2026-1 강사 공개채용 공고",
+    "notice": "일반",
+    "title": "",
+    "author": "",
+    "date": "2026-01-12",
+    "contentfile": "post4_2026-1 강사 공개채용 공고.html",
+    "file_attachment": [
+
+    ]
+  },
+  {
+    "id": "post4_2026-1 강사 공개채용 공고",
+    "notice": "일반",
+    "title": "",
+    "author": "",
+    "date": "2026-01-12",
+    "contentfile": "post4_2026-1 강사 공개채용 공고.html",
+    "file_attachment": [
+
+    ]
+  },
+  {
+    "id": "post4_credit exchange 2026",
+    "notice": "일반",
+    "title": "",
+    "author": "",
+    "date": "2026-01-12",
+    "contentfile": "post4_credit exchange 2026.html",
+    "file_attachment": [
+
+    ]
+  },
+  {
+    "id": "post5_2026-1 VR medialab operations",
+    "notice": "일반",
+    "title": "",
+    "author": "",
+    "date": "2026-01-12",
     "contentfile": "post5_2026-1 VR medialab operations.html",
-    "file_attachment": []
+    "file_attachment": [
+
+    ]
   }
 ]
