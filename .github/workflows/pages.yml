@@ -2,8 +2,8 @@ name: Build & Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # or your default
-  workflow_dispatch:      # allow manual runs
+    branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -21,14 +21,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # --- BUILD YOUR SITE HERE ---
-      # Replace these commands with your actual build that outputs to `build/`
-      - name: Build (placeholder)
+      # ✅ "빌드"는 하지 않고, 레포의 정적 파일을 그대로 build/로 복사
+      - name: Assemble static site to build/
         run: |
           mkdir -p build
-          echo "<!doctype html><meta charset='utf-8'><title>It works</title>" > build/index.html
+          rsync -av --delete \
+            --exclude '.git' \
+            --exclude '.github' \
+            ./ build/
 
-      # Upload the folder that contains your built site
+          # ✅ (권장) Jekyll 처리 비활성화: md/json 등 정적 파일이 그대로 서빙되게
+          touch build/.nojekyll
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
