@@ -14,7 +14,7 @@ collections:
     label: "공지/자료"
     folder: "data/posts"
     create: true
-    extension: "html"
+    extension: "md"
     format: "frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
