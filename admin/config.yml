@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: hj-song-yonsei/yonsei_comm
+  branch: main
+  # GitHub Pages에서 PAT(토큰) 로그인 방식이면 base_url을 두지 않습니다.
+  # (OAuth 프록시/Authenticator를 쓸 때만 base_url 필요)
+
+media_folder: "data/files"
+public_folder: "data/files"
+
+collections:
+  - name: "job_board"
+    label: "공모전/채용공고"
+    files:
+      - name: "jobpost"
+        label: "공고 목록"
+        file: "data/jobpost.json"
+        format: "json"
+        fields:
+          - label: "공고"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.notice}} · {{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "예: 2026-01-13-ra-01" }
+              - { label: "제목", name: "title", widget: "string", required: true }
+
+              # jobnotice.html이 분류/공지 표시(it.notice)를 쓰고 있어서 그대로 제공
+              - label: "분류"
+                name: "notice"
+                widget: "select"
+                default: "채용"
+                options: ["공지", "채용", "공모전", "인턴", "기타"]
+
+              # jobnotice.html이 it.author를 쓰므로 제공(없으면 company로 대체되긴 하지만, 표시에 유리)
+              - { label: "작성자", name: "author", widget: "string", default: "언론홍보영상학부", required: false }
+
+              # company는 author 대체/표시에 활용 가능
+              - { label: "기관/회사(선택)", name: "company", widget: "string", required: false }
+
+              - { label: "게시일", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+              - { label: "마감일(선택)", name: "deadline", widget: "datetime", format: "YYYY-MM-DD", time_format: false, required: false }
+
+              # 본문을 JSON 안(body)로 운영할 거면 이 필드만으로 충분
+              - { label: "본문(마크다운)", name: "body", widget: "markdown", required: false }
+
+              # (선택) 별도 HTML/MD 파일을 fetch로 불러오고 싶을 때만 사용
+              - { label: "외부 본문 파일(contentfile, 선택)", name: "contentfile", widget: "string", required: false, hint: "예: data/jobposts/2026-01-13-ra.html 또는 2026-01-13-ra.md" }
+
+              - label: "첨부파일"
+                name: "file_attachment"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "표시명(선택)", name: "name", widget: "string", required: false }
+                  - { label: "파일", name: "url", widget: "file", required: true }
+
+              - { label: "외부 링크(선택)", name: "link", widget: "string", required: false }
