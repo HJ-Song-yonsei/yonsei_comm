@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "id": "2026-01-14-job-01",
+      "title": "언론홍보영상학부 SSK 연구단 포닥 추가채용 모집 공고",
+      "notice": "채용",
+      "author": "언론홍보영상학부",
+      "company": "언론홍보영상학부",
+      "date": "2026-01-13",
+      "deadline": "2026-01-17",
+      "body": "언론홍보영상학부 SSK 연구단 포닥 추가채용 모집 공고\n\n자세한 사항은 첨부파일 참조바랍니다.\n\n<br>\n\n감사합니다.\n\n언론홍보영상학부",
+      "contentfile": "",
+      "file_attachment": [
+        {
+          "name": "SSK-사업단-포닥모집.pdf",
+          "url": "/data/files/[공고] 연세대학교 언론홍보영상학부 SSK사업단 전임 박사후연구원 모집_2026.pdf"
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "2026-01-14-test",
+      "title": "게시판 공지사항 테스트",
+      "notice": "공지",
+      "author": "언론홍보영상학부",
+      "company": "",
+      "date": "2026-01-13",
+      "deadline": "",
+      "body": "공지사항 테스트중입니다.",
+      "contentfile": "",
+      "file_attachment": [],
+      "link": ""
+    }
+  ]
+}
