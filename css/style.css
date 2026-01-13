@@ -769,16 +769,28 @@ html[lang="zh-CN"] .head-convert .lang-list a#lang_zh-CN{
 }
 .bi-camera2 > .bi{ font-size:80px; color:#fff; }
 
-.navbar .dropdown-menu.dropdown-menu-light .dropdown-item{
-  display: flex;
-  align-items: center;
-  padding: .55rem 1rem;   /* 상하/좌우 통일 */
-  line-height: 1.2;       /* 줄높이 통일 */
-  margin: 0;              /* 혹시 모를 margin 제거 */
+/* 드롭다운 전체(여백/리스트 기본값 정리) */
+.navbar .dropdown-menu{
+  padding: .35rem 0;   /* 필요시 .25~.5rem 사이로 조절 */
 }
 
-/* 마지막 항목만 추가 여백이 붙는 경우 방어 */
-.navbar .dropdown-menu.dropdown-menu-light li:last-child > .dropdown-item{
-  margin-bottom: 0 !important;
-  padding-bottom: .55rem;
+.navbar .dropdown-menu li{
+  margin: 0;
+  padding: 0;
 }
+
+/* 핵심: 모든 dropdown-item 줄간격/패딩 통일 */
+.navbar .dropdown-menu .dropdown-item{
+  display: flex;
+  align-items: center;
+  padding: .50rem 1rem !important; /* 혹시 HTML에 py-* 있으면 덮기 위해 !important */
+  line-height: 1.2 !important;
+  margin: 0;
+  white-space: nowrap;             /* 한 줄 유지(원치 않으면 제거) */
+}
+
+/* 마지막 항목 하단 여백 방어 */
+.navbar .dropdown-menu li:last-child > .dropdown-item{
+  padding-bottom: .50rem !important;
+}
+
