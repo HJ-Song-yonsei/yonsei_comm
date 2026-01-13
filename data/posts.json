@@ -33,6 +33,17 @@
     ]
   },
   {
+    "id": "2026-01-01-춘추화백실",
+    "notice": "일반",
+    "title": "춘추화백실, JTBC·조선일보·동아일보·MBC 등 주요 언론사 합격 성과",
+    "author": "언론홍보영상학부",
+    "date": "2026-01-13",
+    "contentfile": "2026-01-01-Hwabaeksil.html",
+    "file_attachment": [
+
+    ]
+  },
+  {
     "id": "2026-01-12-학부-해외퍄견-교환학생-학점인정",
     "notice": "공지",
     "title": "학부 해외파견 교환학생 학점인정 절차 관련",
@@ -40,7 +51,18 @@
     "date": "2026-01-13",
     "contentfile": "2026-01-12-exchange-credit.html",
     "file_attachment": [
-      "data/files/인정학점-신청해외교환-유학_학생용.pdf"
+
+    ]
+  },
+  {
+    "id": "2026-01-12-VRlab",
+    "notice": "공지",
+    "title": "VR 미디어랩 운영 안내",
+    "author": "언론홍보영상학부",
+    "date": "2026-01-13",
+    "contentfile": "2026-01-12-VR-media-Lab.html",
+    "file_attachment": [
+
     ]
   }
 ]
