@@ -25,7 +25,7 @@ collections:
             summary: "{{fields.notice}} · {{fields.title}}"
             fields:
               - { label: "ID", name: "id", widget: "string", hint: "예: 2026-01-13-ra-01" }
-              - { label: "제목", name: "title", widget: "string", required: true }
+              # - { label: "제목", name: "title", widget: "string", required: true }
 
               # jobnotice.html이 분류/공지 표시(it.notice)를 쓰고 있어서 그대로 제공
               - label: "분류"
