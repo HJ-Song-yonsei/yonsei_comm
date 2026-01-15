@@ -2,18 +2,22 @@
   "items": [
     {
       "id": "2026-01-14-job-01",
-      "title": "언론홍보영상학부 SSK 연구단 포닥 추가채용 모집 공고",
+      "title": "언론홍보영상학부 SSK 연구단 포닥 추가채용 모집 공고 [수정]",
       "notice": "채용",
       "author": "언론홍보영상학부",
       "company": "언론홍보영상학부",
-      "date": "2026-01-13",
-      "deadline": "2026-01-17",
-      "body": "언론홍보영상학부 SSK 연구단 포닥 추가채용 모집 공고\n\n자세한 사항은 첨부파일 참조바랍니다.\n\n<br>\n\n감사합니다.\n\n언론홍보영상학부",
+      "date": "2026-01-15",
+      "deadline": "2026-02-06",
+      "body": "언론홍보영상학부 SSK 연구단 전임 포닥 연구원을 추가 채용합니다.\n\n자세한 사항은 첨부파일 참조바랍니다.\n\n<br>\n\n감사합니다.\n\n언론홍보영상학부",
       "contentfile": "",
       "file_attachment": [
         {
-          "name": "SSK-사업단-포닥모집.pdf",
-          "url": "/data/files/언론홍보영상학부-SSK사업단-포닥모집-2026.pdf"
+          "name": "SSK-사업단-포닥모집-수정.pdf",
+          "url": "/data/files/언론홍보영상학부-SSK사업단-포닥모집-2026-수정.pdf"
+        },
+        {
+          "name": "SSK-Postdoctoral-Researcher-2026.pdf",
+          "url": "/data/files/Yonsei_SSK_Postdoctoral_Researcher_Recruitment_2026.pdf"
         }
       ],
       "link": ""
