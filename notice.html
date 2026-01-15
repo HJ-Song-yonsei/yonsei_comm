@@ -5,10 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Department of Communication — 공지사항</title>
 
-  <!-- CSS (relative paths for static hosting) -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-icons.css" rel="stylesheet">
-  <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+        <!-- CSS FILES -->        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Font Awesome CDN -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <style>
     .board-topbar { display:flex; gap:.5rem; align-items:center; justify-content:space-between; margin-bottom:.75rem; }
@@ -75,81 +84,126 @@
 </head>
 <body id="section_1">
 
-  <nav class="navbar navbar-expand-lg bg-light shadow-lg">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" class="logo img-fluid" alt="Department of Communication" style="width:8%; height:auto;">
-        <span>언론홍보영상학부<small>Department of Communication</small></span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html#top">Home</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">학부소개</a>
-            <ul class="dropdown-menu dropdown-menu-light">
-              <li><a class="dropdown-item" href="intro.html">인사말</a></li>
-              <li><a class="dropdown-item" href="intro.html#more_history">학과연혁</a></li>
-              <li><a class="dropdown-item" href="index.html#section_5">주요시설안내</a></li>
-              <li><a class="dropdown-item" href="index.html#section_6">찾아오시는길</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">구성원</a>
-            <ul class="dropdown-menu dropdown-menu-light">
-              <li><a class="dropdown-item" href="people.html">현직교수</a></li>
-              <li><a class="dropdown-item" href="people_emeritus.html">명예교수</a></li>
-              <li><a class="dropdown-item" href="people_emeritus.html#section_2">퇴임교수</a></li>
-              <li><a class="dropdown-item" href="people_profpractice.html">비전임/겸임교수</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">학사안내</a>
-            <ul class="dropdown-menu dropdown-menu-light">
-              <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/2347/subview.do" target="_blank">입학안내</a></li>
-              <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/373/subview.do" target="_blank">학사일정</a></li>
-              <li><a class="dropdown-item" href="curriculum.html">교과과정</a></li>
-              <li><a class="dropdown-item" href="curriculum.html#graduation-requirement">졸업요건</a></li>
-              <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/383/subview.do" target="_blank">복수전공/부전공</a></li>
-              <li><a class="dropdown-item" href="https://oia.yonsei.ac.kr/partner/chStu.asp" target="_blank">교환학생/학점인정</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">일반대학원</a>
-            <ul class="dropdown-menu dropdown-menu-light">
-              <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/schedule.do" target="_blank">입학안내</a></li>
-              <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/connect_schedule.do" target="_blank">학석사연계</a></li>
-              <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/academic/calendar.do">학사일정</a></li>
-              <li><a class="dropdown-item" href="curriculum_graduate.html">교과과정</a></li>
-              <li><a class="dropdown-item" href="curriculum_graduate.html#graduation-requirement">졸업요건</a></li>
-              <li><a class="dropdown-item" href="yonsei_uva.html">Yonsei-UvA</a></li>
-              <li><a class="dropdown-item" href="yonsei_cityu.html">CityU 복수학위</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">특수전문대학원</a>
-            <ul class="dropdown-menu dropdown-menu-light">
-              <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/index.do" target="_blank">언론홍보대학원</a></li>
-              <li><a class="dropdown-item" href="https://www.yjs.or.kr/html/main.php" target="_blank">윤세영저널리즘스쿨</a></li>
-              <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/jmc01/high01.do" target="_blank">언홍원 최고위과정</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">공지사항</a>
-            <ul class="dropdown-menu dropdown-menu-light">
-              <li><a class="dropdown-item" href="notice.html">학사공지</a></li>
-              <li><a class="dropdown-item" href="jobnotice.html">공모전/채용공고</a></li>
-              <li><a class="dropdown-item" href="lend.html">장비대여신청</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" class="logo img-fluid" alt="Department of Communication" style="width:8%; height:auto;">
+                    <span>
+                        언론홍보영상학부
+                        <small>Department of Communication</small>
+                    </span>
+                </a>
 
-  <main>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="index.html#top">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_2" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">학부소개</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="intro.html">인사말</a></li>
+                                <li><a class="dropdown-item" href="intro.html#more_history">학과연혁</a></li>
+                                <li><a class="dropdown-item" href="index.html#section_5">주요시설안내</a></li>
+                                <li><a class="dropdown-item" href="index.html#section_6">찾아오시는길</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_2" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">구성원</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="people.html">현직교수</a></li>
+                                <li><a class="dropdown-item" href="people_emeritus.html">명예교수</a></li>
+                                <li><a class="dropdown-item" href="people_emeritus.html#section_2">퇴임교수</a></li>
+                                <li><a class="dropdown-item" href="people_profpractice.html">비전임/겸임교수</a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_4" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">학사안내</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+
+                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/2347/subview.do" target="_blank">입학안내</a></li>
+                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/373/subview.do" target="_blank">학사일정</a></li>
+                                <li><a class="dropdown-item" href="curriculum.html">교과과정</a></li>
+                                <li><a class="dropdown-item" href="curriculum.html#graduation-requirement">졸업요건</a></li>
+                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/383/subview.do" target="_blank">복수전공/부전공</a></li>
+                                <li><a class="dropdown-item" href="https://oia.yonsei.ac.kr/partner/chStu.asp" target="_blank">교환학생/학점인정</a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">일반대학원</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/schedule.do" target="_blank">입학안내</a></li>
+                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/connect_schedule.do" target="_blank">학석사연계</a></li>
+                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/academic/calendar.do" target="_blank">학사일정</a></li>
+                                <li><a class="dropdown-item" href="curriculum_graduate.html">교과과정</a></li>
+                                <li><a class="dropdown-item" href="curriculum_graduate.html#graduation-requirement">졸업요건</a></li>
+                                <li><a class="dropdown-item" href="yonsei_uva.html">Yonsei-UvA</a></li>
+                                <li><a class="dropdown-item" href="yonsei_cityu.html">CityU 복수학위</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#section_6" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">특수전문대학원</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/index.do" target="_blank">언론홍보대학원</a></li>
+                                <li><a class="dropdown-item" href="https://www.yjs.or.kr/html/main.php" target="_blank">윤세영저널리즘스쿨</a></li>
+                                <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/jmc01/high01.do" target="_blank">언홍원 최고위과정</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link click-scroll dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">공지사항</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <li><a class="dropdown-item" href="notice.html">학사공지</a></li>
+                                <li><a class="dropdown-item" href="jobnotice.html">공모전/채용공고</a></li>
+                                <li><a class="dropdown-item" href="lend.html">장비대여신청</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Lang Translator -->   
+
+                            <div class="head-convert" id="langSwitcher">
+                              <button type="button" class="lang-toggle" aria-expanded="false" aria-controls="langMenu">
+                                  <i class="bi bi-translate" aria-hidden="true"></i>
+                                  <span class="lang-label">Language</span>
+                                  <i class="bi bi-caret-down-fill" aria-hidden="true"></i>
+                                </button>
+
+                              <div class="list-convert" id="langMenu" role="menu" aria-label="Language menu">
+                                  <ul>
+                                    <li role="none"><a href="#none" id="lang_ko" role="menuitem">한국어</a></li>
+                                    <li role="none"><a href="#none" id="lang_en" role="menuitem">English</a></li>
+                                    <li role="none"><a href="#none" id="lang_ja" role="menuitem">日本語</a></li>
+                                    <li role="none"><a href="#none" id="lang_zh-CN" role="menuitem">中文(简体)</a></li>
+                                  </ul>
+                              </div>
+                            <div id="google_translate_element" class="offscreen"></div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
     <section class="people-detail-header-section text-center">
       <div class="section-overlay"></div>
       <div class="container"><div class="row"><div class="col-12"><h3 class="text-white">공지사항</h3></div></div></div>

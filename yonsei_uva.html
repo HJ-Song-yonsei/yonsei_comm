@@ -77,12 +77,12 @@
 
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
 
-                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/2347/subview.do">입학안내</a></li>
-                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/373/subview.do">학사일정</a></li>
+                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/2347/subview.do" target="_blank">입학안내</a></li>
+                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/373/subview.do" target="_blank">학사일정</a></li>
                                 <li><a class="dropdown-item" href="curriculum.html">교과과정</a></li>
                                 <li><a class="dropdown-item" href="curriculum.html#graduation-requirement">졸업요건</a></li>
-                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/383/subview.do">복수전공/부전공</a></li>
-                                <li><a class="dropdown-item" href="https://oia.yonsei.ac.kr/partner/chStu.asp">교환학생/학점인정</a></li>
+                                <li><a class="dropdown-item" href="https://www.yonsei.ac.kr/sc/383/subview.do" target="_blank">복수전공/부전공</a></li>
+                                <li><a class="dropdown-item" href="https://oia.yonsei.ac.kr/partner/chStu.asp" target="_blank">교환학생/학점인정</a></li>
 
                             </ul>
                         </li>
@@ -92,9 +92,9 @@
                             <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">일반대학원</a>
 
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/schedule.do">입학안내</a></li>
-                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/connect_schedule.do">학석사연계</a></li>
-                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/academic/calendar.do">학사일정</a></li>
+                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/schedule.do" target="_blank">입학안내</a></li>
+                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/admission/connect_schedule.do" target="_blank">학석사연계</a></li>
+                                <li><a class="dropdown-item" href="https://graduate.yonsei.ac.kr/graduate/academic/calendar.do" target="_blank">학사일정</a></li>
                                 <li><a class="dropdown-item" href="curriculum_graduate.html">교과과정</a></li>
                                 <li><a class="dropdown-item" href="curriculum_graduate.html#graduation-requirement">졸업요건</a></li>
                                 <li><a class="dropdown-item" href="yonsei_uva.html">Yonsei-UvA</a></li>
@@ -107,9 +107,9 @@
                             <a class="nav-link click-scroll dropdown-toggle" href="#section_6" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">특수전문대학원</a>
 
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/index.do">언론홍보대학원</a></li>
-                                <li><a class="dropdown-item" href="https://www.yjs.or.kr/html/main.php">윤세영저널리즘스쿨</a></li>
-                                <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/jmc01/high01.do">언홍원 최고위과정</a></li>
+                                <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/index.do" target="_blank">언론홍보대학원</a></li>
+                                <li><a class="dropdown-item" href="https://www.yjs.or.kr/html/main.php" target="_blank">윤세영저널리즘스쿨</a></li>
+                                <li><a class="dropdown-item" href="https://jmc.yonsei.ac.kr/jmc/jmc01/high01.do" target="_blank">언홍원 최고위과정</a></li>
                             </ul>
                         </li>
 
@@ -118,16 +118,35 @@
 
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
                                 <li><a class="dropdown-item" href="notice.html">학사공지</a></li>
+                                <li><a class="dropdown-item" href="jobnotice.html">공모전/채용공고</a></li>
                                 <li><a class="dropdown-item" href="lend.html">장비대여신청</a></li>
                             </ul>
                         </li>
+
+                        <!-- Lang Translator -->   
+
+                            <div class="head-convert" id="langSwitcher">
+                              <button type="button" class="lang-toggle" aria-expanded="false" aria-controls="langMenu">
+                                  <i class="bi bi-translate" aria-hidden="true"></i>
+                                  <span class="lang-label">Language</span>
+                                  <i class="bi bi-caret-down-fill" aria-hidden="true"></i>
+                                </button>
+
+                              <div class="list-convert" id="langMenu" role="menu" aria-label="Language menu">
+                                  <ul>
+                                    <li role="none"><a href="#none" id="lang_ko" role="menuitem">한국어</a></li>
+                                    <li role="none"><a href="#none" id="lang_en" role="menuitem">English</a></li>
+                                    <li role="none"><a href="#none" id="lang_ja" role="menuitem">日本語</a></li>
+                                    <li role="none"><a href="#none" id="lang_zh-CN" role="menuitem">中文(简体)</a></li>
+                                  </ul>
+                              </div>
+                            <div id="google_translate_element" class="offscreen"></div>
                     </ul>
                 </div>
             </div>
         </nav>
 
-
-    <main>
+        <main>
 
             <section class="yonsei-UvA-section">
                 <div class="section-overlay"></div>
