@@ -1,0 +1,39 @@
+name: Update Pure Publications JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 21 14 * *"   # 매달 14일 21:00 UTC --> 15일 6:00 KST
+  push:
+    branches: [ main ]
+    paths:
+      - "scripts/build_pure_publications_json.py"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build JSON
+        run: |
+          python scripts/build_pure_publications_json.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/pure_publications_2000plus.json; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/pure_publications_2000plus.json
+          git commit -m "chore: update pure publications json"
+          git push
