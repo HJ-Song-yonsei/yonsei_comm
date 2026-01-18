@@ -1,0 +1,618 @@
+{
+  "concepts": [
+    {
+      "name": "Health Communication",
+      "rank": 1.0,
+      "thesauriName": "Social Sciences",
+      "uuid": "6be232a0-c8d6-41d2-bb16-10afc33d520a"
+    },
+    {
+      "name": "Journalism",
+      "rank": 1.166897441693983,
+      "thesauriName": "Social Sciences",
+      "uuid": "dd297465-b0b8-47bf-a2af-5e72f892a22e"
+    },
+    {
+      "name": "Information Seeking",
+      "rank": 1.4816768337032817,
+      "thesauriName": "Psychology",
+      "uuid": "1f3bb677-62b8-4b4d-9e63-a4dab0465472"
+    },
+    {
+      "name": "YouTube",
+      "rank": 1.7784812312948883,
+      "thesauriName": "Social Sciences",
+      "uuid": "e44307ca-aa86-47f0-b098-b4c49d296edb"
+    },
+    {
+      "name": "Story-Telling",
+      "rank": 2.6698347146399644,
+      "thesauriName": "Psychology",
+      "uuid": "1dcf54db-49d2-47de-a32c-3dccedc1565c"
+    }
+  ],
+  "countries": [
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 42.1497,
+      "longitude": -74.9384,
+      "subdivisionId": "ny",
+      "subdivisionName": "New York",
+      "weight": 0.051282052,
+      "institutions": [
+        "Cornell University",
+        "Syracuse University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 34.9513,
+      "longitude": -92.3809,
+      "subdivisionId": "ar",
+      "subdivisionName": "Arkansas",
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Arkansas, Fayetteville"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 32.9866,
+      "longitude": -83.6487,
+      "subdivisionId": "ga",
+      "subdivisionName": "Georgia",
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Georgia"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 27.8333,
+      "longitude": -81.717,
+      "subdivisionId": "fl",
+      "subdivisionName": "Florida",
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Miami"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 38.8964,
+      "longitude": -77.0262,
+      "subdivisionId": "dc",
+      "subdivisionName": "District of Columbia",
+      "weight": 0.025641026,
+      "institutions": [
+        "Howard University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 40.3363,
+      "longitude": -89.0022,
+      "subdivisionId": "il",
+      "subdivisionName": "Illinois",
+      "weight": 0.102564104,
+      "institutions": [
+        "DePaul University",
+        "Northwestern University",
+        "University of Illinois at Chicago",
+        "University of Illinois at Urbana-Champaign"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 42.2373,
+      "longitude": -71.5314,
+      "subdivisionId": "ma",
+      "subdivisionName": "Massachusetts",
+      "weight": 0.051282052,
+      "institutions": [
+        "Harvard",
+        "Tufts University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 39.0724,
+      "longitude": -76.7902,
+      "subdivisionId": "md",
+      "subdivisionName": "Maryland",
+      "weight": 0.07692308,
+      "institutions": [
+        "U.S. Food and Drug Administration",
+        "United States Food and Drug Administration",
+        "University of Maryland, College Park"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 40.314,
+      "longitude": -74.5089,
+      "subdivisionId": "nj",
+      "subdivisionName": "New Jersey",
+      "weight": 0.07692308,
+      "institutions": [
+        "Rowan University",
+        "Rutgers - The State University of New Jersey, New Brunswick",
+        "Stevens Institute of Technology"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 35.5376,
+      "longitude": -96.9247,
+      "subdivisionId": "ok",
+      "subdivisionName": "Oklahoma",
+      "weight": 0.051282052,
+      "institutions": [
+        "Oklahoma State University",
+        "University of Oklahoma"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 32.799,
+      "longitude": -86.8073,
+      "subdivisionId": "al",
+      "subdivisionName": "Alabama",
+      "weight": 0.051282052,
+      "institutions": [
+        "Auburn University",
+        "University of Alabama at Birmingham"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 31.106,
+      "longitude": -97.6475,
+      "subdivisionId": "tx",
+      "subdivisionName": "Texas",
+      "weight": 0.051282052,
+      "institutions": [
+        "Texas Christian University",
+        "University of Texas at Austin"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 41.6772,
+      "longitude": -71.5101,
+      "subdivisionId": "ri",
+      "subdivisionName": "Rhode Island",
+      "weight": 0.025641026,
+      "institutions": [
+        "Bryant University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 40.5773,
+      "longitude": -77.264,
+      "subdivisionId": "pa",
+      "subdivisionName": "Pennsylvania",
+      "weight": 0.15384616,
+      "institutions": [
+        "Kutztown University",
+        "La Salle University",
+        "Pennsylvania State University",
+        "Saint Josephs University",
+        "Temple University",
+        "University of Pennsylvania"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 36.17,
+      "longitude": -119.7462,
+      "subdivisionId": "ca",
+      "subdivisionName": "California",
+      "weight": 0.20512821,
+      "institutions": [
+        "California Lutheran University",
+        "San Diego State University",
+        "Stanford University",
+        "University of California at Davis",
+        "University of California at Los Angeles",
+        "University of California at Santa Barbara",
+        "University of Southern California"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 39.3498,
+      "longitude": -75.5148,
+      "subdivisionId": "de",
+      "subdivisionName": "Delaware",
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Delaware"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 37.768,
+      "longitude": -78.2057,
+      "subdivisionId": "va",
+      "subdivisionName": "Virginia",
+      "weight": 0.025641026,
+      "institutions": [
+        "George Mason University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 44.2563,
+      "longitude": -89.6385,
+      "subdivisionId": "wi",
+      "subdivisionName": "Wisconsin",
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Wisconsin-Madison"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 34.8375,
+      "longitude": -106.2371,
+      "subdivisionId": "nm",
+      "subdivisionName": "New Mexico",
+      "weight": 0.025641026,
+      "institutions": [
+        "New Mexico State University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 44.5672,
+      "longitude": -122.1269,
+      "subdivisionId": "or",
+      "subdivisionName": "Oregon",
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Oregon"
+      ]
+    },
+    {
+      "countryId": "kr",
+      "countryName": "Korea, Republic of",
+      "homeCountry": true,
+      "latitude": 37.0,
+      "longitude": 127.5,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 1.0,
+      "institutions": []
+    },
+    {
+      "countryId": "it",
+      "countryName": "Italy",
+      "homeCountry": false,
+      "latitude": 42.833332,
+      "longitude": 12.833333,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.12820514,
+      "institutions": [
+        "Catholic University of the Sacred Heart",
+        "Foundation COME Collaboration",
+        "Foundation Center for Osteopathic Medicine Collaboration (COME) Collaboration",
+        "Libera Università di Lingue e Comunicazione",
+        "University of Urbino"
+      ]
+    },
+    {
+      "countryId": "au",
+      "countryName": "Australia",
+      "homeCountry": false,
+      "latitude": -20.917574,
+      "longitude": 142.70279,
+      "subdivisionId": "qld",
+      "subdivisionName": "Queensland",
+      "weight": 0.025641026,
+      "institutions": [
+        "Queensland University of Technology"
+      ]
+    },
+    {
+      "countryId": "au",
+      "countryName": "Australia",
+      "homeCountry": false,
+      "latitude": -35.47347,
+      "longitude": 149.01237,
+      "subdivisionId": "act",
+      "subdivisionName": "Australian Capital Territory",
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Canberra"
+      ]
+    },
+    {
+      "countryId": "au",
+      "countryName": "Australia",
+      "homeCountry": false,
+      "latitude": -31.840233,
+      "longitude": 145.6128,
+      "subdivisionId": "nsw",
+      "subdivisionName": "New South Wales",
+      "weight": 0.025641026,
+      "institutions": [
+        "University of New South Wales"
+      ]
+    },
+    {
+      "countryId": "de",
+      "countryName": "Germany",
+      "homeCountry": false,
+      "latitude": 51.5,
+      "longitude": 10.5,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.07692308,
+      "institutions": [
+        "Center for Advanced Internet Studies (CAIS) GmbH",
+        "Ludwig Maximilian University of Munich",
+        "Technical University of Braunschweig"
+      ]
+    },
+    {
+      "countryId": "gb",
+      "countryName": "United Kingdom",
+      "homeCountry": false,
+      "latitude": 54.0,
+      "longitude": -4.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.07692308,
+      "institutions": [
+        "The London School of Economics and Political Science",
+        "University College London",
+        "University College of Osteopathy"
+      ]
+    },
+    {
+      "countryId": "nl",
+      "countryName": "Netherlands",
+      "homeCountry": false,
+      "latitude": 52.5,
+      "longitude": 5.75,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.07692308,
+      "institutions": [
+        "University of Amsterdam",
+        "University of Twente",
+        "Wageningen University &amp; Research"
+      ]
+    },
+    {
+      "countryId": "be",
+      "countryName": "Belgium",
+      "homeCountry": false,
+      "latitude": 50.833332,
+      "longitude": 4.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.051282052,
+      "institutions": [
+        "KU Leuven",
+        "Vrije Universiteit Brussel"
+      ]
+    },
+    {
+      "countryId": "cz",
+      "countryName": "Czech Republic",
+      "homeCountry": false,
+      "latitude": 49.75,
+      "longitude": 15.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.051282052,
+      "institutions": [
+        "Charles University",
+        "Masaryk University"
+      ]
+    },
+    {
+      "countryId": "ee",
+      "countryName": "Estonia",
+      "homeCountry": false,
+      "latitude": 59.0,
+      "longitude": 26.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.051282052,
+      "institutions": [
+        "Tallinn University",
+        "University of Tartu"
+      ]
+    },
+    {
+      "countryId": "fi",
+      "countryName": "Finland",
+      "homeCountry": false,
+      "latitude": 64.0,
+      "longitude": 26.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.051282052,
+      "institutions": [
+        "University of Helsinki",
+        "University of Turku"
+      ]
+    },
+    {
+      "countryId": "mt",
+      "countryName": "Malta",
+      "homeCountry": false,
+      "latitude": 35.916668,
+      "longitude": 14.433333,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.051282052,
+      "institutions": [
+        "Malta ICOM Educational"
+      ]
+    },
+    {
+      "countryId": "tw",
+      "countryName": "Taiwan, Province of China",
+      "homeCountry": false,
+      "latitude": 24.0,
+      "longitude": 121.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.051282052,
+      "institutions": [
+        "National Chung Cheng University",
+        "Shih Hsin University"
+      ]
+    },
+    {
+      "countryId": "at",
+      "countryName": "Austria",
+      "homeCountry": false,
+      "latitude": 47.333332,
+      "longitude": 13.333333,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Vienna"
+      ]
+    },
+    {
+      "countryId": "ch",
+      "countryName": "Switzerland",
+      "homeCountry": false,
+      "latitude": 47.0,
+      "longitude": 8.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Zurich"
+      ]
+    },
+    {
+      "countryId": "cn",
+      "countryName": "China",
+      "homeCountry": false,
+      "latitude": 35.0,
+      "longitude": 105.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.025641026,
+      "institutions": [
+        "University of International Business and Economics"
+      ]
+    },
+    {
+      "countryId": "dk",
+      "countryName": "Denmark",
+      "homeCountry": false,
+      "latitude": 56.0,
+      "longitude": 10.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.025641026,
+      "institutions": [
+        "Aarhus University"
+      ]
+    },
+    {
+      "countryId": "il",
+      "countryName": "Israel",
+      "homeCountry": false,
+      "latitude": 31.5,
+      "longitude": 34.75,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.025641026,
+      "institutions": [
+        "Technion-Israel Institute of Technology"
+      ]
+    },
+    {
+      "countryId": "in",
+      "countryName": "India",
+      "homeCountry": false,
+      "latitude": 20.0,
+      "longitude": 77.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.025641026,
+      "institutions": [
+        "Ashoka University"
+      ]
+    },
+    {
+      "countryId": "pl",
+      "countryName": "Poland",
+      "homeCountry": false,
+      "latitude": 52.0,
+      "longitude": 20.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.025641026,
+      "institutions": [
+        "Adam Mickiewicz University in Poznań"
+      ]
+    },
+    {
+      "countryId": "pt",
+      "countryName": "Portugal",
+      "homeCountry": false,
+      "latitude": 39.5,
+      "longitude": -8.0,
+      "subdivisionId": null,
+      "subdivisionName": null,
+      "weight": 0.025641026,
+      "institutions": [
+        "NOVA University Lisbon"
+      ]
+    }
+  ]
+}
