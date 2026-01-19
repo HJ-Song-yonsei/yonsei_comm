@@ -3,7 +3,7 @@ name: Update Pure Publications JSON
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 21 14 * *"   # 매달 14일 21:00 UTC --> 15일 6:00 KST
+    - cron: "0 21 14 * *"   # Runs at 06:00 KST on the 15th of every month
   push:
     branches: [ main ]
     paths:
@@ -16,17 +16,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      - name: Create data directory
+        run: mkdir -p data
 
       - name: Build JSON
         run: |
           python scripts/build_pure_publications_json.py
 
-- name: Commit if changed
+      - name: Commit if changed
         run: |
           if git diff --quiet -- data/*.json; then
             echo "No changes"
