@@ -26,7 +26,7 @@
         .pub-topbar { display:flex; gap:.75rem; align-items:center; justify-content:space-between; flex-wrap:wrap; }
         .pub-topbar .search { max-width:360px; }
         .pub-meta { color:#6c757d; font-size:.9rem; }
-        .pub-item a { text-decoration:none; color:#124878;}
+        .pub-item a:not(.author-hl) { text-decoration:none; color:#124878;}
         .pub-item a:hover { text-decoration:underline; }
         .pub-count { font-size:.85rem; color:#6c757d; }
         .pub-item { line-height: 1.55; }
@@ -493,6 +493,43 @@
       .trim();
   }
 
+
+  // ---- Pure person profile links for highlighted authors ----
+  // Preferred: register exact person profile URLs in PURE_PROFILE_BY_AUTHOR.
+  // If not registered, we fall back to the Pure 'persons' search page.
+  const PURE_PERSON_SEARCH_BASE = 'https://yonsei.elsevierpure.com/en/persons/?search=';
+
+  // Key: normalized author name (use normName())  Value: full Pure person profile URL
+  const PURE_PROFILE_BY_AUTHOR = new Map([
+    // Examples (fill these with your actual Pure profile URLs):
+    [normName('Joohan Kim'), 'https://yonsei.elsevierpure.com/en/persons/joohan-kim/publications/'],
+    [normName('Kyungmo Kim'), 'https://yonsei.elsevierpure.com/en/persons/kyungmo-kim/publications/'],
+    [normName('Chang Hoan Cho'), 'https://yonsei.elsevierpure.com/en/persons/chang-hoan-cho/publications/'],
+    [normName('Yong Chan Kim'), 'https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/publications/'],
+    [normName('Namkee Park'), 'https://yonsei.elsevierpure.com/en/persons/namkee-park/publications/'],
+    [normName('Young Min Baek'), 'https://yonsei.elsevierpure.com/en/persons/young-min-baek/publications/'],
+    [normName('Sang Yup Lee'), 'https://yonsei.elsevierpure.com/en/persons/sang-yup-lee/publications/'],
+    [normName('Jiyeon So'), 'https://yonsei.elsevierpure.com/en/persons/jiyeon-so/publications/'],
+    [normName('Jarim Kim'), 'https://yonsei.elsevierpure.com/en/persons/jarim-kim/publications/'],
+    [normName('Hyunjin Song'), 'https://yonsei.elsevierpure.com/en/persons/hyunjin-song/publications/'],
+    [normName('Na Yeon Lee'), 'https://yonsei.elsevierpure.com/en/persons/na-yeon-lee/publications/'],
+    [normName('Yoon Hi Sung'), 'https://yonsei.elsevierpure.com/en/persons/yoon-hi-sung/publications/'],
+    [normName('Sukyoung Choi'), 'https://yonsei.elsevierpure.com/en/persons/suk-young-choi/publications/'],
+    [normName('Jihyun Esther Paik'), 'https://yonsei.elsevierpure.com/en/persons/jihyun-paik/publications/'],
+    [normName('Yoonmo Sang'), 'https://yonsei.elsevierpure.com/en/persons/yoonmo-sang/publications/']
+  ]);
+
+  function pureProfileHref(authorName){
+    // 1) Exact mapping first (including "Last, First" variants)
+    for (const v of nameVariants(authorName)) {
+      if (PURE_PROFILE_BY_AUTHOR.has(v)) return PURE_PROFILE_BY_AUTHOR.get(v);
+    }
+    // 2) Fallback: search (useful until the exact URL is registered)
+    const q = encodeURIComponent(String(authorName||'').trim());
+    return PURE_PERSON_SEARCH_BASE + q;
+  }
+
+
   // "Last, First" 형태까지 최대한 매칭되게 보정
   function nameVariants(raw){
     const s = String(raw || '').trim();
@@ -518,9 +555,11 @@
 
     const html = a.map(name => {
       const safe = esc(name);
-      return isHighlightedAuthor(name)
-        ? `<span class="author-hl">${safe}</span>`
-        : safe;
+      if (!isHighlightedAuthor(name)) return safe;
+
+      // Link highlighted authors to Pure profile (exact URL if registered; otherwise Pure search results)
+      const href = pureProfileHref(name);
+      return `<a class="author-hl" href="${esc(href)}" target="_blank" rel="noopener">${safe}</a>`;
     }).join(', ');
 
     return html + (authors.length > max ? ', et al.' : '');
