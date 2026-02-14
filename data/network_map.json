@@ -7,28 +7,16 @@
       "uuid": "6be232a0-c8d6-41d2-bb16-10afc33d520a"
     },
     {
-      "name": "Journalism",
-      "rank": 1.166897441693983,
-      "thesauriName": "Social Sciences",
-      "uuid": "dd297465-b0b8-47bf-a2af-5e72f892a22e"
-    },
-    {
-      "name": "Information Seeking",
-      "rank": 1.4816768337032817,
+      "name": "Story-Telling",
+      "rank": 2.0018913438960078,
       "thesauriName": "Psychology",
-      "uuid": "1f3bb677-62b8-4b4d-9e63-a4dab0465472"
+      "uuid": "1dcf54db-49d2-47de-a32c-3dccedc1565c"
     },
     {
       "name": "YouTube",
-      "rank": 1.7784812312948883,
+      "rank": 2.3362763515481575,
       "thesauriName": "Social Sciences",
       "uuid": "e44307ca-aa86-47f0-b098-b4c49d296edb"
-    },
-    {
-      "name": "Story-Telling",
-      "rank": 2.6698347146399644,
-      "thesauriName": "Psychology",
-      "uuid": "1dcf54db-49d2-47de-a32c-3dccedc1565c"
     }
   ],
   "countries": [
@@ -36,53 +24,32 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 42.1497,
-      "longitude": -74.9384,
-      "subdivisionId": "ny",
-      "subdivisionName": "New York",
-      "weight": 0.051282052,
+      "latitude": 36.17,
+      "longitude": -119.7462,
+      "subdivisionId": "ca",
+      "subdivisionName": "California",
+      "weight": 0.20512821,
       "institutions": [
-        "Cornell University",
-        "Syracuse University"
+        "California Lutheran University",
+        "San Diego State University",
+        "Stanford University",
+        "University of California at Davis",
+        "University of California at Los Angeles",
+        "University of California at Santa Barbara",
+        "University of Southern California"
       ]
     },
     {
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 34.9513,
-      "longitude": -92.3809,
-      "subdivisionId": "ar",
-      "subdivisionName": "Arkansas",
+      "latitude": 39.3498,
+      "longitude": -75.5148,
+      "subdivisionId": "de",
+      "subdivisionName": "Delaware",
       "weight": 0.025641026,
       "institutions": [
-        "University of Arkansas, Fayetteville"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 32.9866,
-      "longitude": -83.6487,
-      "subdivisionId": "ga",
-      "subdivisionName": "Georgia",
-      "weight": 0.025641026,
-      "institutions": [
-        "University of Georgia"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 27.8333,
-      "longitude": -81.717,
-      "subdivisionId": "fl",
-      "subdivisionName": "Florida",
-      "weight": 0.025641026,
-      "institutions": [
-        "University of Miami"
+        "University of Delaware"
       ]
     },
     {
@@ -96,36 +63,6 @@
       "weight": 0.025641026,
       "institutions": [
         "Howard University"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 40.3363,
-      "longitude": -89.0022,
-      "subdivisionId": "il",
-      "subdivisionName": "Illinois",
-      "weight": 0.102564104,
-      "institutions": [
-        "DePaul University",
-        "Northwestern University",
-        "University of Illinois at Chicago",
-        "University of Illinois at Urbana-Champaign"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 42.2373,
-      "longitude": -71.5314,
-      "subdivisionId": "ma",
-      "subdivisionName": "Massachusetts",
-      "weight": 0.051282052,
-      "institutions": [
-        "Harvard",
-        "Tufts University"
       ]
     },
     {
@@ -147,15 +84,54 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 40.314,
-      "longitude": -74.5089,
-      "subdivisionId": "nj",
-      "subdivisionName": "New Jersey",
-      "weight": 0.07692308,
+      "latitude": 44.5672,
+      "longitude": -122.1269,
+      "subdivisionId": "or",
+      "subdivisionName": "Oregon",
+      "weight": 0.025641026,
       "institutions": [
-        "Rowan University",
-        "Rutgers - The State University of New Jersey, New Brunswick",
-        "Stevens Institute of Technology"
+        "University of Oregon"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 42.2373,
+      "longitude": -71.5314,
+      "subdivisionId": "ma",
+      "subdivisionName": "Massachusetts",
+      "weight": 0.051282052,
+      "institutions": [
+        "Harvard",
+        "Tufts University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 34.8375,
+      "longitude": -106.2371,
+      "subdivisionId": "nm",
+      "subdivisionName": "New Mexico",
+      "weight": 0.025641026,
+      "institutions": [
+        "New Mexico State University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 32.799,
+      "longitude": -86.8073,
+      "subdivisionId": "al",
+      "subdivisionName": "Alabama",
+      "weight": 0.051282052,
+      "institutions": [
+        "Auburn University",
+        "University of Alabama at Birmingham"
       ]
     },
     {
@@ -176,14 +152,39 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 32.799,
-      "longitude": -86.8073,
-      "subdivisionId": "al",
-      "subdivisionName": "Alabama",
-      "weight": 0.051282052,
+      "latitude": 27.8333,
+      "longitude": -81.717,
+      "subdivisionId": "fl",
+      "subdivisionName": "Florida",
+      "weight": 0.025641026,
       "institutions": [
-        "Auburn University",
-        "University of Alabama at Birmingham"
+        "University of Miami"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 47.3917,
+      "longitude": -121.5708,
+      "subdivisionId": "wa",
+      "subdivisionName": "Washington",
+      "weight": 0.025641026,
+      "institutions": [
+        "Washington State University Pullman"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 34.9513,
+      "longitude": -92.3809,
+      "subdivisionId": "ar",
+      "subdivisionName": "Arkansas",
+      "weight": 0.025641026,
+      "institutions": [
+        "University of Arkansas, Fayetteville"
       ]
     },
     {
@@ -235,45 +236,42 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 36.17,
-      "longitude": -119.7462,
-      "subdivisionId": "ca",
-      "subdivisionName": "California",
-      "weight": 0.20512821,
+      "latitude": 42.1497,
+      "longitude": -74.9384,
+      "subdivisionId": "ny",
+      "subdivisionName": "New York",
+      "weight": 0.051282052,
       "institutions": [
-        "California Lutheran University",
-        "San Diego State University",
-        "Stanford University",
-        "University of California at Davis",
-        "University of California at Los Angeles",
-        "University of California at Santa Barbara",
-        "University of Southern California"
+        "Cornell University",
+        "Syracuse University"
       ]
     },
     {
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 39.3498,
-      "longitude": -75.5148,
-      "subdivisionId": "de",
-      "subdivisionName": "Delaware",
-      "weight": 0.025641026,
+      "latitude": 40.314,
+      "longitude": -74.5089,
+      "subdivisionId": "nj",
+      "subdivisionName": "New Jersey",
+      "weight": 0.07692308,
       "institutions": [
-        "University of Delaware"
+        "Rowan University",
+        "Rutgers - The State University of New Jersey, New Brunswick",
+        "Stevens Institute of Technology"
       ]
     },
     {
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 37.768,
-      "longitude": -78.2057,
-      "subdivisionId": "va",
-      "subdivisionName": "Virginia",
+      "latitude": 32.9866,
+      "longitude": -83.6487,
+      "subdivisionId": "ga",
+      "subdivisionName": "Georgia",
       "weight": 0.025641026,
       "institutions": [
-        "George Mason University"
+        "University of Georgia"
       ]
     },
     {
@@ -293,26 +291,29 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 34.8375,
-      "longitude": -106.2371,
-      "subdivisionId": "nm",
-      "subdivisionName": "New Mexico",
-      "weight": 0.025641026,
+      "latitude": 40.3363,
+      "longitude": -89.0022,
+      "subdivisionId": "il",
+      "subdivisionName": "Illinois",
+      "weight": 0.102564104,
       "institutions": [
-        "New Mexico State University"
+        "DePaul University",
+        "Northwestern University",
+        "University of Illinois at Chicago",
+        "University of Illinois at Urbana-Champaign"
       ]
     },
     {
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 44.5672,
-      "longitude": -122.1269,
-      "subdivisionId": "or",
-      "subdivisionName": "Oregon",
+      "latitude": 37.768,
+      "longitude": -78.2057,
+      "subdivisionId": "va",
+      "subdivisionName": "Virginia",
       "weight": 0.025641026,
       "institutions": [
-        "University of Oregon"
+        "George Mason University"
       ]
     },
     {
