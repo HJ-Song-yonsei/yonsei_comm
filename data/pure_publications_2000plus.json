@@ -17,6 +17,19 @@
       "type": ""
     },
     {
+      "title": "War on fake news? Media skepticism and exposure to politicians’ fake news accusations",
+      "link": "https://yonsei.elsevierpure.com/en/publications/war-on-fake-news-media-skepticism-and-exposure-to-politicians-fak/",
+      "dc:date": "2026-01-01T00:00:00Z",
+      "year": 2026,
+      "authors": [
+        "Na Yeon Lee",
+        "Ahran Park"
+      ],
+      "outlet": "Information Communication and Society",
+      "doi": "10.1080/1369118X.2025.2531128",
+      "type": ""
+    },
+    {
       "title": "A Way Out or Another Hurdle? Assessing the Impact of the “News Partnership Evaluation Committee” on Platform Dependence in South Korea",
       "link": "https://yonsei.elsevierpure.com/en/publications/a-way-out-or-another-hurdle-assessing-the-impact-of-the-news-part/",
       "dc:date": "2025-01-01T00:00:00Z",
@@ -426,19 +439,6 @@
       ],
       "outlet": "International Journal of Advertising",
       "doi": "10.1080/02650487.2025.2526889",
-      "type": ""
-    },
-    {
-      "title": "War on fake news? Media skepticism and exposure to politicians’ fake news accusations",
-      "link": "https://yonsei.elsevierpure.com/en/publications/war-on-fake-news-media-skepticism-and-exposure-to-politicians-fak/",
-      "dc:date": "2025-01-01T00:00:00Z",
-      "year": 2025,
-      "authors": [
-        "Na Yeon Lee",
-        "Ahran Park"
-      ],
-      "outlet": "Information Communication and Society",
-      "doi": "10.1080/1369118X.2025.2531128",
       "type": ""
     },
     {
@@ -6148,5 +6148,5 @@
       "type": ""
     }
   ],
-  "generatedAt": "2026-02-14T21:36:34.711073+00:00"
+  "generatedAt": "2026-03-14T21:37:46.009181+00:00"
 }
