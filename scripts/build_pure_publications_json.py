@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import json, re, sys, time
+import ssl
+import certifi
 from datetime import datetime, timezone
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
@@ -15,7 +17,7 @@ MAX_ITEMS = 1000
 
 # --- Network Map 설정 ---
 MAP_URL = f"https://yonsei.elsevierpure.com/en/organisations/{DEPT_SLUG}/network-map-json/"
-# 교수님이 확인하신 URL 패턴 (물음표 앞 슬래시 포함)을 반영
+# URL 패턴 (물음표 앞 슬래시 포함)을 반영
 COUNTRY_MAP_BASE = f"https://yonsei.elsevierpure.com/en/organisations/{DEPT_SLUG}/network-map-json-country"
 MAP_OUT_PATH = "data/network_map.json"
 
@@ -30,7 +32,11 @@ def http_get(url: str) -> bytes:
         "Accept": "application/json, text/javascript, */*; q=0.01"
     }
     req = Request(url, headers=headers)
-    with urlopen(req, timeout=30) as r:
+
+    # 로컬 Python의 인증서 문제를 피하기 위해 certifi 인증서 묶음을 명시적으로 사용
+    context = ssl.create_default_context(cafile=certifi.where())
+
+    with urlopen(req, timeout=30, context=context) as r:
         return r.read()
 
 def rss_url(page: int) -> str:
