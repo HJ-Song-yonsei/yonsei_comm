@@ -794,3 +794,36 @@ html[lang="zh-CN"] .head-convert .lang-list a#lang_zh-CN{
   padding-bottom: .50rem !important;
 }
 
+
+/* Recent News slider (3 items per view) */
+.recent-news-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.recent-news-track {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.6s ease;
+  will-change: transform;
+}
+
+.recent-news-item {
+  flex: 0 0 calc(100% / 3);
+  max-width: calc(100% / 3);
+  padding: 0 12px;
+}
+
+@media (max-width: 991px) {
+  .recent-news-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .recent-news-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
