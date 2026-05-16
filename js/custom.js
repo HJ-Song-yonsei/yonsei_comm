@@ -57,7 +57,7 @@
           currentIndex = maxIndex;
         }
 
-        const movePercent = (100 / visibleCount) * currentIndex;
+        const movePercent = (100 / recentNewsItems.length) * currentIndex;
         recentNewsTrack.style.transform = `translateX(-${movePercent}%)`;
       };
 
