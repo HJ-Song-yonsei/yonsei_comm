@@ -168,25 +168,25 @@
     "contentfile": "/data/posts/2026-06-09-Guide for the Advanced AI Convergence Major.html",
     "file_attachment": [
       {
-      "name": "2026학년도 2학기 AI융합심화전공_신청 안내문.hwp",
-      "url": "/data/files/1._2026학년도_2학기_AI융합심화전공_신청_안내문.hwp"
-    }
+        "name": "2026학년도 2학기 AI융합심화전공_신청 안내문.hwp",
+        "url": "/data/files/1._2026학년도_2학기_AI융합심화전공_신청_안내문.hwp"
+      }
     ]
-  }  
-]
-},
- {
-    "id": "Culture Explained",
+  },
+  {
+    "id": "2026-06-26-k-culture-explained",
     "notice": "일반",
-    "title": "2026학년도 2학기 AI융합심화전공 선발 안내",
+    "title": "K-콘텐츠의 글로벌 확산 인사이트 컨퍼런스 <K-Culture Explained> 개최 안내",
     "author": "언론홍보영상학부",
     "date": "2026-06-26",
     "contentfile": "/data/posts/Culture Explained.html",
     "file_attachment": [
       {
-      "name": "K-Culture Explained Poster-June 19 version.jpeg",
-      "url": "/data/files/K-Culture Explained Poster-June 19 version.jpeg"
-    }
+        "name": "K-Culture Explained Poster-June 19 version.jpeg",
+        "url": "/data/files/K-Culture Explained Poster-June 19 version.jpeg"
+      }
     ]
-  }  
+  }
 ]
+
+
