@@ -57,6 +57,19 @@
       "type": ""
     },
     {
+      "title": "Membership Ambiguity and Insider Support in Remote Socialization: A Qualitative Exploration of Newcomers' Experiences of Remote Onboarding",
+      "link": "https://yonsei.elsevierpure.com/en/publications/membership-ambiguity-and-insider-support-in-remote-socialization-/",
+      "dc:date": "2026-06-01T00:00:00Z",
+      "year": 2026,
+      "authors": [
+        "Jihyun Esther Paik",
+        "Britney N. Gilmore"
+      ],
+      "outlet": "Human Resource Development Quarterly",
+      "doi": "10.1002/hrdq.21560",
+      "type": ""
+    },
+    {
       "title": "Playing Through the Pandemic: Gaming Usage as a Buffer During COVID-19",
       "link": "https://yonsei.elsevierpure.com/en/publications/playing-through-the-pandemic-gaming-usage-as-a-buffer-during-covi/",
       "dc:date": "2026-01-01T00:00:00Z",
@@ -82,6 +95,18 @@
       ],
       "outlet": "Health Communication",
       "doi": "10.1080/10410236.2026.2614321",
+      "type": ""
+    },
+    {
+      "title": "The Emergence of “Online Influencers” and the Blurring of Lines between Objectivity and Subjectivity",
+      "link": "https://yonsei.elsevierpure.com/en/publications/the-emergence-of-online-influencers-and-the-blurring-of-lines-bet/",
+      "dc:date": "2026-01-01T00:00:00Z",
+      "year": 2026,
+      "authors": [
+        "Na Yeon Lee"
+      ],
+      "outlet": "Journalism Practice",
+      "doi": "10.1080/17512786.2025.2518450",
       "type": ""
     },
     {
@@ -368,16 +393,15 @@
       "type": ""
     },
     {
-      "title": "Membership Ambiguity and Insider Support in Remote Socialization: A Qualitative Exploration of Newcomers' Experiences of Remote Onboarding",
-      "link": "https://yonsei.elsevierpure.com/en/publications/membership-ambiguity-and-insider-support-in-remote-socialization-/",
-      "dc:date": "2025-01-01T00:00:00Z",
+      "title": "Met expectations, job satisfaction, and intention to leave: The effects of discrepancy between job expectations and experiences on journalists’ intention to leave",
+      "link": "https://yonsei.elsevierpure.com/en/publications/met-expectations-job-satisfaction-and-intention-to-leave-the-effe/",
+      "dc:date": "2025-07-01T00:00:00Z",
       "year": 2025,
       "authors": [
-        "Jihyun Esther Paik",
-        "Britney N. Gilmore"
+        "Na Yeon Lee"
       ],
-      "outlet": "Human Resource Development Quarterly",
-      "doi": "10.1002/hrdq.21560",
+      "outlet": "Journalism",
+      "doi": "10.1177/14648849241248235",
       "type": ""
     },
     {
@@ -389,18 +413,6 @@
         "Na Yeon Lee"
       ],
       "outlet": "Journalism and Communication Monographs",
-      "doi": "10.1177/14648849241248235",
-      "type": ""
-    },
-    {
-      "title": "Met expectations, job satisfaction, and intention to leave: The effects of discrepancy between job expectations and experiences on journalists’ intention to leave",
-      "link": "https://yonsei.elsevierpure.com/en/publications/met-expectations-job-satisfaction-and-intention-to-leave-the-effe/",
-      "dc:date": "2025-07-01T00:00:00Z",
-      "year": 2025,
-      "authors": [
-        "Na Yeon Lee"
-      ],
-      "outlet": "Journalism",
       "doi": "10.1177/14648849241248235",
       "type": ""
     },
@@ -419,18 +431,6 @@
       ],
       "outlet": "International Journal of Communication",
       "doi": "",
-      "type": ""
-    },
-    {
-      "title": "The Emergence of “Online Influencers” and the Blurring of Lines between Objectivity and Subjectivity",
-      "link": "https://yonsei.elsevierpure.com/en/publications/the-emergence-of-online-influencers-and-the-blurring-of-lines-bet/",
-      "dc:date": "2025-01-01T00:00:00Z",
-      "year": 2025,
-      "authors": [
-        "Na Yeon Lee"
-      ],
-      "outlet": "Journalism Practice",
-      "doi": "10.1080/17512786.2025.2518450",
       "type": ""
     },
     {
@@ -6296,5 +6296,5 @@
       "type": ""
     }
   ],
-  "generatedAt": "2026-06-14T22:21:16.259362+00:00"
+  "generatedAt": "2026-07-14T22:10:17.559801+00:00"
 }
