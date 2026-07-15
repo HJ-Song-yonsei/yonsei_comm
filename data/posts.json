@@ -79,48 +79,7 @@
 
     ]
   },
-   {
-  "id": "2026-04-10-캠퍼스내-소속변경",
-  "notice": "일반",
-  "title": "2026학년도 2학기 캠퍼스내 소속변경 전형 안내",
-  "author": "언론홍보영상학부",
-  "date": "2026-04-09",
-  "contentfile": "2026-04-10-transfer.html",
-  "file_attachment": [
-    {
-      "name": "2026-2학기 캠퍼스내 소속변경 전형 안내문.pdf",
-      "url": "/data/files/2026-2학기 캠퍼스내 소속변경 전형 안내문.pdf"
-    },
-    {
-      "name": "2026-2학기 소속변경 지원 가능 현황표.pdf",
-      "url": "/data/files/2026-2학기 소속변경 지원 가능 현황표.pdf"
-    }
-  ]
-},
-    {
-    "id": "2026-04-21-춘추화백실-신입실원모집",
-    "notice": "일반",
-    "title": "[춘추화백실] 신입실원 모집 공고",
-    "author": "언론홍보영상학부",
-    "date": "2026-04-21",
-    "contentfile": "2026-04-21-Hwabaeksil-recruit-final.html",
-    "file_attachment": [
-      {
-      "name": "춘추화백실 신입실원 모집 공고 카드뉴스.pdf",
-      "url": "/data/files/Hwabaeksil_recruit.pdf"
-    }
-    ]
-  },
-  {
-  "id": "2026-05-06-ai-democracy-journalism",
-  "notice": "일반",
-  "title": "Democracy and Journalism in the Age of AI 특강 개최 안내 (5/12)",
-  "author": "언론홍보영상학부",
-  "date": "2026-05-06",
-  "contentfile": "2026-05-06-ai-democracy.html",
-  "file_attachment": []
-},
-   {
+     {
     "id": "2026-05-27-2026년 미디어 아카데미 AI분야 교육생 모집",
     "notice": "일반",
     "title": "2026년 미디어 아카데미 AI분야 교육생 모집",
@@ -170,20 +129,6 @@
       {
         "name": "2026학년도 2학기 AI융합심화전공_신청 안내문.hwp",
         "url": "/data/files/1._2026학년도_2학기_AI융합심화전공_신청_안내문.hwp"
-      }
-    ]
-  },
-  {
-    "id": "2026-06-26-k-culture-explained",
-    "notice": "일반",
-    "title": "K-콘텐츠의 글로벌 확산 인사이트 컨퍼런스 <K-Culture Explained> 개최 안내",
-    "author": "언론홍보영상학부",
-    "date": "2026-06-26",
-    "contentfile": "/data/posts/Culture Explained.html",
-    "file_attachment": [
-      {
-        "name": "K-Culture Explained Poster-June 19 version.jpeg",
-        "url": "/data/files/K-Culture Explained Poster-June 19 version.jpeg"
       }
     ]
   }
