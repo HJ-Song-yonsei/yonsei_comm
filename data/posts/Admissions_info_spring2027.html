@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2027학년도 전기 일반대학원 외국인 학생 대상 대학원 입학설명회</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+      font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .notice {
+      background-color: #ffffff;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    /* 헤더 */
+    .header {
+      background: linear-gradient(135deg, #164a8a, #2868b2);
+      color: #ffffff;
+      padding: 45px 40px;
+      text-align: center;
+    }
+
+    .header .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      margin-bottom: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.4;
+      word-break: keep-all;
+    }
+
+    .header p {
+      margin: 14px 0 0;
+      font-size: 16px;
+      opacity: 0.95;
+    }
+
+    /* 본문 */
+    .content {
+      padding: 40px;
+    }
+
+    .intro {
+      margin: 0 0 30px;
+      padding: 22px 24px;
+      background-color: #f3f7fc;
+      border-left: 4px solid #2868b2;
+      border-radius: 6px;
+      word-break: keep-all;
+    }
+
+    .intro strong {
+      color: #164a8a;
+    }
+
+    /* 섹션 제목 */
+    .section-title {
+      margin: 35px 0 18px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #164a8a;
+      color: #164a8a;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    /* 행사 안내 표 */
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      border-top: 2px solid #333333;
+    }
+
+    .info-table th,
+    .info-table td {
+      padding: 15px 18px;
+      border-bottom: 1px solid #dddddd;
+      vertical-align: top;
+      text-align: left;
+      word-break: keep-all;
+    }
+
+    .info-table th {
+      width: 150px;
+      background-color: #f7f8fa;
+      color: #333333;
+      font-weight: 700;
+    }
+
+    .info-table ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .info-table li {
+      margin-bottom: 5px;
+    }
+
+    .sub-note {
+      display: block;
+      margin-top: 5px;
+      color: #666666;
+      font-size: 14px;
+    }
+
+    .sub-note a {
+      color: #2868b2;
+      word-break: break-all;
+    }
+
+    /* 신청 영역 */
+    .apply-box {
+      margin-top: 25px;
+      padding: 25px;
+      background-color: #fff8e8;
+      border: 1px solid #f0d38a;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .apply-box h3 {
+      margin: 0 0 10px;
+      color: #8a5a00;
+      font-size: 18px;
+    }
+
+    .apply-box p {
+      margin: 0;
+      color: #555555;
+    }
+
+    .apply-button {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 12px 28px;
+      background-color: #2868b2;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 700;
+      transition: background-color 0.2s ease;
+    }
+
+    .apply-button:hover {
+      background-color: #164a8a;
+    }
+
+    /* 마무리 안내 */
+    .closing {
+      margin-top: 35px;
+      padding: 25px;
+      background-color: #f7f8fa;
+      border-radius: 8px;
+      text-align: center;
+      color: #444444;
+      word-break: keep-all;
+    }
+
+    /* 푸터 */
+    .footer {
+      padding: 20px 40px;
+      background-color: #f0f2f5;
+      color: #777777;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    /* 모바일 */
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px auto;
+        padding: 0 12px;
+      }
+
+      .header {
+        padding: 35px 20px;
+      }
+
+      .header h1 {
+        font-size: 22px;
+      }
+
+      .header p {
+        font-size: 14px;
+      }
+
+      .content {
+        padding: 25px 20px;
+      }
+
+      .intro {
+        padding: 18px;
+        font-size: 14px;
+      }
+
+      .section-title {
+        font-size: 18px;
+      }
+
+      .info-table th,
+      .info-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 14px;
+      }
+
+      .info-table th {
+        padding-bottom: 5px;
+        border-bottom: none;
+      }
+
+      .info-table td {
+        padding-top: 5px;
+      }
+
+      .apply-box {
+        padding: 20px 15px;
+      }
+
+      .closing {
+        padding: 20px 15px;
+        font-size: 14px;
+      }
+
+      .footer {
+        padding: 18px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="notice">
+
+      <!-- 헤더 -->
+      <header class="header">
+
+        <div class="badge">
+          2027학년도 전기 일반대학원
+        </div>
+
+        <h1>
+          외국인 학부 및 한국어학당 학생 대상<br>
+          대학원 입학설명회
+        </h1>
+
+        <p>
+          Graduate School Admission Information Session for International Students
+        </p>
+
+      </header>
+
+
+      <!-- 본문 -->
+      <main class="content">
+
+        <!-- 행사 소개 -->
+        <div class="intro">
+
+          일반대학원에서는 우리 대학에 재학 중인
+          <strong>외국인 학부생 및 대학원 진학에 관심 있는 외국인 학생</strong>
+          (한국어학당 재학생 등)을 대상으로 대학원 진학에 대한 관심과 이해도를 높이고,
+          우수한 외국인 학생을 유치하고자
+          <strong>대학원 입학설명회</strong>를 개최합니다.
+
+          <br><br>
+
+          대학원 진학에 관심 있는 우리 대학 외국인 재학생들의
+          <strong>많은 참여 바랍니다.</strong>
+
+        </div>
+
+
+        <!-- 행사 안내 -->
+        <h2 class="section-title">
+          행사 안내
+        </h2>
+
+
+        <table class="info-table">
+
+          <tbody>
+
+            <!-- 행사명 -->
+            <tr>
+              <th>가. 행사명</th>
+              <td>
+                2027학년도 전기 일반대학원 외국인 학부 및 한국어학당 학생 대상
+                대학원 입학설명회
+              </td>
+            </tr>
+
+
+            <!-- 일시 -->
+            <tr>
+              <th>나. 일시</th>
+              <td>
+                <strong>2026. 9. 22.(화) 18:00 ~ 19:00</strong>
+
+                <span class="sub-note">
+                  ※ 샌드위치 등 간단한 다과 제공 예정
+                </span>
+              </td>
+            </tr>
+
+
+            <!-- 장소 -->
+            <tr>
+              <th>다. 장소</th>
+              <td>
+                <strong>문과대학 100주년기념홀(위당관 6층)</strong>
+              </td>
+            </tr>
+
+
+            <!-- 주요 내용 -->
+            <tr>
+              <th>라. 주요 내용</th>
+              <td>
+
+                <ul>
+                  <li>
+                    2027학년도 전기 일반대학원 외국인전형
+                    지원자격 및 전형절차 등 입학 관련 주요사항
+                  </li>
+
+                  <li>
+                    외국인 장학금 안내
+                  </li>
+
+                  <li>
+                    질의응답(Q&amp;A)
+                  </li>
+                </ul>
+
+              </td>
+            </tr>
+
+
+            <!-- 신청 방법 -->
+            <tr>
+              <th>마. 신청 방법</th>
+
+              <td>
+
+                입학설명회 안내문(붙임) 내
+                <strong>QR코드 스캔 후 신청</strong>
+
+                <span class="sub-note">
+                  ※ 신청 링크:
+                  <a
+                    href="https://forms.gle/NbMj1H5bYJHUAtEg9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://forms.gle/NbMj1H5bYJHUAtEg9
+                  </a>
+                </span>
+
+              </td>
+            </tr>
+
+
+            <!-- 홍보 요청 -->
+            <tr>
+              <th>바. 홍보 요청</th>
+
+              <td>
+                입학설명회 안내문(붙임) 등을 외국인 학부 및 한국어학당 학생 등이
+                확인할 수 있도록 각 대학 및 기관 홈페이지 공지사항 등에
+                게재하여 주시기 바랍니다.
+              </td>
+            </tr>
+
+          </tbody>
+
+        </table>
+
+
+        <!-- 참가 신청 -->
+        <div class="apply-box">
+
+          <h3>
+            입학설명회 참가 신청
+          </h3>
+
+          <p>
+            대학원 진학에 관심 있는 외국인 학생 여러분의<br>
+            많은 관심과 참여를 바랍니다.
+          </p>
+
+          <a
+            class="apply-button"
+            href="https://forms.gle/NbMj1H5bYJHUAtEg9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            참가 신청하기
+          </a>
+
+        </div>
+
+
+        <!-- 마무리 안내 -->
+        <div class="closing">
+
+          <strong>
+            대학원 진학을 고민하고 있는 외국인 학생 여러분의 많은 참여 바랍니다.
+          </strong>
+
+          <br>
+
+          <p><strong>[Admissions Information Session for International Undergraduate Students (Spring 2027)]
+
+          <p>
+          <img src="/data/files/Admissions Information Session for International Undergraduate Students (Spring 2027).png"
+                alt="2027학년도 전기 일반대학원 외국인 학생 대상 대학원 입학설명회 안내문"
+                style="max-width:100%; height:auto;"
+          </p>
+
+        </div>
+
+      </main>
+
+
+      <!-- 푸터 -->
+      <footer class="footer">
+
+        2027학년도 전기 일반대학원 외국인 학생 대상 대학원 입학설명회
+
+      </footer>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
