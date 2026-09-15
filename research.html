@@ -321,9 +321,13 @@
       // 지도 초기 설정 (중심점 및 확대 레벨)
       // 1. 지도 초기화 및 배경 설정
         const map = L.map('network-map').setView([25, 10], 2);
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; CARTO'
-        }).addTo(map);
+        L.tileLayer(
+            'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+            {
+                attribution: 'Tiles &copy; Esri',
+                maxZoom: 16
+            }
+        ).addTo(map);
 
         // 2. 데이터 로드 및 마커 렌더링
         // network_map.json 파일을 불러와서 지도에 표시
