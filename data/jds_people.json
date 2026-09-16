@@ -90,7 +90,7 @@
       "office": "빌링슬리 107",
       "image": "images/ppl/kkmo.jpg",
       "labUrl": "",
-      "profileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=BaQCwYPo9PFHJLIBZ1pZVg%3D%3D",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/kyungmo-kim/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -181,7 +181,7 @@
       "office": "연희관 304",
       "image": "images/ppl/yckim.jpg",
       "labUrl": "",
-      "profileUrl": "https://fis.yonsei.ac.kr/faculty/name_search.do?mode=view&userId=XMolGH9YfzVmZPD3QwxCBQ%3D%3D",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -578,7 +578,7 @@
       "office": "빌링슬리 109",
       "image": "images/ppl/ymsang.jpg",
       "labUrl": "",
-      "profileUrl": "https://fis.yonsei.ac.kr/faculty/member.do?mode=view&userId=L4JKAvyk1a8oWn2jJMAYJA%3D%3D",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yoonmo-sang/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -844,7 +844,7 @@
       "office": "연희관 315-1",
       "image": "images/ppl/larosa.jpg",
       "labUrl": "",
-      "profileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=Pux1pfRduAJ9YrJvL9DbNA%3D%3D",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/na-yeon-lee/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -1168,5 +1168,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T16:20:22.806045+00:00"
+  "generatedAt": "2026-09-16T16:28:56.526464+00:00"
 }
