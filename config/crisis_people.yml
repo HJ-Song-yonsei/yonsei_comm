@@ -278,26 +278,3 @@ faculty:
         outlet: "International Journal of Environmental Research and Public Health"
         url: "https://doi.org/10.3390/ijerph182413325"
         topics: [risk]
-
-  - id: namkeepark
-    name_ko: 박남기
-    name_en: Namkee Park
-    pure_names: ["Namkee Park"]
-    role: Professor
-    fields: "뉴미디어테크놀로지 | 인공지능 상호작용"
-    office: "빌링슬리 108"
-    image: "images/ppl/Namkee_Park.jpg"
-    profile_url: "https://yonsei.elsevierpure.com/en/persons/namkee-park/"
-    topics: [risk, strategic, persuasion]
-    area_status: cross-area
-    pinned:
-      - title: "Virtual Influencer’s Apologies? The Different Perceptions of Moral Violation and Apology Between Virtual and Human Influencers in Brand Endorsements"
-        year: 2026
-        outlet: "Media Psychology"
-        url: "https://doi.org/10.1080/15213269.2026.2679123"
-        topics: [risk, strategic, persuasion]
-      - title: "The Effects of Repetitive Information Communication through Multiple Channels on Prevention Behavior during the 2015 MERS Outbreak in South Korea"
-        year: 2018
-        outlet: "Journal of Health Communication"
-        url: "https://doi.org/10.1080/10810730.2018.1501440"
-        topics: [risk, persuasion]
