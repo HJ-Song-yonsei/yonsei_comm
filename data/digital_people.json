@@ -1,0 +1,676 @@
+{
+  "title": "People in Digital Technology, Platform, & AI",
+  "sourceNote": "Selected outputs are drawn from Yonsei Pure and FIS, with curated representative outputs retained through the configuration file.",
+  "topics": {
+    "ai": "AI & Human-Machine Communication",
+    "platforms": "Platforms & Digital Media",
+    "computational": "Computational Communication & Data",
+    "interactive": "Interactive & Immersive Media"
+  },
+  "people": [
+    {
+      "id": "taewookang",
+      "nameKo": "강태우",
+      "nameEn": "Taewoo Kang",
+      "role": "Assistant Professor",
+      "fields": "디지털플랫폼 | AI | 정치커뮤니케이션",
+      "office": "유억겸 106-3",
+      "image": "https://comm.yonsei.ac.kr/images/ppl/taewookang.jpg",
+      "labUrl": "",
+      "profileUrl": "https://kteen2k.github.io/taewookang/",
+      "areaStatus": "core",
+      "topics": [
+        "ai",
+        "platforms"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture",
+          "outlet": "The International Journal of Press/Politics",
+          "url": "https://doi.org/10.1177/19401612261442761",
+          "topics": [
+            "ai",
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "curated"
+        },
+        {
+          "year": 2025,
+          "title": "Empowered by Curation: Spatial Differentiation in the Interrelationship Between Social Media Political Curation, Political Competence, and Trust—The Case of Michigan",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/00936502241311943",
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "curated"
+        },
+        {
+          "year": 2025,
+          "title": "Truth Default or Generalized Skepticism? The Role of Overconfidence in the Relationship Between Social Media News Use and Traditional Media Use",
+          "outlet": "Social Media + Society",
+          "url": "https://doi.org/10.1177/20563051251315255",
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "curated"
+        }
+      ]
+    },
+    {
+      "id": "yongchankim",
+      "nameKo": "김용찬",
+      "nameEn": "Yong-Chan Kim",
+      "role": "Professor",
+      "fields": "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화",
+      "office": "연희관 304",
+      "image": "images/ppl/yckim.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/publications/",
+      "areaStatus": "core",
+      "topics": [
+        "platforms"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Disconnecting in a Connected World: The Dynamics of Social Media Non-Use in a Platformized Society",
+          "outlet": "Social Media and Society",
+          "url": "https://doi.org/10.1177/20563051261419391",
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Local familiar strangers in digitalising urban neighbourhoods in Seoul",
+          "outlet": "Urban Studies",
+          "url": "https://doi.org/10.1177/00420980241264646",
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "“Doing Community”: Digital Hyperlocal Media as Care",
+          "outlet": "Digital Journalism",
+          "url": "https://doi.org/10.1080/21670811.2022.2145330",
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "Social Media Dependency and Civic Engagement Among Older Urban Adults in Korea",
+          "outlet": "Asian Communication Research",
+          "url": "https://doi.org/10.20879/acr.2023.20.018",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "A Social Identity Model of Localized Social Media Dependency During Post-Earthquake Disaster",
+          "outlet": "Mass Communication and Society",
+          "url": "https://doi.org/10.1080/15205436.2023.2219246",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "How do social media affect people’s compassion and civic action? The case of the Sewol Ferry disaster in Korea",
+          "outlet": "Asian Journal of Communication",
+          "url": "https://doi.org/10.1080/01292986.2022.2061541",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Social media use on protest sites during the 2016-2017 candlelight vigils in Seoul",
+          "outlet": "Taylor and Francis",
+          "url": "https://doi.org/10.4324/9780367823115-5",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "SNS Dependency and Community Engagement in Urban Neighborhoods: The Moderating Role of Integrated Connectedness to a Community Storytelling Network",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/0093650215588786",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "namkeepark",
+      "nameKo": "박남기",
+      "nameEn": "Namkee Park",
+      "role": "Professor",
+      "fields": "뉴미디어테크놀로지 | 인공지능 상호작용",
+      "office": "빌링슬리 108",
+      "image": "images/ppl/Namkee_Park.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/namkee-park/publications/",
+      "areaStatus": "core",
+      "topics": [
+        "ai",
+        "interactive",
+        "platforms"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Virtual Influencer’s Apologies? The Different Perceptions of Moral Violation and Apology Between Virtual and Human Influencers in Brand Endorsements",
+          "outlet": "Media Psychology",
+          "url": "https://doi.org/10.1080/15213269.2026.2679123",
+          "topics": [
+            "ai",
+            "interactive"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "Bringing People into the Story: How Virtual Reality Journalism Affects the Feeling of Presence",
+          "outlet": "Digital Journalism",
+          "url": "https://doi.org/10.1080/21670811.2025.2553157",
+          "topics": [
+            "interactive"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2021,
+          "title": "Use of offensive language in human-artificial intelligence chatbot interaction: The effects of ethical ideology, social competence, and perceived humanlikeness",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2021.106795",
+          "topics": [
+            "ai"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "The moderating influence of SNS users’ attachment style on the associations between perceived information overload, SNS fatigue, and mental health",
+          "outlet": "Behaviour and Information Technology",
+          "url": "https://doi.org/10.1080/0144929X.2023.2281500",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Virtual reality advertising with brand experiences: the effects of media devices, virtual representation of the self, and self-presence",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2020.1834210",
+          "source": "Pure",
+          "topics": [
+            "interactive"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "Private Self-Awareness and Aggression in Computer-Mediated Communication: Abusive User Comments on Online News Articles",
+          "outlet": "International Journal of Human-Computer Interaction",
+          "url": "https://doi.org/10.1080/10447318.2018.1514822",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "I Know My Professor: Teacher Self-Disclosure in Online Education and a Mediating Role of Social Presence",
+          "outlet": "International Journal of Human-Computer Interaction",
+          "url": "https://doi.org/10.1080/10447318.2018.1455126",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "yoonhisung",
+      "nameKo": "성윤희",
+      "nameEn": "Yoon Hi Sung",
+      "role": "Associate Professor",
+      "fields": "광고와 미디어테크놀로지 | 소비자분석",
+      "office": "연희관 113-1",
+      "image": "images/ppl/yhsung.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yoon-hi-sung/publications/",
+      "areaStatus": "core",
+      "topics": [
+        "ai",
+        "platforms",
+        "interactive"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Human-made vs. AI-generated: how provenance labels drive strategic curation via perceived effort",
+          "outlet": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1840483",
+          "topics": [
+            "ai",
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "Unveiling the persuasion knowledge mechanism in YouTube affiliate marketing: channel-product congruence moderates disclosure-credibility spillover effects",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2025.2526889",
+          "topics": [
+            "platforms",
+            "interactive"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Unveiling Secrets to AI Agents: Exploring the Interplay of Conversation Type, Self-Disclosure, and Privacy Insensitivity",
+          "outlet": "Asian Communication Research",
+          "url": "https://doi.org/10.20879/acr.2024.21.019",
+          "topics": [
+            "ai"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "“It doesn't bother me that much”: The congruence effect of product types and ad appeals on the effectiveness of sponsored ads on Instagram",
+          "outlet": "Journal of Business Research",
+          "url": "https://doi.org/10.1016/j.jbusres.2024.114910",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "She’s my favorite YouTuber, so I watch ads on her channel: The interplay of parasocial interaction and YouTube ad knowledge on voluntary ad-watching",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2023.2295726",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "sangyuplee",
+      "nameKo": "이상엽",
+      "nameEn": "Sang Yup Lee",
+      "role": "Professor",
+      "fields": "전산사회과학 | 데이터과학 | 인공지능",
+      "office": "유억겸 101",
+      "image": "images/ppl/sylee.jpg",
+      "labUrl": "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab",
+      "profileUrl": "",
+      "areaStatus": "core",
+      "topics": [
+        "ai",
+        "computational",
+        "platforms"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach",
+          "outlet": "JMIR AI",
+          "url": "https://doi.org/10.2196/69494",
+          "topics": [
+            "ai",
+            "computational"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults",
+          "outlet": "BMC Public Health",
+          "url": "https://doi.org/10.1186/s12889-025-23337-4",
+          "topics": [
+            "ai",
+            "computational"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Examining the Relationship Between the Violence in a Webcomic Episode and Violence in readers’ Comments with Computational Approaches",
+          "outlet": "Journal of Broadcasting and Electronic Media",
+          "url": "https://doi.org/10.1080/08838151.2024.2322709",
+          "topics": [
+            "computational",
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults",
+          "outlet": "Frontiers in Psychiatry",
+          "url": "https://doi.org/10.3389/fpsyt.2024.1364930",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "Online citizen petitions related to COVID-19 in South Korean cities: a big data analysis",
+          "outlet": "Annals of Regional Science",
+          "url": "https://doi.org/10.1007/s00168-022-01133-x",
+          "source": "Pure",
+          "topics": [
+            "platforms",
+            "computational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Engagement in Emotional News on Social Media: Intensity and Type of Emotions",
+          "outlet": "Journalism and Mass Communication Quarterly",
+          "url": "https://doi.org/10.1177/1077699020959718",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "changhoancho",
+      "nameKo": "조창환",
+      "nameEn": "Chang Hoan Cho",
+      "role": "Professor",
+      "fields": "디지털광고 | 광고캠페인 | 브랜디드커뮤니케이션",
+      "office": "빌링슬리 305",
+      "image": "images/ppl/ccho.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/chang-hoan-cho/publications/",
+      "areaStatus": "core",
+      "topics": [
+        "ai",
+        "platforms",
+        "interactive"
+      ],
+      "outputs": [
+        {
+          "year": 2025,
+          "title": "What is digital advertising literacy? Its components and relationship with advertising effectiveness and personal factors",
+          "outlet": "Journal of Global Scholars of Marketing Science: Bridging Asia and the World",
+          "url": "https://doi.org/10.1080/21639159.2025.2533988",
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Usage Motivations and User Categorizations of Metaverse: Their Impacts on Offline Activities",
+          "outlet": "International Journal of Human-Computer Interaction",
+          "url": "https://doi.org/10.1080/10447318.2023.2233133",
+          "topics": [
+            "interactive",
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "Factors Affecting Innovation Resistance of Smartphone AI Voice Assistants",
+          "outlet": "International Journal of Human-Computer Interaction",
+          "url": "https://doi.org/10.1080/10447318.2022.2080899",
+          "topics": [
+            "ai"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "Virtual brand experience in digital reality advertising: Conceptualization and measurement",
+          "outlet": "Journal of Consumer Behaviour",
+          "url": "https://doi.org/10.1002/cb.2126",
+          "source": "Pure",
+          "topics": [
+            "interactive"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Uses and gratifications of smart speakers: modelling the effectiveness of smart speaker advertising",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2020.1765657",
+          "source": "Pure",
+          "topics": [
+            "interactive"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Digital advertising: present and future prospects",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2019.1642015",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "Introduction to the special issue: new trends in digital and social media advertising",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2019.1644137",
+          "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "sukyoungchoi",
+      "nameKo": "최석영",
+      "nameEn": "Sukyoung Choi",
+      "role": "Assistant Professor",
+      "fields": "커뮤니케이션테크놀로지 | AI | 게임",
+      "office": "",
+      "image": "images/ppl/sychoi3.jpg",
+      "labUrl": "",
+      "profileUrl": "https://sukyoungchoi.github.io/",
+      "areaStatus": "core",
+      "topics": [
+        "ai",
+        "platforms",
+        "interactive"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "The Modality-Congruent Carryover Effect: How Difficulty in Identifying (Deep)Fake News Impacts Self-Confidence in Truth Discernment and Susceptibility to Subsequent Disinformation",
+          "outlet": "Journalism and Mass Communication Quarterly",
+          "url": "https://doi.org/10.1177/10776990251413726",
+          "topics": [
+            "ai",
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "How the Public Makes Sense of Artificial Intelligence: The Interplay Between Communication and Discrete Emotions",
+          "outlet": "Science Communication",
+          "url": "https://doi.org/10.1177/10755470241297664",
+          "topics": [
+            "ai"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "Who benefits from directed communication? Communication directionality, network structures, and perceived social capital in an online game",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2023.107825",
+          "topics": [
+            "interactive",
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "curated"
+        }
+      ]
+    },
+    {
+      "id": "hyunjinsong",
+      "nameKo": "송현진",
+      "nameEn": "Hyunjin Song",
+      "role": "Associate Professor",
+      "fields": "정치커뮤니케이션 | 전산사회과학 | 처리유창성",
+      "office": "연희관 113-2",
+      "image": "images/ppl/hyunjinsong.jpg",
+      "labUrl": "",
+      "profileUrl": "https://hyunjinsong.com",
+      "areaStatus": "cross-area",
+      "topics": [
+        "ai",
+        "computational"
+      ],
+      "outputs": [
+        {
+          "year": 2025,
+          "title": "Exploring temporal and cross-national patterns: The use of generative AI in science-related information retrieval across seven countries",
+          "outlet": "Journal of Science Communication",
+          "url": "https://doi.org/10.22323/2.24020205",
+          "topics": [
+            "ai"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "The perception and use of generative AI for science-related information search: Insights from a cross-national study",
+          "outlet": "Public Understanding of Science",
+          "url": "https://doi.org/10.1177/09636625241308493",
+          "topics": [
+            "ai"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2021,
+          "title": "Assessing (In)accuracy and Biases in Self-reported Measures of Exposure to Disagreement: Evidence from Linkage Analysis Using Digital Trace Data",
+          "outlet": "Communication Methods and Measures",
+          "url": "https://doi.org/10.1080/19312458.2021.1935824",
+          "topics": [
+            "computational"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-16T08:00:04.812613+00:00"
+}

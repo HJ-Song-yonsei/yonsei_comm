@@ -1,0 +1,760 @@
+{
+  "title": "People in Crisis & Strategic Communication",
+  "sourceNote": "Selected outputs are drawn from Yonsei Pure and FIS, with curated representative outputs retained through the configuration file.",
+  "topics": {
+    "risk": "Risk & Crisis Communication",
+    "strategic": "Strategic Communication & PR",
+    "persuasion": "Persuasion & Message Effects",
+    "organizational": "Organizational & Public Communication"
+  },
+  "people": [
+    {
+      "id": "jarimkim",
+      "nameKo": "김자림",
+      "nameEn": "Jarim Kim",
+      "role": "Professor",
+      "fields": "위험·위기 커뮤니케이션 | PR | 설득",
+      "office": "유억겸 106-4",
+      "image": "images/ppl/jrkim.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/jarim-kim/",
+      "areaStatus": "core",
+      "topics": [
+        "risk",
+        "strategic",
+        "persuasion",
+        "organizational"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "How governmental trust fosters protective behaviors in individuals who are less likely to consider future consequences",
+          "outlet": "Personality and Individual Differences",
+          "url": "https://doi.org/10.1016/j.paid.2026.113771",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "Classifying environmental publics: a public segmentation framework to predict climate change-related information seeking and activism",
+          "outlet": "Journal of Communication Management",
+          "url": "https://doi.org/10.1108/JCOM-04-2024-0062",
+          "topics": [
+            "strategic",
+            "organizational"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Communicating uncertainties regarding COVID-19 vaccination: Moderating roles of trust in science, government, and society",
+          "outlet": "Public Understanding of Science",
+          "url": "https://doi.org/10.1177/09636625231217080",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2026,
+          "title": "The Congruency Effects of Multiple Components of Persuasion: Target Framing, Gain-Loss Framing, and Regulatory Focus",
+          "outlet": "Health Communication",
+          "url": "https://doi.org/10.1080/10410236.2026.2614321",
+          "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "Understanding Active Communicators on the Food Safety Issue: Conspiratorial Thinking, Organizational Trust, and Communicative Actions of Publics in China",
+          "outlet": "American Behavioral Scientist",
+          "url": "https://doi.org/10.1177/00027642221118284",
+          "source": "Pure",
+          "topics": [
+            "risk",
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "When Gain/Loss Framing Exerts Its Effects and How: Examining the Roles of Risk Perceptions, Anticipated Regret, and Anxiety",
+          "outlet": "Journal of Consumer Behaviour",
+          "url": "https://doi.org/10.1002/cb.2432",
+          "source": "Pure",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "Rumor behaviors as collective problem-solving: The moderating roles of regulatory focus",
+          "outlet": "Public Relations Review",
+          "url": "https://doi.org/10.1016/j.pubrev.2023.102352",
+          "source": "Pure",
+          "topics": [
+            "risk",
+            "strategic",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "How Does Internal Brand Communication Affect Organizational Outcomes? The Mediating Roles of Brand Identification and Employee Behaviors",
+          "outlet": "Journal of Public Relations Research",
+          "url": "https://doi.org/10.1080/1062726X.2023.2181814",
+          "source": "Pure",
+          "topics": [
+            "strategic",
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "How War-Framing Effects Differ Depending on Publics’ Conspiracy Levels: Communicating the COVID-19 Vaccination",
+          "outlet": "American Behavioral Scientist",
+          "url": "https://doi.org/10.1177/00027642221118283",
+          "source": "Pure",
+          "topics": [
+            "risk",
+            "persuasion",
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "The impacts of CEO leadership behaviors on employees' affective commitment and scouting behavior: the mediating role of symmetrical internal communication",
+          "outlet": "Leadership and Organization Development Journal",
+          "url": "https://doi.org/10.1108/LODJ-11-2020-0501",
+          "source": "Pure",
+          "topics": [
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "Factors affecting rumor believability in the context of COVID-19: the moderating roles of government trust and health literacy",
+          "outlet": "Journal of Applied Communication Research",
+          "url": "https://doi.org/10.1080/00909882.2022.2141069",
+          "source": "Pure",
+          "topics": [
+            "risk"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Cultivating employee creativity through strategic internal communication: The role of leadership, symmetry, and feedback seeking behaviors",
+          "outlet": "Public Relations Review",
+          "url": "https://doi.org/10.1016/j.pubrev.2020.101998",
+          "source": "Pure",
+          "topics": [
+            "strategic",
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "changhoancho",
+      "nameKo": "조창환",
+      "nameEn": "Chang Hoan Cho",
+      "role": "Professor",
+      "fields": "디지털광고 | 광고캠페인 | 브랜디드커뮤니케이션",
+      "office": "빌링슬리 305",
+      "image": "images/ppl/ccho.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/chang-hoan-cho/",
+      "areaStatus": "core",
+      "topics": [
+        "strategic",
+        "persuasion"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Message Framing and Self-Control in Food Waste Reduction: Time of Day as a Situational Proxy for Self-Control Resources",
+          "outlet": "International Journal of Consumer Studies",
+          "url": "https://doi.org/10.1111/ijcs.70222",
+          "topics": [
+            "persuasion",
+            "strategic"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "What is digital advertising literacy? Its components and relationship with advertising effectiveness and personal factors",
+          "outlet": "Journal of Global Scholars of Marketing Science: Bridging Asia and the World",
+          "url": "https://doi.org/10.1080/21639159.2025.2533988",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2020,
+          "title": "Digital advertising: present and future prospects",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2019.1642015",
+          "topics": [
+            "strategic"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "Virtual brand experience in digital reality advertising: Conceptualization and measurement",
+          "outlet": "Journal of Consumer Behaviour",
+          "url": "https://doi.org/10.1002/cb.2126",
+          "source": "Pure",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Uses and gratifications of smart speakers: modelling the effectiveness of smart speaker advertising",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2020.1765657",
+          "source": "Pure",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "Introduction to the special issue: new trends in digital and social media advertising",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2019.1644137",
+          "source": "Pure",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "An empirical investigation on the antecedents of consumers’ cognitions of and attitudes towards digital signage advertising",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2017.1401509",
+          "source": "Pure",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "Public or private products? The impact of cause-related marketing and product conspicuity on consumer response on social networking sites",
+          "outlet": "Journal of Global Scholars of Marketing Science: Bridging Asia and the World",
+          "url": "https://doi.org/10.1080/21639159.2018.1509363",
+          "source": "Pure",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "yoonhisung",
+      "nameKo": "성윤희",
+      "nameEn": "Yoon Hi Sung",
+      "role": "Associate Professor",
+      "fields": "광고와 미디어테크놀로지 | 소비자분석",
+      "office": "연희관 113-1",
+      "image": "images/ppl/yhsung.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yoon-hi-sung/",
+      "areaStatus": "core",
+      "topics": [
+        "strategic",
+        "persuasion"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Human-made vs. AI-generated: how provenance labels drive strategic curation via perceived effort",
+          "outlet": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1840483",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "Unveiling the persuasion knowledge mechanism in YouTube affiliate marketing: channel-product congruence moderates disclosure-credibility spillover effects",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2025.2526889",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "She’s my favorite YouTuber, so I watch ads on her channel: The interplay of parasocial interaction and YouTube ad knowledge on voluntary ad-watching",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2023.2295726",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Unveiling Secrets to AI Agents: Exploring the Interplay of Conversation Type, Self-Disclosure, and Privacy Insensitivity",
+          "outlet": "Asian Communication Research",
+          "url": "https://doi.org/10.20879/acr.2024.21.019",
+          "source": "Pure",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "Public or private products? The impact of cause-related marketing and product conspicuity on consumer response on social networking sites",
+          "outlet": "Journal of Global Scholars of Marketing Science: Bridging Asia and the World",
+          "url": "https://doi.org/10.1080/21639159.2018.1509363",
+          "source": "Pure",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "jiyeonso",
+      "nameKo": "소지연",
+      "nameEn": "Jiyeon So",
+      "role": "Professor",
+      "fields": "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션",
+      "office": "연희관 206",
+      "image": "images/ppl/jso.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/jiyeon-so/",
+      "areaStatus": "core",
+      "topics": [
+        "risk",
+        "persuasion"
+      ],
+      "outputs": [
+        {
+          "year": 2025,
+          "title": "Diminished valuation in the brain: How repeated exposure reduces health message engagement",
+          "outlet": "Annals of Behavioral Medicine",
+          "url": "https://doi.org/10.1093/abm/kaaf037",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "Diffusion of COVID-19 misinformation: Mechanisms for threat- and efficacy-related misinformation diffusion",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2023.107967",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "Does COVID-19 Message Fatigue Lead to Misinformation Acceptance? An Extension of the Risk Information Seeking and Processing Model",
+          "outlet": "Health Communication",
+          "url": "https://doi.org/10.1080/10410236.2022.2111636",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "What message features influence the intention to share misinformation about COVID-19 on social media? The role of efficacy and novelty",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2022.107439",
+          "source": "Pure",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "Two faces of message repetition: audience favorability as a determinant of the explanatory capacities of processing fluency and message fatigue",
+          "outlet": "Journal of Communication",
+          "url": "https://doi.org/10.1093/joc/jqad025",
+          "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "Message fatigue beyond the health message context: a replication and further extension of So et al. (2017)",
+          "outlet": "Human Communication Research",
+          "url": "https://doi.org/10.1093/hcr/hqad021",
+          "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Counterproductive Effects of Overfamiliar Antitobacco Messages on Smoking Cessation Intentions via Message Fatigue and Resistance to Persuasion",
+          "outlet": "Psychology of Addictive Behaviors",
+          "url": "https://doi.org/10.1037/adb0000776",
+          "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Tailoring Temporal Message Frames to Individuals’ Time Orientation Strengthens the Relationship between Risk Perception and Behavioral Intention",
+          "outlet": "Journal of Health Communication",
+          "url": "https://doi.org/10.1080/10810730.2021.1878310",
+          "source": "Pure",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Success Expectancy: A Mediator of the Effects of Source Similarity and Self-Efficacy on Health Behavior Intention",
+          "outlet": "Health Communication",
+          "url": "https://doi.org/10.1080/10410236.2019.1613475",
+          "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "An Investigation of Cognitive Processing of Fear Appeal Messages Promoting HPV Vaccination: Predictors and Outcomes of Magnitude and Valence of Cognitive Responses",
+          "outlet": "Journal of Health Communication",
+          "url": "https://doi.org/10.1080/10810730.2020.1842566",
+          "source": "Pure",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Contributions of emotional flow in narrative persuasion: An empirical test of the emotional flow framework",
+          "outlet": "Communication Quarterly",
+          "url": "https://doi.org/10.1080/01463373.2020.1725079",
+          "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "jihyunpaik",
+      "nameKo": "백지현",
+      "nameEn": "Jihyun Esther Paik",
+      "role": "Associate Professor",
+      "fields": "대인커뮤니케이션 | 조직커뮤니케이션",
+      "office": "연희관 309-2",
+      "image": "images/ppl/jpaek.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/jihyun-paik/",
+      "areaStatus": "core",
+      "topics": [
+        "persuasion",
+        "organizational"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Membership Ambiguity and Insider Support in Remote Socialization: A Qualitative Exploration of Newcomers' Experiences of Remote Onboarding",
+          "outlet": "Human Resource Development Quarterly",
+          "url": "https://doi.org/10.1002/hrdq.21560",
+          "topics": [
+            "organizational"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2026,
+          "title": "Advice Interaction Through the Social Cognition Lens Aligning Advisor–Recipient Perceptions",
+          "outlet": "Taylor and Francis",
+          "url": "https://doi.org/10.4324/9781003411741-41",
+          "topics": [
+            "persuasion",
+            "organizational"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Parsing communication duration and diagnostic question effects in deception detection",
+          "outlet": "Communication Quarterly",
+          "url": "https://doi.org/10.1080/01463373.2024.2387016",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2026,
+          "title": "Why People Turn to ChatGPT for Health Information: Extending UTAUT with Healthcare Dissatisfaction and Perceived Credibility",
+          "outlet": "Health Communication",
+          "url": "https://doi.org/10.1080/10410236.2026.2620497",
+          "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "yongchankim",
+      "nameKo": "김용찬",
+      "nameEn": "Yong-Chan Kim",
+      "role": "Professor · Cross-area",
+      "fields": "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화",
+      "office": "연희관 304",
+      "image": "images/ppl/yckim.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/",
+      "areaStatus": "cross-area",
+      "topics": [
+        "risk",
+        "organizational"
+      ],
+      "outputs": [
+        {
+          "year": 2023,
+          "title": "A Social Identity Model of Localized Social Media Dependency During Post-Earthquake Disaster",
+          "outlet": "Mass Communication and Society",
+          "url": "https://doi.org/10.1080/15205436.2023.2219246",
+          "topics": [
+            "risk",
+            "organizational"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2022,
+          "title": "How do social media affect people’s compassion and civic action? The case of the Sewol Ferry disaster in Korea",
+          "outlet": "Asian Journal of Communication",
+          "url": "https://doi.org/10.1080/01292986.2022.2061541",
+          "topics": [
+            "risk",
+            "organizational"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2021,
+          "title": "Attention to news media, emotional responses, and policy preferences about public health crisis: The case of fine dust pollution in South Korea",
+          "outlet": "International journal of environmental research and public health",
+          "url": "https://doi.org/10.3390/ijerph182413325",
+          "topics": [
+            "risk"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "“Doing Community”: Digital Hyperlocal Media as Care",
+          "outlet": "Digital Journalism",
+          "url": "https://doi.org/10.1080/21670811.2022.2145330",
+          "source": "Pure",
+          "topics": [
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "eHealth Communication Intervention to Promote Human Papillomavirus Vaccination Among Middle-School Girls: Development and Usability Study",
+          "outlet": "JMIR Formative Research",
+          "url": "https://doi.org/10.2196/59087",
+          "source": "Pure",
+          "topics": [
+            "risk"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "Difference-managing and difference-reducing community storytelling in urban neighborhoods: A communication infrastructure theory perspective",
+          "outlet": "Human Communication Research",
+          "url": "https://doi.org/10.1093/hcr/hqad007",
+          "source": "Pure",
+          "topics": [
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "The effects of information-seeking behaviours on prevention behaviours during the COVID-19 pandemic: The mediating effects of anxiety and fear in Korea",
+          "outlet": "Epidemiology and health",
+          "url": "https://doi.org/10.4178/epih.e2021085",
+          "source": "Pure",
+          "topics": [
+            "risk"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Commuting, Communication, and Community Engagement From a Communication Infrastructure Theory Perspective",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/0093650218801745",
+          "source": "Pure",
+          "topics": [
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Communication Infrastructure, Migrant Community Engagement, and Integrative Adaptation of Korean Chinese Migrants in Seoul",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/0093650218782819",
+          "source": "Pure",
+          "topics": [
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Communication Infrastructure in an Asian Immigrant Community",
+          "outlet": "Journal of Health Communication",
+          "url": "https://doi.org/10.1080/10810730.2021.1998847",
+          "source": "Pure",
+          "topics": [
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "SNS Dependency and Community Engagement in Urban Neighborhoods: The Moderating Role of Integrated Connectedness to a Community Storytelling Network",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/0093650215588786",
+          "source": "Pure",
+          "topics": [
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-16T08:14:15.849550+00:00"
+}

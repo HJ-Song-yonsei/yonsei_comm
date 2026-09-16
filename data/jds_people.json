@@ -1,0 +1,873 @@
+{
+  "title": "People in Journalism, Democracy, & Society",
+  "sourceNote": "Selected outputs are drawn from Yonsei Pure and FIS, with curated representative outputs retained through the configuration file.",
+  "topics": {
+    "journalism": "Journalism & Institutions",
+    "politics": "Political Communication",
+    "misinformation": "Misinformation & Trust",
+    "publicsphere": "Public Sphere & Civic Life"
+  },
+  "people": [
+    {
+      "id": "taewookang",
+      "nameKo": "강태우",
+      "nameEn": "Taewoo Kang",
+      "role": "Assistant Professor",
+      "fields": "디지털플랫폼 | AI | 정치커뮤니케이션",
+      "office": "유억겸 106-3",
+      "image": "images/ppl/taewookang.jpg",
+      "areaStatus": "core",
+      "topics": [
+        "journalism",
+        "politics",
+        "misinformation"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture",
+          "outlet": "The International Journal of Press/Politics",
+          "url": "https://doi.org/10.1177/19401612261442761",
+          "topics": [
+            "journalism",
+            "misinformation"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "curated"
+        },
+        {
+          "year": 2025,
+          "title": "Truth Default or Generalized Skepticism? The Role of Overconfidence in the Relationship Between Social Media News Use and Traditional Media Use",
+          "outlet": "Social Media + Society",
+          "url": "https://doi.org/10.1177/20563051251315255",
+          "topics": [
+            "politics",
+            "misinformation"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "curated"
+        },
+        {
+          "year": 2025,
+          "title": "Empowered by Curation: Spatial Differentiation in the Interrelationship Between Social Media Political Curation, Political Competence, and Trust—The Case of Michigan",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/00936502241311943",
+          "topics": [
+            "politics",
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "curated"
+        }
+      ],
+      "labUrl": "https://kteen2k.github.io/taewookang/",
+      "profileUrl": "https://kteen2k.github.io/taewookang/"
+    },
+    {
+      "id": "kyungmokim",
+      "nameKo": "김경모",
+      "nameEn": "Kyungmo Kim",
+      "role": "Professor",
+      "fields": "저널리즘 | 내용분석 | 국제커뮤니케이션",
+      "office": "빌링슬리 107",
+      "image": "images/ppl/kkmo.jpg",
+      "areaStatus": "core",
+      "topics": [
+        "journalism",
+        "politics",
+        "publicsphere"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "South Korean journalists’ role conceptions and problematic reporting practices and behaviors",
+          "outlet": "Journalism",
+          "url": "https://doi.org/10.1177/14648849251360622",
+          "topics": [
+            "journalism"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2026,
+          "title": "유튜브 숏폼 정치 콘텐츠의 연성화 특성과 이용자 반응: 2024년 정기 국정감사 사례 분석",
+          "outlet": "한국방송학보",
+          "url": "",
+          "topics": [
+            "journalism",
+            "politics"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "curated"
+        },
+        {
+          "year": 2025,
+          "title": "I Participate in Politics Because the News is Influential Against Me: Hostile Media Perception, Third-Person Perception, and Political Participation",
+          "outlet": "Mass Communication and Society",
+          "url": "https://doi.org/10.1080/15205436.2023.2272846",
+          "topics": [
+            "politics",
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "한국 저널리즘에서 판단의 문제: 칸트의 반성적 판단력과 뉴스(의견)의 공유",
+          "outlet": "커뮤니케이션 이론",
+          "url": "",
+          "topics": [
+            "journalism",
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 4,
+          "source": "curated"
+        },
+        {
+          "year": 2023,
+          "title": "Perceived Influence of Partisan News and Online News Participation: Third-person Effect, Hostile Media Phenomenon, and Cognitive Elaboration",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/00936502221127494",
+          "source": "Pure",
+          "topics": [
+            "journalism",
+            "politics",
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ],
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/kyungmo-kim/publications/"
+    },
+    {
+      "id": "yongchankim",
+      "nameKo": "김용찬",
+      "nameEn": "Yong-Chan Kim",
+      "role": "Professor",
+      "fields": "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화",
+      "office": "연희관 304",
+      "image": "images/ppl/yckim.jpg",
+      "areaStatus": "core",
+      "topics": [
+        "journalism",
+        "politics",
+        "publicsphere"
+      ],
+      "outputs": [
+        {
+          "year": 2025,
+          "title": "장소 기반 하이퍼로컬 플랫폼은 이용자의 지역 관여를 강화시키는가 아니면 약화시키는가?: 커뮤니케이션 하부구조 이론의 적용",
+          "outlet": "Korean Journal of Journalism & Communication Studies",
+          "url": "",
+          "topics": [
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "curated"
+        },
+        {
+          "year": 2024,
+          "title": "“Doing Community”: Digital Hyperlocal Media as Care",
+          "outlet": "Digital Journalism",
+          "url": "https://doi.org/10.1080/21670811.2022.2145330",
+          "topics": [
+            "journalism",
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "Social Media Dependency and Civic Engagement Among Older Urban Adults in Korea",
+          "outlet": "Asian Communication Research",
+          "url": "https://doi.org/10.20879/acr.2023.20.018",
+          "topics": [
+            "politics",
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "지역 참여는 우리를 더 관용적으로 만들까?: 관용적 커뮤니케이션을 중심으로",
+          "outlet": "사회과학논집",
+          "url": "",
+          "topics": [
+            "politics",
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 4,
+          "source": "curated"
+        },
+        {
+          "year": 2023,
+          "title": "Difference-managing and difference-reducing community storytelling in urban neighborhoods: A communication infrastructure theory perspective",
+          "outlet": "Human Communication Research",
+          "url": "https://doi.org/10.1093/hcr/hqad007",
+          "source": "Pure",
+          "topics": [
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "How do social media affect people’s compassion and civic action? The case of the Sewol Ferry disaster in Korea",
+          "outlet": "Asian Journal of Communication",
+          "url": "https://doi.org/10.1080/01292986.2022.2061541",
+          "source": "Pure",
+          "topics": [
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Commuting, Communication, and Community Engagement From a Communication Infrastructure Theory Perspective",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/0093650218801745",
+          "source": "Pure",
+          "topics": [
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Communication Infrastructure, Migrant Community Engagement, and Integrative Adaptation of Korean Chinese Migrants in Seoul",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/0093650218782819",
+          "source": "Pure",
+          "topics": [
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Communication Infrastructure in an Asian Immigrant Community",
+          "outlet": "Journal of Health Communication",
+          "url": "https://doi.org/10.1080/10810730.2021.1998847",
+          "source": "Pure",
+          "topics": [
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Attention to news media, emotional responses, and policy preferences about public health crisis: The case of fine dust pollution in south korea",
+          "outlet": "International journal of environmental research and public health",
+          "url": "https://doi.org/10.3390/ijerph182413325",
+          "source": "Pure",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Protest Participation Experiences and Media Uses in Urban Protests: A Conceptualization and Empirical Examination",
+          "outlet": "International Journal of Communication",
+          "url": "https://yonsei.elsevierpure.com/en/publications/protest-participation-experiences-and-media-uses-in-urban-protest/",
+          "source": "Pure",
+          "topics": [
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "SNS Dependency and Community Engagement in Urban Neighborhoods: The Moderating Role of Integrated Connectedness to a Community Storytelling Network",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/0093650215588786",
+          "source": "Pure",
+          "topics": [
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ],
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/publications/"
+    },
+    {
+      "id": "youngminbaek",
+      "nameKo": "백영민",
+      "nameEn": "Young Min Baek",
+      "role": "Professor",
+      "fields": "정치커뮤니케이션 | 사회과학조사방법론",
+      "office": "아펜젤러 204",
+      "image": "images/ppl/ymbaek.jpg",
+      "areaStatus": "core",
+      "topics": [
+        "politics",
+        "misinformation"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Does hate attract likes? Offensive language and audience engagement in partisan YouTube videos",
+          "outlet": "Telematics and Informatics",
+          "url": "https://doi.org/10.1016/j.tele.2026.102397",
+          "topics": [
+            "politics"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2026,
+          "title": "Spreading anger, selling hope: how partisan YouTube channels fuel affective and cognitive divides in electoral contexts",
+          "outlet": "Behaviour and Information Technology",
+          "url": "https://doi.org/10.1080/0144929X.2026.2675625",
+          "topics": [
+            "politics"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "The higher the news literacy, the wider the partisan gap on misinformation acceptance? The three-way interaction effects of news literacy, partisanship, and exposure to partisan YouTube channels on misinformation acceptance",
+          "outlet": "New Media and Society",
+          "url": "https://doi.org/10.1177/14614448231191142",
+          "topics": [
+            "politics",
+            "misinformation"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "Ideological Citizens’ Pro-attitudinal Media Exposure and Ideological Polarization: The Mediating Role of Presumed Media Influence and Presumed Media Affect",
+          "outlet": "International Journal of Politics, Culture and Society",
+          "url": "https://doi.org/10.1007/s10767-025-09534-4",
+          "topics": [
+            "politics"
+          ],
+          "featured": true,
+          "featuredRank": 4,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "Learning from YouTube? The role of exposure to partisan YouTube channels and news literacy in political learning during the South Korean general election campaign",
+          "outlet": "Journal of Information Technology and Politics",
+          "url": "https://doi.org/10.1080/19331681.2024.2414007",
+          "source": "Pure",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Talking About What Would Happen Versus What Happened: Tracking Congressional Speeches During COVID-19",
+          "outlet": "Journal of Social and Political Psychology",
+          "url": "https://doi.org/10.5964/jspp.6153",
+          "source": "Pure",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "Fake News Should Be Regulated Because It Influences Both “Others” and “Me”: How and Why the Influence of Presumed Influence Model Should Be Extended",
+          "outlet": "Mass Communication and Society",
+          "url": "https://doi.org/10.1080/15205436.2018.1562076",
+          "source": "Pure",
+          "topics": [
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "Citizens’ Ambivalence toward Female Politicians: Why Ambivalence Matters for Gender Equality in a Democracy",
+          "outlet": "Journal of Women, Politics and Policy",
+          "url": "https://doi.org/10.1080/1554477X.2019.1583031",
+          "source": "Pure",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "The power of political talk: how and when it mobilizes politically efficacious citizens’ campaign activity during elections",
+          "outlet": "Asian Journal of Communication",
+          "url": "https://doi.org/10.1080/01292986.2018.1431295",
+          "source": "Pure",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ],
+      "labUrl": "https://sites.google.com/site/ymbaek/",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/young-min-baek/publications/"
+    },
+    {
+      "id": "yoonmosang",
+      "nameKo": "상윤모",
+      "nameEn": "Yoonmo Sang",
+      "role": "Associate Professor",
+      "fields": "미디어법 | 저널리즘 윤리 | 저작권",
+      "office": "빌링슬리 109",
+      "image": "images/ppl/ymsang.jpg",
+      "areaStatus": "core",
+      "topics": [
+        "journalism",
+        "publicsphere"
+      ],
+      "outputs": [
+        {
+          "year": 2025,
+          "title": "Looking back at journalism ethics research over the past decade: An analysis of research in digital journalism, journalism, journalism practice, and journalism studies, 2013-2022",
+          "outlet": "Journalism",
+          "url": "https://doi.org/10.1177/14648849241244712",
+          "topics": [
+            "journalism"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "A Way Out or Another Hurdle? Assessing the Impact of the “News Partnership Evaluation Committee” on Platform Dependence in South Korea",
+          "outlet": "Digital Journalism",
+          "url": "https://doi.org/10.1080/21670811.2025.2587635",
+          "topics": [
+            "journalism",
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "Theorizing platform governance as a communicative process",
+          "outlet": "Journal of Digital Media and Policy",
+          "url": "https://doi.org/10.1386/jdmp_00187_1",
+          "topics": [
+            "journalism",
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2018,
+          "title": "Structure and returns: toward a refined understanding of Internet use and social capital Information",
+          "outlet": "Information Communication and Society",
+          "url": "https://yonsei.elsevierpure.com/en/publications/structure-and-returns-toward-a-refined-understanding-of-internet-/",
+          "source": "Pure",
+          "topics": [
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ],
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yoonmo-sang/publications/"
+    },
+    {
+      "id": "hyunjinsong",
+      "nameKo": "송현진",
+      "nameEn": "Hyunjin Song",
+      "role": "Associate Professor",
+      "fields": "정치커뮤니케이션 | 전산사회과학 | 처리유창성",
+      "office": "연희관 113-2",
+      "image": "images/ppl/hyunjinsong.jpg",
+      "areaStatus": "core",
+      "topics": [
+        "journalism",
+        "politics",
+        "misinformation",
+        "publicsphere"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Time is the fire in which message effects burn: Decay and sustenance of correction effects over time",
+          "outlet": "Journal of Communication",
+          "url": "https://doi.org/10.1093/joc/jqaf030",
+          "topics": [
+            "misinformation",
+            "politics"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Perceiving as biased but nevertheless persuaded? Effects of fact–checking news delivered by partisan media",
+          "outlet": "Political Psychology",
+          "url": "https://doi.org/10.1111/pops.12914",
+          "topics": [
+            "misinformation",
+            "politics"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "If You Have Choices, Why Not Choose (and Share) All of Them? A Multiverse Approach to Understanding News Engagement on Social Media",
+          "outlet": "Digital Journalism",
+          "url": "https://doi.org/10.1080/21670811.2022.2036623",
+          "topics": [
+            "journalism",
+            "politics",
+            "publicsphere"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2022,
+          "title": "Trusting on the shoulders of open giants? Open science increases trust in science for the public and academics",
+          "outlet": "Journal of Communication",
+          "url": "https://doi.org/10.1093/joc/jqac017",
+          "source": "Pure",
+          "topics": [
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "What you expect is (not) what you get: the impact of initial and post-hoc judgments of message characteristics on political information recall",
+          "outlet": "Media Psychology",
+          "url": "https://doi.org/10.1080/15213269.2021.1879655",
+          "source": "Pure",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Disproportionality in media representations of campaign negativity",
+          "outlet": "Political Science Research and Methods",
+          "url": "https://doi.org/10.1017/psrm.2020.4",
+          "source": "Pure",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Assessing (In)accuracy and Biases in Self-reported Measures of Exposure to Disagreement: Evidence from Linkage Analysis Using Digital Trace Data",
+          "outlet": "Communication Methods and Measures",
+          "url": "https://doi.org/10.1080/19312458.2021.1935824",
+          "source": "Pure",
+          "topics": [
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ],
+      "labUrl": "https://hyunjinsong.com",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/hyunjin-song/publications/"
+    },
+    {
+      "id": "nayeonlee",
+      "nameKo": "이나연",
+      "nameEn": "Na Yeon Lee",
+      "role": "Professor",
+      "fields": "저널리즘 원칙 | 온라인저널리즘 | 뉴스수용자",
+      "office": "연희관 315-1",
+      "image": "images/ppl/larosa.jpg",
+      "areaStatus": "core",
+      "topics": [
+        "journalism",
+        "politics",
+        "misinformation"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "South Korean journalists’ role conceptions and problematic reporting practices and behaviors",
+          "outlet": "Journalism",
+          "url": "https://doi.org/10.1177/14648849251360622",
+          "topics": [
+            "journalism"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2026,
+          "title": "The Emergence of “Online Influencers” and the Blurring of Lines between Objectivity and Subjectivity",
+          "outlet": "Journalism Practice",
+          "url": "https://doi.org/10.1080/17512786.2025.2518450",
+          "topics": [
+            "journalism"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2026,
+          "title": "The erosion of the gatekeeping function of photojournalists in the digital age",
+          "outlet": "Journalism",
+          "url": "https://doi.org/10.1177/14648849261460935",
+          "topics": [
+            "journalism"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "Pure"
+        },
+        {
+          "year": 2026,
+          "title": "War on fake news? Media skepticism and exposure to politicians’ fake news accusations",
+          "outlet": "Information Communication and Society",
+          "url": "https://doi.org/10.1080/1369118X.2025.2531128",
+          "topics": [
+            "misinformation",
+            "politics"
+          ],
+          "featured": true,
+          "featuredRank": 4,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "Met expectations, job satisfaction, and intention to leave: The effects of discrepancy between job expectations and experiences on journalists’ intention to leave",
+          "outlet": "Journalism and Communication Monographs",
+          "url": "https://doi.org/10.1177/14648849241248235",
+          "source": "Pure",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "Looking back at journalism ethics research over the past decade: An analysis of research in digital journalism, journalism, journalism practice, and journalism studies, 2013-2022",
+          "outlet": "Journalism",
+          "url": "https://doi.org/10.1177/14648849241244712",
+          "source": "Pure",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "Why Are Women Journalists Leaving the Newsroom in South Korea? Gendered and Emerging Factors that Influence the Intention to Leave",
+          "outlet": "Journalism Practice",
+          "url": "https://doi.org/10.1080/17512786.2022.2130815",
+          "source": "Pure",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "정치기사 익명 취재원 표기 관행",
+          "outlet": "Korean Journal of Journalism &amp; Communication Studies",
+          "url": "https://yonsei.elsevierpure.com/en/publications/%EC%A0%95%EC%B9%98%EA%B8%B0%EC%82%AC-%EC%9D%B5%EB%AA%85-%EC%B7%A8%EC%9E%AC%EC%9B%90-%ED%91%9C%EA%B8%B0-%EA%B4%80%ED%96%89/",
+          "source": "Pure",
+          "topics": [
+            "journalism",
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "한국 언론의 팩트체크; 19대 대통령선거에서의 후보자 검증 기사를 중심으로",
+          "outlet": "언론정보연구",
+          "url": "https://yonsei.elsevierpure.com/en/publications/%ED%95%9C%EA%B5%AD-%EC%96%B8%EB%A1%A0%EC%9D%98-%ED%8C%A9%ED%8A%B8%EC%B2%B4%ED%81%AC-19%EB%8C%80-%EB%8C%80%ED%86%B5%EB%A0%B9%EC%84%A0%EA%B1%B0%EC%97%90%EC%84%9C%EC%9D%98-%ED%9B%84%EB%B3%B4%EC%9E%90-%EA%B2%80%EC%A6%9D-%EA%B8%B0%EC%82%AC%EB%A5%BC-%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C/",
+          "source": "Pure",
+          "topics": [
+            "journalism",
+            "politics",
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "&lt;팩트체크 저널리즘의 주요 원칙&gt;",
+          "outlet": "한국언론진흥재단",
+          "url": "https://yonsei.elsevierpure.com/en/publications/lt%ED%8C%A9%ED%8A%B8%EC%B2%B4%ED%81%AC-%EC%A0%80%EB%84%90%EB%A6%AC%EC%A6%98%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%9B%90%EC%B9%99gt/",
+          "source": "Pure",
+          "topics": [
+            "journalism",
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "과학적 객관주의, 형식적 객관주의, 한국형 형식적 객관주의: 신문기사에 사용된 취재원 사용과 직접 인용분석을 중심으로",
+          "outlet": "한국언론학보",
+          "url": "https://yonsei.elsevierpure.com/en/publications/%EA%B3%BC%ED%95%99%EC%A0%81-%EA%B0%9D%EA%B4%80%EC%A3%BC%EC%9D%98-%ED%98%95%EC%8B%9D%EC%A0%81-%EA%B0%9D%EA%B4%80%EC%A3%BC%EC%9D%98-%ED%95%9C%EA%B5%AD%ED%98%95-%ED%98%95%EC%8B%9D%EC%A0%81-%EA%B0%9D%EA%B4%80%EC%A3%BC%EC%9D%98-%EC%8B%A0%EB%AC%B8%EA%B8%B0%EC%82%AC%EC%97%90-%EC%82%AC%EC%9A%A9%EB%90%9C-%EC%B7%A8%EC%9E%AC%EC%9B%90-%EC%82%AC%EC%9A%A9%EA%B3%BC-%EC%A7%81%EC%A0%91-%EC%9D%B8%EC%9A%A9%EB%B6%84%EC%84%9D%EC%9D%84-%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C/",
+          "source": "Pure",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "Self-Coverage for public interest or self-promotion: How media cross-ownership structures affect news content in South Korea",
+          "outlet": "Journalism",
+          "url": "https://yonsei.elsevierpure.com/en/publications/self-coverage-for-public-interest-or-self-promotion-how-media-cro/",
+          "source": "Pure",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ],
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/na-yeon-lee/publications/"
+    },
+    {
+      "id": "sangyuplee",
+      "nameKo": "이상엽",
+      "nameEn": "Sang Yup Lee",
+      "role": "Professor",
+      "fields": "전산사회과학 | 데이터과학 | 인공지능",
+      "office": "유억겸 101",
+      "image": "images/ppl/sylee.jpg",
+      "areaStatus": "cross-area",
+      "topics": [
+        "journalism",
+        "politics",
+        "misinformation"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "The erosion of the gatekeeping function of photojournalists in the digital age",
+          "outlet": "Journalism",
+          "url": "https://doi.org/10.1177/14648849261460935",
+          "topics": [
+            "journalism"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2024,
+          "title": "Perceiving as biased but nevertheless persuaded? Effects of fact–checking news delivered by partisan media",
+          "outlet": "Political Psychology",
+          "url": "https://doi.org/10.1111/pops.12914",
+          "topics": [
+            "misinformation",
+            "politics"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2022,
+          "title": "신문사의 정치 성향에 따른 코로나19 보도 내용 분석: 기계학습/딥러닝, 네트워크 분석, 토픽모델링 방법 기반",
+          "outlet": "정보사회와 미디어 (Information Society & Media)",
+          "url": "",
+          "topics": [
+            "journalism",
+            "politics"
+          ],
+          "featured": true,
+          "featuredRank": 3,
+          "source": "curated"
+        },
+        {
+          "year": 2021,
+          "title": "Engagement in Emotional News on Social Media: Intensity and Type of Emotions",
+          "outlet": "Journalism and Mass Communication Quarterly",
+          "url": "https://doi.org/10.1177/1077699020959718",
+          "source": "Pure",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "Effects of relational characteristics of an answerer on perceived credibility of informational posts on social networking sites: The case of Facebook",
+          "outlet": "Information Research",
+          "url": "https://yonsei.elsevierpure.com/en/publications/effects-of-relational-characteristics-of-an-answerer-on-perceived/",
+          "source": "Pure",
+          "topics": [
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ],
+      "labUrl": "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/sang-yup-lee/publications/"
+    }
+  ],
+  "generatedAt": "2026-09-16T07:10:07.573046+00:00"
+}
