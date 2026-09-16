@@ -203,7 +203,7 @@ faculty:
     fields: "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션"
     office: "연희관 206"
     image: "images/ppl/jso.jpg"
-    profile_url: "https://yonsei.elsevierpure.com/en/persons/jiyeon-so/"
+    lab_url: "https://yonsei.elsevierpure.com/en/persons/jiyeon-so/"
     topics: [risk, persuasion]
     area_status: core
     pinned:
