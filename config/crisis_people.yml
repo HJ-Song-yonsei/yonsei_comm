@@ -1,7 +1,7 @@
 # Crisis & Strategic Communication people/research feed
 
 pure_path: data/pure_publications_2000plus.json
-fis_path: data/fis_domestic_publications.json
+fis_path: data/fis_publications_all.json
 output_path: data/crisis_people.json
 min_year: 2018
 max_outputs_per_person: 12

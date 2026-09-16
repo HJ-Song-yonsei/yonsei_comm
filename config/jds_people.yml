@@ -1,427 +1,340 @@
+# Journalism, Democracy, & Society people/research feed
+# Generated from the department's Pure feed + Yonsei FIS domestic-publication feed.
+
 pure_path: data/pure_publications_2000plus.json
-fis_path: data/fis_domestic_publications.json
+fis_path: data/fis_publications_all.json
 output_path: data/jds_people.json
 min_year: 2018
 max_outputs_per_person: 12
+
+# A publication can belong to multiple subfields.
 topics:
   journalism:
-    label: Journalism & Institutions
+    label: "Journalism & Institutions"
     keywords:
-    - journalis*
-    - newsroom
-    - news
-    - press
-    - gatekeeping
-    - photojournal
-    - objectivity
-    - media ethics
-    - 저널리즘
-    - 기자
-    - 언론인
-    - 뉴스
-    - 언론
-    - 취재
-    - 보도
-    - 게이트키핑
-    - 공영방송
-    - 익명취재원
+      - journalis*
+      - newsroom
+      - news
+      - press
+      - gatekeeping
+      - photojournal
+      - objectivity
+      - media ethics
+      - 저널리즘
+      - 기자
+      - 언론인
+      - 뉴스
+      - 언론
+      - 취재
+      - 보도
+      - 게이트키핑
+      - 공영방송
+      - 익명취재원
   politics:
-    label: Political Communication
+    label: "Political Communication"
     keywords:
-    - politic*
-    - election
-    - electoral
-    - partisan
-    - ideology
-    - ideological
-    - polarization
-    - parliament
-    - legislator
-    - politician
-    - public opinion
-    - democrat*
-    - 정치
-    - 선거
-    - 정당
-    - 국회
-    - 국회의원
-    - 후보
-    - 대통령
-    - 이념
-    - 양극화
-    - 여론
+      - politic*
+      - election
+      - electoral
+      - partisan
+      - ideology
+      - ideological
+      - polarization
+      - parliament
+      - legislator
+      - politician
+      - public opinion
+      - democrat*
+      - 정치
+      - 선거
+      - 정당
+      - 국회
+      - 국회의원
+      - 후보
+      - 대통령
+      - 이념
+      - 양극화
+      - 여론
   misinformation:
-    label: Misinformation & Trust
+    label: "Misinformation & Trust"
     keywords:
-    - misinformation
-    - disinformation
-    - fake news
-    - fact-check
-    - fact check
-    - factchecking
-    - deepfake
-    - skepticism
-    - credibility
-    - trust
-    - rumor
-    - correction
-    - accuracy
-    - 허위정보
-    - 오정보
-    - 가짜뉴스
-    - 팩트체크
-    - 팩트체킹
-    - 딥페이크
-    - 신뢰
-    - 회의주의
-    - 루머
-    - 교정
-    - 정정
+      - misinformation
+      - disinformation
+      - fake news
+      - fact-check
+      - fact check
+      - factchecking
+      - deepfake
+      - skepticism
+      - credibility
+      - trust
+      - rumor
+      - correction
+      - accuracy
+      - 허위정보
+      - 오정보
+      - 가짜뉴스
+      - 팩트체크
+      - 팩트체킹
+      - 딥페이크
+      - 신뢰
+      - 회의주의
+      - 루머
+      - 교정
+      - 정정
   publicsphere:
-    label: Public Sphere & Civic Life
+    label: "Public Sphere & Civic Life"
     keywords:
-    - public sphere
-    - civic
-    - community
-    - hyperlocal
-    - local media
-    - social capital
-    - civic engagement
-    - participation
-    - deliberat*
-    - tolerance
-    - neighborhood
-    - platform governance
-    - community media
-    - 공론장
-    - 시민
-    - 공동체
-    - 지역 참여
-    - 지역관여
-    - 사회자본
-    - 관용
-    - 숙의
-    - 플랫폼 거버넌스
+      - public sphere
+      - civic
+      - community
+      - hyperlocal
+      - local media
+      - social capital
+      - civic engagement
+      - participation
+      - deliberat*
+      - tolerance
+      - neighborhood
+      - platform governance
+      - community media
+      - 공론장
+      - 시민
+      - 공동체
+      - 지역 참여
+      - 지역관여
+      - 사회자본
+      - 관용
+      - 숙의
+      - 플랫폼 거버넌스
+
 faculty:
-- id: taewookang
-  name_ko: 강태우
-  name_en: Taewoo Kang
-  pure_names:
-  - Taewoo Kang
-  role: Assistant Professor
-  fields: 디지털플랫폼 | AI | 정치커뮤니케이션
-  office: 유억겸 106-3
-  image: images/ppl/taewookang.jpg
-  topics:
-  - journalism
-  - politics
-  - misinformation
-  area_status: core
-  pinned:
-  - title: 'Going with the Mainstream: Exploring GPT Representation of Journalistic Culture'
-    year: 2026
-    outlet: The International Journal of Press/Politics
-    url: https://doi.org/10.1177/19401612261442761
-    topics:
-    - journalism
-    - misinformation
-  - title: Truth Default or Generalized Skepticism? The Role of Overconfidence in the Relationship Between Social Media News
-      Use and Traditional Media Use
-    year: 2025
-    outlet: Social Media + Society
-    url: https://doi.org/10.1177/20563051251315255
-    topics:
-    - politics
-    - misinformation
-  - title: 'Empowered by Curation: Spatial Differentiation in the Interrelationship Between Social Media Political Curation,
-      Political Competence, and Trust—The Case of Michigan'
-    year: 2025
-    outlet: Communication Research
-    url: https://doi.org/10.1177/00936502241311943
-    topics:
-    - politics
-    - publicsphere
-  lab_url: https://kteen2k.github.io/taewookang/
-  profile_url: https://kteen2k.github.io/taewookang/
-- id: kyungmokim
-  name_ko: 김경모
-  name_en: Kyungmo Kim
-  pure_names:
-  - Kyungmo Kim
-  role: Professor
-  fields: 저널리즘 | 내용분석 | 국제커뮤니케이션
-  office: 빌링슬리 107
-  image: images/ppl/kkmo.jpg
-  topics:
-  - journalism
-  - politics
-  - publicsphere
-  area_status: core
-  pinned:
-  - title: South Korean journalists’ role conceptions and problematic reporting practices and behaviors
-    year: 2026
-    outlet: Journalism
-    url: https://doi.org/10.1177/14648849251360622
-    topics:
-    - journalism
-  - title: '유튜브 숏폼 정치 콘텐츠의 연성화 특성과 이용자 반응: 2024년 정기 국정감사 사례 분석'
-    year: 2026
-    outlet: 한국방송학보
-    topics:
-    - journalism
-    - politics
-  - title: 'I Participate in Politics Because the News is Influential Against Me: Hostile Media Perception, Third-Person Perception,
-      and Political Participation'
-    year: 2025
-    outlet: Mass Communication and Society
-    url: https://doi.org/10.1080/15205436.2023.2272846
-    topics:
-    - politics
-    - publicsphere
-  - title: '한국 저널리즘에서 판단의 문제: 칸트의 반성적 판단력과 뉴스(의견)의 공유'
-    year: 2025
-    outlet: 커뮤니케이션 이론
-    topics:
-    - journalism
-    - publicsphere
-  profile_url: https://yonsei.elsevierpure.com/en/persons/kyungmo-kim/publications/
-- id: yongchankim
-  name_ko: 김용찬
-  name_en: Yong-Chan Kim
-  pure_names:
-  - Yong Chan Kim
-  - Yong-Chan Kim
-  role: Professor
-  fields: AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화
-  office: 연희관 304
-  image: images/ppl/yckim.jpg
-  topics:
-  - journalism
-  - politics
-  - publicsphere
-  area_status: core
-  pinned:
-  - title: '장소 기반 하이퍼로컬 플랫폼은 이용자의 지역 관여를 강화시키는가 아니면 약화시키는가?: 커뮤니케이션 하부구조 이론의 적용'
-    year: 2025
-    outlet: Korean Journal of Journalism & Communication Studies
-    topics:
-    - publicsphere
-  - title: '“Doing Community”: Digital Hyperlocal Media as Care'
-    year: 2024
-    outlet: Digital Journalism
-    url: https://doi.org/10.1080/21670811.2022.2145330
-    topics:
-    - journalism
-    - publicsphere
-  - title: Social Media Dependency and Civic Engagement Among Older Urban Adults in Korea
-    year: 2023
-    outlet: Asian Communication Research
-    topics:
-    - politics
-    - publicsphere
-  - title: '지역 참여는 우리를 더 관용적으로 만들까?: 관용적 커뮤니케이션을 중심으로'
-    year: 2023
-    outlet: 사회과학논집
-    topics:
-    - politics
-    - publicsphere
-  profile_url: https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/publications/
-- id: youngminbaek
-  name_ko: 백영민
-  name_en: Young Min Baek
-  pure_names:
-  - Young Min Baek
-  role: Professor
-  fields: 정치커뮤니케이션 | 사회과학조사방법론
-  office: 아펜젤러 204
-  image: images/ppl/ymbaek.jpg
-  topics:
-  - politics
-  - misinformation
-  area_status: core
-  pinned:
-  - title: Does hate attract likes? Offensive language and audience engagement in partisan YouTube videos
-    year: 2026
-    outlet: Telematics and Informatics
-    url: https://doi.org/10.1016/j.tele.2026.102397
-    topics:
-    - politics
-  - title: 'Spreading anger, selling hope: how partisan YouTube channels fuel affective and cognitive divides in electoral
-      contexts'
-    year: 2026
-    outlet: Behaviour and Information Technology
-    url: https://doi.org/10.1080/0144929X.2026.2675625
-    topics:
-    - politics
-  - title: The higher the news literacy, the wider the partisan gap on misinformation acceptance? The three-way interaction
-      effects of news literacy, partisanship, and exposure to partisan YouTube channels on misinformation acceptance
-    year: 2025
-    outlet: New Media and Society
-    url: https://doi.org/10.1177/14614448231191142
-    topics:
-    - politics
-    - misinformation
-  - title: 'Ideological Citizens’ Pro-attitudinal Media Exposure and Ideological Polarization: The Mediating Role of Presumed
-      Media Influence and Presumed Media Affect'
-    year: 2025
-    outlet: International Journal of Politics, Culture and Society
-    url: https://doi.org/10.1007/s10767-025-09534-4
-    topics:
-    - politics
-  lab_url: https://sites.google.com/site/ymbaek/
-  profile_url: https://yonsei.elsevierpure.com/en/persons/young-min-baek/publications/
-- id: yoonmosang
-  name_ko: 상윤모
-  name_en: Yoonmo Sang
-  pure_names:
-  - Yoonmo Sang
-  role: Associate Professor
-  fields: 미디어법 | 저널리즘 윤리 | 저작권
-  office: 빌링슬리 109
-  image: images/ppl/ymsang.jpg
-  topics:
-  - journalism
-  - publicsphere
-  area_status: core
-  pinned:
-  - title: 'Looking back at journalism ethics research over the past decade: An analysis of research in digital journalism,
-      journalism, journalism practice, and journalism studies, 2013-2022'
-    year: 2025
-    outlet: Journalism
-    url: https://doi.org/10.1177/14648849241244712
-    topics:
-    - journalism
-  - title: A Way Out or Another Hurdle? Assessing the Impact of the “News Partnership Evaluation Committee” on Platform Dependence
-      in South Korea
-    year: 2025
-    outlet: Digital Journalism
-    url: https://doi.org/10.1080/21670811.2025.2587635
-    topics:
-    - journalism
-    - publicsphere
-  - title: Theorizing platform governance as a communicative process
-    year: 2025
-    outlet: Journal of Digital Media and Policy
-    url: https://doi.org/10.1386/jdmp_00187_1
-    topics:
-    - journalism
-    - publicsphere
-  profile_url: https://yonsei.elsevierpure.com/en/persons/yoonmo-sang/publications/
-- id: hyunjinsong
-  name_ko: 송현진
-  name_en: Hyunjin Song
-  pure_names:
-  - Hyunjin Song
-  role: Associate Professor
-  fields: 정치커뮤니케이션 | 전산사회과학 | 처리유창성
-  office: 연희관 113-2
-  image: images/ppl/hyunjinsong.jpg
-  topics:
-  - journalism
-  - politics
-  - misinformation
-  - publicsphere
-  area_status: core
-  pinned:
-  - title: 'Time is the fire in which message effects burn: Decay and sustenance of correction effects over time'
-    year: 2026
-    outlet: Journal of Communication
-    url: https://doi.org/10.1093/joc/jqaf030
-    topics:
-    - misinformation
-    - politics
-  - title: Perceiving as biased but nevertheless persuaded? Effects of fact–checking news delivered by partisan media
-    year: 2024
-    outlet: Political Psychology
-    url: https://doi.org/10.1111/pops.12914
-    topics:
-    - misinformation
-    - politics
-  - title: If You Have Choices, Why Not Choose (and Share) All of Them? A Multiverse Approach to Understanding News Engagement
-      on Social Media
-    year: 2023
-    outlet: Digital Journalism
-    url: https://doi.org/10.1080/21670811.2022.2036623
-    topics:
-    - journalism
-    - politics
-    - publicsphere
-  lab_url: https://hyunjinsong.com
-  profile_url: https://yonsei.elsevierpure.com/en/persons/hyunjin-song/publications/
-- id: nayeonlee
-  name_ko: 이나연
-  name_en: Na Yeon Lee
-  pure_names:
-  - Na Yeon Lee
-  role: Professor
-  fields: 저널리즘 원칙 | 온라인저널리즘 | 뉴스수용자
-  office: 연희관 315-1
-  image: images/ppl/larosa.jpg
-  topics:
-  - journalism
-  - politics
-  - misinformation
-  area_status: core
-  pinned:
-  - title: South Korean journalists’ role conceptions and problematic reporting practices and behaviors
-    year: 2026
-    outlet: Journalism
-    url: https://doi.org/10.1177/14648849251360622
-    topics:
-    - journalism
-  - title: The Emergence of “Online Influencers” and the Blurring of Lines between Objectivity and Subjectivity
-    year: 2026
-    outlet: Journalism Practice
-    url: https://doi.org/10.1080/17512786.2025.2518450
-    topics:
-    - journalism
-  - title: The erosion of the gatekeeping function of photojournalists in the digital age
-    year: 2026
-    outlet: Journalism
-    url: https://doi.org/10.1177/14648849261460935
-    topics:
-    - journalism
-  - title: War on fake news? Media skepticism and exposure to politicians’ fake news accusations
-    year: 2026
-    outlet: Information Communication and Society
-    url: https://doi.org/10.1080/1369118X.2025.2531128
-    topics:
-    - misinformation
-    - politics
-  profile_url: https://yonsei.elsevierpure.com/en/persons/na-yeon-lee/publications/
-- id: sangyuplee
-  name_ko: 이상엽
-  name_en: Sang Yup Lee
-  pure_names:
-  - Sang Yup Lee
-  role: Professor
-  fields: 전산사회과학 | 데이터과학 | 인공지능
-  office: 유억겸 101
-  image: images/ppl/sylee.jpg
-  topics:
-  - journalism
-  - politics
-  - misinformation
-  area_status: cross-area
-  pinned:
-  - title: The erosion of the gatekeeping function of photojournalists in the digital age
-    year: 2026
-    outlet: Journalism
-    url: https://doi.org/10.1177/14648849261460935
-    topics:
-    - journalism
-  - title: Perceiving as biased but nevertheless persuaded? Effects of fact–checking news delivered by partisan media
-    year: 2024
-    outlet: Political Psychology
-    url: https://doi.org/10.1111/pops.12914
-    topics:
-    - misinformation
-    - politics
-  - title: '신문사의 정치 성향에 따른 코로나19 보도 내용 분석: 기계학습/딥러닝, 네트워크 분석, 토픽모델링 방법 기반'
-    year: 2022
-    outlet: 정보사회와 미디어 (Information Society & Media)
-    topics:
-    - journalism
-    - politics
-  lab_url: https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab
-  profile_url: https://yonsei.elsevierpure.com/en/persons/sang-yup-lee/publications/
+  - id: taewookang
+    name_ko: 강태우
+    name_en: Taewoo Kang
+    pure_names: ["Taewoo Kang"]
+    role: Assistant Professor
+    fields: "디지털플랫폼 | AI | 정치커뮤니케이션"
+    office: "유억겸 106-3"
+    image: "images/ppl/taewookang.jpg"
+    topics: [journalism, politics, misinformation]
+    area_status: core
+    pinned:
+      - title: "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture"
+        year: 2026
+        outlet: "The International Journal of Press/Politics"
+        url: "https://doi.org/10.1177/19401612261442761"
+        topics: [journalism, misinformation]
+      - title: "Truth Default or Generalized Skepticism? The Role of Overconfidence in the Relationship Between Social Media News Use and Traditional Media Use"
+        year: 2025
+        outlet: "Social Media + Society"
+        url: "https://doi.org/10.1177/20563051251315255"
+        topics: [politics, misinformation]
+      - title: "Empowered by Curation: Spatial Differentiation in the Interrelationship Between Social Media Political Curation, Political Competence, and Trust—The Case of Michigan"
+        year: 2025
+        outlet: "Communication Research"
+        url: "https://doi.org/10.1177/00936502241311943"
+        topics: [politics, publicsphere]
+
+  - id: kyungmokim
+    name_ko: 김경모
+    name_en: Kyungmo Kim
+    pure_names: ["Kyungmo Kim"]
+    role: Professor
+    fields: "저널리즘 | 내용분석 | 국제커뮤니케이션"
+    office: "빌링슬리 107"
+    image: "images/ppl/kkmo.jpg"
+    topics: [journalism, politics, publicsphere]
+    area_status: core
+    pinned:
+      - title: "South Korean journalists’ role conceptions and problematic reporting practices and behaviors"
+        year: 2026
+        outlet: Journalism
+        url: "https://doi.org/10.1177/14648849251360622"
+        topics: [journalism]
+      - title: "유튜브 숏폼 정치 콘텐츠의 연성화 특성과 이용자 반응: 2024년 정기 국정감사 사례 분석"
+        year: 2026
+        outlet: 한국방송학보
+        topics: [journalism, politics]
+      - title: "I Participate in Politics Because the News is Influential Against Me: Hostile Media Perception, Third-Person Perception, and Political Participation"
+        year: 2025
+        outlet: "Mass Communication and Society"
+        url: "https://doi.org/10.1080/15205436.2023.2272846"
+        topics: [politics, publicsphere]
+      - title: "한국 저널리즘에서 판단의 문제: 칸트의 반성적 판단력과 뉴스(의견)의 공유"
+        year: 2025
+        outlet: "커뮤니케이션 이론"
+        topics: [journalism, publicsphere]
+
+  - id: yongchankim
+    name_ko: 김용찬
+    name_en: Yong-Chan Kim
+    pure_names: ["Yong Chan Kim", "Yong-Chan Kim"]
+    role: Professor
+    fields: "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화"
+    office: "연희관 304"
+    image: "images/ppl/yckim.jpg"
+    topics: [journalism, politics, publicsphere]
+    area_status: core
+    pinned:
+      - title: "장소 기반 하이퍼로컬 플랫폼은 이용자의 지역 관여를 강화시키는가 아니면 약화시키는가?: 커뮤니케이션 하부구조 이론의 적용"
+        year: 2025
+        outlet: "Korean Journal of Journalism & Communication Studies"
+        topics: [publicsphere]
+      - title: "“Doing Community”: Digital Hyperlocal Media as Care"
+        year: 2024
+        outlet: "Digital Journalism"
+        url: "https://doi.org/10.1080/21670811.2022.2145330"
+        topics: [journalism, publicsphere]
+      - title: "Social Media Dependency and Civic Engagement Among Older Urban Adults in Korea"
+        year: 2023
+        outlet: "Asian Communication Research"
+        topics: [politics, publicsphere]
+      - title: "지역 참여는 우리를 더 관용적으로 만들까?: 관용적 커뮤니케이션을 중심으로"
+        year: 2023
+        outlet: "사회과학논집"
+        topics: [politics, publicsphere]
+
+  - id: youngminbaek
+    name_ko: 백영민
+    name_en: Young Min Baek
+    pure_names: ["Young Min Baek"]
+    role: Professor
+    fields: "정치커뮤니케이션 | 사회과학조사방법론"
+    office: "아펜젤러 204"
+    image: "images/ppl/ymbaek.jpg"
+    topics: [politics, misinformation]
+    area_status: core
+    pinned:
+      - title: "Does hate attract likes? Offensive language and audience engagement in partisan YouTube videos"
+        year: 2026
+        outlet: "Telematics and Informatics"
+        url: "https://doi.org/10.1016/j.tele.2026.102397"
+        topics: [politics]
+      - title: "Spreading anger, selling hope: how partisan YouTube channels fuel affective and cognitive divides in electoral contexts"
+        year: 2026
+        outlet: "Behaviour and Information Technology"
+        url: "https://doi.org/10.1080/0144929X.2026.2675625"
+        topics: [politics]
+      - title: "The higher the news literacy, the wider the partisan gap on misinformation acceptance? The three-way interaction effects of news literacy, partisanship, and exposure to partisan YouTube channels on misinformation acceptance"
+        year: 2025
+        outlet: "New Media and Society"
+        url: "https://doi.org/10.1177/14614448231191142"
+        topics: [politics, misinformation]
+      - title: "Ideological Citizens’ Pro-attitudinal Media Exposure and Ideological Polarization: The Mediating Role of Presumed Media Influence and Presumed Media Affect"
+        year: 2025
+        outlet: "International Journal of Politics, Culture and Society"
+        url: "https://doi.org/10.1007/s10767-025-09534-4"
+        topics: [politics]
+
+  - id: yoonmosang
+    name_ko: 상윤모
+    name_en: Yoonmo Sang
+    pure_names: ["Yoonmo Sang"]
+    role: Associate Professor
+    fields: "미디어법 | 저널리즘 윤리 | 저작권"
+    office: "빌링슬리 109"
+    image: "images/ppl/ymsang.jpg"
+    topics: [journalism, publicsphere]
+    area_status: core
+    pinned:
+      - title: "Looking back at journalism ethics research over the past decade: An analysis of research in digital journalism, journalism, journalism practice, and journalism studies, 2013-2022"
+        year: 2025
+        outlet: Journalism
+        url: "https://doi.org/10.1177/14648849241244712"
+        topics: [journalism]
+      - title: "A Way Out or Another Hurdle? Assessing the Impact of the “News Partnership Evaluation Committee” on Platform Dependence in South Korea"
+        year: 2025
+        outlet: "Digital Journalism"
+        url: "https://doi.org/10.1080/21670811.2025.2587635"
+        topics: [journalism, publicsphere]
+      - title: "Theorizing platform governance as a communicative process"
+        year: 2025
+        outlet: "Journal of Digital Media and Policy"
+        url: "https://doi.org/10.1386/jdmp_00187_1"
+        topics: [journalism, publicsphere]
+
+  - id: hyunjinsong
+    name_ko: 송현진
+    name_en: Hyunjin Song
+    pure_names: ["Hyunjin Song"]
+    role: Associate Professor
+    fields: "정치커뮤니케이션 | 전산사회과학 | 처리유창성"
+    office: "연희관 113-2"
+    image: "images/ppl/hyunjinsong.jpg"
+    topics: [journalism, politics, misinformation, publicsphere]
+    area_status: core
+    pinned:
+      - title: "Time is the fire in which message effects burn: Decay and sustenance of correction effects over time"
+        year: 2026
+        outlet: "Journal of Communication"
+        url: "https://doi.org/10.1093/joc/jqaf030"
+        topics: [misinformation, politics]
+      - title: "Perceiving as biased but nevertheless persuaded? Effects of fact–checking news delivered by partisan media"
+        year: 2024
+        outlet: "Political Psychology"
+        url: "https://doi.org/10.1111/pops.12914"
+        topics: [misinformation, politics]
+      - title: "If You Have Choices, Why Not Choose (and Share) All of Them? A Multiverse Approach to Understanding News Engagement on Social Media"
+        year: 2023
+        outlet: "Digital Journalism"
+        url: "https://doi.org/10.1080/21670811.2022.2036623"
+        topics: [journalism, politics, publicsphere]
+
+  - id: nayeonlee
+    name_ko: 이나연
+    name_en: Na Yeon Lee
+    pure_names: ["Na Yeon Lee"]
+    role: Professor
+    fields: "저널리즘 원칙 | 온라인저널리즘 | 뉴스수용자"
+    office: "연희관 315-1"
+    image: "images/ppl/larosa.jpg"
+    topics: [journalism, politics, misinformation]
+    area_status: core
+    pinned:
+      - title: "South Korean journalists’ role conceptions and problematic reporting practices and behaviors"
+        year: 2026
+        outlet: Journalism
+        url: "https://doi.org/10.1177/14648849251360622"
+        topics: [journalism]
+      - title: "The Emergence of “Online Influencers” and the Blurring of Lines between Objectivity and Subjectivity"
+        year: 2026
+        outlet: "Journalism Practice"
+        url: "https://doi.org/10.1080/17512786.2025.2518450"
+        topics: [journalism]
+      - title: "The erosion of the gatekeeping function of photojournalists in the digital age"
+        year: 2026
+        outlet: Journalism
+        url: "https://doi.org/10.1177/14648849261460935"
+        topics: [journalism]
+      - title: "War on fake news? Media skepticism and exposure to politicians’ fake news accusations"
+        year: 2026
+        outlet: "Information Communication and Society"
+        url: "https://doi.org/10.1080/1369118X.2025.2531128"
+        topics: [misinformation, politics]
+
+  - id: sangyuplee
+    name_ko: 이상엽
+    name_en: Sang Yup Lee
+    pure_names: ["Sang Yup Lee"]
+    role: Professor
+    fields: "전산사회과학 | 데이터과학 | 인공지능"
+    office: "유억겸 101"
+    image: "images/ppl/sylee.jpg"
+    topics: [journalism, politics, misinformation]
+    area_status: cross-area
+    pinned:
+      - title: "The erosion of the gatekeeping function of photojournalists in the digital age"
+        year: 2026
+        outlet: Journalism
+        url: "https://doi.org/10.1177/14648849261460935"
+        topics: [journalism]
+      - title: "Perceiving as biased but nevertheless persuaded? Effects of fact–checking news delivered by partisan media"
+        year: 2024
+        outlet: "Political Psychology"
+        url: "https://doi.org/10.1111/pops.12914"
+        topics: [misinformation, politics]
+      - title: "신문사의 정치 성향에 따른 코로나19 보도 내용 분석: 기계학습/딥러닝, 네트워크 분석, 토픽모델링 방법 기반"
+        year: 2022
+        outlet: "정보사회와 미디어 (Information Society & Media)"
+        topics: [journalism, politics]

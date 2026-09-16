@@ -5,6 +5,7 @@ min_year: 2010
 request_delay_seconds: 0.6
 fail_on_required_error: true
 
+all_output_path: data/fis_publications_all.json
 output_path: data/fis_domestic_publications.json
 review_output_path: data/fis_publications_review.json
 
@@ -45,9 +46,11 @@ faculty:
     # Until the ID is known, a discovery failure should not block updates for everyone else.
     required: false
 
-# Conservative classification:
-# - Any Hangul journal title is automatically treated as domestic.
-# - English-titled Korean journals MUST be listed here.
+# Classification for the website feed:
+# - Any article title containing Hangul is treated as domestic.
+# - Otherwise, a Hangul journal title is treated as domestic.
+# - English-titled Korean journals should be listed here.
+# - All articles are still retained in fis_publications_all.json regardless of classification.
 # Add exact FIS journal titles as they appear in data/fis_publications_review.json.
 domestic_journal_overrides:
   - "Asian Communication Research"
