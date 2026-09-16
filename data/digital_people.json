@@ -23,7 +23,60 @@
         "ai",
         "platforms"
       ],
-      "outputs": []
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture",
+          "outletRaw": "The International Journal of Press/Politics",
+          "outlet": "The International Journal of Press/Politics",
+          "url": "https://doi.org/10.1177/19401612261442761",
+          "urlSource": "curated",
+          "source": "curated",
+          "publicationType": "international",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": false,
+          "topics": [
+            "ai",
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 1
+        },
+        {
+          "year": 2025,
+          "title": "Empowered by Curation: Spatial Differentiation in the Interrelationship Between Social Media Political Curation, Political Competence, and Trust—The Case of Michigan",
+          "outletRaw": "Communication Research",
+          "outlet": "Communication Research",
+          "url": "https://doi.org/10.1177/00936502241311943",
+          "urlSource": "curated",
+          "source": "curated",
+          "publicationType": "international",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 2
+        },
+        {
+          "year": 2025,
+          "title": "Truth Default or Generalized Skepticism? The Role of Overconfidence in the Relationship Between Social Media News Use and Traditional Media Use",
+          "outletRaw": "Social Media + Society",
+          "outlet": "Social Media + Society",
+          "url": "https://doi.org/10.1177/20563051251315255",
+          "urlSource": "curated",
+          "source": "curated",
+          "publicationType": "international",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 3
+        }
+      ]
     },
     {
       "id": "yongchankim",
@@ -896,5 +949,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T15:41:28.701229+00:00"
+  "generatedAt": "2026-09-16T16:04:54.203853+00:00"
 }
