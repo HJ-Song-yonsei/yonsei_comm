@@ -197,9 +197,9 @@ faculty:
     name_en: Joohan Kim
     pure_names: ["Joohan Kim"]
     role: Professor
-    fields: "긍정커뮤니케이션 | 정서·인지 | 웰빙"
-    office: ""
-    image: "images/ppl/jhkim.jpg"
+    fields: "뇌과학 | 내면소통 | 소통능력"
+    office: "아펜젤러 207"
+    image: "images/ppl/jkim.jpg"
     profile_url: "https://yonsei.elsevierpure.com/en/persons/joohan-kim/"
     topics: [psychology, wellbeing, technology]
     area_status: core
