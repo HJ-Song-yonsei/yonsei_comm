@@ -15,7 +15,7 @@
       "role": "Assistant Professor",
       "fields": "디지털플랫폼 | AI | 정치커뮤니케이션",
       "office": "유억겸 106-3",
-      "image": "https://comm.yonsei.ac.kr/images/ppl/taewookang.jpg",
+      "image": "images/ppl/taewookang.jpg",
       "labUrl": "",
       "profileUrl": "https://kteen2k.github.io/taewookang/",
       "areaStatus": "core",
@@ -119,7 +119,7 @@
           "title": "Social Media Dependency and Civic Engagement Among Older Urban Adults in Korea",
           "outlet": "Asian Communication Research",
           "url": "https://doi.org/10.20879/acr.2023.20.018",
-          "source": "Pure",
+          "source": "FIS+Pure",
           "topics": [
             "platforms"
           ],
@@ -152,10 +152,34 @@
         },
         {
           "year": 2021,
+          "title": "포스트-지진 재난 상황에서 지역기반 소셜미디어를 통한 시민관여",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
           "title": "Social media use on protest sites during the 2016-2017 candlelight vigils in Seoul",
           "outlet": "Taylor and Francis",
           "url": "https://doi.org/10.4324/9780367823115-5",
           "source": "Pure",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "도시의 디지털화: 인공지능 기반 ‘디지털 도시’의 커뮤니케이션 이슈들",
+          "outlet": "언론정보연구",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "platforms"
           ],
@@ -231,6 +255,54 @@
           "source": "Pure"
         },
         {
+          "year": 2025,
+          "title": "인공지능 챗봇의 의인화가 챗봇 이용자의 차별 발언 중단의도와 챗봇 지속이용의도에 미치는 영향: 심리적 반발의 매개효과와 사회규범 메시지의 조절효과",
+          "outlet": "한국소통학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "ai"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "K-POP 팬 커뮤니티 서비스의 상호작용성과 미디어 풍부성이 팬덤의 친밀감과 충성도에 미치는 영향: 몰입의 매개효과",
+          "outlet": "방송과 커뮤니케이션",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "interactive"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "Impacts of Generative Artificial Intelligence Referencing Guidelines on College Students’ Self-efficacy",
+          "outlet": "사회과학논집",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "ai"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "청소년의 또래집단 규범이 비윤리적 행동 중단의도, 인공지능 챗봇에 대한 친밀감과 상호작용 만족도에 미치는 영향 : 메시지 프레임의 조절효과",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "ai"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2024,
           "title": "The moderating influence of SNS users’ attachment style on the associations between perceived information overload, SNS fatigue, and mental health",
           "outlet": "Behaviour and Information Technology",
@@ -238,6 +310,18 @@
           "source": "Pure",
           "topics": [
             "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "사회성 능력이 인공지능 챗봇의 사회적 사용과 자기노출에 미치는 영향: 사용자의 외로움 정도와 챗봇에 대한 지각된 인간다움의 매개효과",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "ai"
           ],
           "featured": false,
           "featuredRank": null
@@ -255,25 +339,25 @@
           "featuredRank": null
         },
         {
-          "year": 2019,
-          "title": "Private Self-Awareness and Aggression in Computer-Mediated Communication: Abusive User Comments on Online News Articles",
-          "outlet": "International Journal of Human-Computer Interaction",
-          "url": "https://doi.org/10.1080/10447318.2018.1514822",
-          "source": "Pure",
+          "year": 2020,
+          "title": "인공지능과 윤리적 이슈",
+          "outlet": "언론정보연구",
+          "url": "",
+          "source": "FIS",
           "topics": [
-            "platforms"
+            "ai"
           ],
           "featured": false,
           "featuredRank": null
         },
         {
           "year": 2019,
-          "title": "I Know My Professor: Teacher Self-Disclosure in Online Education and a Mediating Role of Social Presence",
-          "outlet": "International Journal of Human-Computer Interaction",
-          "url": "https://doi.org/10.1080/10447318.2018.1455126",
-          "source": "Pure",
+          "title": "가상현실 관광 콘텐츠가 관광 목적지에 대한 경험가치의 지각과 방문의도에 미치는 영향: 현존감의 매개효과를 중심으로",
+          "outlet": "사이버커뮤니케이션학보",
+          "url": "",
+          "source": "FIS",
           "topics": [
-            "platforms"
+            "interactive"
           ],
           "featured": false,
           "featuredRank": null
@@ -333,7 +417,19 @@
           ],
           "featured": true,
           "featuredRank": 3,
-          "source": "Pure"
+          "source": "FIS+Pure"
+        },
+        {
+          "year": 2026,
+          "title": "온라인 상품 추천 메시지 내 인공지능 명시 여부가 추천 상품 평가에 미치는 영향: 추천 서비스 품질의 매개효과와 머신 휴리스틱의 조절효과",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "ai"
+          ],
+          "featured": false,
+          "featuredRank": null
         },
         {
           "year": 2024,
@@ -419,12 +515,61 @@
         },
         {
           "year": 2024,
+          "title": "Examining the impacts of a movie trailer on box office performance with multi-modal deep learning approaches",
+          "outlet": "지능정보연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "ai",
+            "computational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "플레이어의 위치와 플레이어 간 거리 정보를 이용한 리그 오브 레전드 승패 예측: 딥러닝 알고리즘을 기반으로",
+          "outlet": "한국콘텐츠학회 논문지",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "computational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "도농복합지역 중노년층의 스트레스에 관한 텍스트 마이닝 분석: 농업 종사 여부를 중심으로",
+          "outlet": "보건사회연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "computational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
           "title": "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults",
           "outlet": "Frontiers in Psychiatry",
           "url": "https://doi.org/10.3389/fpsyt.2024.1364930",
           "source": "Pure",
           "topics": [
             "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "CoNSIST: Consist of New Methodologies on AASIST for Audio Deepfake Detection",
+          "outlet": "정보처리학회논문지. 소프트웨어 및 데이터 공학",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "ai"
           ],
           "featured": false,
           "featuredRank": null
@@ -443,11 +588,35 @@
           "featuredRank": null
         },
         {
-          "year": 2021,
-          "title": "Engagement in Emotional News on Social Media: Intensity and Type of Emotions",
-          "outlet": "Journalism and Mass Communication Quarterly",
-          "url": "https://doi.org/10.1177/1077699020959718",
-          "source": "Pure",
+          "year": 2023,
+          "title": "개인의 사회 심리적 특성과 인스타그램 게시 이미지 특성 간의 관계",
+          "outlet": "아시아태평양융합연구교류논문지",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "신문사의 정치 성향에 따른 코로나19 보도 내용 분석: 기계학습/딥러닝, 네트워크 분석, 토픽모델링 방법 기반",
+          "outlet": "정보사회와 미디어 (Information Society & Media)",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "computational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "플랫폼에 따른 건강정보추구 행동의 영향요인과 결과: 사회경제적 요인, 디지털 미디어 리터러시, 사회적 지지, 생활만족을 중심으로",
+          "outlet": "헬스커뮤니케이션연구 (Health Communication Research)",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "platforms"
           ],
@@ -483,7 +652,7 @@
           ],
           "featured": true,
           "featuredRank": 1,
-          "source": "Pure"
+          "source": "FIS+Pure"
         },
         {
           "year": 2024,
@@ -547,6 +716,54 @@
           "featuredRank": null
         },
         {
+          "year": 2020,
+          "title": "AI 금융 챗봇 추천 메시지의 의인화와 개인화 수준이 고객 반응에 미치는 영향",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "ai"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "가상적 브랜드 교감 척도의 개발과 적용: 브랜디드 VR 및 AR 콘텐츠를 대상으로",
+          "outlet": "홍보학연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "interactive"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "정부 및 공공 기관 SNS 활용 평가를 위한 정량 및 정성 지표의 도출과 지표별 중요도 분석",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "인공지능 스피커(AI 스피커)에 대한 사용자 인식과 이용 동기 요인 연구",
+          "outlet": "한국콘텐츠학회 논문지",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "ai"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2019,
           "title": "Introduction to the special issue: new trends in digital and social media advertising",
           "outlet": "International Journal of Advertising",
@@ -554,6 +771,18 @@
           "source": "Pure",
           "topics": [
             "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "가상현실 및 증강현실을 활용한 브랜 디드 엔터테인먼트의 내용분석 연구",
+          "outlet": "광고학연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "interactive"
           ],
           "featured": false,
           "featuredRank": null
@@ -672,5 +901,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T08:00:04.812613+00:00"
+  "generatedAt": "2026-09-16T14:20:22.553254+00:00"
 }

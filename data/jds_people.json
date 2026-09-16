@@ -16,6 +16,8 @@
       "fields": "디지털플랫폼 | AI | 정치커뮤니케이션",
       "office": "유억겸 106-3",
       "image": "images/ppl/taewookang.jpg",
+      "labUrl": "https://kteen2k.github.io/taewookang/",
+      "profileUrl": "https://kteen2k.github.io/taewookang/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -62,9 +64,7 @@
           "featuredRank": 3,
           "source": "curated"
         }
-      ],
-      "labUrl": "https://kteen2k.github.io/taewookang/",
-      "profileUrl": "https://kteen2k.github.io/taewookang/"
+      ]
     },
     {
       "id": "kyungmokim",
@@ -74,6 +74,8 @@
       "fields": "저널리즘 | 내용분석 | 국제커뮤니케이션",
       "office": "빌링슬리 107",
       "image": "images/ppl/kkmo.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/kyungmo-kim/publications/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -104,7 +106,7 @@
           ],
           "featured": true,
           "featuredRank": 2,
-          "source": "curated"
+          "source": "FIS"
         },
         {
           "year": 2025,
@@ -130,7 +132,7 @@
           ],
           "featured": true,
           "featuredRank": 4,
-          "source": "curated"
+          "source": "FIS"
         },
         {
           "year": 2023,
@@ -145,10 +147,44 @@
           ],
           "featured": false,
           "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "지상파 방송사 유튜브 영상 뉴스의 특성과 이용 반응: KBS 크랩, MBC 14F, SBS 스브스뉴스의 내용분석",
+          "outlet": "한국방송학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "공영방송 TV뉴스의 익명취재원 이용 KBS <뉴스 9>와 BBC <10시뉴스>의 비교 분석",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "뉴스 수용자의 지각 편향과 뉴스 공정성 평가",
+          "outlet": "커뮤니케이션 이론",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
         }
-      ],
-      "labUrl": "",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/kyungmo-kim/publications/"
+      ]
     },
     {
       "id": "yongchankim",
@@ -158,6 +194,8 @@
       "fields": "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화",
       "office": "연희관 304",
       "image": "images/ppl/yckim.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/publications/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -201,7 +239,7 @@
           ],
           "featured": true,
           "featuredRank": 3,
-          "source": "Pure"
+          "source": "FIS+Pure"
         },
         {
           "year": 2023,
@@ -214,7 +252,7 @@
           ],
           "featured": true,
           "featuredRank": 4,
-          "source": "curated"
+          "source": "FIS"
         },
         {
           "year": 2023,
@@ -224,6 +262,31 @@
           "source": "Pure",
           "topics": [
             "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "비대면 소통, 미디어 이용, 결속적 사회자본: 코로나19 발생 전과 후의 패널 데이터 분석",
+          "outlet": "언론정보연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism",
+            "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "코로나19 팬데믹과 노인의 도시 디지털화 경험",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism"
           ],
           "featured": false,
           "featuredRank": null
@@ -241,11 +304,11 @@
           "featuredRank": null
         },
         {
-          "year": 2021,
-          "title": "Commuting, Communication, and Community Engagement From a Communication Infrastructure Theory Perspective",
-          "outlet": "Communication Research",
-          "url": "https://doi.org/10.1177/0093650218801745",
-          "source": "Pure",
+          "year": 2022,
+          "title": "21세기 정보통신 기술과 도시 지역 공동체",
+          "outlet": "문명과 경계",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "publicsphere"
           ],
@@ -254,11 +317,12 @@
         },
         {
           "year": 2021,
-          "title": "Communication Infrastructure, Migrant Community Engagement, and Integrative Adaptation of Korean Chinese Migrants in Seoul",
-          "outlet": "Communication Research",
-          "url": "https://doi.org/10.1177/0093650218782819",
-          "source": "Pure",
+          "title": "포스트-지진 재난 상황에서 지역기반 소셜미디어를 통한 시민관여",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
           "topics": [
+            "journalism",
             "publicsphere"
           ],
           "featured": false,
@@ -266,10 +330,10 @@
         },
         {
           "year": 2021,
-          "title": "Communication Infrastructure in an Asian Immigrant Community",
-          "outlet": "Journal of Health Communication",
-          "url": "https://doi.org/10.1080/10810730.2021.1998847",
-          "source": "Pure",
+          "title": "지역 기반 공동체 미디어와 연관성 위기",
+          "outlet": "방송문화연구",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "publicsphere"
           ],
@@ -277,44 +341,18 @@
           "featuredRank": null
         },
         {
-          "year": 2021,
-          "title": "Attention to news media, emotional responses, and policy preferences about public health crisis: The case of fine dust pollution in south korea",
-          "outlet": "International journal of environmental research and public health",
-          "url": "https://doi.org/10.3390/ijerph182413325",
-          "source": "Pure",
+          "year": 2018,
+          "title": "의학전문기자의 전문성과 언론사 조직 내에서의 업무 자율성: 이중적 직업 정체성의 전략적 이용",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "journalism"
           ],
           "featured": false,
           "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "Protest Participation Experiences and Media Uses in Urban Protests: A Conceptualization and Empirical Examination",
-          "outlet": "International Journal of Communication",
-          "url": "https://yonsei.elsevierpure.com/en/publications/protest-participation-experiences-and-media-uses-in-urban-protest/",
-          "source": "Pure",
-          "topics": [
-            "publicsphere"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "SNS Dependency and Community Engagement in Urban Neighborhoods: The Moderating Role of Integrated Connectedness to a Community Storytelling Network",
-          "outlet": "Communication Research",
-          "url": "https://doi.org/10.1177/0093650215588786",
-          "source": "Pure",
-          "topics": [
-            "publicsphere"
-          ],
-          "featured": false,
-          "featuredRank": null
         }
-      ],
-      "labUrl": "",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/publications/"
+      ]
     },
     {
       "id": "youngminbaek",
@@ -324,6 +362,8 @@
       "fields": "정치커뮤니케이션 | 사회과학조사방법론",
       "office": "아펜젤러 204",
       "image": "images/ppl/ymbaek.jpg",
+      "labUrl": "https://sites.google.com/site/ymbaek/",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/young-min-baek/publications/",
       "areaStatus": "core",
       "topics": [
         "politics",
@@ -380,6 +420,18 @@
           "source": "Pure"
         },
         {
+          "year": 2026,
+          "title": "국회의원 발의법안 제안이유의 언어적 특성과입법 성과: 구체성, 감정 표현, 도덕기반 분석을 중심으로",
+          "outlet": "언론과학연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2025,
           "title": "Learning from YouTube? The role of exposure to partisan YouTube channels and news literacy in political learning during the South Korean general election campaign",
           "outlet": "Journal of Information Technology and Politics",
@@ -392,11 +444,11 @@
           "featuredRank": null
         },
         {
-          "year": 2021,
-          "title": "Talking About What Would Happen Versus What Happened: Tracking Congressional Speeches During COVID-19",
-          "outlet": "Journal of Social and Political Psychology",
-          "url": "https://doi.org/10.5964/jspp.6153",
-          "source": "Pure",
+          "year": 2025,
+          "title": "후보자의 표정과 유권자의 마음: 기계학습 기반 이미지 알고리즘을 활용한 후보자 선거포스터 정서분석을 중심으로",
+          "outlet": "언론정보연구",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "politics"
           ],
@@ -404,23 +456,47 @@
           "featuredRank": null
         },
         {
-          "year": 2019,
-          "title": "Fake News Should Be Regulated Because It Influences Both “Others” and “Me”: How and Why the Influence of Presumed Influence Model Should Be Extended",
-          "outlet": "Mass Communication and Society",
-          "url": "https://doi.org/10.1080/15205436.2018.1562076",
-          "source": "Pure",
+          "year": 2025,
+          "title": "보도기사에 제시된 대통령의 얼굴 변화: 10대 중앙일간지의 계엄사태 이전과 이후 보도사진 비교",
+          "outlet": "한국언론정보학보",
+          "url": "",
+          "source": "FIS",
           "topics": [
-            "misinformation"
+            "politics"
           ],
           "featured": false,
           "featuredRank": null
         },
         {
-          "year": 2019,
-          "title": "Citizens’ Ambivalence toward Female Politicians: Why Ambivalence Matters for Gender Equality in a Democracy",
-          "outlet": "Journal of Women, Politics and Policy",
-          "url": "https://doi.org/10.1080/1554477X.2019.1583031",
-          "source": "Pure",
+          "year": 2022,
+          "title": "코로나19 장기화와 정치적 양극화: 오미크론 변이 바이러스 등장과 대통령선거를 중심으로",
+          "outlet": "언론과학연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "선거여론조사 응답자는 어떤 시민인가? 정치참여로서의 선거여론조사 응답과 여론조사의 대표성 위기",
+          "outlet": "조사연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "생태학적 추론(ecological inference, EI) 모형을 활용한 사전투표제 도입에 따른 국회의원선거의 투표참여방식 변화 연구",
+          "outlet": "한국정당학회보",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "politics"
           ],
@@ -429,19 +505,18 @@
         },
         {
           "year": 2018,
-          "title": "The power of political talk: how and when it mobilizes politically efficacious citizens’ campaign activity during elections",
-          "outlet": "Asian Journal of Communication",
-          "url": "https://doi.org/10.1080/01292986.2018.1431295",
-          "source": "Pure",
+          "title": "19대 대선 기간 후보자 간 의혹제기에 대한 팩트체크 뉴스의 설득효과: 팩트체크 뉴스 판정결과와 지지후보를 중심으로",
+          "outlet": "언론정보연구",
+          "url": "",
+          "source": "FIS",
           "topics": [
-            "politics"
+            "politics",
+            "misinformation"
           ],
           "featured": false,
           "featuredRank": null
         }
-      ],
-      "labUrl": "https://sites.google.com/site/ymbaek/",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/young-min-baek/publications/"
+      ]
     },
     {
       "id": "yoonmosang",
@@ -451,6 +526,8 @@
       "fields": "미디어법 | 저널리즘 윤리 | 저작권",
       "office": "빌링슬리 109",
       "image": "images/ppl/ymsang.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yoonmo-sang/publications/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -496,6 +573,30 @@
           "source": "Pure"
         },
         {
+          "year": 2026,
+          "title": "케이팝 안무의 저작권법상 보호와 한계 — 쟁점 분석과 제도 개선 제안을 중심으로 —",
+          "outlet": "언론과 법",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "뉴스 저작권의 보호 범위에 관한 연구 — 저작권법 제7조 제5호 ‘사실의 전달에 불과한 시사보도’를 중심으로 —",
+          "outlet": "언론과 법",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2018,
           "title": "Structure and returns: toward a refined understanding of Internet use and social capital Information",
           "outlet": "Information Communication and Society",
@@ -507,9 +608,7 @@
           "featured": false,
           "featuredRank": null
         }
-      ],
-      "labUrl": "",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/yoonmo-sang/publications/"
+      ]
     },
     {
       "id": "hyunjinsong",
@@ -519,6 +618,8 @@
       "fields": "정치커뮤니케이션 | 전산사회과학 | 처리유창성",
       "office": "연희관 113-2",
       "image": "images/ppl/hyunjinsong.jpg",
+      "labUrl": "https://hyunjinsong.com",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/hyunjin-song/publications/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -568,6 +669,44 @@
           "source": "Pure"
         },
         {
+          "year": 2026,
+          "title": "유튜브 정치뉴스 추천서비스 이용과 온라인 및 오프라인 정치적 이견회피: 확증편향과 정서적 양극화의 매개경로 검토를 중심으로",
+          "outlet": "방송문화연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism",
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "개인의 방향성 목표 성향 및 정확성 목표 성향이 유튜브 추천 알고리즘 지속 이용의도에 미치는 영향: 지각된 유용성과 지각된 신뢰성의 매개효과",
+          "outlet": "언론정보연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism",
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "뉴스 수용자 파편화와 분극화 현상에 대한 네트워크 추론분석: 네트워크 필터링 기법의 영향력을 중심으로",
+          "outlet": "언론정보연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2022,
           "title": "Trusting on the shoulders of open giants? Open science increases trust in science for the public and academics",
           "outlet": "Journal of Communication",
@@ -615,9 +754,7 @@
           "featured": false,
           "featuredRank": null
         }
-      ],
-      "labUrl": "https://hyunjinsong.com",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/hyunjin-song/publications/"
+      ]
     },
     {
       "id": "nayeonlee",
@@ -627,6 +764,8 @@
       "fields": "저널리즘 원칙 | 온라인저널리즘 | 뉴스수용자",
       "office": "연희관 315-1",
       "image": "images/ppl/larosa.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/na-yeon-lee/publications/",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -685,10 +824,10 @@
         },
         {
           "year": 2025,
-          "title": "Met expectations, job satisfaction, and intention to leave: The effects of discrepancy between job expectations and experiences on journalists’ intention to leave",
-          "outlet": "Journalism and Communication Monographs",
-          "url": "https://doi.org/10.1177/14648849241248235",
-          "source": "Pure",
+          "title": "뉴스 저작권의 보호 범위에 관한 연구 — 저작권법 제7조 제5호 ‘사실의 전달에 불과한 시사보도’를 중심으로 —",
+          "outlet": "언론과 법",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "journalism"
           ],
@@ -696,13 +835,14 @@
           "featuredRank": null
         },
         {
-          "year": 2025,
-          "title": "Looking back at journalism ethics research over the past decade: An analysis of research in digital journalism, journalism, journalism practice, and journalism studies, 2013-2022",
-          "outlet": "Journalism",
-          "url": "https://doi.org/10.1177/14648849241244712",
-          "source": "Pure",
+          "year": 2024,
+          "title": "정치기사의 소셜미디어 활용 관행 : 지면 기사와 온라인 기사의 비교",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
           "topics": [
-            "journalism"
+            "journalism",
+            "politics"
           ],
           "featured": false,
           "featuredRank": null
@@ -713,6 +853,18 @@
           "outlet": "Journalism Practice",
           "url": "https://doi.org/10.1080/17512786.2022.2130815",
           "source": "Pure",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "한국의 여성 기자는 왜 언론인이 되었을까?: 충족된 동기, 직무 스트레스와 직업 만족도의 관계를 중심으로",
+          "outlet": "미디어, 젠더 & 문화",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "journalism"
           ],
@@ -770,22 +922,8 @@
           ],
           "featured": false,
           "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "Self-Coverage for public interest or self-promotion: How media cross-ownership structures affect news content in South Korea",
-          "outlet": "Journalism",
-          "url": "https://yonsei.elsevierpure.com/en/publications/self-coverage-for-public-interest-or-self-promotion-how-media-cro/",
-          "source": "Pure",
-          "topics": [
-            "journalism"
-          ],
-          "featured": false,
-          "featuredRank": null
         }
-      ],
-      "labUrl": "",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/na-yeon-lee/publications/"
+      ]
     },
     {
       "id": "sangyuplee",
@@ -795,6 +933,8 @@
       "fields": "전산사회과학 | 데이터과학 | 인공지능",
       "office": "유억겸 101",
       "image": "images/ppl/sylee.jpg",
+      "labUrl": "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/sang-yup-lee/publications/",
       "areaStatus": "cross-area",
       "topics": [
         "journalism",
@@ -838,7 +978,43 @@
           ],
           "featured": true,
           "featuredRank": 3,
-          "source": "curated"
+          "source": "FIS"
+        },
+        {
+          "year": 2024,
+          "title": "브이로그에 등장하는 소비의 유형이 구매의도에 미치는 영향: 부러움과 인지된 신뢰성의 매개효과 및 구독자 수의 조절효과를 중심으로",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "CoNSIST: Consist of New Methodologies on AASIST for Audio Deepfake Detection",
+          "outlet": "정보처리학회논문지. 소프트웨어 및 데이터 공학",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "Do Online Data about a TV Episode Predict the Performance of Its Online Video Clips?: With an Emphasis on the Responses of Users to News Articles about the Episode",
+          "outlet": "미디어 경제와 문화",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
         },
         {
           "year": 2021,
@@ -864,10 +1040,8 @@
           "featured": false,
           "featuredRank": null
         }
-      ],
-      "labUrl": "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/sang-yup-lee/publications/"
+      ]
     }
   ],
-  "generatedAt": "2026-09-16T07:10:07.573046+00:00"
+  "generatedAt": "2026-09-16T14:20:22.373181+00:00"
 }

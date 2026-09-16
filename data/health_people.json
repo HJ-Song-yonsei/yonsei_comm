@@ -207,6 +207,43 @@
           "source": "Pure"
         },
         {
+          "year": 2025,
+          "title": "인공지능 챗봇의 의인화가 챗봇 이용자의 차별 발언 중단의도와 챗봇 지속이용의도에 미치는 영향: 심리적 반발의 매개효과와 사회규범 메시지의 조절효과",
+          "outlet": "한국소통학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "psychology",
+            "technology"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "Impacts of Generative Artificial Intelligence Referencing Guidelines on College Students’ Self-efficacy",
+          "outlet": "사회과학논집",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "technology"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "청소년의 또래집단 규범이 비윤리적 행동 중단의도, 인공지능 챗봇에 대한 친밀감과 상호작용 만족도에 미치는 영향 : 메시지 프레임의 조절효과",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "technology"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2024,
           "title": "The moderating influence of SNS users’ attachment style on the associations between perceived information overload, SNS fatigue, and mental health",
           "outlet": "Behaviour and Information Technology",
@@ -214,6 +251,31 @@
           "source": "Pure",
           "topics": [
             "wellbeing"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "스마트폰 디바이드의 영향 요인과 결과: 이용자의 개인적 특성과 스마트폰에 대한 태도의 역할",
+          "outlet": "방송통신연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "technology"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "사회성 능력이 인공지능 챗봇의 사회적 사용과 자기노출에 미치는 영향: 사용자의 외로움 정도와 챗봇에 대한 지각된 인간다움의 매개효과",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "wellbeing",
+            "technology"
           ],
           "featured": false,
           "featuredRank": null
@@ -233,12 +295,13 @@
         },
         {
           "year": 2019,
-          "title": "I Know My Professor: Teacher Self-Disclosure in Online Education and a Mediating Role of Social Presence",
-          "outlet": "International Journal of Human-Computer Interaction",
-          "url": "https://doi.org/10.1080/10447318.2018.1455126",
-          "source": "Pure",
+          "title": "가상현실 관광 콘텐츠가 관광 목적지에 대한 경험가치의 지각과 방문의도에 미치는 영향: 현존감의 매개효과를 중심으로",
+          "outlet": "사이버커뮤니케이션학보",
+          "url": "",
+          "source": "FIS",
           "topics": [
-            "psychology"
+            "psychology",
+            "technology"
           ],
           "featured": false,
           "featuredRank": null
@@ -248,18 +311,6 @@
           "title": "Network Environments and Well-Being: An Examination of Personal Network Structure, Social Capital, and Perceived Social Support",
           "outlet": "Health Communication",
           "url": "https://doi.org/10.1080/10410236.2016.1242032",
-          "source": "Pure",
-          "topics": [
-            "wellbeing"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "Effects of mobile instant messenger use on acculturative stress among international students in South Korea",
-          "outlet": "Computers in Human Behavior",
-          "url": "https://doi.org/10.1016/j.chb.2017.12.033",
           "source": "Pure",
           "topics": [
             "wellbeing"
@@ -332,9 +383,9 @@
       "nameKo": "김주환",
       "nameEn": "Joohan Kim",
       "role": "Professor",
-      "fields": "긍정커뮤니케이션 | 정서·인지 | 웰빙",
-      "office": "",
-      "image": "images/ppl/jhkim.jpg",
+      "fields": "뇌과학 | 내면소통 | 소통능력",
+      "office": "아펜젤러 207",
+      "image": "images/ppl/jkim.jpg",
       "labUrl": "",
       "profileUrl": "https://yonsei.elsevierpure.com/en/persons/joohan-kim/",
       "areaStatus": "core",
@@ -502,10 +553,35 @@
         },
         {
           "year": 2026,
-          "title": "The Congruency Effects of Multiple Components of Persuasion: Target Framing, Gain-Loss Framing, and Regulatory Focus",
-          "outlet": "Health Communication",
-          "url": "https://doi.org/10.1080/10410236.2026.2614321",
-          "source": "Pure",
+          "title": "코로나19 맥락에서 위험지각태도(RPA) 프레임워크의 유효성 검증: 이타적 동기와 공동체 지향 동기의 조절 역할",
+          "outlet": "광고연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "psychology",
+            "health"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "메시지 대상에 따른 사회적 거리감이 전립선암 조기검진 촉진에 미치는 영향: 건강신념의 매개효과를 중심으로",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "health"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "미래 결과 지향성이 건강 신념과 코로나19 예방행동에 미치는 영향: 정부신뢰의 조절효과를 중심으로",
+          "outlet": "광고연구",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "health"
           ],
@@ -564,12 +640,11 @@
         },
         {
           "year": 2021,
-          "title": "Mechanics of Rumor Mills and Epistemic Motivational Processes of Food-related Rumor Spread: Interplay between Attitude and Issue Motivation",
-          "outlet": "Health Communication",
-          "url": "https://doi.org/10.1080/10410236.2020.1712518",
-          "source": "Pure",
+          "title": "HPV 백신 관련 유튜브 내용분석: 제작자, 정보원, 메시지 논조, 그리고 건강신념이 시청자 반응에 미치는 영향",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
           "topics": [
-            "psychology",
             "health"
           ],
           "featured": false,
@@ -577,36 +652,12 @@
         },
         {
           "year": 2021,
-          "title": "Are chinese netizens willing to speak out? The spiral of silence in public reactions to controversial food safety issues on social media",
-          "outlet": "International journal of environmental research and public health",
-          "url": "https://doi.org/10.3390/ijerph182413114",
-          "source": "Pure",
-          "topics": [
-            "health"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "The Interplay of Message Framing and Consideration of Future Consequences on Energy Drink Consumption: Focusing on the Underlying Emotional Mechanism",
+          "title": "Mechanics of Rumor Mills and Epistemic Motivational Processes of Food-related Rumor Spread: Interplay between Attitude and Issue Motivation",
           "outlet": "Health Communication",
-          "url": "https://doi.org/10.1080/10410236.2019.1613477",
+          "url": "https://doi.org/10.1080/10410236.2020.1712518",
           "source": "Pure",
           "topics": [
             "psychology",
-            "health"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "Influence of Risk Severity and Intentionality on Perceptions of Food Contamination Risks among Pregnant Women: An Experimental Investigation",
-          "outlet": "Journal of Health Communication",
-          "url": "https://doi.org/10.1080/10810730.2020.1818149",
-          "source": "Pure",
-          "topics": [
             "health"
           ],
           "featured": false,
@@ -670,6 +721,18 @@
           "source": "Pure"
         },
         {
+          "year": 2024,
+          "title": "도농복합지역 중노년층의 스트레스에 관한 텍스트 마이닝 분석: 농업 종사 여부를 중심으로",
+          "outlet": "보건사회연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "wellbeing"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2023,
           "title": "Do media coverage of suicides and search frequency on suicides predict the number of tweets seeking others for a suicide pact?",
           "outlet": "Frontiers in Psychiatry",
@@ -689,6 +752,18 @@
           "source": "Pure",
           "topics": [
             "technology"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "국내 및 해외 검색엔진의 검색결과와 자살률의 관계 – 네이버와 구글의 검색 빈도 비교",
+          "outlet": "사회융합연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "wellbeing"
           ],
           "featured": false,
           "featuredRank": null
@@ -719,6 +794,18 @@
         },
         {
           "year": 2018,
+          "title": "플랫폼에 따른 건강정보추구 행동의 영향요인과 결과: 사회경제적 요인, 디지털 미디어 리터러시, 사회적 지지, 생활만족을 중심으로",
+          "outlet": "헬스커뮤니케이션연구 (Health Communication Research)",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "technology"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
           "title": "Twitter as a place where people meet to make suicide pacts",
           "outlet": "Public Health",
           "url": "https://doi.org/10.1016/j.puhe.2018.03.001",
@@ -732,5 +819,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T09:17:54.142596+00:00"
+  "generatedAt": "2026-09-16T14:20:22.894263+00:00"
 }

@@ -67,12 +67,53 @@
         },
         {
           "year": 2026,
+          "title": "코로나19 맥락에서 위험지각태도(RPA) 프레임워크의 유효성 검증: 이타적 동기와 공동체 지향 동기의 조절 역할",
+          "outlet": "광고연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "risk",
+            "strategic",
+            "persuasion",
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2026,
+          "title": "죄악 산업의 딜레마: 사회공헌활동을 통한 죄악 산업 연상과 공중의 회의주의가 기업의 사회공헌 동기 인식에 미치는 영향",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic",
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2026,
           "title": "The Congruency Effects of Multiple Components of Persuasion: Target Framing, Gain-Loss Framing, and Regulatory Focus",
           "outlet": "Health Communication",
           "url": "https://doi.org/10.1080/10410236.2026.2614321",
           "source": "Pure",
           "topics": [
             "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "감각추구성향과 정부신뢰가 사회적 거리두기에 미치는 영향에 관한 연구",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "risk",
+            "strategic"
           ],
           "featured": false,
           "featuredRank": null
@@ -91,41 +132,41 @@
           "featuredRank": null
         },
         {
-          "year": 2025,
-          "title": "When Gain/Loss Framing Exerts Its Effects and How: Examining the Roles of Risk Perceptions, Anticipated Regret, and Anxiety",
-          "outlet": "Journal of Consumer Behaviour",
-          "url": "https://doi.org/10.1002/cb.2432",
-          "source": "Pure",
+          "year": 2024,
+          "title": "루머 유형과 공중활동성이 위험인식과 루머 확산에 미치는 영향: 사회적 동조의 조절 역할",
+          "outlet": "홍보학연구",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "risk",
-            "persuasion"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2023,
-          "title": "Rumor behaviors as collective problem-solving: The moderating roles of regulatory focus",
-          "outlet": "Public Relations Review",
-          "url": "https://doi.org/10.1016/j.pubrev.2023.102352",
-          "source": "Pure",
-          "topics": [
-            "risk",
-            "strategic",
-            "persuasion"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2023,
-          "title": "How Does Internal Brand Communication Affect Organizational Outcomes? The Mediating Roles of Brand Identification and Employee Behaviors",
-          "outlet": "Journal of Public Relations Research",
-          "url": "https://doi.org/10.1080/1062726X.2023.2181814",
-          "source": "Pure",
-          "topics": [
             "strategic",
             "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "미래 결과 지향성이 건강 신념과 코로나19 예방행동에 미치는 영향: 정부신뢰의 조절효과를 중심으로",
+          "outlet": "광고연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "risk",
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "맞춤형 광고 서비스를 위한 이용자의 앱 추적 허용에 관한 메시지 전략 연구 : 프레이밍 이론을 중심으로",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic",
+            "persuasion"
           ],
           "featured": false,
           "featuredRank": null
@@ -139,43 +180,6 @@
           "topics": [
             "risk",
             "persuasion",
-            "organizational"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2022,
-          "title": "The impacts of CEO leadership behaviors on employees' affective commitment and scouting behavior: the mediating role of symmetrical internal communication",
-          "outlet": "Leadership and Organization Development Journal",
-          "url": "https://doi.org/10.1108/LODJ-11-2020-0501",
-          "source": "Pure",
-          "topics": [
-            "organizational"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2022,
-          "title": "Factors affecting rumor believability in the context of COVID-19: the moderating roles of government trust and health literacy",
-          "outlet": "Journal of Applied Communication Research",
-          "url": "https://doi.org/10.1080/00909882.2022.2141069",
-          "source": "Pure",
-          "topics": [
-            "risk"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "Cultivating employee creativity through strategic internal communication: The role of leadership, symmetry, and feedback seeking behaviors",
-          "outlet": "Public Relations Review",
-          "url": "https://doi.org/10.1016/j.pubrev.2020.101998",
-          "source": "Pure",
-          "topics": [
-            "strategic",
             "organizational"
           ],
           "featured": false,
@@ -223,7 +227,7 @@
           ],
           "featured": true,
           "featuredRank": 2,
-          "source": "Pure"
+          "source": "FIS+Pure"
         },
         {
           "year": 2020,
@@ -238,6 +242,43 @@
           "source": "Pure"
         },
         {
+          "year": 2026,
+          "title": "브랜드 액티비즘의 이득-손실 프레임 효과 연구: 심리적 저항과 가치 일치성을 중심으로",
+          "outlet": "광고학연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "리타겟팅 광고의 지각된 인지적 속성이 광고태도, 클릭의도, 회피의도에 미치는 영향",
+          "outlet": "광고연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "펨버타이징 메시지 전략에 관한 연구: 조절초점 메시지와 자기해석 성향을 중심으로",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2023,
           "title": "Virtual brand experience in digital reality advertising: Conceptualization and measurement",
           "outlet": "Journal of Consumer Behaviour",
@@ -250,47 +291,62 @@
           "featuredRank": null
         },
         {
+          "year": 2022,
+          "title": "브랜드 액티비즘 구성요소의 영향 연구 : 소비자 인식을 중심으로",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "개인화 광고를 위한 유저의 앱 추적 허용 의도에 영향을 미치는 선행 요인 연구 : 프라이버시 계산 모델을 중심으로",
+          "outlet": "광고학연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2020,
-          "title": "Uses and gratifications of smart speakers: modelling the effectiveness of smart speaker advertising",
-          "outlet": "International Journal of Advertising",
-          "url": "https://doi.org/10.1080/02650487.2020.1765657",
-          "source": "Pure",
+          "title": "공익연계마케팅의 설득 효과: 적합성과 메시지 제시 방법을 중심으로",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
           "topics": [
-            "strategic"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "Introduction to the special issue: new trends in digital and social media advertising",
-          "outlet": "International Journal of Advertising",
-          "url": "https://doi.org/10.1080/02650487.2019.1644137",
-          "source": "Pure",
-          "topics": [
-            "strategic"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "An empirical investigation on the antecedents of consumers’ cognitions of and attitudes towards digital signage advertising",
-          "outlet": "International Journal of Advertising",
-          "url": "https://doi.org/10.1080/02650487.2017.1401509",
-          "source": "Pure",
-          "topics": [
-            "strategic"
+            "strategic",
+            "persuasion"
           ],
           "featured": false,
           "featuredRank": null
         },
         {
           "year": 2018,
-          "title": "Public or private products? The impact of cause-related marketing and product conspicuity on consumer response on social networking sites",
-          "outlet": "Journal of Global Scholars of Marketing Science: Bridging Asia and the World",
-          "url": "https://doi.org/10.1080/21639159.2018.1509363",
-          "source": "Pure",
+          "title": "브랜드 웹툰의 디지털 스토리텔링 구성 요인이 수용자 태도와 구전 의도에 미치는 영향: 준사회적 상호작용의 매개 효과",
+          "outlet": "광고학연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "자아 이미지 일치 대상으로서의 광고 수용에 관한 연구: 매체 광고 개성 척도(Media Advertising Personality Scale)의 개발과 적용",
+          "outlet": "광고PR실학연구",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "strategic"
           ],
@@ -355,14 +411,38 @@
           "source": "Pure"
         },
         {
+          "year": 2026,
+          "title": "온라인 상품 추천 메시지 내 인공지능 명시 여부가 추천 상품 평가에 미치는 영향: 추천 서비스 품질의 매개효과와 머신 휴리스틱의 조절효과",
+          "outlet": "한국광고홍보학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2024,
           "title": "Unveiling Secrets to AI Agents: Exploring the Interplay of Conversation Type, Self-Disclosure, and Privacy Insensitivity",
           "outlet": "Asian Communication Research",
           "url": "https://doi.org/10.20879/acr.2024.21.019",
-          "source": "Pure",
+          "source": "FIS+Pure",
           "topics": [
             "strategic",
             "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "How do Consumers Overcome Cognitive Dissonance They Experience with Brand Activism? : Focusing on Congruency between Brand-Consumer Stances toward an Issue and Brand Identification",
+          "outlet": "광고학연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic"
           ],
           "featured": false,
           "featuredRank": null
@@ -694,6 +774,43 @@
           "featuredRank": null
         },
         {
+          "year": 2022,
+          "title": "21세기 정보통신 기술과 도시 지역 공동체",
+          "outlet": "문명과 경계",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Interplay of Threat, Efficacy, and Uncertainty in Cancer News Coverage: Analysis of News Content and Effects in South Korea",
+          "outlet": "Asian Communication Research",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "risk"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "지역 기반 공동체 미디어와 연관성 위기",
+          "outlet": "방송문화연구",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "risk",
+            "organizational"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2021,
           "title": "The effects of information-seeking behaviours on prevention behaviours during the COVID-19 pandemic: The mediating effects of anxiety and fear in Korea",
           "outlet": "Epidemiology and health",
@@ -707,45 +824,21 @@
         },
         {
           "year": 2021,
+          "title": "포스트-지진 재난 상황에서 지역기반 소셜미디어를 통한 시민관여",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "risk"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
           "title": "Commuting, Communication, and Community Engagement From a Communication Infrastructure Theory Perspective",
           "outlet": "Communication Research",
           "url": "https://doi.org/10.1177/0093650218801745",
-          "source": "Pure",
-          "topics": [
-            "organizational"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "Communication Infrastructure, Migrant Community Engagement, and Integrative Adaptation of Korean Chinese Migrants in Seoul",
-          "outlet": "Communication Research",
-          "url": "https://doi.org/10.1177/0093650218782819",
-          "source": "Pure",
-          "topics": [
-            "organizational"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "Communication Infrastructure in an Asian Immigrant Community",
-          "outlet": "Journal of Health Communication",
-          "url": "https://doi.org/10.1080/10810730.2021.1998847",
-          "source": "Pure",
-          "topics": [
-            "organizational"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "SNS Dependency and Community Engagement in Urban Neighborhoods: The Moderating Role of Integrated Connectedness to a Community Storytelling Network",
-          "outlet": "Communication Research",
-          "url": "https://doi.org/10.1177/0093650215588786",
           "source": "Pure",
           "topics": [
             "organizational"
@@ -801,10 +894,58 @@
         },
         {
           "year": 2025,
+          "title": "인공지능 챗봇의 의인화가 챗봇 이용자의 차별 발언 중단의도와 챗봇 지속이용의도에 미치는 영향: 심리적 반발의 매개효과와 사회규범 메시지의 조절효과",
+          "outlet": "한국소통학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "Impacts of Generative Artificial Intelligence Referencing Guidelines on College Students’ Self-efficacy",
+          "outlet": "사회과학논집",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
           "title": "Effects of motivations for news consumption on intention to purchase paid news service in the changing news media environment",
           "outlet": "Asian Journal of Communication",
           "url": "https://doi.org/10.1080/01292986.2025.2509526",
           "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "청소년의 또래집단 규범이 비윤리적 행동 중단의도, 인공지능 챗봇에 대한 친밀감과 상호작용 만족도에 미치는 영향 : 메시지 프레임의 조절효과",
+          "outlet": "한국언론학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "방송영상 촬영감독의 자기효능감이 직무성과에 미치는 영향: 영상콘텐츠 제작 창의성과 직무만족의 매개효과",
+          "outlet": "사회과학논집",
+          "url": "",
+          "source": "FIS",
           "topics": [
             "persuasion"
           ],
@@ -824,6 +965,32 @@
           "featuredRank": null
         },
         {
+          "year": 2020,
+          "title": "미디어 화면 크기와 관여도가 광고태도, 제품태도와 구매의도에 미치는 영향: 현존감과 플로우의 매개효과",
+          "outlet": "방송과 커뮤니케이션",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "위기책임성 귀인과 친사회적 행동 경향이 재해구호 성금 기부의도에 미치는 영향",
+          "outlet": "한국소통학보",
+          "url": "",
+          "source": "FIS",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2019,
           "title": "I Know My Professor: Teacher Self-Disclosure in Online Education and a Mediating Role of Social Presence",
           "outlet": "International Journal of Human-Computer Interaction",
@@ -838,12 +1005,12 @@
         },
         {
           "year": 2018,
-          "title": "Examining intention of digital piracy: an integration of social norms and ethical ideologies",
-          "outlet": "Journal of Information, Communication and Ethics in Society",
-          "url": "https://doi.org/10.1108/JICES-11-2016-0043",
-          "source": "Pure",
+          "title": "Effects of 3-W Movie Screen Advertising on Viewers’ Perceived Pleasure, Arousal, and Advertisement Evaluation: The Mediating Role of Physical Presence",
+          "outlet": "광고학연구",
+          "url": "",
+          "source": "FIS",
           "topics": [
-            "persuasion"
+            "strategic"
           ],
           "featured": false,
           "featuredRank": null
@@ -851,5 +1018,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T09:17:54.033825+00:00"
+  "generatedAt": "2026-09-16T14:20:22.733718+00:00"
 }
