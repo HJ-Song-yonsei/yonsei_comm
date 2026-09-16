@@ -551,8 +551,8 @@
       "fields": "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션",
       "office": "연희관 206",
       "image": "images/ppl/jso.jpg",
-      "labUrl": "",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/jiyeon-so/",
+      "labUrl": "https://yonsei.elsevierpure.com/en/persons/jiyeon-so/",
+      "profileUrl": "",
       "areaStatus": "core",
       "topics": [
         "risk",
@@ -1209,5 +1209,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T15:41:28.809637+00:00"
+  "generatedAt": "2026-09-16T16:31:20.210950+00:00"
 }
