@@ -146,7 +146,7 @@ faculty:
     fields: "저널리즘 | 내용분석 | 국제커뮤니케이션"
     office: "빌링슬리 107"
     image: "images/ppl/kkmo.jpg"
-    profile_url: "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=BaQCwYPo9PFHJLIBZ1pZVg%3D%3D"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/kyungmo-kim/"
     topics: [journalism, politics, publicsphere]
     area_status: core
     pinned:
@@ -177,7 +177,7 @@ faculty:
     fields: "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화"
     office: "연희관 304"
     image: "images/ppl/yckim.jpg"
-    profile_url: "https://fis.yonsei.ac.kr/faculty/name_search.do?mode=view&userId=XMolGH9YfzVmZPD3QwxCBQ%3D%3D"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/"
     topics: [journalism, politics, publicsphere]
     area_status: core
     pinned:
@@ -240,7 +240,7 @@ faculty:
     fields: "미디어법 | 저널리즘 윤리 | 저작권"
     office: "빌링슬리 109"
     image: "images/ppl/ymsang.jpg"
-    profile_url: "https://fis.yonsei.ac.kr/faculty/member.do?mode=view&userId=L4JKAvyk1a8oWn2jJMAYJA%3D%3D"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/yoonmo-sang/"
     topics: [journalism, publicsphere]
     area_status: core
     pinned:
@@ -296,7 +296,7 @@ faculty:
     fields: "저널리즘 원칙 | 온라인저널리즘 | 뉴스수용자"
     office: "연희관 315-1"
     image: "images/ppl/larosa.jpg"
-    profile_url: "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=Pux1pfRduAJ9YrJvL9DbNA%3D%3D"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/na-yeon-lee/"
     topics: [journalism, politics, misinformation]
     area_status: core
     pinned:
