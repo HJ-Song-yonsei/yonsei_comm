@@ -876,6 +876,24 @@
           ],
           "featured": true,
           "featuredRank": 2
+        },
+        {
+          "year": 2023,
+          "title": "Who benefits from directed communication? Communication directionality, network structures, and perceived social capital in an online game",
+          "outletRaw": "Computers in Human Behavior",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2023.107825",
+          "urlSource": "curated",
+          "source": "curated",
+          "publicationType": "international",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": false,
+          "topics": [
+            "interactive",
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 3
         }
       ]
     },
@@ -949,5 +967,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T16:32:09.171750+00:00"
+  "generatedAt": "2026-09-16T16:58:14.981637+00:00"
 }
