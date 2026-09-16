@@ -1,4 +1,4 @@
-name: Update FIS domestic publications and research-area feeds
+name: Update FIS publications and research-area feeds
 
 on:
   workflow_dispatch:
@@ -48,7 +48,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install beautifulsoup4 certifi PyYAML
 
-      - name: Build FIS domestic-publication feeds
+      - name: Build complete and classified FIS publication feeds
         run: python scripts/build_fis_domestic_publications.py
 
       - name: Rebuild research-area feeds from Pure + FIS
@@ -62,6 +62,7 @@ jobs:
         shell: bash
         run: |
           git add \
+            data/fis_publications_all.json \
             data/fis_domestic_publications.json \
             data/fis_publications_review.json \
             data/jds_people.json \
