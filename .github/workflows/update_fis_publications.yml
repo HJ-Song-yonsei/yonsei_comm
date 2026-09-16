@@ -1,16 +1,31 @@
-name: Update FIS domestic publications
+name: Update FIS domestic publications and research-area feeds
 
 on:
   workflow_dispatch:
   schedule:
     # Every Monday 07:15 KST (Sunday 22:15 UTC)
     - cron: "15 22 * * 0"
+  push:
+    branches: [ main ]
+    paths:
+      - "scripts/build_fis_domestic_publications.py"
+      - "config/fis_publications.yml"
+      - "scripts/build_jds_people_json.py"
+      - "config/jds_people.yml"
+      - "scripts/build_digital_people_json.py"
+      - "config/digital_people.yml"
+      - "scripts/build_crisis_people_json.py"
+      - "config/crisis_people.yml"
+      - "scripts/build_health_people_json.py"
+      - "config/health_people.yml"
 
 permissions:
   contents: write
 
+# Use the same group in pure.yml as well so the two research-data pipelines
+# cannot try to commit generated JSON files at the same time.
 concurrency:
-  group: update-fis-publications
+  group: research-data-pipeline
   cancel-in-progress: false
 
 jobs:
@@ -20,32 +35,49 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install beautifulsoup4 certifi PyYAML
 
-      - name: Build FIS domestic-publication JSON
+      - name: Build FIS domestic-publication feeds
         run: python scripts/build_fis_domestic_publications.py
 
-      - name: Commit updated data
+      - name: Rebuild research-area feeds from Pure + FIS
+        run: |
+          python scripts/build_jds_people_json.py
+          python scripts/build_digital_people_json.py
+          python scripts/build_crisis_people_json.py
+          python scripts/build_health_people_json.py
+
+      - name: Commit updated research data
         shell: bash
         run: |
-          git add data/fis_domestic_publications.json data/fis_publications_review.json
+          git add \
+            data/fis_domestic_publications.json \
+            data/fis_publications_review.json \
+            data/jds_people.json \
+            data/digital_people.json \
+            data/crisis_people.json \
+            data/health_people.json
 
           if git diff --cached --quiet; then
-            echo "No publication changes."
+            echo "No research-data changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: update FIS domestic publications"
-          git push
+          git commit -m "chore: update FIS and research-area feeds"
+
+          # Reduce the chance of a non-fast-forward push if main changed while this job ran.
+          git pull --rebase origin main
+          git push origin HEAD:main
