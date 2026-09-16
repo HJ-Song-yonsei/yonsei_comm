@@ -16,8 +16,8 @@
       "fields": "디지털플랫폼 | AI | 정치커뮤니케이션",
       "office": "유억겸 106-3",
       "image": "images/ppl/taewookang.jpg",
-      "labUrl": "",
-      "profileUrl": "https://kteen2k.github.io/taewookang/",
+      "labUrl": "https://kteen2k.github.io/taewookang/",
+      "profileUrl": "",
       "areaStatus": "core",
       "topics": [
         "ai",
@@ -833,8 +833,8 @@
       "fields": "커뮤니케이션테크놀로지 | AI | 게임",
       "office": "",
       "image": "images/ppl/sychoi3.jpg",
-      "labUrl": "",
-      "profileUrl": "https://sukyoungchoi.github.io/",
+      "labUrl": "https://sukyoungchoi.github.io/",
+      "profileUrl": "",
       "areaStatus": "core",
       "topics": [
         "ai",
@@ -887,8 +887,8 @@
       "fields": "정치커뮤니케이션 | 전산사회과학 | 처리유창성",
       "office": "연희관 113-2",
       "image": "images/ppl/hyunjinsong.jpg",
-      "labUrl": "",
-      "profileUrl": "https://hyunjinsong.com",
+      "labUrl": "https://hyunjinsong.com",
+      "profileUrl": "",
       "areaStatus": "cross-area",
       "topics": [
         "ai",
@@ -949,5 +949,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T16:04:54.203853+00:00"
+  "generatedAt": "2026-09-16T16:32:09.171750+00:00"
 }
