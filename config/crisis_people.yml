@@ -1,0 +1,303 @@
+# Crisis & Strategic Communication people/research feed
+
+pure_path: data/pure_publications_2000plus.json
+fis_path: data/fis_domestic_publications.json
+output_path: data/crisis_people.json
+min_year: 2018
+max_outputs_per_person: 12
+
+topics:
+  risk:
+    label: "Risk & Crisis Communication"
+    keywords:
+      - crisis
+      - risk
+      - disaster
+      - emergency
+      - uncertainty
+      - threat
+      - protective behavior
+      - prevention
+      - vaccination
+      - misinformation
+      - rumor
+      - trust
+      - earthquake
+      - mers
+      - covid
+      - 위험
+      - 위기
+      - 재난
+      - 불확실성
+      - 루머
+      - 신뢰
+      - 예방행동
+      - 백신
+
+  strategic:
+    label: "Strategic Communication & PR"
+    keywords:
+      - public relations
+      - strategic communication
+      - brand
+      - advertising
+      - campaign
+      - corporate
+      - csr
+      - cause-related
+      - influencer
+      - disclosure
+      - reputation
+      - apology
+      - 브랜딩
+      - 브랜드
+      - 광고
+      - 캠페인
+      - 홍보
+      - pr
+      - 사회공헌
+      - 인플루언서
+      - 사과
+
+  persuasion:
+    label: "Persuasion & Message Effects"
+    keywords:
+      - persuasion
+      - persuasive
+      - message framing
+      - framing
+      - appeal
+      - efficacy
+      - message fatigue
+      - repetition
+      - regulatory focus
+      - attitude
+      - intention
+      - disclosure
+      - credibility
+      - 설득
+      - 메시지 프레임
+      - 프레이밍
+      - 소구
+      - 효능감
+      - 메시지 피로
+      - 태도
+      - 의도
+      - 신뢰성
+
+  organizational:
+    label: "Organizational & Public Communication"
+    keywords:
+      - employee communication
+      - organizational
+      - organization
+      - internal communication
+      - public segmentation
+      - publics
+      - stakeholder
+      - leadership
+      - socialization
+      - onboarding
+      - community
+      - civic action
+      - 조직
+      - 사내 커뮤니케이션
+      - 공중
+      - 이해관계자
+      - 리더십
+      - 조직사회화
+      - 온보딩
+      - 공동체
+      - 시민행동
+
+faculty:
+  - id: jarimkim
+    name_ko: 김자림
+    name_en: Jarim Kim
+    pure_names: ["Jarim Kim"]
+    role: Professor
+    fields: "위험·위기 커뮤니케이션 | PR | 설득"
+    office: "유억겸 106-4"
+    image: "images/ppl/jrkim.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/jarim-kim/"
+    topics: [risk, strategic, persuasion, organizational]
+    area_status: core
+    pinned:
+      - title: "How governmental trust fosters protective behaviors in individuals who are less likely to consider future consequences"
+        year: 2026
+        outlet: "Personality and Individual Differences"
+        url: "https://doi.org/10.1016/j.paid.2026.113771"
+        topics: [risk, persuasion]
+      - title: "Classifying environmental publics: a public segmentation framework to predict climate change-related information seeking and activism"
+        year: 2025
+        outlet: "Journal of Communication Management"
+        url: "https://doi.org/10.1108/JCOM-04-2024-0062"
+        topics: [strategic, organizational]
+      - title: "Communicating uncertainties regarding COVID-19 vaccination: Moderating roles of trust in science, government, and society"
+        year: 2024
+        outlet: "Public Understanding of Science"
+        url: "https://doi.org/10.1177/09636625231217080"
+        topics: [risk, persuasion]
+
+  - id: changhoancho
+    name_ko: 조창환
+    name_en: Chang Hoan Cho
+    pure_names: ["Chang Hoan Cho", "Chang-Hoan Cho"]
+    role: Professor
+    fields: "디지털광고 | 광고캠페인 | 브랜디드커뮤니케이션"
+    office: "빌링슬리 305"
+    image: "images/ppl/ccho.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/chang-hoan-cho/"
+    topics: [strategic, persuasion]
+    area_status: core
+    pinned:
+      - title: "Message Framing and Self-Control in Food Waste Reduction: Time of Day as a Situational Proxy for Self-Control Resources"
+        year: 2026
+        outlet: "International Journal of Consumer Studies"
+        url: "https://doi.org/10.1111/ijcs.70222"
+        topics: [persuasion, strategic]
+      - title: "What is digital advertising literacy? Its components and relationship with advertising effectiveness and personal factors"
+        year: 2025
+        outlet: "Journal of Global Scholars of Marketing Science"
+        url: "https://doi.org/10.1080/21639159.2025.2533988"
+        topics: [strategic, persuasion]
+      - title: "Digital advertising: present and future prospects"
+        year: 2020
+        outlet: "International Journal of Advertising"
+        url: "https://doi.org/10.1080/02650487.2019.1642015"
+        topics: [strategic]
+
+  - id: yoonhisung
+    name_ko: 성윤희
+    name_en: Yoon Hi Sung
+    pure_names: ["Yoon Hi Sung"]
+    role: Associate Professor
+    fields: "광고와 미디어테크놀로지 | 소비자분석"
+    office: "연희관 113-1"
+    image: "images/ppl/yhsung.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/yoon-hi-sung/"
+    topics: [strategic, persuasion]
+    area_status: core
+    pinned:
+      - title: "Human-made vs. AI-generated: how provenance labels drive strategic curation via perceived effort"
+        year: 2026
+        outlet: "Frontiers in Psychology"
+        url: "https://doi.org/10.3389/fpsyg.2026.1840483"
+        topics: [strategic, persuasion]
+      - title: "Unveiling the persuasion knowledge mechanism in YouTube affiliate marketing: channel-product congruence moderates disclosure-credibility spillover effects"
+        year: 2025
+        outlet: "International Journal of Advertising"
+        url: "https://doi.org/10.1080/02650487.2025.2526889"
+        topics: [strategic, persuasion]
+      - title: "She’s my favorite YouTuber, so I watch ads on her channel: The interplay of parasocial interaction and YouTube ad knowledge on voluntary ad-watching"
+        year: 2024
+        outlet: "International Journal of Advertising"
+        url: "https://doi.org/10.1080/02650487.2023.2295726"
+        topics: [strategic, persuasion]
+
+  - id: jiyeonso
+    name_ko: 소지연
+    name_en: Jiyeon So
+    pure_names: ["Jiyeon So"]
+    role: Professor
+    fields: "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션"
+    office: "연희관 206"
+    image: "images/ppl/jso.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/jiyeon-so/"
+    topics: [risk, persuasion]
+    area_status: core
+    pinned:
+      - title: "Diminished valuation in the brain: How repeated exposure reduces health message engagement"
+        year: 2025
+        outlet: "Annals of Behavioral Medicine"
+        url: "https://doi.org/10.1093/abm/kaaf037"
+        topics: [persuasion]
+      - title: "Diffusion of COVID-19 misinformation: Mechanisms for threat- and efficacy-related misinformation diffusion"
+        year: 2023
+        outlet: "Computers in Human Behavior"
+        url: "https://doi.org/10.1016/j.chb.2023.107967"
+        topics: [risk, persuasion]
+      - title: "Does COVID-19 Message Fatigue Lead to Misinformation Acceptance? An Extension of the Risk Information Seeking and Processing Model"
+        year: 2023
+        outlet: "Health Communication"
+        url: "https://doi.org/10.1080/10410236.2022.2111636"
+        topics: [risk, persuasion]
+
+  - id: jihyunpaik
+    name_ko: 백지현
+    name_en: Jihyun Esther Paik
+    pure_names: ["Jihyun Esther Paik", "Jihyun Paik"]
+    role: Associate Professor
+    fields: "대인커뮤니케이션 | 조직커뮤니케이션"
+    office: "연희관 309-2"
+    image: "images/ppl/jpaek.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/jihyun-paik/"
+    topics: [persuasion, organizational]
+    area_status: core
+    pinned:
+      - title: "Membership Ambiguity and Insider Support in Remote Socialization: A Qualitative Exploration of Newcomers' Experiences of Remote Onboarding"
+        year: 2026
+        outlet: "Human Resource Development Quarterly"
+        url: "https://doi.org/10.1002/hrdq.21560"
+        topics: [organizational]
+      - title: "Advice Interaction Through the Social Cognition Lens Aligning Advisor–Recipient Perceptions"
+        year: 2026
+        outlet: "The Routledge Handbook of Communication and Social Cognition"
+        url: "https://doi.org/10.4324/9781003411741-41"
+        topics: [persuasion, organizational]
+      - title: "Parsing communication duration and diagnostic question effects in deception detection"
+        year: 2024
+        outlet: "Communication Quarterly"
+        url: "https://doi.org/10.1080/01463373.2024.2387016"
+        topics: [persuasion]
+
+  - id: yongchankim
+    name_ko: 김용찬
+    name_en: Yong-Chan Kim
+    pure_names: ["Yong Chan Kim", "Yong-Chan Kim"]
+    role: Professor · Cross-area
+    fields: "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화"
+    office: "연희관 304"
+    image: "images/ppl/yckim.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/"
+    topics: [risk, organizational]
+    area_status: cross-area
+    pinned:
+      - title: "A Social Identity Model of Localized Social Media Dependency During Post-Earthquake Disaster"
+        year: 2023
+        outlet: "Mass Communication and Society"
+        url: "https://doi.org/10.1080/15205436.2023.2219246"
+        topics: [risk, organizational]
+      - title: "How do social media affect people’s compassion and civic action? The case of the Sewol Ferry disaster in Korea"
+        year: 2022
+        outlet: "Asian Journal of Communication"
+        url: "https://doi.org/10.1080/01292986.2022.2061541"
+        topics: [risk, organizational]
+      - title: "Attention to news media, emotional responses, and policy preferences about public health crisis: The case of fine dust pollution in South Korea"
+        year: 2021
+        outlet: "International Journal of Environmental Research and Public Health"
+        url: "https://doi.org/10.3390/ijerph182413325"
+        topics: [risk]
+
+  - id: namkeepark
+    name_ko: 박남기
+    name_en: Namkee Park
+    pure_names: ["Namkee Park"]
+    role: Professor · Cross-area
+    fields: "뉴미디어테크놀로지 | 인공지능 상호작용"
+    office: "빌링슬리 108"
+    image: "images/ppl/Namkee_Park.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/namkee-park/"
+    topics: [risk, strategic, persuasion]
+    area_status: cross-area
+    pinned:
+      - title: "Virtual Influencer’s Apologies? The Different Perceptions of Moral Violation and Apology Between Virtual and Human Influencers in Brand Endorsements"
+        year: 2026
+        outlet: "Media Psychology"
+        url: "https://doi.org/10.1080/15213269.2026.2679123"
+        topics: [risk, strategic, persuasion]
+      - title: "The Effects of Repetitive Information Communication through Multiple Channels on Prevention Behavior during the 2015 MERS Outbreak in South Korea"
+        year: 2018
+        outlet: "Journal of Health Communication"
+        url: "https://doi.org/10.1080/10810730.2018.1501440"
+        topics: [risk, persuasion]

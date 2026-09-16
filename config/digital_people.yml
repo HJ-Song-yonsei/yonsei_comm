@@ -1,0 +1,332 @@
+# Digital Technology, Platform, & AI people/research feed
+# Sources: Yonsei Pure + optional Yonsei FIS domestic-publication feed.
+# Curated representative outputs stay pinned; new matching outputs can be added automatically.
+
+pure_path: data/pure_publications_2000plus.json
+fis_path: data/fis_domestic_publications.json
+output_path: data/digital_people.json
+min_year: 2018
+max_outputs_per_person: 12
+
+topics:
+  ai:
+    label: "AI & Human-Machine Communication"
+    keywords:
+      - artificial intelligence
+      - generative ai
+      - ai-generated
+      - ai agent
+      - chatbot
+      - chatgpt
+      - large language model
+      - llm
+      - voice assistant
+      - virtual influencer
+      - deepfake
+      - machine learning
+      - deep learning
+      - 인공지능
+      - 생성형 ai
+      - 챗봇
+      - 딥페이크
+      - 가상 인플루언서
+
+  platforms:
+    label: "Platforms & Digital Media"
+    keywords:
+      - platform
+      - social media
+      - sns
+      - youtube
+      - instagram
+      - digital media
+      - digitalis*
+      - online
+      - hyperlocal
+      - smart city
+      - digital city
+      - digital advertising
+      - platformized
+      - 플랫폼
+      - 소셜미디어
+      - 유튜브
+      - 인스타그램
+      - 디지털 미디어
+      - 하이퍼로컬
+      - 디지털 도시
+
+  computational:
+    label: "Computational Communication & Data"
+    keywords:
+      - computational
+      - text analysis
+      - topic model
+      - bert
+      - bertopic
+      - machine learning
+      - deep learning
+      - network analysis
+      - digital trace
+      - big data
+      - data science
+      - algorithm
+      - recommender
+      - phenotyping
+      - 전산사회과학
+      - 계산사회과학
+      - 텍스트 마이닝
+      - 토픽모델
+      - 머신러닝
+      - 딥러닝
+      - 빅데이터
+      - 데이터과학
+      - 추천시스템
+
+  interactive:
+    label: "Interactive & Immersive Media"
+    keywords:
+      - virtual reality
+      - vr
+      - augmented reality
+      - ar
+      - metaverse
+      - game
+      - gaming
+      - immersive
+      - virtual brand
+      - smart speaker
+      - influencer
+      - digital reality
+      - interactive
+      - 가상현실
+      - 증강현실
+      - 메타버스
+      - 게임
+      - 몰입
+      - 인터랙티브
+      - 가상 브랜드
+
+faculty:
+  - id: taewookang
+    name_ko: 강태우
+    name_en: Taewoo Kang
+    pure_names: ["Taewoo Kang"]
+    role: Assistant Professor
+    fields: "디지털플랫폼 | AI | 정치커뮤니케이션"
+    office: "유억겸 106-3"
+    image: "https://comm.yonsei.ac.kr/images/ppl/taewookang.jpg"
+    profile_url: "https://kteen2k.github.io/taewookang/"
+    topics: [ai, platforms]
+    area_status: core
+    pinned:
+      - title: "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture"
+        year: 2026
+        outlet: "The International Journal of Press/Politics"
+        url: "https://doi.org/10.1177/19401612261442761"
+        topics: [ai, platforms]
+      - title: "Empowered by Curation: Spatial Differentiation in the Interrelationship Between Social Media Political Curation, Political Competence, and Trust—The Case of Michigan"
+        year: 2025
+        outlet: "Communication Research"
+        url: "https://doi.org/10.1177/00936502241311943"
+        topics: [platforms]
+      - title: "Truth Default or Generalized Skepticism? The Role of Overconfidence in the Relationship Between Social Media News Use and Traditional Media Use"
+        year: 2025
+        outlet: "Social Media + Society"
+        url: "https://doi.org/10.1177/20563051251315255"
+        topics: [platforms]
+
+  - id: yongchankim
+    name_ko: 김용찬
+    name_en: Yong-Chan Kim
+    pure_names: ["Yong Chan Kim", "Yong-Chan Kim"]
+    role: Professor
+    fields: "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화"
+    office: "연희관 304"
+    image: "images/ppl/yckim.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/yong-chan-kim/publications/"
+    topics: [platforms]
+    area_status: core
+    pinned:
+      - title: "Disconnecting in a Connected World: The Dynamics of Social Media Non-Use in a Platformized Society"
+        year: 2026
+        outlet: "Social Media + Society"
+        url: "https://doi.org/10.1177/20563051261419391"
+        topics: [platforms]
+      - title: "Local familiar strangers in digitalising urban neighbourhoods in Seoul"
+        year: 2024
+        outlet: "Urban Studies"
+        url: "https://doi.org/10.1177/00420980241264646"
+        topics: [platforms]
+      - title: "“Doing Community”: Digital Hyperlocal Media as Care"
+        year: 2024
+        outlet: "Digital Journalism"
+        url: "https://doi.org/10.1080/21670811.2022.2145330"
+        topics: [platforms]
+
+  - id: namkeepark
+    name_ko: 박남기
+    name_en: Namkee Park
+    pure_names: ["Namkee Park"]
+    role: Professor
+    fields: "뉴미디어테크놀로지 | 인공지능 상호작용"
+    office: "빌링슬리 108"
+    image: "images/ppl/Namkee_Park.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/namkee-park/publications/"
+    topics: [ai, interactive, platforms]
+    area_status: core
+    pinned:
+      - title: "Virtual Influencer’s Apologies? The Different Perceptions of Moral Violation and Apology Between Virtual and Human Influencers in Brand Endorsements"
+        year: 2026
+        outlet: "Media Psychology"
+        url: "https://doi.org/10.1080/15213269.2026.2679123"
+        topics: [ai, interactive]
+      - title: "Bringing People into the Story: How Virtual Reality Journalism Affects the Feeling of Presence"
+        year: 2025
+        outlet: "Digital Journalism"
+        url: "https://doi.org/10.1080/21670811.2025.2553157"
+        topics: [interactive]
+      - title: "Use of offensive language in human-artificial intelligence chatbot interaction: The effects of ethical ideology, social competence, and perceived humanlikeness"
+        year: 2021
+        outlet: "Computers in Human Behavior"
+        url: "https://doi.org/10.1016/j.chb.2021.106795"
+        topics: [ai]
+
+  - id: yoonhisung
+    name_ko: 성윤희
+    name_en: Yoon Hi Sung
+    pure_names: ["Yoon Hi Sung"]
+    role: Associate Professor
+    fields: "광고와 미디어테크놀로지 | 소비자분석"
+    office: "연희관 113-1"
+    image: "images/ppl/yhsung.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/yoon-hi-sung/publications/"
+    topics: [ai, platforms, interactive]
+    area_status: core
+    pinned:
+      - title: "Human-made vs. AI-generated: how provenance labels drive strategic curation via perceived effort"
+        year: 2026
+        outlet: "Frontiers in Psychology"
+        url: "https://doi.org/10.3389/fpsyg.2026.1840483"
+        topics: [ai, platforms]
+      - title: "Unveiling the persuasion knowledge mechanism in YouTube affiliate marketing: channel-product congruence moderates disclosure-credibility spillover effects"
+        year: 2025
+        outlet: "International Journal of Advertising"
+        url: "https://doi.org/10.1080/02650487.2025.2526889"
+        topics: [platforms, interactive]
+      - title: "Unveiling Secrets to AI Agents: Exploring the Interplay of Conversation Type, Self-Disclosure, and Privacy Insensitivity"
+        year: 2024
+        outlet: "Asian Communication Research"
+        url: "https://doi.org/10.20879/acr.2024.21.019"
+        topics: [ai]
+
+  - id: sangyuplee
+    name_ko: 이상엽
+    name_en: Sang Yup Lee
+    pure_names: ["Sang Yup Lee", "S. Y. Lee"]
+    role: Professor
+    fields: "전산사회과학 | 데이터과학 | 인공지능"
+    office: "유억겸 101"
+    image: "images/ppl/sylee.jpg"
+    lab_url: "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab"
+    topics: [ai, computational, platforms]
+    area_status: core
+    pinned:
+      - title: "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach"
+        year: 2026
+        outlet: "JMIR AI"
+        url: "https://doi.org/10.2196/69494"
+        topics: [ai, computational]
+      - title: "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults"
+        year: 2025
+        outlet: "BMC Public Health"
+        url: "https://doi.org/10.1186/s12889-025-23337-4"
+        topics: [ai, computational]
+      - title: "Examining the Relationship Between the Violence in a Webcomic Episode and Violence in readers’ Comments with Computational Approaches"
+        year: 2024
+        outlet: "Journal of Broadcasting & Electronic Media"
+        url: "https://doi.org/10.1080/08838151.2024.2322709"
+        topics: [computational, platforms]
+
+  - id: changhoancho
+    name_ko: 조창환
+    name_en: Chang Hoan Cho
+    pure_names: ["Chang Hoan Cho", "Chang-Hoan Cho"]
+    role: Professor
+    fields: "디지털광고 | 광고캠페인 | 브랜디드커뮤니케이션"
+    office: "빌링슬리 305"
+    image: "images/ppl/ccho.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/chang-hoan-cho/publications/"
+    topics: [ai, platforms, interactive]
+    area_status: core
+    pinned:
+      - title: "What is digital advertising literacy? Its components and relationship with advertising effectiveness and personal factors"
+        year: 2025
+        outlet: "Journal of Global Scholars of Marketing Science"
+        url: "https://doi.org/10.1080/21639159.2025.2533988"
+        topics: [platforms]
+      - title: "Usage Motivations and User Categorizations of Metaverse: Their Impacts on Offline Activities"
+        year: 2024
+        outlet: "International Journal of Human-Computer Interaction"
+        url: "https://doi.org/10.1080/10447318.2023.2233133"
+        topics: [interactive, platforms]
+      - title: "Factors Affecting Innovation Resistance of Smartphone AI Voice Assistants"
+        year: 2023
+        outlet: "International Journal of Human-Computer Interaction"
+        url: "https://doi.org/10.1080/10447318.2022.2080899"
+        topics: [ai]
+
+  - id: sukyoungchoi
+    name_ko: 최석영
+    name_en: Sukyoung Choi
+    pure_names: ["Sukyoung Choi"]
+    role: Assistant Professor
+    fields: "커뮤니케이션테크놀로지 | AI | 게임"
+    office: ""
+    image: "images/ppl/sychoi3.jpg"
+    profile_url: "https://sukyoungchoi.github.io/"
+    topics: [ai, platforms, interactive]
+    area_status: core
+    pinned:
+      - title: "The Modality-Congruent Carryover Effect: How Difficulty in Identifying (Deep)Fake News Impacts Self-Confidence in Truth Discernment and Susceptibility to Subsequent Disinformation"
+        year: 2026
+        outlet: "Journalism & Mass Communication Quarterly"
+        url: "https://doi.org/10.1177/10776990251413726"
+        topics: [ai, platforms]
+      - title: "How the Public Makes Sense of Artificial Intelligence: The Interplay Between Communication and Discrete Emotions"
+        year: 2025
+        outlet: "Science Communication"
+        url: "https://doi.org/10.1177/10755470241297664"
+        topics: [ai]
+      - title: "Who benefits from directed communication? Communication directionality, network structures, and perceived social capital in an online game"
+        year: 2023
+        outlet: "Computers in Human Behavior"
+        url: "https://doi.org/10.1016/j.chb.2023.107825"
+        topics: [interactive, platforms]
+
+  - id: hyunjinsong
+    name_ko: 송현진
+    name_en: Hyunjin Song
+    pure_names: ["Hyunjin Song"]
+    role: Associate Professor
+    fields: "정치커뮤니케이션 | 전산사회과학 | 처리유창성"
+    office: "연희관 113-2"
+    image: "images/ppl/hyunjinsong.jpg"
+    profile_url: "https://hyunjinsong.com"
+    topics: [ai, computational]
+    area_status: cross-area
+    pinned:
+      - title: "Exploring temporal and cross-national patterns: The use of generative AI in science-related information retrieval across seven countries"
+        year: 2025
+        outlet: "Journal of Science Communication"
+        url: "https://doi.org/10.22323/2.24020205"
+        topics: [ai]
+      - title: "The perception and use of generative AI for science-related information search: Insights from a cross-national study"
+        year: 2025
+        outlet: "Public Understanding of Science"
+        url: "https://doi.org/10.1177/09636625241308493"
+        topics: [ai]
+      - title: "Assessing (In)accuracy and Biases in Self-reported Measures of Exposure to Disagreement: Evidence from Linkage Analysis Using Digital Trace Data"
+        year: 2021
+        outlet: "Communication Methods and Measures"
+        url: "https://doi.org/10.1080/19312458.2021.1935824"
+        topics: [computational]

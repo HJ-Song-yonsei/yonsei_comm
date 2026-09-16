@@ -1,0 +1,277 @@
+# Media Psychology, Health, & Well-Being people/research feed
+
+pure_path: data/pure_publications_2000plus.json
+fis_path: data/fis_domestic_publications.json
+output_path: data/health_people.json
+min_year: 2018
+max_outputs_per_person: 12
+
+topics:
+  psychology:
+    label: "Media Psychology & Emotion"
+    keywords:
+      - media psychology
+      - emotion
+      - emotional
+      - affect
+      - affective
+      - empathy
+      - compassion
+      - self-talk
+      - presence
+      - parasocial
+      - social cognition
+      - motivation
+      - psychological
+      - 정서
+      - 감정
+      - 공감
+      - 자기대화
+      - 현존감
+      - 심리
+      - 동기
+
+  health:
+    label: "Health & Risk Communication"
+    keywords:
+      - health communication
+      - health information
+      - health message
+      - public health
+      - vaccination
+      - cancer
+      - tuberculosis
+      - covid
+      - risk
+      - prevention
+      - protective behavior
+      - health belief
+      - screening
+      - 건강
+      - 보건
+      - 백신
+      - 암
+      - 위험
+      - 예방
+      - 검진
+      - 건강정보
+
+  wellbeing:
+    label: "Well-Being & Mental Health"
+    keywords:
+      - well-being
+      - wellbeing
+      - mental health
+      - depression
+      - stress
+      - loneliness
+      - psychological problems
+      - subjective well-being
+      - emotion regulation
+      - suicide
+      - well being
+      - 웰빙
+      - 정신건강
+      - 우울
+      - 스트레스
+      - 외로움
+      - 정서조절
+      - 자살
+      - 삶의 질
+
+  technology:
+    label: "Technology, Media Use & Behavior"
+    keywords:
+      - social media
+      - youtube
+      - screen time
+      - chatbot
+      - artificial intelligence
+      - ai
+      - virtual reality
+      - vr
+      - game
+      - gaming
+      - smartphone
+      - digital phenotyping
+      - media use
+      - media non-use
+      - 플랫폼
+      - 소셜미디어
+      - 유튜브
+      - 스크린타임
+      - 챗봇
+      - 인공지능
+      - 가상현실
+      - 게임
+      - 스마트폰
+      - 미디어 이용
+
+faculty:
+  - id: jiyeonso
+    name_ko: 소지연
+    name_en: Jiyeon So
+    pure_names: ["Jiyeon So"]
+    role: Professor
+    fields: "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션"
+    office: "연희관 206"
+    image: "images/ppl/jso.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/jiyeon-so/"
+    topics: [psychology, health, wellbeing]
+    area_status: core
+    pinned:
+      - title: "Diminished valuation in the brain: How repeated exposure reduces health message engagement"
+        year: 2025
+        outlet: "Annals of Behavioral Medicine"
+        url: "https://doi.org/10.1093/abm/kaaf037"
+        topics: [psychology, health]
+      - title: "Diffusion of COVID-19 misinformation: Mechanisms for threat- and efficacy-related misinformation diffusion"
+        year: 2023
+        outlet: "Computers in Human Behavior"
+        url: "https://doi.org/10.1016/j.chb.2023.107967"
+        topics: [health, psychology]
+      - title: "Does COVID-19 Message Fatigue Lead to Misinformation Acceptance? An Extension of the Risk Information Seeking and Processing Model"
+        year: 2023
+        outlet: "Health Communication"
+        url: "https://doi.org/10.1080/10410236.2022.2111636"
+        topics: [health, psychology]
+
+  - id: namkeepark
+    name_ko: 박남기
+    name_en: Namkee Park
+    pure_names: ["Namkee Park"]
+    role: Professor
+    fields: "뉴미디어테크놀로지 | 인공지능 상호작용"
+    office: "빌링슬리 108"
+    image: "images/ppl/Namkee_Park.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/namkee-park/"
+    topics: [psychology, wellbeing, technology]
+    area_status: core
+    pinned:
+      - title: "Virtual Influencer’s Apologies? The Different Perceptions of Moral Violation and Apology Between Virtual and Human Influencers in Brand Endorsements"
+        year: 2026
+        outlet: "Media Psychology"
+        url: "https://doi.org/10.1080/15213269.2026.2679123"
+        topics: [psychology, technology]
+      - title: "Bringing People into the Story: How Virtual Reality Journalism Affects the Feeling of Presence"
+        year: 2025
+        outlet: "Digital Journalism"
+        url: "https://doi.org/10.1080/21670811.2025.2553157"
+        topics: [psychology, technology]
+      - title: "Use of offensive language in human-artificial intelligence chatbot interaction: The effects of ethical ideology, social competence, and perceived humanlikeness"
+        year: 2021
+        outlet: "Computers in Human Behavior"
+        url: "https://doi.org/10.1016/j.chb.2021.106795"
+        topics: [psychology, technology]
+
+  - id: sukyoungchoi
+    name_ko: 최석영
+    name_en: Sukyoung Choi
+    pure_names: ["Sukyoung Choi"]
+    role: Assistant Professor
+    fields: "커뮤니케이션테크놀로지 | AI | 게임"
+    office: ""
+    image: "images/ppl/sychoi3.jpg"
+    profile_url: "https://sukyoungchoi.github.io/"
+    topics: [psychology, wellbeing, technology]
+    area_status: core
+    pinned:
+      - title: "How the Public Makes Sense of Artificial Intelligence: The Interplay Between Communication and Discrete Emotions"
+        year: 2025
+        outlet: "Science Communication"
+        url: "https://doi.org/10.1177/10755470241297664"
+        topics: [psychology, technology]
+      - title: "Who benefits from directed communication? Communication directionality, network structures, and perceived social capital in an online game"
+        year: 2023
+        outlet: "Computers in Human Behavior"
+        url: "https://doi.org/10.1016/j.chb.2023.107825"
+        topics: [wellbeing, technology]
+      - title: "The Modality-Congruent Carryover Effect: How Difficulty in Identifying (Deep)Fake News Impacts Self-Confidence in Truth Discernment and Susceptibility to Subsequent Disinformation"
+        year: 2026
+        outlet: "Journalism & Mass Communication Quarterly"
+        url: "https://doi.org/10.1177/10776990251413726"
+        topics: [psychology, technology]
+
+  - id: joohankim
+    name_ko: 김주환
+    name_en: Joohan Kim
+    pure_names: ["Joohan Kim"]
+    role: Professor
+    fields: "긍정커뮤니케이션 | 정서·인지 | 웰빙"
+    office: ""
+    image: "images/ppl/jhkim.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/joohan-kim/"
+    topics: [psychology, wellbeing, technology]
+    area_status: core
+    pinned:
+      - title: "Neural Effects of One’s Own Voice on Self-Talk for Emotion Regulation"
+        year: 2024
+        outlet: "Brain Sciences"
+        url: "https://doi.org/10.3390/brainsci14070637"
+        topics: [psychology, wellbeing]
+      - title: "Exploratory Clinical Trial of a Depression Diagnostic Software That Integrates Stress Biomarkers and Composite Psychometrics"
+        year: 2024
+        outlet: "Psychiatry Investigation"
+        url: "https://doi.org/10.30773/pi.2023.0253"
+        topics: [wellbeing, technology]
+      - title: "Development and Validation of a Virtual Reality-Based Training Program for Promoting Subjective Well-Being"
+        year: 2020
+        outlet: "Psychiatry Investigation"
+        url: ""
+        topics: [psychology, wellbeing, technology]
+
+  - id: jarimkim
+    name_ko: 김자림
+    name_en: Jarim Kim
+    pure_names: ["Jarim Kim"]
+    role: Professor · Cross-area
+    fields: "위험·위기 커뮤니케이션 | PR | 설득"
+    office: "유억겸 106-4"
+    image: "images/ppl/jrkim.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/jarim-kim/"
+    topics: [health, psychology]
+    area_status: cross-area
+    pinned:
+      - title: "How governmental trust fosters protective behaviors in individuals who are less likely to consider future consequences"
+        year: 2026
+        outlet: "Personality and Individual Differences"
+        url: "https://doi.org/10.1016/j.paid.2026.113771"
+        topics: [health, psychology]
+      - title: "Communicating uncertainties regarding COVID-19 vaccination: Moderating roles of trust in science, government, and society"
+        year: 2024
+        outlet: "Public Understanding of Science"
+        url: "https://doi.org/10.1177/09636625231217080"
+        topics: [health, psychology]
+      - title: "Information Sources, Credibility, Knowledge, and Risk Perceptions: Findings from the National Tuberculosis Survey in South Korea"
+        year: 2024
+        outlet: "International Journal of Communication"
+        url: ""
+        topics: [health]
+
+  - id: sangyuplee
+    name_ko: 이상엽
+    name_en: Sang Yup Lee
+    pure_names: ["Sang Yup Lee", "S. Y. Lee"]
+    role: Professor · Cross-area
+    fields: "전산사회과학 | 데이터과학 | 인공지능"
+    office: "유억겸 101"
+    image: "images/ppl/sylee.jpg"
+    lab_url: "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab"
+    topics: [wellbeing, technology]
+    area_status: cross-area
+    pinned:
+      - title: "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach"
+        year: 2026
+        outlet: "JMIR AI"
+        url: "https://doi.org/10.2196/69494"
+        topics: [wellbeing, technology]
+      - title: "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults"
+        year: 2025
+        outlet: "BMC Public Health"
+        url: "https://doi.org/10.1186/s12889-025-23337-4"
+        topics: [wellbeing, technology]
+      - title: "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults"
+        year: 2024
+        outlet: "Frontiers in Psychiatry"
+        url: "https://doi.org/10.3389/fpsyt.2024.1364930"
+        topics: [wellbeing, technology]
