@@ -224,7 +224,7 @@ faculty:
     name_ko: 김자림
     name_en: Jarim Kim
     pure_names: ["Jarim Kim"]
-    role: Professor · Cross-area
+    role: Professor
     fields: "위험·위기 커뮤니케이션 | PR | 설득"
     office: "유억겸 106-4"
     image: "images/ppl/jrkim.jpg"
@@ -252,7 +252,7 @@ faculty:
     name_ko: 이상엽
     name_en: Sang Yup Lee
     pure_names: ["Sang Yup Lee", "S. Y. Lee"]
-    role: Professor · Cross-area
+    role: Professor
     fields: "전산사회과학 | 데이터과학 | 인공지능"
     office: "유억겸 101"
     image: "images/ppl/sylee.jpg"
