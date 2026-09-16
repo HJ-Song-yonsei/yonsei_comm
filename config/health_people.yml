@@ -116,7 +116,7 @@ faculty:
     fields: "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션"
     office: "연희관 206"
     image: "images/ppl/jso.jpg"
-    profile_url: "https://yonsei.elsevierpure.com/en/persons/jiyeon-so/"
+    lab_url: "https://sites.google.com/yonsei.ac.kr/jso/home"
     topics: [psychology, health, wellbeing]
     area_status: core
     pinned:
@@ -172,7 +172,7 @@ faculty:
     fields: "커뮤니케이션테크놀로지 | AI | 게임"
     office: ""
     image: "images/ppl/sychoi3.jpg"
-    profile_url: "https://sukyoungchoi.github.io/"
+    lab_url: "https://sukyoungchoi.github.io/"
     topics: [psychology, wellbeing, technology]
     area_status: core
     pinned:
