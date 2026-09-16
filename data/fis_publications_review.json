@@ -2,7 +2,7 @@
   "source": "Yonsei Faculty Information System (FIS)",
   "note": "English/non-Hangul journal titles that are not in either override list. If a journal is a Korean domestic journal, add it to domestic_journal_overrides in config/fis_publications.yml.",
   "minYear": 2010,
-  "itemCount": 237,
+  "itemCount": 229,
   "errors": [
     {
       "faculty": "강태우",
@@ -19,17 +19,6 @@
       "journal": "Journal of Language and Social Psychology",
       "publicationUrl": "",
       "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=JLKQraK1DSNePacRzCXX9A%3D%3D",
-      "classification": "review",
-      "classificationReason": "english_or_nonhangul_unclassified"
-    },
-    {
-      "faculty": "백영민",
-      "issueDate": "2026-08",
-      "year": 2026,
-      "title": "생성형 인공지능 의존성 척도의 한국 맥락 타당화: 한국·싱가포르·미국 비교를 통한 구성타당도·측정불변성·기준타당도 검증",
-      "journal": "Korean Journal of Journalism & Communication Studies",
-      "publicationUrl": "",
-      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=pQXSuj%2FBDWN176s3YgiWbA%3D%3D",
       "classification": "review",
       "classificationReason": "english_or_nonhangul_unclassified"
     },
@@ -298,17 +287,6 @@
       "classificationReason": "english_or_nonhangul_unclassified"
     },
     {
-      "faculty": "김용찬",
-      "issueDate": "2025-06",
-      "year": 2025,
-      "title": "장소 기반 하이퍼로컬 플랫폼은 이용자의 지역 관여를 강화시키는가 아니면 약화시키는가?: 커뮤니케이션 하부구조 이론의 적용",
-      "journal": "Korean Journal of Journalism & Communication Studies",
-      "publicationUrl": "",
-      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=XMolGH9YfzVmZPD3QwxCBQ%3D%3D",
-      "classification": "review",
-      "classificationReason": "english_or_nonhangul_unclassified"
-    },
-    {
       "faculty": "송현진",
       "issueDate": "2025-04",
       "year": 2025,
@@ -375,28 +353,6 @@
       "classificationReason": "english_or_nonhangul_unclassified"
     },
     {
-      "faculty": "조창환",
-      "issueDate": "2024-12",
-      "year": 2024,
-      "title": "플로섬 마케팅의 구성요인과 광고 효과에 관한 연구: 소비자 인식을 중심으로",
-      "journal": "Services Marketing Journal",
-      "publicationUrl": "",
-      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=%2Fn4Paar5F0PdEodQsno5TA%3D%3D",
-      "classification": "review",
-      "classificationReason": "english_or_nonhangul_unclassified"
-    },
-    {
-      "faculty": "송현진",
-      "issueDate": "2024-12",
-      "year": 2024,
-      "title": "개인의 정치적 신뢰와 재정자원이 정당호감도에 미치는 영향: 제22대 총선 사례",
-      "journal": "Local Society & Politics",
-      "publicationUrl": "",
-      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=Np9Te%2Bu68bm0Xk%2BRnIICBQ%3D%3D",
-      "classification": "review",
-      "classificationReason": "english_or_nonhangul_unclassified"
-    },
-    {
       "faculty": "성윤희",
       "issueDate": "2024-12",
       "year": 2024,
@@ -415,17 +371,6 @@
       "journal": "Urban Studies",
       "publicationUrl": "",
       "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=XMolGH9YfzVmZPD3QwxCBQ%3D%3D",
-      "classification": "review",
-      "classificationReason": "english_or_nonhangul_unclassified"
-    },
-    {
-      "faculty": "송현진",
-      "issueDate": "2024-11",
-      "year": 2024,
-      "title": "22대 총선에서 접전지와 비접전지 유권자의 커뮤니케이션 특성 연구: 미디어 이용과 지역 스토리텔링 네트워크 비교를 중심으로",
-      "journal": "The study of Election",
-      "publicationUrl": "",
-      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=Np9Te%2Bu68bm0Xk%2BRnIICBQ%3D%3D",
       "classification": "review",
       "classificationReason": "english_or_nonhangul_unclassified"
     },
@@ -492,17 +437,6 @@
       "journal": "Journalism Practice",
       "publicationUrl": "",
       "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=Pux1pfRduAJ9YrJvL9DbNA%3D%3D",
-      "classification": "review",
-      "classificationReason": "english_or_nonhangul_unclassified"
-    },
-    {
-      "faculty": "백영민",
-      "issueDate": "2024-08",
-      "year": 2024,
-      "title": "팬데믹 기간 코로나19 관련 허위정보는 어떻게 건강을 위협하는가? : 패널데이터 분석결과를 중심으로",
-      "journal": "Korean Journal of Journalism & Communication Studies",
-      "publicationUrl": "",
-      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=pQXSuj%2FBDWN176s3YgiWbA%3D%3D",
       "classification": "review",
       "classificationReason": "english_or_nonhangul_unclassified"
     },
@@ -844,17 +778,6 @@
       "journal": "Pacific Focus",
       "publicationUrl": "",
       "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=pQXSuj%2FBDWN176s3YgiWbA%3D%3D",
-      "classification": "review",
-      "classificationReason": "english_or_nonhangul_unclassified"
-    },
-    {
-      "faculty": "박남기",
-      "issueDate": "2023-04",
-      "year": 2023,
-      "title": "인공지능 맞춤화가 챗봇 이용자의 욕설 사용 중단의도와 챗봇 지속이용의도에 미치는 영향 : 심리적 반발의 매개효과",
-      "journal": "Korean Journal of Journalism & Communication Studies",
-      "publicationUrl": "",
-      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=BIOifzc4t%2BJ8ju3BHF4RMA%3D%3D",
       "classification": "review",
       "classificationReason": "english_or_nonhangul_unclassified"
     },
@@ -2567,17 +2490,6 @@
       "faculty": "김주환",
       "issueDate": "2010-05",
       "year": 2010,
-      "title": "모바일 소셜미디어의 사회문화적 기능에 관한 이론적 시론- 대화이론을 통해 본 스마트폰과 소셜미디어 결합의 의미",
-      "journal": "Internet & Information Security",
-      "publicationUrl": "",
-      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=xpq4FL9XL5EnJFW7yXzLtA%3D%3D",
-      "classification": "review",
-      "classificationReason": "english_or_nonhangul_unclassified"
-    },
-    {
-      "faculty": "김주환",
-      "issueDate": "2010-05",
-      "year": 2010,
       "title": "Cross-validation of reliability, convergent and discriminant validity for the problematic online game use scale",
       "journal": "Computers in Human Behavior",
       "publicationUrl": "",
@@ -2619,5 +2531,5 @@
       "classificationReason": "english_or_nonhangul_unclassified"
     }
   ],
-  "generatedAt": "2026-09-16T14:20:22.165371+00:00"
+  "generatedAt": "2026-09-16T15:18:07.833345+00:00"
 }

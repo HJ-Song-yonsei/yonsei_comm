@@ -1,6 +1,6 @@
 {
   "title": "People in Journalism, Democracy, & Society",
-  "sourceNote": "Selected outputs are drawn from Yonsei Pure and FIS, with curated representative outputs retained through the configuration file.",
+  "sourceNote": "Publication membership is based on Yonsei FIS. Yonsei Pure is used only to enrich exact-title matches with DOI URLs; it does not add publications.",
   "topics": {
     "journalism": "Journalism & Institutions",
     "politics": "Political Communication",
@@ -24,47 +24,7 @@
         "politics",
         "misinformation"
       ],
-      "outputs": [
-        {
-          "year": 2026,
-          "title": "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture",
-          "outlet": "The International Journal of Press/Politics",
-          "url": "https://doi.org/10.1177/19401612261442761",
-          "topics": [
-            "journalism",
-            "misinformation"
-          ],
-          "featured": true,
-          "featuredRank": 1,
-          "source": "curated"
-        },
-        {
-          "year": 2025,
-          "title": "Truth Default or Generalized Skepticism? The Role of Overconfidence in the Relationship Between Social Media News Use and Traditional Media Use",
-          "outlet": "Social Media + Society",
-          "url": "https://doi.org/10.1177/20563051251315255",
-          "topics": [
-            "politics",
-            "misinformation"
-          ],
-          "featured": true,
-          "featuredRank": 2,
-          "source": "curated"
-        },
-        {
-          "year": 2025,
-          "title": "Empowered by Curation: Spatial Differentiation in the Interrelationship Between Social Media Political Curation, Political Competence, and Trust—The Case of Michigan",
-          "outlet": "Communication Research",
-          "url": "https://doi.org/10.1177/00936502241311943",
-          "topics": [
-            "politics",
-            "publicsphere"
-          ],
-          "featured": true,
-          "featuredRank": 3,
-          "source": "curated"
-        }
-      ]
+      "outputs": []
     },
     {
       "id": "kyungmokim",
@@ -85,75 +45,45 @@
       "outputs": [
         {
           "year": 2026,
-          "title": "South Korean journalists’ role conceptions and problematic reporting practices and behaviors",
-          "outlet": "Journalism",
-          "url": "https://doi.org/10.1177/14648849251360622",
-          "topics": [
-            "journalism"
-          ],
-          "featured": true,
-          "featuredRank": 1,
-          "source": "Pure"
-        },
-        {
-          "year": 2026,
-          "title": "유튜브 숏폼 정치 콘텐츠의 연성화 특성과 이용자 반응: 2024년 정기 국정감사 사례 분석",
+          "title": "유튜브 숏폼 정치 콘텐츠의 연성화 특성과 이용자 반응 : 2024년 정기 국정감사 사례 분석",
           "outlet": "한국방송학보",
           "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism",
             "politics"
           ],
           "featured": true,
-          "featuredRank": 2,
-          "source": "FIS"
-        },
-        {
-          "year": 2025,
-          "title": "I Participate in Politics Because the News is Influential Against Me: Hostile Media Perception, Third-Person Perception, and Political Participation",
-          "outlet": "Mass Communication and Society",
-          "url": "https://doi.org/10.1080/15205436.2023.2272846",
-          "topics": [
-            "politics",
-            "publicsphere"
-          ],
-          "featured": true,
-          "featuredRank": 3,
-          "source": "Pure"
+          "featuredRank": 2
         },
         {
           "year": 2025,
           "title": "한국 저널리즘에서 판단의 문제: 칸트의 반성적 판단력과 뉴스(의견)의 공유",
           "outlet": "커뮤니케이션 이론",
           "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism",
             "publicsphere"
           ],
           "featured": true,
-          "featuredRank": 4,
-          "source": "FIS"
-        },
-        {
-          "year": 2023,
-          "title": "Perceived Influence of Partisan News and Online News Participation: Third-person Effect, Hostile Media Phenomenon, and Cognitive Elaboration",
-          "outlet": "Communication Research",
-          "url": "https://doi.org/10.1177/00936502221127494",
-          "source": "Pure",
-          "topics": [
-            "journalism",
-            "politics",
-            "publicsphere"
-          ],
-          "featured": false,
-          "featuredRank": null
+          "featuredRank": 4
         },
         {
           "year": 2023,
           "title": "지상파 방송사 유튜브 영상 뉴스의 특성과 이용 반응: KBS 크랩, MBC 14F, SBS 스브스뉴스의 내용분석",
           "outlet": "한국방송학보",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
           ],
@@ -165,7 +95,10 @@
           "title": "공영방송 TV뉴스의 익명취재원 이용 KBS <뉴스 9>와 BBC <10시뉴스>의 비교 분석",
           "outlet": "한국언론학보",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
           ],
@@ -177,7 +110,10 @@
           "title": "뉴스 수용자의 지각 편향과 뉴스 공정성 평가",
           "outlet": "커뮤니케이션 이론",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
           ],
@@ -208,70 +144,57 @@
           "title": "장소 기반 하이퍼로컬 플랫폼은 이용자의 지역 관여를 강화시키는가 아니면 약화시키는가?: 커뮤니케이션 하부구조 이론의 적용",
           "outlet": "Korean Journal of Journalism & Communication Studies",
           "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "publicsphere"
           ],
           "featured": true,
-          "featuredRank": 1,
-          "source": "curated"
-        },
-        {
-          "year": 2024,
-          "title": "“Doing Community”: Digital Hyperlocal Media as Care",
-          "outlet": "Digital Journalism",
-          "url": "https://doi.org/10.1080/21670811.2022.2145330",
-          "topics": [
-            "journalism",
-            "publicsphere"
-          ],
-          "featured": true,
-          "featuredRank": 2,
-          "source": "Pure"
+          "featuredRank": 1
         },
         {
           "year": 2023,
           "title": "Social Media Dependency and Civic Engagement Among Older Urban Adults in Korea",
           "outlet": "Asian Communication Research",
           "url": "https://doi.org/10.20879/acr.2023.20.018",
+          "urlSource": "Pure DOI",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "domestic_override",
           "topics": [
             "politics",
             "publicsphere"
           ],
           "featured": true,
-          "featuredRank": 3,
-          "source": "FIS+Pure"
+          "featuredRank": 3
         },
         {
           "year": 2023,
           "title": "지역 참여는 우리를 더 관용적으로 만들까?: 관용적 커뮤니케이션을 중심으로",
           "outlet": "사회과학논집",
           "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "politics",
             "publicsphere"
           ],
           "featured": true,
-          "featuredRank": 4,
-          "source": "FIS"
-        },
-        {
-          "year": 2023,
-          "title": "Difference-managing and difference-reducing community storytelling in urban neighborhoods: A communication infrastructure theory perspective",
-          "outlet": "Human Communication Research",
-          "url": "https://doi.org/10.1093/hcr/hqad007",
-          "source": "Pure",
-          "topics": [
-            "publicsphere"
-          ],
-          "featured": false,
-          "featuredRank": null
+          "featuredRank": 4
         },
         {
           "year": 2022,
           "title": "비대면 소통, 미디어 이용, 결속적 사회자본: 코로나19 발생 전과 후의 패널 데이터 분석",
           "outlet": "언론정보연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism",
             "publicsphere"
@@ -284,21 +207,12 @@
           "title": "코로나19 팬데믹과 노인의 도시 디지털화 경험",
           "outlet": "한국언론학보",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2022,
-          "title": "How do social media affect people’s compassion and civic action? The case of the Sewol Ferry disaster in Korea",
-          "outlet": "Asian Journal of Communication",
-          "url": "https://doi.org/10.1080/01292986.2022.2061541",
-          "source": "Pure",
-          "topics": [
-            "publicsphere"
           ],
           "featured": false,
           "featuredRank": null
@@ -308,7 +222,10 @@
           "title": "21세기 정보통신 기술과 도시 지역 공동체",
           "outlet": "문명과 경계",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "publicsphere"
           ],
@@ -320,7 +237,10 @@
           "title": "포스트-지진 재난 상황에서 지역기반 소셜미디어를 통한 시민관여",
           "outlet": "한국언론학보",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism",
             "publicsphere"
@@ -333,9 +253,57 @@
           "title": "지역 기반 공동체 미디어와 연관성 위기",
           "outlet": "방송문화연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "publicsphere"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Interplay of Threat, Efficacy, and Uncertainty in Cancer News Coverage: Analysis of News Content and Effects in South Korea",
+          "outlet": "Asian Communication Research",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "domestic_override",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "한국 10대 청소년 유튜버(YouTuber) 제작자로서의 능동적 이용자 개념 연구",
+          "outlet": "한국언론학보",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "시각장애인의 페이스북 이용심층인터뷰 연구",
+          "outlet": "한국언론학보",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "journalism"
           ],
           "featured": false,
           "featuredRank": null
@@ -345,7 +313,10 @@
           "title": "의학전문기자의 전문성과 언론사 조직 내에서의 업무 자율성: 이중적 직업 정체성의 전략적 이용",
           "outlet": "한국언론학보",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
           ],
@@ -372,71 +343,13 @@
       "outputs": [
         {
           "year": 2026,
-          "title": "Does hate attract likes? Offensive language and audience engagement in partisan YouTube videos",
-          "outlet": "Telematics and Informatics",
-          "url": "https://doi.org/10.1016/j.tele.2026.102397",
-          "topics": [
-            "politics"
-          ],
-          "featured": true,
-          "featuredRank": 1,
-          "source": "Pure"
-        },
-        {
-          "year": 2026,
-          "title": "Spreading anger, selling hope: how partisan YouTube channels fuel affective and cognitive divides in electoral contexts",
-          "outlet": "Behaviour and Information Technology",
-          "url": "https://doi.org/10.1080/0144929X.2026.2675625",
-          "topics": [
-            "politics"
-          ],
-          "featured": true,
-          "featuredRank": 2,
-          "source": "Pure"
-        },
-        {
-          "year": 2025,
-          "title": "The higher the news literacy, the wider the partisan gap on misinformation acceptance? The three-way interaction effects of news literacy, partisanship, and exposure to partisan YouTube channels on misinformation acceptance",
-          "outlet": "New Media and Society",
-          "url": "https://doi.org/10.1177/14614448231191142",
-          "topics": [
-            "politics",
-            "misinformation"
-          ],
-          "featured": true,
-          "featuredRank": 3,
-          "source": "Pure"
-        },
-        {
-          "year": 2025,
-          "title": "Ideological Citizens’ Pro-attitudinal Media Exposure and Ideological Polarization: The Mediating Role of Presumed Media Influence and Presumed Media Affect",
-          "outlet": "International Journal of Politics, Culture and Society",
-          "url": "https://doi.org/10.1007/s10767-025-09534-4",
-          "topics": [
-            "politics"
-          ],
-          "featured": true,
-          "featuredRank": 4,
-          "source": "Pure"
-        },
-        {
-          "year": 2026,
           "title": "국회의원 발의법안 제안이유의 언어적 특성과입법 성과: 구체성, 감정 표현, 도덕기반 분석을 중심으로",
           "outlet": "언론과학연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
-          "topics": [
-            "politics"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2025,
-          "title": "Learning from YouTube? The role of exposure to partisan YouTube channels and news literacy in political learning during the South Korean general election campaign",
-          "outlet": "Journal of Information Technology and Politics",
-          "url": "https://doi.org/10.1080/19331681.2024.2414007",
-          "source": "Pure",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "politics"
           ],
@@ -448,7 +361,10 @@
           "title": "후보자의 표정과 유권자의 마음: 기계학습 기반 이미지 알고리즘을 활용한 후보자 선거포스터 정서분석을 중심으로",
           "outlet": "언론정보연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "politics"
           ],
@@ -460,9 +376,73 @@
           "title": "보도기사에 제시된 대통령의 얼굴 변화: 10대 중앙일간지의 계엄사태 이전과 이후 보도사진 비교",
           "outlet": "한국언론정보학보",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "국회의원은 왜 공격발언을 하는가?: 공천·재선가능성을 중심으로",
+          "outlet": "언론과학연구",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "팬데믹 기간 코로나19 관련 허위정보는 어떻게 건강을 위협하는가? : 패널데이터 분석결과를 중심으로",
+          "outlet": "Korean Journal of Journalism & Communication Studies",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "외신보도노출은 어떻게 한국인의 국가자부심을 고양시키는가? : 한국에 대한 해외관심인식의 매개효과를 중심으로",
+          "outlet": "정치커뮤니케이션연구",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "코로나19 백신접종 수용집단, 주저집단, 거부집단 분석: 인구통계학적 배경, 정치성향, 코로나19 관련 인식, 사회 신뢰, 커뮤니케이션 행동 변수를 중심으로",
+          "outlet": "사회과학연구",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "politics",
+            "misinformation"
           ],
           "featured": false,
           "featuredRank": null
@@ -472,7 +452,10 @@
           "title": "코로나19 장기화와 정치적 양극화: 오미크론 변이 바이러스 등장과 대통령선거를 중심으로",
           "outlet": "언론과학연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "politics"
           ],
@@ -484,7 +467,10 @@
           "title": "선거여론조사 응답자는 어떤 시민인가? 정치참여로서의 선거여론조사 응답과 여론조사의 대표성 위기",
           "outlet": "조사연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "politics"
           ],
@@ -496,9 +482,27 @@
           "title": "생태학적 추론(ecological inference, EI) 모형을 활용한 사전투표제 도입에 따른 국회의원선거의 투표참여방식 변화 연구",
           "outlet": "한국정당학회보",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "언론수용자의 언론인 접촉경험과 언론신뢰언론인접촉-언론신뢰 가설에 대한 실증 테스트",
+          "outlet": "한국언론학보",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "misinformation"
           ],
           "featured": false,
           "featuredRank": null
@@ -508,7 +512,10 @@
           "title": "19대 대선 기간 후보자 간 의혹제기에 대한 팩트체크 뉴스의 설득효과: 팩트체크 뉴스 판정결과와 지지후보를 중심으로",
           "outlet": "언론정보연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "politics",
             "misinformation"
@@ -535,49 +542,14 @@
       ],
       "outputs": [
         {
-          "year": 2025,
-          "title": "Looking back at journalism ethics research over the past decade: An analysis of research in digital journalism, journalism, journalism practice, and journalism studies, 2013-2022",
-          "outlet": "Journalism",
-          "url": "https://doi.org/10.1177/14648849241244712",
-          "topics": [
-            "journalism"
-          ],
-          "featured": true,
-          "featuredRank": 1,
-          "source": "Pure"
-        },
-        {
-          "year": 2025,
-          "title": "A Way Out or Another Hurdle? Assessing the Impact of the “News Partnership Evaluation Committee” on Platform Dependence in South Korea",
-          "outlet": "Digital Journalism",
-          "url": "https://doi.org/10.1080/21670811.2025.2587635",
-          "topics": [
-            "journalism",
-            "publicsphere"
-          ],
-          "featured": true,
-          "featuredRank": 2,
-          "source": "Pure"
-        },
-        {
-          "year": 2025,
-          "title": "Theorizing platform governance as a communicative process",
-          "outlet": "Journal of Digital Media and Policy",
-          "url": "https://doi.org/10.1386/jdmp_00187_1",
-          "topics": [
-            "journalism",
-            "publicsphere"
-          ],
-          "featured": true,
-          "featuredRank": 3,
-          "source": "Pure"
-        },
-        {
           "year": 2026,
           "title": "케이팝 안무의 저작권법상 보호와 한계 — 쟁점 분석과 제도 개선 제안을 중심으로 —",
           "outlet": "언론과 법",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
           ],
@@ -589,21 +561,12 @@
           "title": "뉴스 저작권의 보호 범위에 관한 연구 — 저작권법 제7조 제5호 ‘사실의 전달에 불과한 시사보도’를 중심으로 —",
           "outlet": "언론과 법",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "Structure and returns: toward a refined understanding of Internet use and social capital Information",
-          "outlet": "Information Communication and Society",
-          "url": "https://yonsei.elsevierpure.com/en/publications/structure-and-returns-toward-a-refined-understanding-of-internet-/",
-          "source": "Pure",
-          "topics": [
-            "publicsphere"
           ],
           "featured": false,
           "featuredRank": null
@@ -630,53 +593,32 @@
       "outputs": [
         {
           "year": 2026,
-          "title": "Time is the fire in which message effects burn: Decay and sustenance of correction effects over time",
-          "outlet": "Journal of Communication",
-          "url": "https://doi.org/10.1093/joc/jqaf030",
-          "topics": [
-            "misinformation",
-            "politics"
-          ],
-          "featured": true,
-          "featuredRank": 1,
-          "source": "Pure"
-        },
-        {
-          "year": 2024,
-          "title": "Perceiving as biased but nevertheless persuaded? Effects of fact–checking news delivered by partisan media",
-          "outlet": "Political Psychology",
-          "url": "https://doi.org/10.1111/pops.12914",
-          "topics": [
-            "misinformation",
-            "politics"
-          ],
-          "featured": true,
-          "featuredRank": 2,
-          "source": "Pure"
-        },
-        {
-          "year": 2023,
-          "title": "If You Have Choices, Why Not Choose (and Share) All of Them? A Multiverse Approach to Understanding News Engagement on Social Media",
-          "outlet": "Digital Journalism",
-          "url": "https://doi.org/10.1080/21670811.2022.2036623",
-          "topics": [
-            "journalism",
-            "politics",
-            "publicsphere"
-          ],
-          "featured": true,
-          "featuredRank": 3,
-          "source": "Pure"
-        },
-        {
-          "year": 2026,
           "title": "유튜브 정치뉴스 추천서비스 이용과 온라인 및 오프라인 정치적 이견회피: 확증편향과 정서적 양극화의 매개경로 검토를 중심으로",
           "outlet": "방송문화연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism",
             "politics"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "개인의 정치적 신뢰와 재정자원이 정당호감도에 미치는 영향: 제22대 총선 사례",
+          "outlet": "Local Society & Politics",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "politics",
+            "misinformation"
           ],
           "featured": false,
           "featuredRank": null
@@ -686,10 +628,28 @@
           "title": "개인의 방향성 목표 성향 및 정확성 목표 성향이 유튜브 추천 알고리즘 지속 이용의도에 미치는 영향: 지각된 유용성과 지각된 신뢰성의 매개효과",
           "outlet": "언론정보연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism",
             "misinformation"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2024,
+          "title": "22대 총선에서 접전지와 비접전지 유권자의 커뮤니케이션 특성 연구: 미디어 이용과 지역 스토리텔링 네트워크 비교를 중심으로",
+          "outlet": "The study of Election",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "politics"
           ],
           "featured": false,
           "featuredRank": null
@@ -699,57 +659,12 @@
           "title": "뉴스 수용자 파편화와 분극화 현상에 대한 네트워크 추론분석: 네트워크 필터링 기법의 영향력을 중심으로",
           "outlet": "언론정보연구",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2022,
-          "title": "Trusting on the shoulders of open giants? Open science increases trust in science for the public and academics",
-          "outlet": "Journal of Communication",
-          "url": "https://doi.org/10.1093/joc/jqac017",
-          "source": "Pure",
-          "topics": [
-            "misinformation"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "What you expect is (not) what you get: the impact of initial and post-hoc judgments of message characteristics on political information recall",
-          "outlet": "Media Psychology",
-          "url": "https://doi.org/10.1080/15213269.2021.1879655",
-          "source": "Pure",
-          "topics": [
-            "politics"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "Disproportionality in media representations of campaign negativity",
-          "outlet": "Political Science Research and Methods",
-          "url": "https://doi.org/10.1017/psrm.2020.4",
-          "source": "Pure",
-          "topics": [
-            "politics"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "Assessing (In)accuracy and Biases in Self-reported Measures of Exposure to Disagreement: Evidence from Linkage Analysis Using Digital Trace Data",
-          "outlet": "Communication Methods and Measures",
-          "url": "https://doi.org/10.1080/19312458.2021.1935824",
-          "source": "Pure",
-          "topics": [
-            "misinformation"
           ],
           "featured": false,
           "featuredRank": null
@@ -774,60 +689,29 @@
       ],
       "outputs": [
         {
-          "year": 2026,
-          "title": "South Korean journalists’ role conceptions and problematic reporting practices and behaviors",
-          "outlet": "Journalism",
-          "url": "https://doi.org/10.1177/14648849251360622",
-          "topics": [
-            "journalism"
-          ],
-          "featured": true,
-          "featuredRank": 1,
-          "source": "Pure"
-        },
-        {
-          "year": 2026,
-          "title": "The Emergence of “Online Influencers” and the Blurring of Lines between Objectivity and Subjectivity",
-          "outlet": "Journalism Practice",
-          "url": "https://doi.org/10.1080/17512786.2025.2518450",
-          "topics": [
-            "journalism"
-          ],
-          "featured": true,
-          "featuredRank": 2,
-          "source": "Pure"
-        },
-        {
-          "year": 2026,
-          "title": "The erosion of the gatekeeping function of photojournalists in the digital age",
-          "outlet": "Journalism",
-          "url": "https://doi.org/10.1177/14648849261460935",
-          "topics": [
-            "journalism"
-          ],
-          "featured": true,
-          "featuredRank": 3,
-          "source": "Pure"
-        },
-        {
-          "year": 2026,
-          "title": "War on fake news? Media skepticism and exposure to politicians’ fake news accusations",
-          "outlet": "Information Communication and Society",
-          "url": "https://doi.org/10.1080/1369118X.2025.2531128",
-          "topics": [
-            "misinformation",
-            "politics"
-          ],
-          "featured": true,
-          "featuredRank": 4,
-          "source": "Pure"
-        },
-        {
           "year": 2025,
           "title": "뉴스 저작권의 보호 범위에 관한 연구 — 저작권법 제7조 제5호 ‘사실의 전달에 불과한 시사보도’를 중심으로 —",
           "outlet": "언론과 법",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "topics": [
+            "journalism"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2025,
+          "title": "저널리즘 원칙으로 분석한 유튜브 시사 콘텐츠 연구: 방송사와 개인 유튜버의 콘텐츠 비교",
+          "outlet": "방송과 커뮤니케이션",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
           ],
@@ -839,22 +723,13 @@
           "title": "정치기사의 소셜미디어 활용 관행 : 지면 기사와 온라인 기사의 비교",
           "outlet": "한국언론학보",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism",
             "politics"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2024,
-          "title": "Why Are Women Journalists Leaving the Newsroom in South Korea? Gendered and Emerging Factors that Influence the Intention to Leave",
-          "outlet": "Journalism Practice",
-          "url": "https://doi.org/10.1080/17512786.2022.2130815",
-          "source": "Pure",
-          "topics": [
-            "journalism"
           ],
           "featured": false,
           "featuredRank": null
@@ -864,7 +739,10 @@
           "title": "한국의 여성 기자는 왜 언론인이 되었을까?: 충족된 동기, 직무 스트레스와 직업 만족도의 관계를 중심으로",
           "outlet": "미디어, 젠더 & 문화",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
           ],
@@ -872,51 +750,14 @@
           "featuredRank": null
         },
         {
-          "year": 2021,
-          "title": "정치기사 익명 취재원 표기 관행",
-          "outlet": "Korean Journal of Journalism &amp; Communication Studies",
-          "url": "https://yonsei.elsevierpure.com/en/publications/%EC%A0%95%EC%B9%98%EA%B8%B0%EC%82%AC-%EC%9D%B5%EB%AA%85-%EC%B7%A8%EC%9E%AC%EC%9B%90-%ED%91%9C%EA%B8%B0-%EA%B4%80%ED%96%89/",
-          "source": "Pure",
-          "topics": [
-            "journalism",
-            "politics"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "한국 언론의 팩트체크; 19대 대통령선거에서의 후보자 검증 기사를 중심으로",
-          "outlet": "언론정보연구",
-          "url": "https://yonsei.elsevierpure.com/en/publications/%ED%95%9C%EA%B5%AD-%EC%96%B8%EB%A1%A0%EC%9D%98-%ED%8C%A9%ED%8A%B8%EC%B2%B4%ED%81%AC-19%EB%8C%80-%EB%8C%80%ED%86%B5%EB%A0%B9%EC%84%A0%EA%B1%B0%EC%97%90%EC%84%9C%EC%9D%98-%ED%9B%84%EB%B3%B4%EC%9E%90-%EA%B2%80%EC%A6%9D-%EA%B8%B0%EC%82%AC%EB%A5%BC-%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C/",
-          "source": "Pure",
-          "topics": [
-            "journalism",
-            "politics",
-            "misinformation"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "&lt;팩트체크 저널리즘의 주요 원칙&gt;",
-          "outlet": "한국언론진흥재단",
-          "url": "https://yonsei.elsevierpure.com/en/publications/lt%ED%8C%A9%ED%8A%B8%EC%B2%B4%ED%81%AC-%EC%A0%80%EB%84%90%EB%A6%AC%EC%A6%98%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%9B%90%EC%B9%99gt/",
-          "source": "Pure",
-          "topics": [
-            "journalism",
-            "misinformation"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "과학적 객관주의, 형식적 객관주의, 한국형 형식적 객관주의: 신문기사에 사용된 취재원 사용과 직접 인용분석을 중심으로",
-          "outlet": "한국언론학보",
-          "url": "https://yonsei.elsevierpure.com/en/publications/%EA%B3%BC%ED%95%99%EC%A0%81-%EA%B0%9D%EA%B4%80%EC%A3%BC%EC%9D%98-%ED%98%95%EC%8B%9D%EC%A0%81-%EA%B0%9D%EA%B4%80%EC%A3%BC%EC%9D%98-%ED%95%9C%EA%B5%AD%ED%98%95-%ED%98%95%EC%8B%9D%EC%A0%81-%EA%B0%9D%EA%B4%80%EC%A3%BC%EC%9D%98-%EC%8B%A0%EB%AC%B8%EA%B8%B0%EC%82%AC%EC%97%90-%EC%82%AC%EC%9A%A9%EB%90%9C-%EC%B7%A8%EC%9E%AC%EC%9B%90-%EC%82%AC%EC%9A%A9%EA%B3%BC-%EC%A7%81%EC%A0%91-%EC%9D%B8%EC%9A%A9%EB%B6%84%EC%84%9D%EC%9D%84-%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C/",
-          "source": "Pure",
+          "year": 2023,
+          "title": "포털에 게재된 주요 언론사 기사의 타블로이드화",
+          "outlet": "미디어, 젠더 & 문화",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism"
           ],
@@ -943,49 +784,30 @@
       ],
       "outputs": [
         {
-          "year": 2026,
-          "title": "The erosion of the gatekeeping function of photojournalists in the digital age",
-          "outlet": "Journalism",
-          "url": "https://doi.org/10.1177/14648849261460935",
-          "topics": [
-            "journalism"
-          ],
-          "featured": true,
-          "featuredRank": 1,
-          "source": "Pure"
-        },
-        {
-          "year": 2024,
-          "title": "Perceiving as biased but nevertheless persuaded? Effects of fact–checking news delivered by partisan media",
-          "outlet": "Political Psychology",
-          "url": "https://doi.org/10.1111/pops.12914",
-          "topics": [
-            "misinformation",
-            "politics"
-          ],
-          "featured": true,
-          "featuredRank": 2,
-          "source": "Pure"
-        },
-        {
           "year": 2022,
           "title": "신문사의 정치 성향에 따른 코로나19 보도 내용 분석: 기계학습/딥러닝, 네트워크 분석, 토픽모델링 방법 기반",
           "outlet": "정보사회와 미디어 (Information Society & Media)",
           "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "journalism",
             "politics"
           ],
           "featured": true,
-          "featuredRank": 3,
-          "source": "FIS"
+          "featuredRank": 3
         },
         {
           "year": 2024,
           "title": "브이로그에 등장하는 소비의 유형이 구매의도에 미치는 영향: 부러움과 인지된 신뢰성의 매개효과 및 구독자 수의 조절효과를 중심으로",
           "outlet": "한국광고홍보학보",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
           "topics": [
             "misinformation"
           ],
@@ -997,7 +819,10 @@
           "title": "CoNSIST: Consist of New Methodologies on AASIST for Audio Deepfake Detection",
           "outlet": "정보처리학회논문지. 소프트웨어 및 데이터 공학",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_journal_title",
           "topics": [
             "misinformation"
           ],
@@ -1009,33 +834,12 @@
           "title": "Do Online Data about a TV Episode Predict the Performance of Its Online Video Clips?: With an Emphasis on the Responses of Users to News Articles about the Episode",
           "outlet": "미디어 경제와 문화",
           "url": "",
+          "urlSource": "",
           "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_journal_title",
           "topics": [
             "journalism"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "Engagement in Emotional News on Social Media: Intensity and Type of Emotions",
-          "outlet": "Journalism and Mass Communication Quarterly",
-          "url": "https://doi.org/10.1177/1077699020959718",
-          "source": "Pure",
-          "topics": [
-            "journalism"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "Effects of relational characteristics of an answerer on perceived credibility of informational posts on social networking sites: The case of Facebook",
-          "outlet": "Information Research",
-          "url": "https://yonsei.elsevierpure.com/en/publications/effects-of-relational-characteristics-of-an-answerer-on-perceived/",
-          "source": "Pure",
-          "topics": [
-            "misinformation"
           ],
           "featured": false,
           "featuredRank": null
@@ -1043,5 +847,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T14:20:22.373181+00:00"
+  "generatedAt": "2026-09-16T15:18:08.010667+00:00"
 }
