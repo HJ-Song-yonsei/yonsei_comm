@@ -9,198 +9,6 @@
   },
   "people": [
     {
-      "id": "jiyeonso",
-      "nameKo": "소지연",
-      "nameEn": "Jiyeon So",
-      "role": "Professor",
-      "fields": "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션",
-      "office": "연희관 206",
-      "image": "images/ppl/jso.jpg",
-      "labUrl": "https://sites.google.com/yonsei.ac.kr/jso/home",
-      "profileUrl": "",
-      "areaStatus": "core",
-      "topics": [
-        "psychology",
-        "health",
-        "wellbeing"
-      ],
-      "outputs": [
-        {
-          "year": 2025,
-          "title": "Diminished valuation in the brain: How repeated exposure reduces health message engagement",
-          "outletRaw": "Annals of Behavioral Medicine",
-          "outlet": "Annals of Behavioral Medicine",
-          "url": "https://doi.org/10.1093/abm/kaaf037",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "psychology",
-            "health"
-          ],
-          "featured": true,
-          "featuredRank": 1
-        },
-        {
-          "year": 2023,
-          "title": "Diffusion of COVID-19 misinformation: Mechanisms for threat- and efficacy-related misinformation diffusion",
-          "outletRaw": "Computers in Human Behavior",
-          "outlet": "Computers in Human Behavior",
-          "url": "https://doi.org/10.1016/j.chb.2023.107967",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "health",
-            "psychology"
-          ],
-          "featured": true,
-          "featuredRank": 2
-        },
-        {
-          "year": 2023,
-          "title": "Does COVID-19 Message Fatigue Lead to Misinformation Acceptance? An Extension of the Risk Information Seeking and Processing Model",
-          "outletRaw": "Health Communication",
-          "outlet": "Health Communication",
-          "url": "https://doi.org/10.1080/10410236.2022.2111636",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "health",
-            "psychology"
-          ],
-          "featured": true,
-          "featuredRank": 3
-        },
-        {
-          "year": 2023,
-          "title": "What message features influence the intention to share misinformation about COVID-19 on social media? The role of efficacy and novelty",
-          "outletRaw": "Computers in Human Behavior",
-          "outlet": "Computers in Human Behavior",
-          "url": "https://doi.org/10.1016/j.chb.2022.107439",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "health"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2023,
-          "title": "Message fatigue beyond the health message context: a replication and further extension of So et al. (2017)",
-          "outletRaw": "Human Communication Research",
-          "outlet": "Human Communication Research",
-          "url": "https://doi.org/10.1093/hcr/hqad021",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "health"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2022,
-          "title": "Beyond Depth and Breadth: Taking “Types” of Health Information Sought into Consideration with Cluster Analysis",
-          "outletRaw": "Journal of Health Communication",
-          "outlet": "Journal of Health Communication",
-          "url": "https://doi.org/10.1080/10810730.2022.2029978",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "health"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "Tailoring Temporal Message Frames to Individuals’ Time Orientation Strengthens the Relationship between Risk Perception and Behavioral Intention",
-          "outletRaw": "Journal of Health Communication",
-          "outlet": "Journal of Health Communication",
-          "url": "https://doi.org/10.1080/10810730.2021.1878310",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "health"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "An Investigation of Cognitive Processing of Fear Appeal Messages Promoting HPV Vaccination: Predictors and Outcomes of Magnitude and Valence of Cognitive Responses",
-          "outletRaw": "Journal of Health Communication",
-          "outlet": "Journal of Health Communication",
-          "url": "https://doi.org/10.1080/10810730.2020.1842566",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "health"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "Success Expectancy: A Mediator of the Effects of Source Similarity and Self-Efficacy on Health Behavior Intention",
-          "outletRaw": "Health Communication",
-          "outlet": "Health Communication",
-          "url": "https://doi.org/10.1080/10410236.2019.1613475",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "health"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "Contributions of emotional flow in narrative persuasion: An empirical test of the emotional flow framework",
-          "outletRaw": "Communication Quarterly",
-          "outlet": "Communication Quarterly",
-          "url": "https://doi.org/10.1080/01463373.2020.1725079",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "psychology"
-          ],
-          "featured": false,
-          "featuredRank": null
-        }
-      ]
-    },
-    {
       "id": "namkeepark",
       "nameKo": "박남기",
       "nameEn": "Namkee Park",
@@ -451,46 +259,45 @@
       ]
     },
     {
-      "id": "joohankim",
-      "nameKo": "김주환",
-      "nameEn": "Joohan Kim",
+      "id": "sangyuplee",
+      "nameKo": "이상엽",
+      "nameEn": "Sang Yup Lee",
       "role": "Professor",
-      "fields": "뇌과학 | 내면소통 | 소통능력",
-      "office": "아펜젤러 207",
-      "image": "images/ppl/jkim.jpg",
-      "labUrl": "",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/joohan-kim/",
-      "areaStatus": "core",
+      "fields": "전산사회과학 | 데이터과학 | 인공지능",
+      "office": "유억겸 101",
+      "image": "images/ppl/sylee.jpg",
+      "labUrl": "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab",
+      "profileUrl": "",
+      "areaStatus": "cross-area",
       "topics": [
-        "psychology",
         "wellbeing",
         "technology"
       ],
       "outputs": [
         {
-          "year": 2024,
-          "title": "Neural Effects of One’s Own Voice on Self-Talk for Emotion Regulation",
-          "outletRaw": "Brain Sciences",
-          "outlet": "Brain Sciences",
-          "url": "https://doi.org/10.3390/brainsci14070637",
+          "year": 2026,
+          "title": "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach",
+          "outletRaw": "JMIR AI",
+          "outlet": "JMIR AI",
+          "url": "https://doi.org/10.2196/69494",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
           "classificationReason": "pure_primary",
           "isKoreanTitle": false,
           "topics": [
-            "psychology",
-            "wellbeing"
+            "wellbeing",
+            "technology"
           ],
           "featured": true,
           "featuredRank": 1
         },
         {
-          "year": 2024,
-          "title": "Exploratory Clinical Trial of a Depression Diagnostic Software That Integrates Stress Biomarkers and Composite Psychometrics",
-          "outletRaw": "Psychiatry Investigation",
-          "outlet": "Psychiatry Investigation",
-          "url": "https://doi.org/10.30773/pi.2023.0253",
+          "year": 2025,
+          "title": "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults",
+          "outletRaw": "BMC Public Health",
+          "outlet": "BMC Public Health",
+          "url": "https://doi.org/10.1186/s12889-025-23337-4",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
@@ -504,30 +311,46 @@
           "featuredRank": 2
         },
         {
-          "year": 2020,
-          "title": "Development and validation of a virtual reality-based training program for promoting subjective well-being",
-          "outletRaw": "Psychiatry Investigation",
-          "outlet": "Psychiatry Investigation",
-          "url": "https://doi.org/10.30773/pi.2020.0311",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
+          "year": 2018,
+          "title": "플랫폼에 따른 건강정보추구 행동의 영향요인과 결과: 사회경제적 요인, 디지털 미디어 리터러시, 사회적 지지, 생활만족을 중심으로",
+          "outletRaw": "헬스커뮤니케이션연구 (Health Communication Research)",
+          "outlet": "헬스커뮤니케이션연구 (Health Communication Research) · 국내논문",
+          "url": "",
+          "urlSource": "",
+          "source": "FIS",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "isKoreanTitle": true,
           "topics": [
-            "psychology",
-            "wellbeing",
             "technology"
           ],
           "featured": true,
           "featuredRank": 3
         },
         {
-          "year": 2022,
-          "title": "Relationship of Resilience Factors With Biopsychosocial Markers Using a Comprehensive Home Evaluation Kit for Depression and Suicide Risk: A Real-World Data Analysis",
+          "year": 2024,
+          "title": "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults",
           "outletRaw": "Frontiers in Psychiatry",
           "outlet": "Frontiers in Psychiatry",
-          "url": "https://doi.org/10.3389/fpsyt.2022.847498",
+          "url": "https://doi.org/10.3389/fpsyt.2024.1364930",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "wellbeing",
+            "technology"
+          ],
+          "featured": true,
+          "featuredRank": 4
+        },
+        {
+          "year": 2023,
+          "title": "Do media coverage of suicides and search frequency on suicides predict the number of tweets seeking others for a suicide pact?",
+          "outletRaw": "Frontiers in Psychiatry",
+          "outlet": "Frontiers in Psychiatry",
+          "url": "https://doi.org/10.3389/fpsyt.2023.1260567",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
@@ -541,44 +364,10 @@
         },
         {
           "year": 2021,
-          "title": "The effects of positive or negative self-talk on the alteration of brain functional connectivity by performing cognitive tasks",
-          "outletRaw": "Scientific reports",
-          "outlet": "Scientific reports",
-          "url": "https://doi.org/10.1038/s41598-021-94328-9",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "psychology"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "Differences in basic psychological needs-related resting-state functional connectivity between individuals with high and low life satisfaction",
-          "outletRaw": "Neuroscience Letters",
-          "outlet": "Neuroscience Letters",
-          "url": "https://doi.org/10.1016/j.neulet.2021.135798",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "psychology"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "Feasibility of a virtual reality-based interactive feedback program for modifying dysfunctional communication: A preliminary study",
-          "outletRaw": "BMC psychology",
-          "outlet": "BMC psychology",
-          "url": "https://doi.org/10.1186/s40359-020-00418-0",
+          "title": "Engagement in Emotional News on Social Media: Intensity and Type of Emotions",
+          "outletRaw": "Journalism and Mass Communication Quarterly",
+          "outlet": "Journalism and Mass Communication Quarterly",
+          "url": "https://doi.org/10.1177/1077699020959718",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
@@ -592,10 +381,236 @@
         },
         {
           "year": 2020,
-          "title": "Differences in the modulation of functional connectivity by self-talk tasks between people with low and high life satisfaction: Life satisfaction, functional connectivity, and self-talk",
-          "outletRaw": "NeuroImage",
-          "outlet": "NeuroImage",
-          "url": "https://doi.org/10.1016/j.neuroimage.2020.116929",
+          "title": "Relationship between media coverage of depression-related crimes and the number of people who visit a psychiatrist for depression",
+          "outletRaw": "Psychiatry Research",
+          "outlet": "Psychiatry Research",
+          "url": "https://doi.org/10.1016/j.psychres.2019.112490",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "wellbeing"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "Media coverage of celebrity suicide caused by depression and increase in the number of people who seek depression treatment",
+          "outletRaw": "Psychiatry Research",
+          "outlet": "Psychiatry Research",
+          "url": "https://doi.org/10.1016/j.psychres.2018.12.055",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "wellbeing"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "Twitter as a place where people meet to make suicide pacts",
+          "outletRaw": "Public Health",
+          "outlet": "Public Health",
+          "url": "https://doi.org/10.1016/j.puhe.2018.03.001",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "wellbeing"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
+    },
+    {
+      "id": "jiyeonso",
+      "nameKo": "소지연",
+      "nameEn": "Jiyeon So",
+      "role": "Professor",
+      "fields": "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션",
+      "office": "연희관 206",
+      "image": "images/ppl/jso.jpg",
+      "labUrl": "https://sites.google.com/yonsei.ac.kr/jso/home",
+      "profileUrl": "",
+      "areaStatus": "core",
+      "topics": [
+        "psychology",
+        "health",
+        "wellbeing"
+      ],
+      "outputs": [
+        {
+          "year": 2025,
+          "title": "Diminished valuation in the brain: How repeated exposure reduces health message engagement",
+          "outletRaw": "Annals of Behavioral Medicine",
+          "outlet": "Annals of Behavioral Medicine",
+          "url": "https://doi.org/10.1093/abm/kaaf037",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "psychology",
+            "health"
+          ],
+          "featured": true,
+          "featuredRank": 1
+        },
+        {
+          "year": 2023,
+          "title": "Diffusion of COVID-19 misinformation: Mechanisms for threat- and efficacy-related misinformation diffusion",
+          "outletRaw": "Computers in Human Behavior",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2023.107967",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "health",
+            "psychology"
+          ],
+          "featured": true,
+          "featuredRank": 2
+        },
+        {
+          "year": 2023,
+          "title": "Does COVID-19 Message Fatigue Lead to Misinformation Acceptance? An Extension of the Risk Information Seeking and Processing Model",
+          "outletRaw": "Health Communication",
+          "outlet": "Health Communication",
+          "url": "https://doi.org/10.1080/10410236.2022.2111636",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "health",
+            "psychology"
+          ],
+          "featured": true,
+          "featuredRank": 3
+        },
+        {
+          "year": 2023,
+          "title": "What message features influence the intention to share misinformation about COVID-19 on social media? The role of efficacy and novelty",
+          "outletRaw": "Computers in Human Behavior",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2022.107439",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "health"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2023,
+          "title": "Message fatigue beyond the health message context: a replication and further extension of So et al. (2017)",
+          "outletRaw": "Human Communication Research",
+          "outlet": "Human Communication Research",
+          "url": "https://doi.org/10.1093/hcr/hqad021",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "health"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2022,
+          "title": "Beyond Depth and Breadth: Taking “Types” of Health Information Sought into Consideration with Cluster Analysis",
+          "outletRaw": "Journal of Health Communication",
+          "outlet": "Journal of Health Communication",
+          "url": "https://doi.org/10.1080/10810730.2022.2029978",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "health"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Tailoring Temporal Message Frames to Individuals’ Time Orientation Strengthens the Relationship between Risk Perception and Behavioral Intention",
+          "outletRaw": "Journal of Health Communication",
+          "outlet": "Journal of Health Communication",
+          "url": "https://doi.org/10.1080/10810730.2021.1878310",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "health"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "An Investigation of Cognitive Processing of Fear Appeal Messages Promoting HPV Vaccination: Predictors and Outcomes of Magnitude and Valence of Cognitive Responses",
+          "outletRaw": "Journal of Health Communication",
+          "outlet": "Journal of Health Communication",
+          "url": "https://doi.org/10.1080/10810730.2020.1842566",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "health"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Success Expectancy: A Mediator of the Effects of Source Similarity and Self-Efficacy on Health Behavior Intention",
+          "outletRaw": "Health Communication",
+          "outlet": "Health Communication",
+          "url": "https://doi.org/10.1080/10410236.2019.1613475",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "health"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Contributions of emotional flow in narrative persuasion: An empirical test of the emotional flow framework",
+          "outletRaw": "Communication Quarterly",
+          "outlet": "Communication Quarterly",
+          "url": "https://doi.org/10.1080/01463373.2020.1725079",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
@@ -838,45 +853,46 @@
       ]
     },
     {
-      "id": "sangyuplee",
-      "nameKo": "이상엽",
-      "nameEn": "Sang Yup Lee",
+      "id": "joohankim",
+      "nameKo": "김주환",
+      "nameEn": "Joohan Kim",
       "role": "Professor",
-      "fields": "전산사회과학 | 데이터과학 | 인공지능",
-      "office": "유억겸 101",
-      "image": "images/ppl/sylee.jpg",
-      "labUrl": "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab",
-      "profileUrl": "",
+      "fields": "뇌과학 | 내면소통 | 소통능력",
+      "office": "아펜젤러 207",
+      "image": "images/ppl/jkim.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/joohan-kim/",
       "areaStatus": "cross-area",
       "topics": [
+        "psychology",
         "wellbeing",
         "technology"
       ],
       "outputs": [
         {
-          "year": 2026,
-          "title": "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach",
-          "outletRaw": "JMIR AI",
-          "outlet": "JMIR AI",
-          "url": "https://doi.org/10.2196/69494",
+          "year": 2024,
+          "title": "Neural Effects of One’s Own Voice on Self-Talk for Emotion Regulation",
+          "outletRaw": "Brain Sciences",
+          "outlet": "Brain Sciences",
+          "url": "https://doi.org/10.3390/brainsci14070637",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
           "classificationReason": "pure_primary",
           "isKoreanTitle": false,
           "topics": [
-            "wellbeing",
-            "technology"
+            "psychology",
+            "wellbeing"
           ],
           "featured": true,
           "featuredRank": 1
         },
         {
-          "year": 2025,
-          "title": "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults",
-          "outletRaw": "BMC Public Health",
-          "outlet": "BMC Public Health",
-          "url": "https://doi.org/10.1186/s12889-025-23337-4",
+          "year": 2024,
+          "title": "Exploratory Clinical Trial of a Depression Diagnostic Software That Integrates Stress Biomarkers and Composite Psychometrics",
+          "outletRaw": "Psychiatry Investigation",
+          "outlet": "Psychiatry Investigation",
+          "url": "https://doi.org/10.30773/pi.2023.0253",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
@@ -890,46 +906,30 @@
           "featuredRank": 2
         },
         {
-          "year": 2018,
-          "title": "플랫폼에 따른 건강정보추구 행동의 영향요인과 결과: 사회경제적 요인, 디지털 미디어 리터러시, 사회적 지지, 생활만족을 중심으로",
-          "outletRaw": "헬스커뮤니케이션연구 (Health Communication Research)",
-          "outlet": "헬스커뮤니케이션연구 (Health Communication Research) · 국내논문",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "isKoreanTitle": true,
-          "topics": [
-            "technology"
-          ],
-          "featured": true,
-          "featuredRank": 3
-        },
-        {
-          "year": 2024,
-          "title": "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults",
-          "outletRaw": "Frontiers in Psychiatry",
-          "outlet": "Frontiers in Psychiatry",
-          "url": "https://doi.org/10.3389/fpsyt.2024.1364930",
+          "year": 2020,
+          "title": "Development and validation of a virtual reality-based training program for promoting subjective well-being",
+          "outletRaw": "Psychiatry Investigation",
+          "outlet": "Psychiatry Investigation",
+          "url": "https://doi.org/10.30773/pi.2020.0311",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
           "classificationReason": "pure_primary",
           "isKoreanTitle": false,
           "topics": [
+            "psychology",
             "wellbeing",
             "technology"
           ],
           "featured": true,
-          "featuredRank": 4
+          "featuredRank": 3
         },
         {
-          "year": 2023,
-          "title": "Do media coverage of suicides and search frequency on suicides predict the number of tweets seeking others for a suicide pact?",
+          "year": 2022,
+          "title": "Relationship of Resilience Factors With Biopsychosocial Markers Using a Comprehensive Home Evaluation Kit for Depression and Suicide Risk: A Real-World Data Analysis",
           "outletRaw": "Frontiers in Psychiatry",
           "outlet": "Frontiers in Psychiatry",
-          "url": "https://doi.org/10.3389/fpsyt.2023.1260567",
+          "url": "https://doi.org/10.3389/fpsyt.2022.847498",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
@@ -943,10 +943,44 @@
         },
         {
           "year": 2021,
-          "title": "Engagement in Emotional News on Social Media: Intensity and Type of Emotions",
-          "outletRaw": "Journalism and Mass Communication Quarterly",
-          "outlet": "Journalism and Mass Communication Quarterly",
-          "url": "https://doi.org/10.1177/1077699020959718",
+          "title": "The effects of positive or negative self-talk on the alteration of brain functional connectivity by performing cognitive tasks",
+          "outletRaw": "Scientific reports",
+          "outlet": "Scientific reports",
+          "url": "https://doi.org/10.1038/s41598-021-94328-9",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "psychology"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Differences in basic psychological needs-related resting-state functional connectivity between individuals with high and low life satisfaction",
+          "outletRaw": "Neuroscience Letters",
+          "outlet": "Neuroscience Letters",
+          "url": "https://doi.org/10.1016/j.neulet.2021.135798",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "psychology"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Feasibility of a virtual reality-based interactive feedback program for modifying dysfunctional communication: A preliminary study",
+          "outletRaw": "BMC psychology",
+          "outlet": "BMC psychology",
+          "url": "https://doi.org/10.1186/s40359-020-00418-0",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
@@ -960,51 +994,17 @@
         },
         {
           "year": 2020,
-          "title": "Relationship between media coverage of depression-related crimes and the number of people who visit a psychiatrist for depression",
-          "outletRaw": "Psychiatry Research",
-          "outlet": "Psychiatry Research",
-          "url": "https://doi.org/10.1016/j.psychres.2019.112490",
+          "title": "Differences in the modulation of functional connectivity by self-talk tasks between people with low and high life satisfaction: Life satisfaction, functional connectivity, and self-talk",
+          "outletRaw": "NeuroImage",
+          "outlet": "NeuroImage",
+          "url": "https://doi.org/10.1016/j.neuroimage.2020.116929",
           "urlSource": "Pure DOI",
           "source": "Pure",
           "publicationType": "international",
           "classificationReason": "pure_primary",
           "isKoreanTitle": false,
           "topics": [
-            "wellbeing"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "Media coverage of celebrity suicide caused by depression and increase in the number of people who seek depression treatment",
-          "outletRaw": "Psychiatry Research",
-          "outlet": "Psychiatry Research",
-          "url": "https://doi.org/10.1016/j.psychres.2018.12.055",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "wellbeing"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "Twitter as a place where people meet to make suicide pacts",
-          "outletRaw": "Public Health",
-          "outlet": "Public Health",
-          "url": "https://doi.org/10.1016/j.puhe.2018.03.001",
-          "urlSource": "Pure DOI",
-          "source": "Pure",
-          "publicationType": "international",
-          "classificationReason": "pure_primary",
-          "isKoreanTitle": false,
-          "topics": [
-            "wellbeing"
+            "psychology"
           ],
           "featured": false,
           "featuredRank": null
@@ -1012,5 +1012,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T16:59:13.894450+00:00"
+  "generatedAt": "2026-09-16T17:18:33.757454+00:00"
 }
