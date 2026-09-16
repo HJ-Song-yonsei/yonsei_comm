@@ -114,7 +114,7 @@ faculty:
     role: Assistant Professor
     fields: "디지털플랫폼 | AI | 정치커뮤니케이션"
     office: "유억겸 106-3"
-    image: "https://comm.yonsei.ac.kr/images/ppl/taewookang.jpg"
+    image: "images/ppl/taewookang.jpg"
     profile_url: "https://kteen2k.github.io/taewookang/"
     topics: [ai, platforms]
     area_status: core
