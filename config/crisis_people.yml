@@ -255,7 +255,7 @@ faculty:
     name_ko: 김용찬
     name_en: Yong-Chan Kim
     pure_names: ["Yong Chan Kim", "Yong-Chan Kim"]
-    role: Professor · Cross-area
+    role: Professor
     fields: "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화"
     office: "연희관 304"
     image: "images/ppl/yckim.jpg"
@@ -283,7 +283,7 @@ faculty:
     name_ko: 박남기
     name_en: Namkee Park
     pure_names: ["Namkee Park"]
-    role: Professor · Cross-area
+    role: Professor
     fields: "뉴미디어테크놀로지 | 인공지능 상호작용"
     office: "빌링슬리 108"
     image: "images/ppl/Namkee_Park.jpg"
