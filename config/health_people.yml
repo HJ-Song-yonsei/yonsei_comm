@@ -165,6 +165,7 @@ faculty:
         topics: [psychology, technology]
 
   - id: sukyoungchoi
+    allow_curated_fallback: true  # temporary: Pure indexing not yet sufficient
     name_ko: 최석영
     name_en: Sukyoung Choi
     pure_names: ["Sukyoung Choi"]
