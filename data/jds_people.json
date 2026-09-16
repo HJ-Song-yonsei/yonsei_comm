@@ -16,7 +16,7 @@
       "fields": "디지털플랫폼 | AI | 정치커뮤니케이션",
       "office": "유억겸 106-3",
       "image": "images/ppl/taewookang.jpg",
-      "labUrl": "",
+      "labUrl": "https://kteen2k.github.io/taewookang/",
       "profileUrl": "",
       "areaStatus": "core",
       "topics": [
@@ -90,7 +90,7 @@
       "office": "빌링슬리 107",
       "image": "images/ppl/kkmo.jpg",
       "labUrl": "",
-      "profileUrl": "",
+      "profileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=BaQCwYPo9PFHJLIBZ1pZVg%3D%3D",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -181,7 +181,7 @@
       "office": "연희관 304",
       "image": "images/ppl/yckim.jpg",
       "labUrl": "",
-      "profileUrl": "",
+      "profileUrl": "https://fis.yonsei.ac.kr/faculty/name_search.do?mode=view&userId=XMolGH9YfzVmZPD3QwxCBQ%3D%3D",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -389,7 +389,7 @@
       "office": "아펜젤러 204",
       "image": "images/ppl/ymbaek.jpg",
       "labUrl": "",
-      "profileUrl": "",
+      "profileUrl": "https://sites.google.com/site/ymbaek/",
       "areaStatus": "core",
       "topics": [
         "politics",
@@ -578,7 +578,7 @@
       "office": "빌링슬리 109",
       "image": "images/ppl/ymsang.jpg",
       "labUrl": "",
-      "profileUrl": "",
+      "profileUrl": "https://fis.yonsei.ac.kr/faculty/member.do?mode=view&userId=L4JKAvyk1a8oWn2jJMAYJA%3D%3D",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -682,7 +682,7 @@
       "fields": "정치커뮤니케이션 | 전산사회과학 | 처리유창성",
       "office": "연희관 113-2",
       "image": "images/ppl/hyunjinsong.jpg",
-      "labUrl": "",
+      "labUrl": "https://www.hyunjinsong.com",
       "profileUrl": "",
       "areaStatus": "core",
       "topics": [
@@ -844,7 +844,7 @@
       "office": "연희관 315-1",
       "image": "images/ppl/larosa.jpg",
       "labUrl": "",
-      "profileUrl": "",
+      "profileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=Pux1pfRduAJ9YrJvL9DbNA%3D%3D",
       "areaStatus": "core",
       "topics": [
         "journalism",
@@ -1069,7 +1069,7 @@
       "fields": "전산사회과학 | 데이터과학 | 인공지능",
       "office": "유억겸 101",
       "image": "images/ppl/sylee.jpg",
-      "labUrl": "",
+      "labUrl": "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab",
       "profileUrl": "",
       "areaStatus": "cross-area",
       "topics": [
@@ -1168,5 +1168,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T16:04:54.073513+00:00"
+  "generatedAt": "2026-09-16T16:20:22.806045+00:00"
 }
