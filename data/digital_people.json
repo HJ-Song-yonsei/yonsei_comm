@@ -1,6 +1,6 @@
 {
   "title": "People in Digital Technology, Platform, & AI",
-  "sourceNote": "Publication membership is based on Yonsei FIS. Yonsei Pure is used only to enrich exact-title matches with DOI URLs; it does not add publications.",
+  "sourceNote": "Selected outputs are based primarily on Yonsei Pure. Yonsei FIS is used only to supplement one relevant Korean-language article per faculty member when available; otherwise displayed outputs are Pure-based.",
   "topics": {
     "ai": "AI & Human-Machine Communication",
     "platforms": "Platforms & Digital Media",
@@ -43,12 +43,14 @@
         {
           "year": 2026,
           "title": "Disconnecting in a Connected World: The Dynamics of Social Media Non-Use in a Platformized Society",
-          "outlet": "SOCIAL MEDIA + SOCIETY",
+          "outletRaw": "Social Media and Society",
+          "outlet": "Social Media and Society",
           "url": "https://doi.org/10.1177/20563051261419391",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -58,12 +60,14 @@
         {
           "year": 2024,
           "title": "Local familiar strangers in digitalising urban neighbourhoods in Seoul",
+          "outletRaw": "Urban Studies",
           "outlet": "Urban Studies",
           "url": "https://doi.org/10.1177/00420980241264646",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -71,14 +75,16 @@
           "featuredRank": 2
         },
         {
-          "year": 2024,
-          "title": "“Doing Community”: Digital Hyperlocal Media as Care",
-          "outlet": "DIGITAL JOURNALISM",
-          "url": "https://doi.org/10.1080/21670811.2022.2145330",
-          "urlSource": "Pure DOI",
+          "year": 2025,
+          "title": "장소 기반 하이퍼로컬 플랫폼은 이용자의 지역 관여를 강화시키는가 아니면 약화시키는가?: 커뮤니케이션 하부구조 이론의 적용",
+          "outletRaw": "Korean Journal of Journalism & Communication Studies",
+          "outlet": "Korean Journal of Journalism & Communication Studies · 국내논문",
+          "url": "",
+          "urlSource": "",
           "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "isKoreanTitle": true,
           "topics": [
             "platforms"
           ],
@@ -86,44 +92,33 @@
           "featuredRank": 3
         },
         {
-          "year": 2025,
-          "title": "장소 기반 하이퍼로컬 플랫폼은 이용자의 지역 관여를 강화시키는가 아니면 약화시키는가?: 커뮤니케이션 하부구조 이론의 적용",
-          "outlet": "Korean Journal of Journalism & Communication Studies",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
+          "year": 2024,
+          "title": "“Doing Community”: Digital Hyperlocal Media as Care",
+          "outletRaw": "Digital Journalism",
+          "outlet": "Digital Journalism",
+          "url": "https://doi.org/10.1080/21670811.2022.2145330",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2025,
-          "title": "Perceived pervasive ambiguity in the onset of COVID-19: Media dependency and social media sharing in Seoul, Tokyo, and New York",
-          "outlet": "International Communication Gazette",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
-          "topics": [
-            "platforms"
-          ],
-          "featured": false,
-          "featuredRank": null
+          "featured": true,
+          "featuredRank": 4
         },
         {
           "year": 2023,
           "title": "Social Media Dependency and Civic Engagement Among Older Urban Adults in Korea",
+          "outletRaw": "Asian Communication Research",
           "outlet": "Asian Communication Research",
           "url": "https://doi.org/10.20879/acr.2023.20.018",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "domestic_override",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -133,12 +128,14 @@
         {
           "year": 2023,
           "title": "A Social Identity Model of Localized Social Media Dependency During Post-Earthquake Disaster",
+          "outletRaw": "Mass Communication and Society",
           "outlet": "Mass Communication and Society",
           "url": "https://doi.org/10.1080/15205436.2023.2219246",
           "urlSource": "Pure DOI",
-          "source": "FIS",
+          "source": "Pure",
           "publicationType": "international",
-          "classificationReason": "foreign_override",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -148,12 +145,14 @@
         {
           "year": 2022,
           "title": "How do social media affect people’s compassion and civic action? The case of the Sewol Ferry disaster in Korea",
+          "outletRaw": "Asian Journal of Communication",
           "outlet": "Asian Journal of Communication",
           "url": "https://doi.org/10.1080/01292986.2022.2061541",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -162,43 +161,15 @@
         },
         {
           "year": 2021,
-          "title": "포스트-지진 재난 상황에서 지역기반 소셜미디어를 통한 시민관여",
-          "outlet": "한국언론학보",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "platforms"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "도시의 디지털화: 인공지능 기반 ‘디지털 도시’의 커뮤니케이션 이슈들",
-          "outlet": "언론정보연구",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "platforms"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "Sharing health information online in South Korea: Motives, topics, and antecedents",
-          "outlet": "HEALTH PROMOTION INTERNATIONAL",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "title": "Social media use on protest sites during the 2016-2017 candlelight vigils in Seoul",
+          "outletRaw": "Taylor and Francis",
+          "outlet": "Taylor and Francis",
+          "url": "https://doi.org/10.4324/9780367823115-5",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -208,12 +179,14 @@
         {
           "year": 2019,
           "title": "SNS Dependency and Community Engagement in Urban Neighborhoods: The Moderating Role of Integrated Connectedness to a Community Storytelling Network",
-          "outlet": "COMMUNICATION RESEARCH",
+          "outletRaw": "Communication Research",
+          "outlet": "Communication Research",
           "url": "https://doi.org/10.1177/0093650215588786",
           "urlSource": "Pure DOI",
-          "source": "FIS",
+          "source": "Pure",
           "publicationType": "international",
-          "classificationReason": "foreign_override",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -240,14 +213,51 @@
       ],
       "outputs": [
         {
-          "year": 2021,
-          "title": "Use of offensive language in human-artificial intelligence chatbot interaction: The effects of ethical ideology, social competence, and perceived humanlikeness",
-          "outlet": "COMPUTERS IN HUMAN BEHAVIOR",
-          "url": "https://doi.org/10.1016/j.chb.2021.106795",
+          "year": 2026,
+          "title": "Virtual Influencer’s Apologies? The Different Perceptions of Moral Violation and Apology Between Virtual and Human Influencers in Brand Endorsements",
+          "outletRaw": "Media Psychology",
+          "outlet": "Media Psychology",
+          "url": "https://doi.org/10.1080/15213269.2026.2679123",
           "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "ai",
+            "interactive"
+          ],
+          "featured": true,
+          "featuredRank": 1
+        },
+        {
+          "year": 2025,
+          "title": "Bringing People into the Story: How Virtual Reality Journalism Affects the Feeling of Presence",
+          "outletRaw": "Digital Journalism",
+          "outlet": "Digital Journalism",
+          "url": "https://doi.org/10.1080/21670811.2025.2553157",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "interactive"
+          ],
+          "featured": true,
+          "featuredRank": 2
+        },
+        {
+          "year": 2025,
+          "title": "인공지능 챗봇의 의인화가 챗봇 이용자의 차별 발언 중단의도와 챗봇 지속이용의도에 미치는 영향: 심리적 반발의 매개효과와 사회규범 메시지의 조절효과",
+          "outletRaw": "한국소통학보",
+          "outlet": "한국소통학보 · 국내논문",
+          "url": "",
+          "urlSource": "",
           "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "isKoreanTitle": true,
           "topics": [
             "ai"
           ],
@@ -255,74 +265,33 @@
           "featuredRank": 3
         },
         {
-          "year": 2025,
-          "title": "인공지능 챗봇의 의인화가 챗봇 이용자의 차별 발언 중단의도와 챗봇 지속이용의도에 미치는 영향: 심리적 반발의 매개효과와 사회규범 메시지의 조절효과",
-          "outlet": "한국소통학보",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
+          "year": 2021,
+          "title": "Use of offensive language in human-artificial intelligence chatbot interaction: The effects of ethical ideology, social competence, and perceived humanlikeness",
+          "outletRaw": "Computers in Human Behavior",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2021.106795",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "ai"
           ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2025,
-          "title": "K-POP 팬 커뮤니티 서비스의 상호작용성과 미디어 풍부성이 팬덤의 친밀감과 충성도에 미치는 영향: 몰입의 매개효과",
-          "outlet": "방송과 커뮤니케이션",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "interactive"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2025,
-          "title": "Impacts of Generative Artificial Intelligence Referencing Guidelines on College Students’ Self-efficacy",
-          "outlet": "사회과학논집",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_journal_title",
-          "topics": [
-            "ai"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2024,
-          "title": "청소년의 또래집단 규범이 비윤리적 행동 중단의도, 인공지능 챗봇에 대한 친밀감과 상호작용 만족도에 미치는 영향 : 메시지 프레임의 조절효과",
-          "outlet": "한국언론학보",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "ai"
-          ],
-          "featured": false,
-          "featuredRank": null
+          "featured": true,
+          "featuredRank": 4
         },
         {
           "year": 2024,
           "title": "The moderating influence of SNS users’ attachment style on the associations between perceived information overload, SNS fatigue, and mental health",
+          "outletRaw": "Behaviour and Information Technology",
           "outlet": "Behaviour and Information Technology",
           "url": "https://doi.org/10.1080/0144929X.2023.2281500",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -330,74 +299,16 @@
           "featuredRank": null
         },
         {
-          "year": 2023,
-          "title": "인공지능 맞춤화가 챗봇 이용자의 욕설 사용 중단의도와 챗봇 지속이용의도에 미치는 영향 : 심리적 반발의 매개효과",
-          "outlet": "Korean Journal of Journalism & Communication Studies",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "ai"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
           "year": 2021,
-          "title": "사회성 능력이 인공지능 챗봇의 사회적 사용과 자기노출에 미치는 영향: 사용자의 외로움 정도와 챗봇에 대한 지각된 인간다움의 매개효과",
-          "outlet": "한국언론학보",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "ai"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "Virtual reality advertising with brand experiences: The effects of media devices, virtual representation of the self, and self-presence",
-          "outlet": "INTERNATIONAL JOURNAL OF ADVERTISING",
+          "title": "Virtual reality advertising with brand experiences: the effects of media devices, virtual representation of the self, and self-presence",
+          "outletRaw": "International Journal of Advertising",
+          "outlet": "International Journal of Advertising",
           "url": "https://doi.org/10.1080/02650487.2020.1834210",
           "urlSource": "Pure DOI",
-          "source": "FIS",
+          "source": "Pure",
           "publicationType": "international",
-          "classificationReason": "foreign_override",
-          "topics": [
-            "interactive"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "인공지능과 윤리적 이슈",
-          "outlet": "언론정보연구",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "ai"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "가상현실 관광 콘텐츠가 관광 목적지에 대한 경험가치의 지각과 방문의도에 미치는 영향: 현존감의 매개효과를 중심으로",
-          "outlet": "사이버커뮤니케이션학보",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "interactive"
           ],
@@ -406,13 +317,32 @@
         },
         {
           "year": 2019,
-          "title": "SNS 실시간 동영상 서비스 이용의 만족도와 지속사용의도: 개인적 특성과 사회적 현존감의 영향",
-          "outlet": "사이버커뮤니케이션학보",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
+          "title": "Private Self-Awareness and Aggression in Computer-Mediated Communication: Abusive User Comments on Online News Articles",
+          "outletRaw": "International Journal of Human-Computer Interaction",
+          "outlet": "International Journal of Human-Computer Interaction",
+          "url": "https://doi.org/10.1080/10447318.2018.1514822",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "I Know My Professor: Teacher Self-Disclosure in Online Education and a Mediating Role of Social Presence",
+          "outletRaw": "International Journal of Human-Computer Interaction",
+          "outlet": "International Journal of Human-Computer Interaction",
+          "url": "https://doi.org/10.1080/10447318.2018.1455126",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -441,12 +371,14 @@
         {
           "year": 2026,
           "title": "Human-made vs. AI-generated: how provenance labels drive strategic curation via perceived effort",
+          "outletRaw": "Frontiers in Psychology",
           "outlet": "Frontiers in Psychology",
           "url": "https://doi.org/10.3389/fpsyg.2026.1840483",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "ai",
             "platforms"
@@ -457,12 +389,14 @@
         {
           "year": 2025,
           "title": "Unveiling the persuasion knowledge mechanism in YouTube affiliate marketing: channel-product congruence moderates disclosure-credibility spillover effects",
+          "outletRaw": "International Journal of Advertising",
           "outlet": "International Journal of Advertising",
           "url": "https://doi.org/10.1080/02650487.2025.2526889",
           "urlSource": "Pure DOI",
-          "source": "FIS",
+          "source": "Pure",
           "publicationType": "international",
-          "classificationReason": "foreign_override",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms",
             "interactive"
@@ -471,14 +405,16 @@
           "featuredRank": 2
         },
         {
-          "year": 2024,
-          "title": "Unveiling Secrets to AI Agents: Exploring the Interplay of Conversation Type, Self-Disclosure, and Privacy Insensitivity",
-          "outlet": "Asian Communication Research",
-          "url": "https://doi.org/10.20879/acr.2024.21.019",
-          "urlSource": "Pure DOI",
+          "year": 2026,
+          "title": "온라인 상품 추천 메시지 내 인공지능 명시 여부가 추천 상품 평가에 미치는 영향: 추천 서비스 품질의 매개효과와 머신 휴리스틱의 조절효과",
+          "outletRaw": "한국광고홍보학보",
+          "outlet": "한국광고홍보학보 · 국내논문",
+          "url": "",
+          "urlSource": "",
           "source": "FIS",
           "publicationType": "domestic",
-          "classificationReason": "domestic_override",
+          "classificationReason": "hangul_article_title",
+          "isKoreanTitle": true,
           "topics": [
             "ai"
           ],
@@ -486,29 +422,33 @@
           "featuredRank": 3
         },
         {
-          "year": 2026,
-          "title": "온라인 상품 추천 메시지 내 인공지능 명시 여부가 추천 상품 평가에 미치는 영향: 추천 서비스 품질의 매개효과와 머신 휴리스틱의 조절효과",
-          "outlet": "한국광고홍보학보",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
+          "year": 2024,
+          "title": "Unveiling Secrets to AI Agents: Exploring the Interplay of Conversation Type, Self-Disclosure, and Privacy Insensitivity",
+          "outletRaw": "Asian Communication Research",
+          "outlet": "Asian Communication Research",
+          "url": "https://doi.org/10.20879/acr.2024.21.019",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "ai"
           ],
-          "featured": false,
-          "featuredRank": null
+          "featured": true,
+          "featuredRank": 4
         },
         {
           "year": 2024,
           "title": "“It doesn't bother me that much”: The congruence effect of product types and ad appeals on the effectiveness of sponsored ads on Instagram",
+          "outletRaw": "Journal of Business Research",
           "outlet": "Journal of Business Research",
           "url": "https://doi.org/10.1016/j.jbusres.2024.114910",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -518,12 +458,14 @@
         {
           "year": 2024,
           "title": "She’s my favorite YouTuber, so I watch ads on her channel: The interplay of parasocial interaction and YouTube ad knowledge on voluntary ad-watching",
+          "outletRaw": "International Journal of Advertising",
           "outlet": "International Journal of Advertising",
           "url": "https://doi.org/10.1080/02650487.2023.2295726",
           "urlSource": "Pure DOI",
-          "source": "FIS",
+          "source": "Pure",
           "publicationType": "international",
-          "classificationReason": "foreign_override",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -552,12 +494,14 @@
         {
           "year": 2026,
           "title": "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach",
-          "outlet": "Jmir AI",
+          "outletRaw": "JMIR AI",
+          "outlet": "JMIR AI",
           "url": "https://doi.org/10.2196/69494",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "ai",
             "computational"
@@ -568,12 +512,14 @@
         {
           "year": 2025,
           "title": "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults",
+          "outletRaw": "BMC Public Health",
           "outlet": "BMC Public Health",
           "url": "https://doi.org/10.1186/s12889-025-23337-4",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "ai",
             "computational"
@@ -582,93 +528,53 @@
           "featuredRank": 2
         },
         {
-          "year": 2024,
-          "title": "Examining the Relationship Between the Violence in a Webcomic Episode and Violence in readers’ Comments with Computational Approaches",
-          "outlet": "Journal of Broadcasting and Electronic Media",
-          "url": "https://doi.org/10.1080/08838151.2024.2322709",
-          "urlSource": "Pure DOI",
+          "year": 2022,
+          "title": "신문사의 정치 성향에 따른 코로나19 보도 내용 분석: 기계학습/딥러닝, 네트워크 분석, 토픽모델링 방법 기반",
+          "outletRaw": "정보사회와 미디어 (Information Society & Media)",
+          "outlet": "정보사회와 미디어 (Information Society & Media) · 국내논문",
+          "url": "",
+          "urlSource": "",
           "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "isKoreanTitle": true,
           "topics": [
-            "computational",
-            "platforms"
+            "computational"
           ],
           "featured": true,
           "featuredRank": 3
         },
         {
           "year": 2024,
-          "title": "Examining the impacts of a movie trailer on box office performance with multi-modal deep learning approaches",
-          "outlet": "지능정보연구",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_journal_title",
+          "title": "Examining the Relationship Between the Violence in a Webcomic Episode and Violence in readers’ Comments with Computational Approaches",
+          "outletRaw": "Journal of Broadcasting and Electronic Media",
+          "outlet": "Journal of Broadcasting and Electronic Media",
+          "url": "https://doi.org/10.1080/08838151.2024.2322709",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
-            "ai",
-            "computational"
+            "computational",
+            "platforms"
           ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2024,
-          "title": "플레이어의 위치와 플레이어 간 거리 정보를 이용한 리그 오브 레전드 승패 예측: 딥러닝 알고리즘을 기반으로",
-          "outlet": "한국콘텐츠학회 논문지",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "computational"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2024,
-          "title": "도농복합지역 중노년층의 스트레스에 관한 텍스트 마이닝 분석: 농업 종사 여부를 중심으로",
-          "outlet": "보건사회연구",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "computational"
-          ],
-          "featured": false,
-          "featuredRank": null
+          "featured": true,
+          "featuredRank": 4
         },
         {
           "year": 2024,
           "title": "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults",
+          "outletRaw": "Frontiers in Psychiatry",
           "outlet": "Frontiers in Psychiatry",
           "url": "https://doi.org/10.3389/fpsyt.2024.1364930",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2024,
-          "title": "CoNSIST: Consist of New Methodologies on AASIST for Audio Deepfake Detection",
-          "outlet": "정보처리학회논문지. 소프트웨어 및 데이터 공학",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_journal_title",
-          "topics": [
-            "ai"
           ],
           "featured": false,
           "featuredRank": null
@@ -676,12 +582,14 @@
         {
           "year": 2023,
           "title": "Online citizen petitions related to COVID-19 in South Korean cities: a big data analysis",
+          "outletRaw": "Annals of Regional Science",
           "outlet": "Annals of Regional Science",
           "url": "https://doi.org/10.1007/s00168-022-01133-x",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms",
             "computational"
@@ -690,46 +598,16 @@
           "featuredRank": null
         },
         {
-          "year": 2022,
-          "title": "신문사의 정치 성향에 따른 코로나19 보도 내용 분석: 기계학습/딥러닝, 네트워크 분석, 토픽모델링 방법 기반",
-          "outlet": "정보사회와 미디어 (Information Society & Media)",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "computational"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "Exploring characteristics of online news comments and commenters with machine learning approaches",
-          "outlet": "TELEMATICS AND INFORMATICS",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
-          "topics": [
-            "ai",
-            "platforms",
-            "computational"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "플랫폼에 따른 건강정보추구 행동의 영향요인과 결과: 사회경제적 요인, 디지털 미디어 리터러시, 사회적 지지, 생활만족을 중심으로",
-          "outlet": "헬스커뮤니케이션연구 (Health Communication Research)",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
+          "year": 2021,
+          "title": "Engagement in Emotional News on Social Media: Intensity and Type of Emotions",
+          "outletRaw": "Journalism and Mass Communication Quarterly",
+          "outlet": "Journalism and Mass Communication Quarterly",
+          "url": "https://doi.org/10.1177/1077699020959718",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -758,12 +636,14 @@
         {
           "year": 2025,
           "title": "What is digital advertising literacy? Its components and relationship with advertising effectiveness and personal factors",
-          "outlet": "Journal of Global Scholars of Marketing Science(마케팅과학연구)",
+          "outletRaw": "Journal of Global Scholars of Marketing Science: Bridging Asia and the World",
+          "outlet": "Journal of Global Scholars of Marketing Science: Bridging Asia and the World",
           "url": "https://doi.org/10.1080/21639159.2025.2533988",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_journal_title",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -773,12 +653,14 @@
         {
           "year": 2024,
           "title": "Usage Motivations and User Categorizations of Metaverse: Their Impacts on Offline Activities",
-          "outlet": "INTERNATIONAL JOURNAL OF HUMAN-COMPUTER INTERACTION",
+          "outletRaw": "International Journal of Human-Computer Interaction",
+          "outlet": "International Journal of Human-Computer Interaction",
           "url": "https://doi.org/10.1080/10447318.2023.2233133",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "interactive",
             "platforms"
@@ -787,29 +669,50 @@
           "featuredRank": 2
         },
         {
-          "year": 2023,
-          "title": "Factors Affecting Innovation Resistance of Smartphone AI Voice Assistants",
-          "outlet": "International Journal of Human-Computer Interaction",
-          "url": "https://doi.org/10.1080/10447318.2022.2080899",
-          "urlSource": "Pure DOI",
+          "year": 2019,
+          "title": "가상적 브랜드 교감 척도의 개발과 적용: 브랜디드 VR 및 AR 콘텐츠를 대상으로",
+          "outletRaw": "홍보학연구",
+          "outlet": "홍보학연구 · 국내논문",
+          "url": "",
+          "urlSource": "",
           "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "publicationType": "domestic",
+          "classificationReason": "hangul_article_title",
+          "isKoreanTitle": true,
           "topics": [
-            "ai"
+            "interactive"
           ],
           "featured": true,
           "featuredRank": 3
         },
         {
           "year": 2023,
+          "title": "Factors Affecting Innovation Resistance of Smartphone AI Voice Assistants",
+          "outletRaw": "International Journal of Human-Computer Interaction",
+          "outlet": "International Journal of Human-Computer Interaction",
+          "url": "https://doi.org/10.1080/10447318.2022.2080899",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "ai"
+          ],
+          "featured": true,
+          "featuredRank": 4
+        },
+        {
+          "year": 2023,
           "title": "Virtual brand experience in digital reality advertising: Conceptualization and measurement",
+          "outletRaw": "Journal of Consumer Behaviour",
           "outlet": "Journal of Consumer Behaviour",
           "url": "https://doi.org/10.1002/cb.2126",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "interactive"
           ],
@@ -819,12 +722,14 @@
         {
           "year": 2020,
           "title": "Uses and gratifications of smart speakers: modelling the effectiveness of smart speaker advertising",
-          "outlet": "INTERNATIONAL JOURNAL OF ADVERTISING",
+          "outletRaw": "International Journal of Advertising",
+          "outlet": "International Journal of Advertising",
           "url": "https://doi.org/10.1080/02650487.2020.1765657",
           "urlSource": "Pure DOI",
-          "source": "FIS",
+          "source": "Pure",
           "publicationType": "international",
-          "classificationReason": "foreign_override",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "interactive"
           ],
@@ -834,57 +739,14 @@
         {
           "year": 2020,
           "title": "Digital advertising: present and future prospects",
-          "outlet": "INTERNATIONAL JOURNAL OF ADVERTISING",
+          "outletRaw": "International Journal of Advertising",
+          "outlet": "International Journal of Advertising",
           "url": "https://doi.org/10.1080/02650487.2019.1642015",
           "urlSource": "Pure DOI",
-          "source": "FIS",
+          "source": "Pure",
           "publicationType": "international",
-          "classificationReason": "foreign_override",
-          "topics": [
-            "platforms"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "AI 금융 챗봇 추천 메시지의 의인화와 개인화 수준이 고객 반응에 미치는 영향",
-          "outlet": "한국광고홍보학보",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "ai"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "가상적 브랜드 교감 척도의 개발과 적용: 브랜디드 VR 및 AR 콘텐츠를 대상으로",
-          "outlet": "홍보학연구",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "interactive"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "정부 및 공공 기관 SNS 활용 평가를 위한 정량 및 정성 지표의 도출과 지표별 중요도 분석",
-          "outlet": "한국광고홍보학보",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "platforms"
           ],
@@ -893,45 +755,17 @@
         },
         {
           "year": 2019,
-          "title": "인공지능 스피커(AI 스피커)에 대한 사용자 인식과 이용 동기 요인 연구",
-          "outlet": "한국콘텐츠학회 논문지",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
+          "title": "Introduction to the special issue: new trends in digital and social media advertising",
+          "outletRaw": "International Journal of Advertising",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2019.1644137",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
-            "ai"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "Is Augmented Reality Advertising a Cure-all? An Empirical Investigation of the Impact of Innovation Resistance on Augmented Reality Advertising Effectiveness",
-          "outlet": "International Journal of Contents",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
-          "topics": [
-            "interactive"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "가상현실 및 증강현실을 활용한 브랜 디드 엔터테인먼트의 내용분석 연구",
-          "outlet": "광고학연구",
-          "url": "",
-          "urlSource": "",
-          "source": "FIS",
-          "publicationType": "domestic",
-          "classificationReason": "hangul_article_title",
-          "topics": [
-            "interactive"
+            "platforms"
           ],
           "featured": false,
           "featuredRank": null
@@ -956,14 +790,34 @@
       ],
       "outputs": [
         {
+          "year": 2026,
+          "title": "The Modality-Congruent Carryover Effect: How Difficulty in Identifying (Deep)Fake News Impacts Self-Confidence in Truth Discernment and Susceptibility to Subsequent Disinformation",
+          "outletRaw": "Journalism and Mass Communication Quarterly",
+          "outlet": "Journalism and Mass Communication Quarterly",
+          "url": "https://doi.org/10.1177/10776990251413726",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "ai",
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 1
+        },
+        {
           "year": 2025,
           "title": "How the Public Makes Sense of Artificial Intelligence: The Interplay Between Communication and Discrete Emotions",
+          "outletRaw": "Science Communication",
           "outlet": "Science Communication",
           "url": "https://doi.org/10.1177/10755470241297664",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "ai"
           ],
@@ -991,12 +845,14 @@
         {
           "year": 2025,
           "title": "Exploring temporal and cross-national patterns: The use of generative AI in science-related information retrieval across seven countries",
+          "outletRaw": "Journal of Science Communication",
           "outlet": "Journal of Science Communication",
           "url": "https://doi.org/10.22323/2.24020205",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "ai"
           ],
@@ -1006,12 +862,14 @@
         {
           "year": 2025,
           "title": "The perception and use of generative AI for science-related information search: Insights from a cross-national study",
+          "outletRaw": "Public Understanding of Science",
           "outlet": "Public Understanding of Science",
           "url": "https://doi.org/10.1177/09636625241308493",
           "urlSource": "Pure DOI",
-          "source": "FIS",
-          "publicationType": "review",
-          "classificationReason": "english_or_nonhangul_unclassified",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "ai"
           ],
@@ -1021,12 +879,14 @@
         {
           "year": 2021,
           "title": "Assessing (In)accuracy and Biases in Self-reported Measures of Exposure to Disagreement: Evidence from Linkage Analysis Using Digital Trace Data",
+          "outletRaw": "Communication Methods and Measures",
           "outlet": "Communication Methods and Measures",
           "url": "https://doi.org/10.1080/19312458.2021.1935824",
           "urlSource": "Pure DOI",
-          "source": "FIS",
+          "source": "Pure",
           "publicationType": "international",
-          "classificationReason": "foreign_override",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
           "topics": [
             "computational"
           ],
@@ -1036,5 +896,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T15:26:02.939123+00:00"
+  "generatedAt": "2026-09-16T15:41:28.701229+00:00"
 }
