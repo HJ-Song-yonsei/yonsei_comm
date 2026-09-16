@@ -37,11 +37,11 @@ jobs:
       - name: Create data directory
         run: mkdir -p data
 
-      - name: Build Pure and refresh DOI enrichment
+      - name: Build Pure and refresh research-area feeds
         run: |
           python scripts/build_pure_publications_json.py
-          # FIS still controls which publications appear. These rebuilds only
-          # refresh DOI URLs when the Pure feed changes.
+          # Pure is the primary publication source for the research-area pages.
+          # Rebuild all area feeds whenever the Pure publication feed changes.
           python scripts/build_jds_people_json.py
           python scripts/build_digital_people_json.py
           python scripts/build_crisis_people_json.py
@@ -59,6 +59,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: update Pure and DOI enrichment"
+          git commit -m "chore: update Pure and research-area feeds"
           git pull --rebase origin main
           git push origin HEAD:main
