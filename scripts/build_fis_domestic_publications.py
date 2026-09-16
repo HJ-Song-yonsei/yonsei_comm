@@ -1,23 +1,27 @@
 #!/usr/bin/env python3
-"""Build a JSON feed of domestic journal articles from Yonsei FIS.
+"""Build complete and classified journal-article feeds from Yonsei FIS.
 
-Designed for scheduled execution in GitHub Actions.
-The generated feeds can be consumed immediately by the research-area JSON builders.
+Designed for scheduled execution in GitHub Actions. FIS is the source of truth
+for publication membership on the research-area pages. Pure is used separately
+by the area builders only to enrich exact-title matches with DOI URLs.
 
 Outputs
 -------
+- data/fis_publications_all.json
 - data/fis_domestic_publications.json
 - data/fis_publications_review.json
 
 Classification policy
 ---------------------
-1) Explicit domestic_journal_overrides => domestic
-2) Explicit foreign_journal_overrides  => foreign
-3) Journal title containing Hangul      => domestic
-4) Everything else                     => review (not silently discarded)
+1) Article title containing Hangul        => domestic
+2) Explicit domestic_journal_overrides   => domestic
+3) Journal title containing Hangul        => domestic
+4) Explicit foreign_journal_overrides    => foreign
+5) Everything else                       => review
 
-This intentionally uses a conservative rule for English-titled journals.
-Add known Korean journals with English titles to the YAML override list.
+The first rule intentionally follows the website policy that a Korean-titled
+article is displayed as a domestic publication. All classifications are retained
+in the complete FIS feed; review only affects the audit feed, not display eligibility.
 """
 
 from __future__ import annotations
@@ -263,18 +267,23 @@ def extract_year(issue_date: str) -> int | None:
     return int(m.group(0)) if m else None
 
 
-def classify_journal(
+def classify_publication(
+    title: str,
     journal: str,
     domestic_overrides: set[str],
     foreign_overrides: set[str],
 ) -> tuple[str, str]:
+    # Website rule: any article with Hangul in the title is treated/displayed as domestic.
+    if HANGUL_RE.search(title or ""):
+        return "domestic", "hangul_article_title"
+
     key = norm_journal(journal)
     if key in domestic_overrides:
         return "domestic", "domestic_override"
-    if key in foreign_overrides:
-        return "foreign", "foreign_override"
     if HANGUL_RE.search(journal or ""):
         return "domestic", "hangul_journal_title"
+    if key in foreign_overrides:
+        return "foreign", "foreign_override"
     return "review", "english_or_nonhangul_unclassified"
 
 
@@ -341,9 +350,11 @@ def main() -> int:
     domestic_overrides = {norm_journal(x) for x in cfg.get("domestic_journal_overrides", [])}
     foreign_overrides = {norm_journal(x) for x in cfg.get("foreign_journal_overrides", [])}
 
+    all_output_path = Path(cfg.get("all_output_path", "data/fis_publications_all.json"))
     output_path = Path(cfg.get("output_path", "data/fis_domestic_publications.json"))
     review_path = Path(cfg.get("review_output_path", "data/fis_publications_review.json"))
 
+    all_items: list[dict[str, Any]] = []
     domestic_items: list[dict[str, Any]] = []
     review_items: list[dict[str, Any]] = []
     faculty_stats: list[dict[str, Any]] = []
@@ -370,7 +381,7 @@ def main() -> int:
             msg = "FIS userId not found"
             print(f"  [{idx}/{len(cfg['faculty'])}] {name}: {msg}")
             errors.append({"faculty": name, "error": msg, "required": str(required).lower()})
-            faculty_stats.append({"name": name, "status": "missing_user_id", "domesticCount": 0, "reviewCount": 0})
+            faculty_stats.append({"name": name, "status": "missing_user_id", "allCount": 0, "domesticCount": 0, "internationalCount": 0, "reviewCount": 0})
             continue
 
         url = report_url(uid)
@@ -384,10 +395,12 @@ def main() -> int:
             msg = f"{type(exc).__name__}: {exc}"
             print(f"    ERROR: {msg}")
             errors.append({"faculty": name, "error": msg, "required": str(required).lower()})
-            faculty_stats.append({"name": name, "status": "fetch_error", "domesticCount": 0, "reviewCount": 0})
+            faculty_stats.append({"name": name, "status": "fetch_error", "allCount": 0, "domesticCount": 0, "internationalCount": 0, "reviewCount": 0})
             continue
 
+        person_all = 0
         person_domestic = 0
+        person_international = 0
         person_review = 0
 
         for row in rows:
@@ -395,8 +408,11 @@ def main() -> int:
             if not year or year < min_year:
                 continue
 
-            classification, reason = classify_journal(
-                row.get("journal", ""), domestic_overrides, foreign_overrides
+            classification, reason = classify_publication(
+                row.get("title", ""),
+                row.get("journal", ""),
+                domestic_overrides,
+                foreign_overrides,
             )
 
             item = {
@@ -411,9 +427,13 @@ def main() -> int:
                 "classificationReason": reason,
             }
 
+            all_items.append(item)
+            person_all += 1
             if classification == "domestic":
                 domestic_items.append(item)
                 person_domestic += 1
+            elif classification == "foreign":
+                person_international += 1
             elif classification == "review":
                 review_items.append(item)
                 person_review += 1
@@ -421,10 +441,15 @@ def main() -> int:
         faculty_stats.append({
             "name": name,
             "status": "ok",
+            "allCount": person_all,
             "domesticCount": person_domestic,
+            "internationalCount": person_international,
             "reviewCount": person_review,
         })
-        print(f"    domestic={person_domestic}, review={person_review}, raw={len(rows)}")
+        print(
+            f"    all={person_all}, domestic={person_domestic}, "
+            f"international={person_international}, review={person_review}, raw={len(rows)}"
+        )
         time.sleep(request_delay)
 
     # Do not publish a silently partial dataset if a required faculty scrape failed.
@@ -435,9 +460,14 @@ def main() -> int:
             print(f"  - {e['faculty']}: {e['error']}", file=sys.stderr)
         return 2
 
+    all_items = dedupe(all_items)
     domestic_items = dedupe(domestic_items)
     review_items = dedupe(review_items)
 
+    all_items.sort(
+        key=lambda x: (date_sort_key(x.get("issueDate", "")), x.get("faculty", ""), x.get("title", "")),
+        reverse=True,
+    )
     domestic_items.sort(
         key=lambda x: (date_sort_key(x.get("issueDate", "")), x.get("faculty", ""), x.get("title", "")),
         reverse=True,
@@ -449,6 +479,20 @@ def main() -> int:
 
     faculty_stats.sort(key=lambda x: x["name"])
     journal_counts = Counter(item["journal"] for item in domestic_items)
+
+    all_payload: dict[str, Any] = {
+        "source": "Yonsei Faculty Information System (FIS)",
+        "note": (
+            "Complete FIS article feed used as the publication source of truth for research-area pages. "
+            "Pure may enrich exact-title matches with DOI URLs downstream, but does not add publications."
+        ),
+        "minYear": min_year,
+        "itemCount": len(all_items),
+        "facultyCount": sum(1 for x in faculty_stats if x.get("status") == "ok"),
+        "faculty": faculty_stats,
+        "errors": errors,
+        "items": all_items,
+    }
 
     domestic_payload: dict[str, Any] = {
         "source": "Yonsei Faculty Information System (FIS)",
@@ -476,10 +520,14 @@ def main() -> int:
     }
 
     print("\nStep 2: Writing JSON feeds...")
+    write_json_if_changed(all_output_path, all_payload)
     write_json_if_changed(output_path, domestic_payload)
     write_json_if_changed(review_path, review_payload)
 
-    print(f"Done: {len(domestic_items)} domestic articles; {len(review_items)} review items.")
+    print(
+        f"Done: {len(all_items)} total FIS articles; "
+        f"{len(domestic_items)} domestic; {len(review_items)} review items."
+    )
     if errors:
         print(f"Warnings: {len(errors)} faculty issue(s). See {review_path}.")
     return 0
