@@ -595,7 +595,7 @@
       "id": "jarimkim",
       "nameKo": "김자림",
       "nameEn": "Jarim Kim",
-      "role": "Professor · Cross-area",
+      "role": "Professor",
       "fields": "위험·위기 커뮤니케이션 | PR | 설득",
       "office": "유억겸 106-4",
       "image": "images/ppl/jrkim.jpg",
@@ -823,7 +823,7 @@
       "id": "sangyuplee",
       "nameKo": "이상엽",
       "nameEn": "Sang Yup Lee",
-      "role": "Professor · Cross-area",
+      "role": "Professor",
       "fields": "전산사회과학 | 데이터과학 | 인공지능",
       "office": "유억겸 101",
       "image": "images/ppl/sylee.jpg",
@@ -994,5 +994,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T16:33:29.429134+00:00"
+  "generatedAt": "2026-09-16T16:51:19.564120+00:00"
 }
