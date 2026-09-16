@@ -108,6 +108,7 @@ topics:
 
 faculty:
   - id: taewookang
+    allow_curated_fallback: true  # temporary: Pure indexing not yet available
     name_ko: 강태우
     name_en: Taewoo Kang
     pure_names: ["Taewoo Kang"]
