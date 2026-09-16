@@ -108,35 +108,7 @@ topics:
       - 미디어 이용
 
 faculty:
-  - id: jiyeonso
-    name_ko: 소지연
-    name_en: Jiyeon So
-    pure_names: ["Jiyeon So"]
-    role: Professor
-    fields: "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션"
-    office: "연희관 206"
-    image: "images/ppl/jso.jpg"
-    lab_url: "https://sites.google.com/yonsei.ac.kr/jso/home"
-    topics: [psychology, health, wellbeing]
-    area_status: core
-    pinned:
-      - title: "Diminished valuation in the brain: How repeated exposure reduces health message engagement"
-        year: 2025
-        outlet: "Annals of Behavioral Medicine"
-        url: "https://doi.org/10.1093/abm/kaaf037"
-        topics: [psychology, health]
-      - title: "Diffusion of COVID-19 misinformation: Mechanisms for threat- and efficacy-related misinformation diffusion"
-        year: 2023
-        outlet: "Computers in Human Behavior"
-        url: "https://doi.org/10.1016/j.chb.2023.107967"
-        topics: [health, psychology]
-      - title: "Does COVID-19 Message Fatigue Lead to Misinformation Acceptance? An Extension of the Risk Information Seeking and Processing Model"
-        year: 2023
-        outlet: "Health Communication"
-        url: "https://doi.org/10.1080/10410236.2022.2111636"
-        topics: [health, psychology]
-
-  - id: namkeepark
+ - id: namkeepark
     name_ko: 박남기
     name_en: Namkee Park
     pure_names: ["Namkee Park"]
@@ -193,33 +165,61 @@ faculty:
         url: "https://doi.org/10.1177/10776990251413726"
         topics: [psychology, technology]
 
-  - id: joohankim
-    name_ko: 김주환
-    name_en: Joohan Kim
-    pure_names: ["Joohan Kim"]
+  - id: sangyuplee
+    name_ko: 이상엽
+    name_en: Sang Yup Lee
+    pure_names: ["Sang Yup Lee", "S. Y. Lee"]
     role: Professor
-    fields: "뇌과학 | 내면소통 | 소통능력"
-    office: "아펜젤러 207"
-    image: "images/ppl/jkim.jpg"
-    profile_url: "https://yonsei.elsevierpure.com/en/persons/joohan-kim/"
-    topics: [psychology, wellbeing, technology]
+    fields: "전산사회과학 | 데이터과학 | 인공지능"
+    office: "유억겸 101"
+    image: "images/ppl/sylee.jpg"
+    lab_url: "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab"
+    topics: [wellbeing, technology]
+    area_status: cross-area
+    pinned:
+      - title: "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach"
+        year: 2026
+        outlet: "JMIR AI"
+        url: "https://doi.org/10.2196/69494"
+        topics: [wellbeing, technology]
+      - title: "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults"
+        year: 2025
+        outlet: "BMC Public Health"
+        url: "https://doi.org/10.1186/s12889-025-23337-4"
+        topics: [wellbeing, technology]
+      - title: "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults"
+        year: 2024
+        outlet: "Frontiers in Psychiatry"
+        url: "https://doi.org/10.3389/fpsyt.2024.1364930"
+        topics: [wellbeing, technology]
+
+  - id: jiyeonso
+    name_ko: 소지연
+    name_en: Jiyeon So
+    pure_names: ["Jiyeon So"]
+    role: Professor
+    fields: "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션"
+    office: "연희관 206"
+    image: "images/ppl/jso.jpg"
+    lab_url: "https://sites.google.com/yonsei.ac.kr/jso/home"
+    topics: [psychology, health, wellbeing]
     area_status: core
     pinned:
-      - title: "Neural Effects of One’s Own Voice on Self-Talk for Emotion Regulation"
-        year: 2024
-        outlet: "Brain Sciences"
-        url: "https://doi.org/10.3390/brainsci14070637"
-        topics: [psychology, wellbeing]
-      - title: "Exploratory Clinical Trial of a Depression Diagnostic Software That Integrates Stress Biomarkers and Composite Psychometrics"
-        year: 2024
-        outlet: "Psychiatry Investigation"
-        url: "https://doi.org/10.30773/pi.2023.0253"
-        topics: [wellbeing, technology]
-      - title: "Development and Validation of a Virtual Reality-Based Training Program for Promoting Subjective Well-Being"
-        year: 2020
-        outlet: "Psychiatry Investigation"
-        url: ""
-        topics: [psychology, wellbeing, technology]
+      - title: "Diminished valuation in the brain: How repeated exposure reduces health message engagement"
+        year: 2025
+        outlet: "Annals of Behavioral Medicine"
+        url: "https://doi.org/10.1093/abm/kaaf037"
+        topics: [psychology, health]
+      - title: "Diffusion of COVID-19 misinformation: Mechanisms for threat- and efficacy-related misinformation diffusion"
+        year: 2023
+        outlet: "Computers in Human Behavior"
+        url: "https://doi.org/10.1016/j.chb.2023.107967"
+        topics: [health, psychology]
+      - title: "Does COVID-19 Message Fatigue Lead to Misinformation Acceptance? An Extension of the Risk Information Seeking and Processing Model"
+        year: 2023
+        outlet: "Health Communication"
+        url: "https://doi.org/10.1080/10410236.2022.2111636"
+        topics: [health, psychology]
 
   - id: jarimkim
     name_ko: 김자림
@@ -249,30 +249,31 @@ faculty:
         url: ""
         topics: [health]
 
-  - id: sangyuplee
-    name_ko: 이상엽
-    name_en: Sang Yup Lee
-    pure_names: ["Sang Yup Lee", "S. Y. Lee"]
+  - id: joohankim
+    name_ko: 김주환
+    name_en: Joohan Kim
+    pure_names: ["Joohan Kim"]
     role: Professor
-    fields: "전산사회과학 | 데이터과학 | 인공지능"
-    office: "유억겸 101"
-    image: "images/ppl/sylee.jpg"
-    lab_url: "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab"
-    topics: [wellbeing, technology]
-    area_status: cross-area
+    fields: "뇌과학 | 내면소통 | 소통능력"
+    office: "아펜젤러 207"
+    image: "images/ppl/jkim.jpg"
+    profile_url: "https://yonsei.elsevierpure.com/en/persons/joohan-kim/"
+    topics: [psychology, wellbeing, technology]
+    area_status: core
     pinned:
-      - title: "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach"
-        year: 2026
-        outlet: "JMIR AI"
-        url: "https://doi.org/10.2196/69494"
-        topics: [wellbeing, technology]
-      - title: "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults"
-        year: 2025
-        outlet: "BMC Public Health"
-        url: "https://doi.org/10.1186/s12889-025-23337-4"
-        topics: [wellbeing, technology]
-      - title: "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults"
+      - title: "Neural Effects of One’s Own Voice on Self-Talk for Emotion Regulation"
         year: 2024
-        outlet: "Frontiers in Psychiatry"
-        url: "https://doi.org/10.3389/fpsyt.2024.1364930"
+        outlet: "Brain Sciences"
+        url: "https://doi.org/10.3390/brainsci14070637"
+        topics: [psychology, wellbeing]
+      - title: "Exploratory Clinical Trial of a Depression Diagnostic Software That Integrates Stress Biomarkers and Composite Psychometrics"
+        year: 2024
+        outlet: "Psychiatry Investigation"
+        url: "https://doi.org/10.30773/pi.2023.0253"
         topics: [wellbeing, technology]
+      - title: "Development and Validation of a Virtual Reality-Based Training Program for Promoting Subjective Well-Being"
+        year: 2020
+        outlet: "Psychiatry Investigation"
+        url: ""
+        topics: [psychology, wellbeing, technology]
+
