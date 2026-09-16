@@ -116,7 +116,7 @@ faculty:
     fields: "디지털플랫폼 | AI | 정치커뮤니케이션"
     office: "유억겸 106-3"
     image: "images/ppl/taewookang.jpg"
-    profile_url: "https://kteen2k.github.io/taewookang/"
+    lab_url: "https://kteen2k.github.io/taewookang/"
     topics: [ai, platforms]
     area_status: core
     pinned:
@@ -284,7 +284,7 @@ faculty:
     fields: "커뮤니케이션테크놀로지 | AI | 게임"
     office: ""
     image: "images/ppl/sychoi3.jpg"
-    profile_url: "https://sukyoungchoi.github.io/"
+    lab_url: "https://sukyoungchoi.github.io/"
     topics: [ai, platforms, interactive]
     area_status: core
     pinned:
@@ -312,7 +312,7 @@ faculty:
     fields: "정치커뮤니케이션 | 전산사회과학 | 처리유창성"
     office: "연희관 113-2"
     image: "images/ppl/hyunjinsong.jpg"
-    profile_url: "https://hyunjinsong.com"
+    lab_url: "https://hyunjinsong.com"
     topics: [ai, computational]
     area_status: cross-area
     pinned:
