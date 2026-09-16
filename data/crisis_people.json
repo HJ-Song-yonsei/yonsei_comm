@@ -844,7 +844,7 @@
       "id": "yongchankim",
       "nameKo": "김용찬",
       "nameEn": "Yong-Chan Kim",
-      "role": "Professor · Cross-area",
+      "role": "Professor",
       "fields": "AI와 플랫폼 미디어 | 디지털 도시 | 위험사회와 양극화",
       "office": "연희관 304",
       "image": "images/ppl/yckim.jpg",
@@ -1069,7 +1069,7 @@
       "id": "namkeepark",
       "nameKo": "박남기",
       "nameEn": "Namkee Park",
-      "role": "Professor · Cross-area",
+      "role": "Professor",
       "fields": "뉴미디어테크놀로지 | 인공지능 상호작용",
       "office": "빌링슬리 108",
       "image": "images/ppl/Namkee_Park.jpg",
@@ -1209,5 +1209,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T16:31:20.210950+00:00"
+  "generatedAt": "2026-09-16T16:52:03.176861+00:00"
 }
