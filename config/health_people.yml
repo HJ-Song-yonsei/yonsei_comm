@@ -257,7 +257,7 @@ faculty:
     fields: "뇌과학 | 내면소통 | 소통능력"
     office: "아펜젤러 207"
     image: "images/ppl/jkim.jpg"
-    profile_url: "https://yonsei.elsevierpure.com/en/persons/joohan-kim/"
+    lab_url: "https://joohankim.com/"
     topics: [psychology, wellbeing, technology]
     area_status: cross-area
     pinned:
