@@ -35,6 +35,10 @@ jobs:
       - name: Build JSON
         run: |
           python scripts/build_pure_publications_json.py
+          python scripts/build_jds_people_json.py
+          python scripts/build_digital_people_json.py
+          python scripts/build_crisis_people_json.py
+          python scripts/build_health_people_json.py
 
       - name: Commit if changed
         run: |
