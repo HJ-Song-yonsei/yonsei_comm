@@ -1,0 +1,71 @@
+# Yonsei FIS domestic-publication scraper configuration
+# IDs may be entered either URL-encoded or decoded. The script normalizes them.
+
+min_year: 2010
+request_delay_seconds: 0.6
+fail_on_required_error: true
+
+output_path: data/fis_domestic_publications.json
+review_output_path: data/fis_publications_review.json
+
+faculty:
+  - name: 김주환
+    user_id: "xpq4FL9XL5EnJFW7yXzLtA%3D%3D"
+  - name: 김경모
+    user_id: "BaQCwYPo9PFHJLIBZ1pZVg%3D%3D"
+  - name: 조창환
+    user_id: "%2Fn4Paar5F0PdEodQsno5TA%3D%3D"
+  - name: 김용찬
+    user_id: "XMolGH9YfzVmZPD3QwxCBQ%3D%3D"
+  - name: 박남기
+    user_id: "BIOifzc4t%2BJ8ju3BHF4RMA%3D%3D"
+  - name: 백영민
+    user_id: "pQXSuj%2FBDWN176s3YgiWbA%3D%3D"
+  - name: 이상엽
+    user_id: "rK6lfb%2BhapwVbVlY%2FGdZJA%3D%3D"
+  - name: 소지연
+    user_id: "DlDr3pE4SDh6IoC5mXC8BQ%3D%3D"
+  - name: 김자림
+    user_id: "v9q1UyiCmw3mFYckQVEM6Q%3D%3D"
+  - name: 송현진
+    user_id: "Np9Te%2Bu68bm0Xk%2BRnIICBQ%3D%3D"
+  - name: 이나연
+    user_id: "Pux1pfRduAJ9YrJvL9DbNA%3D%3D"
+  - name: 성윤희
+    user_id: "p8eyapvQuv84fZDdtNyhGA%3D%3D"
+  - name: 최석영
+    user_id: "LOaAeXGwwmV4hd4JVaD3cw%3D%3D"
+  - name: 백지현
+    user_id: "JLKQraK1DSNePacRzCXX9A%3D%3D"
+  - name: 상윤모
+    user_id: "L4JKAvyk1a8oWn2jJMAYJA%3D%3D"
+  - name: 강태우
+    user_id: ""
+    auto_discover: true
+    # Until the ID is known, a discovery failure should not block updates for everyone else.
+    required: false
+
+# Conservative classification:
+# - Any Hangul journal title is automatically treated as domestic.
+# - English-titled Korean journals MUST be listed here.
+# Add exact FIS journal titles as they appear in data/fis_publications_review.json.
+domestic_journal_overrides:
+  - "Asian Communication Research"
+
+# Optional explicit exclusions. These are not required for correctness because
+# unclassified English titles already go to review rather than the domestic feed.
+# Add entries if you want the review file to stay compact.
+foreign_journal_overrides:
+  - "Journal of Communication"
+  - "Communication Research"
+  - "Human Communication Research"
+  - "New Media & Society"
+  - "Communication Theory"
+  - "Communication Methods and Measures"
+  - "Communication Monographs"
+  - "Political Communication"
+  - "Journalism"
+  - "Journalism & Mass Communication Quarterly"
+  - "Mass Communication and Society"
+  - "International Journal of Advertising"
+  - "Public Relations Review"
