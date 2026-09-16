@@ -860,8 +860,8 @@
       "fields": "뇌과학 | 내면소통 | 소통능력",
       "office": "아펜젤러 207",
       "image": "images/ppl/jkim.jpg",
-      "labUrl": "",
-      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/joohan-kim/",
+      "labUrl": "https://joohankim.com/",
+      "profileUrl": "",
       "areaStatus": "cross-area",
       "topics": [
         "psychology",
@@ -1012,5 +1012,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T17:18:33.757454+00:00"
+  "generatedAt": "2026-09-16T17:25:50.062012+00:00"
 }
