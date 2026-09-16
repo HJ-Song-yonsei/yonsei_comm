@@ -108,7 +108,7 @@ topics:
       - 미디어 이용
 
 faculty:
- - id: namkeepark
+  - id: namkeepark
     name_ko: 박남기
     name_en: Namkee Park
     pure_names: ["Namkee Park"]
@@ -259,7 +259,7 @@ faculty:
     image: "images/ppl/jkim.jpg"
     profile_url: "https://yonsei.elsevierpure.com/en/persons/joohan-kim/"
     topics: [psychology, wellbeing, technology]
-    area_status: core
+    area_status: cross-area
     pinned:
       - title: "Neural Effects of One’s Own Voice on Self-Talk for Emotion Regulation"
         year: 2024
@@ -276,4 +276,3 @@ faculty:
         outlet: "Psychiatry Investigation"
         url: ""
         topics: [psychology, wellbeing, technology]
-
