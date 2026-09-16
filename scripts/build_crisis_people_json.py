@@ -11,6 +11,9 @@ Display policy
 - If no Korean article is available, the visible outputs are all Pure-based.
 - When the same Korean article exists in both Pure and FIS, Pure bibliographic data
   and DOI/link are preferred; FIS supplies the domestic/Korean-language signal.
+- Faculty explicitly marked allow_curated_fallback may temporarily use pinned config
+  metadata when a pinned publication is not yet available in Pure/FIS. A later source
+  match automatically replaces the curated fallback.
 """
 
 from __future__ import annotations
@@ -215,6 +218,30 @@ def merge_pure_with_korean_fis(
     return list(merged.values())
 
 
+
+def curated_fallback_record(pin: dict[str, Any]) -> dict[str, Any]:
+    """Convert one pinned config item into a temporary source record.
+
+    This is used only when the faculty entry explicitly opts in with
+    allow_curated_fallback: true and no matching Pure/Korean-FIS record exists.
+    """
+    title = norm_text(pin.get("title"))
+    outlet = norm_text(pin.get("outlet"))
+    korean = has_hangul(title)
+    return {
+        "year": int(pin.get("year") or 0),
+        "title": title,
+        "outletRaw": outlet,
+        "outlet": domestic_outlet_label(outlet) if korean else outlet,
+        "url": norm_text(pin.get("url")),
+        "urlSource": "curated" if pin.get("url") else "",
+        "source": "curated",
+        "publicationType": "domestic" if korean else "international",
+        "classificationReason": "curated_fallback",
+        "isKoreanTitle": korean,
+    }
+
+
 def keyword_matches(haystack: str, keyword: str) -> bool:
     kw = norm_text(keyword).casefold()
     if not kw:
@@ -272,13 +299,22 @@ def build_person(
     korean_items = fis_korean_candidates(fis, norm_text(person.get("name_ko")), min_year) if fis else []
     candidates = merge_pure_with_korean_fis(pure_items, korean_items)
 
-    # Build curated matches first. Pinned records are kept only if they can be
-    # backed by Pure or by the Korean-language FIS supplement.
+    # Build curated matches first. Normally a pinned record must be backed by
+    # Pure or the Korean-language FIS supplement. For explicitly opted-in faculty
+    # (e.g., a newly appointed professor not yet indexed in Pure), pinned config
+    # metadata may temporarily serve as the source record.
     pinned_records: list[dict[str, Any]] = []
     pinned_keys: set[str] = set()
+    allow_curated_fallback = bool(person.get("allow_curated_fallback", False))
     for pin_rank, pin in enumerate(person.get("pinned", []), start=1):
         match = find_source_match(candidates, pin.get("title", ""))
-        if not match:
+        if not match and allow_curated_fallback:
+            match = curated_fallback_record(pin)
+            print(
+                f"Info: using curated fallback for {person.get('name_ko')}: "
+                f"{pin.get('title', '')}"
+            )
+        elif not match:
             print(
                 f"Warning: pinned output not found in Pure/Korean-FIS for {person.get('name_ko')}: "
                 f"{pin.get('title', '')}"
