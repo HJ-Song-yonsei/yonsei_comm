@@ -16,8 +16,8 @@
       "fields": "헬스커뮤니케이션 | 설득 | 과학커뮤니케이션",
       "office": "연희관 206",
       "image": "images/ppl/jso.jpg",
-      "labUrl": "https://sites.google.com/yonsei.ac.kr/jso/home",
-      "profileUrl": "",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/jiyeon-so/",
       "areaStatus": "core",
       "topics": [
         "psychology",
@@ -270,28 +270,29 @@
       ]
     },
     {
-      "id": "sangyuplee",
-      "nameKo": "이상엽",
-      "nameEn": "Sang Yup Lee",
-      "role": "Professor · Cross-area",
-      "fields": "전산사회과학 | 데이터과학 | 인공지능",
-      "office": "유억겸 101",
-      "image": "images/ppl/sylee.jpg",
-      "labUrl": "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab",
-      "profileUrl": "",
+      "id": "sukyoungchoi",
+      "nameKo": "최석영",
+      "nameEn": "Sukyoung Choi",
+      "role": "Assistant Professor",
+      "fields": "커뮤니케이션테크놀로지 | AI | 게임",
+      "office": "",
+      "image": "images/ppl/sychoi3.jpg",
+      "labUrl": "",
+      "profileUrl": "https://sukyoungchoi.github.io/",
       "areaStatus": "core",
       "topics": [
+        "psychology",
         "wellbeing",
         "technology"
       ],
       "outputs": [
         {
-          "year": 2026,
-          "title": "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach",
-          "outlet": "JMIR AI",
-          "url": "https://doi.org/10.2196/69494",
+          "year": 2025,
+          "title": "How the Public Makes Sense of Artificial Intelligence: The Interplay Between Communication and Discrete Emotions",
+          "outlet": "Science Communication",
+          "url": "https://doi.org/10.1177/10755470241297664",
           "topics": [
-            "wellbeing",
+            "psychology",
             "technology"
           ],
           "featured": true,
@@ -299,90 +300,30 @@
           "source": "Pure"
         },
         {
-          "year": 2025,
-          "title": "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults",
-          "outlet": "BMC Public Health",
-          "url": "https://doi.org/10.1186/s12889-025-23337-4",
+          "year": 2023,
+          "title": "Who benefits from directed communication? Communication directionality, network structures, and perceived social capital in an online game",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2023.107825",
           "topics": [
             "wellbeing",
             "technology"
           ],
           "featured": true,
           "featuredRank": 2,
-          "source": "Pure"
+          "source": "curated"
         },
         {
-          "year": 2024,
-          "title": "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults",
-          "outlet": "Frontiers in Psychiatry",
-          "url": "https://doi.org/10.3389/fpsyt.2024.1364930",
+          "year": 2026,
+          "title": "The Modality-Congruent Carryover Effect: How Difficulty in Identifying (Deep)Fake News Impacts Self-Confidence in Truth Discernment and Susceptibility to Subsequent Disinformation",
+          "outlet": "Journalism and Mass Communication Quarterly",
+          "url": "https://doi.org/10.1177/10776990251413726",
           "topics": [
-            "wellbeing",
+            "psychology",
             "technology"
           ],
           "featured": true,
           "featuredRank": 3,
           "source": "Pure"
-        },
-        {
-          "year": 2023,
-          "title": "Do media coverage of suicides and search frequency on suicides predict the number of tweets seeking others for a suicide pact?",
-          "outlet": "Frontiers in Psychiatry",
-          "url": "https://doi.org/10.3389/fpsyt.2023.1260567",
-          "source": "Pure",
-          "topics": [
-            "wellbeing"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2021,
-          "title": "Engagement in Emotional News on Social Media: Intensity and Type of Emotions",
-          "outlet": "Journalism and Mass Communication Quarterly",
-          "url": "https://doi.org/10.1177/1077699020959718",
-          "source": "Pure",
-          "topics": [
-            "technology"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2020,
-          "title": "Relationship between media coverage of depression-related crimes and the number of people who visit a psychiatrist for depression",
-          "outlet": "Psychiatry Research",
-          "url": "https://doi.org/10.1016/j.psychres.2019.112490",
-          "source": "Pure",
-          "topics": [
-            "wellbeing"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2019,
-          "title": "Media coverage of celebrity suicide caused by depression and increase in the number of people who seek depression treatment",
-          "outlet": "Psychiatry Research",
-          "url": "https://doi.org/10.1016/j.psychres.2018.12.055",
-          "source": "Pure",
-          "topics": [
-            "wellbeing"
-          ],
-          "featured": false,
-          "featuredRank": null
-        },
-        {
-          "year": 2018,
-          "title": "Twitter as a place where people meet to make suicide pacts",
-          "outlet": "Public Health",
-          "url": "https://doi.org/10.1016/j.puhe.2018.03.001",
-          "source": "Pure",
-          "topics": [
-            "wellbeing"
-          ],
-          "featured": false,
-          "featuredRank": null
         }
       ]
     },
@@ -674,29 +615,28 @@
       ]
     },
     {
-      "id": "sukyoungchoi",
-      "nameKo": "최석영",
-      "nameEn": "Sukyoung Choi",
-      "role": "Assistant Professor",
-      "fields": "커뮤니케이션테크놀로지 | AI | 게임",
-      "office": "",
-      "image": "images/ppl/sychoi3.jpg",
-      "labUrl": "https://sukyoungchoi.github.io/",
+      "id": "sangyuplee",
+      "nameKo": "이상엽",
+      "nameEn": "Sang Yup Lee",
+      "role": "Professor · Cross-area",
+      "fields": "전산사회과학 | 데이터과학 | 인공지능",
+      "office": "유억겸 101",
+      "image": "images/ppl/sylee.jpg",
+      "labUrl": "https://sites.google.com/yonsei.ac.kr/cml/computational-media-lab",
       "profileUrl": "",
       "areaStatus": "cross-area",
       "topics": [
-        "psychology",
         "wellbeing",
         "technology"
       ],
       "outputs": [
         {
-          "year": 2025,
-          "title": "How the Public Makes Sense of Artificial Intelligence: The Interplay Between Communication and Discrete Emotions",
-          "outlet": "Science Communication",
-          "url": "https://doi.org/10.1177/10755470241297664",
+          "year": 2026,
+          "title": "Using Digital Phenotyping for Depression Screening in Community-Dwelling Older Adults: Bayesian Multilevel Hurdle Model Machine Learning Approach",
+          "outlet": "JMIR AI",
+          "url": "https://doi.org/10.2196/69494",
           "topics": [
-            "psychology",
+            "wellbeing",
             "technology"
           ],
           "featured": true,
@@ -704,33 +644,93 @@
           "source": "Pure"
         },
         {
-          "year": 2023,
-          "title": "Who benefits from directed communication? Communication directionality, network structures, and perceived social capital in an online game",
-          "outlet": "Computers in Human Behavior",
-          "url": "https://doi.org/10.1016/j.chb.2023.107825",
+          "year": 2025,
+          "title": "BERT and BERTopic for screening clinical depression on open-ended text messages collected through a mobile application from older adults",
+          "outlet": "BMC Public Health",
+          "url": "https://doi.org/10.1186/s12889-025-23337-4",
           "topics": [
             "wellbeing",
             "technology"
           ],
           "featured": true,
           "featuredRank": 2,
-          "source": "curated"
+          "source": "Pure"
         },
         {
-          "year": 2026,
-          "title": "The Modality-Congruent Carryover Effect: How Difficulty in Identifying (Deep)Fake News Impacts Self-Confidence in Truth Discernment and Susceptibility to Subsequent Disinformation",
-          "outlet": "Journalism and Mass Communication Quarterly",
-          "url": "https://doi.org/10.1177/10776990251413726",
+          "year": 2024,
+          "title": "Exploring the relationship between YouTube video characteristics and a viewer’s mental health traits among young adults",
+          "outlet": "Frontiers in Psychiatry",
+          "url": "https://doi.org/10.3389/fpsyt.2024.1364930",
           "topics": [
-            "psychology",
+            "wellbeing",
             "technology"
           ],
           "featured": true,
           "featuredRank": 3,
           "source": "Pure"
+        },
+        {
+          "year": 2023,
+          "title": "Do media coverage of suicides and search frequency on suicides predict the number of tweets seeking others for a suicide pact?",
+          "outlet": "Frontiers in Psychiatry",
+          "url": "https://doi.org/10.3389/fpsyt.2023.1260567",
+          "source": "Pure",
+          "topics": [
+            "wellbeing"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Engagement in Emotional News on Social Media: Intensity and Type of Emotions",
+          "outlet": "Journalism and Mass Communication Quarterly",
+          "url": "https://doi.org/10.1177/1077699020959718",
+          "source": "Pure",
+          "topics": [
+            "technology"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2020,
+          "title": "Relationship between media coverage of depression-related crimes and the number of people who visit a psychiatrist for depression",
+          "outlet": "Psychiatry Research",
+          "url": "https://doi.org/10.1016/j.psychres.2019.112490",
+          "source": "Pure",
+          "topics": [
+            "wellbeing"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "Media coverage of celebrity suicide caused by depression and increase in the number of people who seek depression treatment",
+          "outlet": "Psychiatry Research",
+          "url": "https://doi.org/10.1016/j.psychres.2018.12.055",
+          "source": "Pure",
+          "topics": [
+            "wellbeing"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "Twitter as a place where people meet to make suicide pacts",
+          "outlet": "Public Health",
+          "url": "https://doi.org/10.1016/j.puhe.2018.03.001",
+          "source": "Pure",
+          "topics": [
+            "wellbeing"
+          ],
+          "featured": false,
+          "featuredRank": null
         }
       ]
     }
   ],
-  "generatedAt": "2026-09-16T08:21:11.841669+00:00"
+  "generatedAt": "2026-09-16T09:17:54.142596+00:00"
 }

@@ -754,7 +754,102 @@
           "featuredRank": null
         }
       ]
+    },
+    {
+      "id": "namkeepark",
+      "nameKo": "박남기",
+      "nameEn": "Namkee Park",
+      "role": "Professor · Cross-area",
+      "fields": "뉴미디어테크놀로지 | 인공지능 상호작용",
+      "office": "빌링슬리 108",
+      "image": "images/ppl/Namkee_Park.jpg",
+      "labUrl": "",
+      "profileUrl": "https://yonsei.elsevierpure.com/en/persons/namkee-park/",
+      "areaStatus": "cross-area",
+      "topics": [
+        "risk",
+        "strategic",
+        "persuasion"
+      ],
+      "outputs": [
+        {
+          "year": 2026,
+          "title": "Virtual Influencer’s Apologies? The Different Perceptions of Moral Violation and Apology Between Virtual and Human Influencers in Brand Endorsements",
+          "outlet": "Media Psychology",
+          "url": "https://doi.org/10.1080/15213269.2026.2679123",
+          "topics": [
+            "risk",
+            "strategic",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 1,
+          "source": "Pure"
+        },
+        {
+          "year": 2018,
+          "title": "The Effects of Repetitive Information Communication through Multiple Channels on Prevention Behavior during the 2015 MERS Outbreak in South Korea",
+          "outlet": "Journal of Health Communication",
+          "url": "https://doi.org/10.1080/10810730.2018.1501440",
+          "topics": [
+            "risk",
+            "persuasion"
+          ],
+          "featured": true,
+          "featuredRank": 2,
+          "source": "Pure"
+        },
+        {
+          "year": 2025,
+          "title": "Effects of motivations for news consumption on intention to purchase paid news service in the changing news media environment",
+          "outlet": "Asian Journal of Communication",
+          "url": "https://doi.org/10.1080/01292986.2025.2509526",
+          "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2021,
+          "title": "Virtual reality advertising with brand experiences: the effects of media devices, virtual representation of the self, and self-presence",
+          "outlet": "International Journal of Advertising",
+          "url": "https://doi.org/10.1080/02650487.2020.1834210",
+          "source": "Pure",
+          "topics": [
+            "strategic"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2019,
+          "title": "I Know My Professor: Teacher Self-Disclosure in Online Education and a Mediating Role of Social Presence",
+          "outlet": "International Journal of Human-Computer Interaction",
+          "url": "https://doi.org/10.1080/10447318.2018.1455126",
+          "source": "Pure",
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
+          "year": 2018,
+          "title": "Examining intention of digital piracy: an integration of social norms and ethical ideologies",
+          "outlet": "Journal of Information, Communication and Ethics in Society",
+          "url": "https://doi.org/10.1108/JICES-11-2016-0043",
+          "source": "Pure",
+          "topics": [
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-16T08:14:15.849550+00:00"
+  "generatedAt": "2026-09-16T09:17:54.033825+00:00"
 }
