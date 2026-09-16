@@ -413,6 +413,24 @@
           "featuredRank": 1
         },
         {
+          "year": 2023,
+          "title": "Who benefits from directed communication? Communication directionality, network structures, and perceived social capital in an online game",
+          "outletRaw": "Computers in Human Behavior",
+          "outlet": "Computers in Human Behavior",
+          "url": "https://doi.org/10.1016/j.chb.2023.107825",
+          "urlSource": "curated",
+          "source": "curated",
+          "publicationType": "international",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": false,
+          "topics": [
+            "wellbeing",
+            "technology"
+          ],
+          "featured": true,
+          "featuredRank": 2
+        },
+        {
           "year": 2026,
           "title": "The Modality-Congruent Carryover Effect: How Difficulty in Identifying (Deep)Fake News Impacts Self-Confidence in Truth Discernment and Susceptibility to Subsequent Disinformation",
           "outletRaw": "Journalism and Mass Communication Quarterly",
@@ -428,7 +446,7 @@
             "technology"
           ],
           "featured": true,
-          "featuredRank": 2
+          "featuredRank": 3
         }
       ]
     },
@@ -994,5 +1012,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T16:51:19.564120+00:00"
+  "generatedAt": "2026-09-16T16:59:13.894450+00:00"
 }
