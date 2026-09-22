@@ -52,8 +52,8 @@
     "contentfile": "2026-01-12-exchange-credit.html",
     "file_attachment": [
       {
-      "name": "인정학점 신청 매뉴얼_학생용.pdf",
-      "url": "/data/files/인정학점-신청해외교환-유학_학생용.pdf"
+        "name": "인정학점 신청 매뉴얼_학생용.pdf",
+        "url": "/data/files/인정학점-신청해외교환-유학_학생용.pdf"
       }
     ]
   },
@@ -75,9 +75,10 @@
     "author": "언론홍보영상학부",
     "date": "2026-09-07",
     "contentfile": "data/posts/Admissions_info_spring2027.html",
-    "file_attachment":
+    "file_attachment": [
 
-    },
+    ]
+  },
   {
     "id": "2026-09-22-2026-PBI-SEOUL-Conference",
     "notice": "일반",
@@ -88,15 +89,12 @@
     "file_attachment": [
       {
         "name": "260918_2026 PBI SEOUL Conference time table.pdf",
-        "url": "data/files/260918_2026 PBI SEOUL Conference time table.pdf"
+        "url": "/data/files/260918_2026 PBI SEOUL Conference time table.pdf"
       },
       {
         "name": "260918_초청장 (언론전공 학생 대상).pdf",
-        "url": "data/files/260918_초청장 (언론전공 학생 대상).pdf"
+        "url": "/data/files/260918_초청장 (언론전공 학생 대상).pdf"
       }
     ]
   }
 ]
-]
-
-
