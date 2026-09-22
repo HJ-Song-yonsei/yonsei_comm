@@ -78,23 +78,5 @@
     "file_attachment": [
 
     ]
-  },
-  {
-    "id": "2026-09-22-2026-PBI-SEOUL-Conference",
-    "notice": "일반",
-    "title": "2026 PBI 서울총회 대학생·대학원생 참가 안내",
-    "author": "언론홍보영상학부",
-    "date": "2026-09-22",
-    "contentfile": "data/posts/2026-09-22 2026 PBI SEOUL Conference time table.html",
-    "file_attachment": [
-      {
-        "name": "260918_2026 PBI SEOUL Conference time table.pdf",
-        "url": "/data/files/260918_2026 PBI SEOUL Conference time table.pdf"
-      },
-      {
-        "name": "260918_초청장 (언론전공 학생 대상).pdf",
-        "url": "/data/files/260918_초청장 (언론전공 학생 대상).pdf"
-      }
-    ]
   }
 ]
