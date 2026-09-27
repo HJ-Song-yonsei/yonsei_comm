@@ -898,6 +898,160 @@
       ]
     },
     {
+      "id": "yoonmosang",
+      "nameKo": "상윤모",
+      "nameEn": "Yoonmo Sang",
+      "role": "Associate Professor",
+      "fields": "미디어법 | 저널리즘 윤리 | 저작권",
+      "office": "빌링슬리 109",
+      "image": "images/ppl/ymsang.jpg",
+      "labUrl": "",
+      "profileUrl": "https://fis.yonsei.ac.kr/faculty/member.do?mode=view&userId=L4JKAvyk1a8oWn2jJMAYJA%3D%3D",
+      "areaStatus": "core",
+      "topics": [
+        "ai",
+        "platforms"
+      ],
+      "outputs": [
+        {
+          "year": 2025,
+          "title": "Theorizing platform governance as a communicative process",
+          "outletRaw": "Journal of Digital Media and Policy",
+          "outlet": "Journal of Digital Media and Policy",
+          "url": "https://doi.org/10.1386/jdmp_00187_1",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 1
+        },
+        {
+          "year": 2025,
+          "title": "A Way Out or Another Hurdle? Assessing the Impact of the “News Partnership Evaluation Committee” on Platform Dependence in South Korea",
+          "outletRaw": "Digital Journalism",
+          "outlet": "Digital Journalism",
+          "url": "https://doi.org/10.1080/21670811.2025.2587635",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 2
+        },
+        {
+          "year": 2024,
+          "title": "인공지능의 뉴스 콘텐츠 학습과 뉴스 저작권에 대한 고찰",
+          "outletRaw": "계간 저작권, 37(1), 95–134",
+          "outlet": "계간 저작권, 37(1), 95–134 · 국내논문",
+          "url": "",
+          "urlSource": "",
+          "source": "curated",
+          "publicationType": "domestic",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": true,
+          "topics": [
+            "ai"
+          ],
+          "featured": true,
+          "featuredRank": 3
+        },
+        {
+          "year": 2025,
+          "title": "“It’s so normalised. Like, yeah, I got another nude today”: image-based online sexual interactions among emerging adults",
+          "outletRaw": "Communication Research and Practice",
+          "outlet": "Communication Research and Practice",
+          "url": "https://doi.org/10.1080/22041451.2025.2515639",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 4
+        },
+        {
+          "year": 2024,
+          "title": "Digital access, digital literacy, and afterlife preparedness: Societal contexts of digital afterlife traces",
+          "outletRaw": "Social Media + Society",
+          "outlet": "Social Media + Society",
+          "url": "https://doi.org/10.1177/20563051241274676",
+          "urlSource": "curated",
+          "source": "curated",
+          "publicationType": "international",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 5
+        },
+        {
+          "year": 2023,
+          "title": "The changing role of nation states in online content governance: A case of Google’s handling of government removal requests",
+          "outletRaw": "Policy & Internet",
+          "outlet": "Policy & Internet",
+          "url": "",
+          "urlSource": "",
+          "source": "curated",
+          "publicationType": "international",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 6
+        },
+        {
+          "year": 2021,
+          "title": "Platforms’ governance: Analyzing digital platforms’ policy preferences",
+          "outletRaw": "Global Perspectives",
+          "outlet": "Global Perspectives",
+          "url": "",
+          "urlSource": "",
+          "source": "curated",
+          "publicationType": "international",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 7
+        },
+        {
+          "year": 2020,
+          "title": "The ontology of digital asset after death: Policy complexities, suggestions, and critique of digital platforms",
+          "outletRaw": "Digital Policy, Regulation and Governance",
+          "outlet": "Digital Policy, Regulation and Governance",
+          "url": "",
+          "urlSource": "",
+          "source": "curated",
+          "publicationType": "international",
+          "classificationReason": "curated_fallback",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": true,
+          "featuredRank": 8
+        }
+      ]
+    },
+    {
       "id": "hyunjinsong",
       "nameKo": "송현진",
       "nameEn": "Hyunjin Song",
@@ -967,5 +1121,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T16:58:14.981637+00:00"
+  "generatedAt": "2026-09-27T23:54:56.823627+00:00"
 }
