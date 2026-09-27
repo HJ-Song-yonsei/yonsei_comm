@@ -305,6 +305,60 @@ faculty:
         url: "https://doi.org/10.1016/j.chb.2023.107825"
         topics: [interactive, platforms]
 
+  - id: yoonmosang
+    allow_curated_fallback: true  # retain supplied publications if Pure/FIS indexing is incomplete
+    name_ko: 상윤모
+    name_en: Yoonmo Sang
+    pure_names: ["Yoonmo Sang", "Yoon Mo Sang", "Yoon-Mo Sang"]
+    role: Associate Professor
+    fields: "미디어법 | 저널리즘 윤리 | 저작권"
+    office: "빌링슬리 109"
+    image: "images/ppl/ymsang.jpg"
+    profile_url: "https://fis.yonsei.ac.kr/faculty/member.do?mode=view&userId=L4JKAvyk1a8oWn2jJMAYJA%3D%3D"
+    topics: [ai, platforms]
+    area_status: core
+    pinned:
+      - title: "Theorizing platform governance as a communicative process"
+        year: 2025
+        outlet: "Journal of Digital Media & Policy"
+        url: ""
+        topics: [platforms]
+      - title: "A way out or another hurdle? Assessing the impact of the “News Partnership Evaluation Committee” on platform dependence in South Korea"
+        year: 2025
+        outlet: "Digital Journalism"
+        url: ""
+        topics: [platforms]
+      - title: "“It’s so normalised. Like, yeah, I got another nude today”: image-based online sexual interactions among emerging adults"
+        year: 2025
+        outlet: "Communication Research and Practice"
+        url: ""
+        topics: [platforms]
+      - title: "Digital access, digital literacy, and afterlife preparedness: Societal contexts of digital afterlife traces"
+        year: 2024
+        outlet: "Social Media + Society"
+        url: "https://doi.org/10.1177/20563051241274676"
+        topics: [platforms]
+      - title: "The changing role of nation states in online content governance: A case of Google’s handling of government removal requests"
+        year: 2023
+        outlet: "Policy & Internet"
+        url: ""
+        topics: [platforms]
+      - title: "Platforms’ governance: Analyzing digital platforms’ policy preferences"
+        year: 2021
+        outlet: "Global Perspectives"
+        url: ""
+        topics: [platforms]
+      - title: "The ontology of digital asset after death: Policy complexities, suggestions, and critique of digital platforms"
+        year: 2020
+        outlet: "Digital Policy, Regulation and Governance"
+        url: ""
+        topics: [platforms]
+      - title: "인공지능의 뉴스 콘텐츠 학습과 뉴스 저작권에 대한 고찰"
+        year: 2024
+        outlet: "계간 저작권, 37(1), 95–134"
+        url: ""
+        topics: [ai]
+
   - id: hyunjinsong
     name_ko: 송현진
     name_en: Hyunjin Song
