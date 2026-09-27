@@ -1,0 +1,52 @@
+name: Refresh Digital Research Feed
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "config/digital_people.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-data-pipeline
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyYAML
+
+      - name: Refresh Digital Technology, Platform, & AI feed
+        run: python scripts/build_digital_people_json.py
+
+      - name: Commit if changed
+        shell: bash
+        run: |
+          git add data/digital_people.json
+
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh digital research-area feed"
+          git pull --rebase origin main
+          git push origin HEAD:main
