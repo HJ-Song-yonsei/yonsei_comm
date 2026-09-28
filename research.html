@@ -275,19 +275,35 @@
     </div>
   </header>
 
-  <!-- Flagship Areas -->
-  <section class="flagship">
-    <div class="col-lg-8 col-12 mx-auto">
-        <h3 class="mb-4 text-start">Flagship Research Areas</h3>
-
-    <div class="flagship-grid">
-      <a class="flagship-card" href="research_JDnS.html">Journalism, Democracy, & Society</a>
-      <a class="flagship-card" href="research_CnSC.html">Crisis & Strategic Communication</a>
-      <a class="flagship-card" href="research_DPnAI.html">Digital Technology, Platform, & AI</a>
-      <a class="flagship-card" href="research_PHnW.html">Media Psychology, Health, & Well-Being</a>
-    </div>
-  </div>
-  </section>
+      <!-- Flagship Areas -->
+    <section class="flagship">
+      <div class="col-lg-8 col-12 mx-auto">
+          <h3 class="mb-4 text-start">Flagship Research Areas</h3>
+    
+        <div class="flagship-grid" id="flagshipGrid">
+          <a class="flagship-card" href="research_JDnS.html">Journalism, Democracy, & Society</a>
+          <a class="flagship-card" href="research_CnSC.html">Crisis & Strategic Communication</a>
+          <a class="flagship-card" href="research_DPnAI.html">Digital Technology, Platform, & AI</a>
+          <a class="flagship-card" href="research_PHnW.html">Media Psychology, Health, & Well-Being</a>
+        </div>
+    
+        <script>
+          (() => {
+            const grid = document.getElementById('flagshipGrid');
+            if (!grid) return;
+    
+            const cards = Array.from(grid.querySelectorAll('.flagship-card'));
+    
+            for (let i = cards.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [cards[i], cards[j]] = [cards[j], cards[i]];
+            }
+    
+            cards.forEach(card => grid.appendChild(card));
+          })();
+        </script>
+      </div>
+    </section>
 
 <header class="flagship">
   <div class="container-xxl py-3"></div>
