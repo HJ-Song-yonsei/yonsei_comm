@@ -1,28 +1,40 @@
 {
   "concepts": [
     {
-      "name": "Outgroup",
-      "rank": 1.0,
-      "thesauriName": "Social Sciences",
-      "uuid": "41eca929-ad94-49fa-9252-d09000af940e"
-    },
-    {
       "name": "Misinformation",
       "rank": 1.0,
       "thesauriName": "Social Sciences",
       "uuid": "57590c80-d34f-421b-b117-1f77f87f1919"
     },
     {
+      "name": "Outgroup",
+      "rank": 1.7784291043468132,
+      "thesauriName": "Social Sciences",
+      "uuid": "41eca929-ad94-49fa-9252-d09000af940e"
+    },
+    {
+      "name": "Communication Research",
+      "rank": 1.7784291043468132,
+      "thesauriName": "Social Sciences",
+      "uuid": "46aa53a1-25fe-4a3c-a714-00594fc8f81e"
+    },
+    {
       "name": "Journalism",
-      "rank": 1.0,
+      "rank": 1.7784291043468132,
       "thesauriName": "Social Sciences",
       "uuid": "dd297465-b0b8-47bf-a2af-5e72f892a22e"
     },
     {
-      "name": "Information Seeking",
-      "rank": 2.3367302235612084,
+      "name": "YouTube",
+      "rank": 3.115675413781432,
       "thesauriName": "Social Sciences",
-      "uuid": "bbef1717-8110-4b89-8a4e-6a8a0c05e1b5"
+      "uuid": "e44307ca-aa86-47f0-b098-b4c49d296edb"
+    },
+    {
+      "name": "Political Participation",
+      "rank": 3.115675413781432,
+      "thesauriName": "Social Sciences",
+      "uuid": "5a8baaee-f178-41f3-80c7-feaf35d0fdb8"
     }
   ],
   "countries": [
@@ -41,13 +53,13 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 34.9513,
-      "longitude": -92.3809,
-      "subdivisionId": "ar",
-      "subdivisionName": "Arkansas",
+      "latitude": 39.8647,
+      "longitude": -86.2604,
+      "subdivisionId": "in",
+      "subdivisionName": "Indiana",
       "weight": 0.024390243,
       "institutions": [
-        "University of Arkansas, Fayetteville"
+        "Purdue University"
       ]
     },
     {
@@ -67,84 +79,13 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 41.6772,
-      "longitude": -71.5101,
-      "subdivisionId": "ri",
-      "subdivisionName": "Rhode Island",
+      "latitude": 34.9513,
+      "longitude": -92.3809,
+      "subdivisionId": "ar",
+      "subdivisionName": "Arkansas",
       "weight": 0.024390243,
       "institutions": [
-        "Bryant University"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 35.5376,
-      "longitude": -96.9247,
-      "subdivisionId": "ok",
-      "subdivisionName": "Oklahoma",
-      "weight": 0.024390243,
-      "institutions": [
-        "University of Oklahoma"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 44.2563,
-      "longitude": -89.6385,
-      "subdivisionId": "wi",
-      "subdivisionName": "Wisconsin",
-      "weight": 0.024390243,
-      "institutions": [
-        "University of Wisconsin-Madison"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 39.0724,
-      "longitude": -76.7902,
-      "subdivisionId": "md",
-      "subdivisionName": "Maryland",
-      "weight": 0.07317073,
-      "institutions": [
-        "U.S. Food and Drug Administration",
-        "United States Food and Drug Administration",
-        "University of Maryland, College Park"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 44.5672,
-      "longitude": -122.1269,
-      "subdivisionId": "or",
-      "subdivisionName": "Oregon",
-      "weight": 0.024390243,
-      "institutions": [
-        "University of Oregon"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 40.5773,
-      "longitude": -77.264,
-      "subdivisionId": "pa",
-      "subdivisionName": "Pennsylvania",
-      "weight": 0.12195122,
-      "institutions": [
-        "La Salle University",
-        "Pennsylvania State University",
-        "Saint Josephs University",
-        "Temple University",
-        "University of Pennsylvania"
+        "University of Arkansas, Fayetteville"
       ]
     },
     {
@@ -158,6 +99,34 @@
       "weight": 0.024390243,
       "institutions": [
         "University of Miami"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 40.3363,
+      "longitude": -89.0022,
+      "subdivisionId": "il",
+      "subdivisionName": "Illinois",
+      "weight": 0.048780486,
+      "institutions": [
+        "DePaul University",
+        "University of Illinois at Chicago"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 47.3917,
+      "longitude": -121.5708,
+      "subdivisionId": "wa",
+      "subdivisionName": "Washington",
+      "weight": 0.048780486,
+      "institutions": [
+        "Central Washington University",
+        "Washington State University Pullman"
       ]
     },
     {
@@ -181,14 +150,39 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 47.3917,
-      "longitude": -121.5708,
-      "subdivisionId": "wa",
-      "subdivisionName": "Washington",
-      "weight": 0.048780486,
+      "latitude": 40.314,
+      "longitude": -74.5089,
+      "subdivisionId": "nj",
+      "subdivisionName": "New Jersey",
+      "weight": 0.024390243,
       "institutions": [
-        "Central Washington University",
-        "Washington State University Pullman"
+        "Rutgers - The State University of New Jersey, New Brunswick"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 43.3504,
+      "longitude": -84.5603,
+      "subdivisionId": "mi",
+      "subdivisionName": "Michigan",
+      "weight": 0.024390243,
+      "institutions": [
+        "Michigan State University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 44.5672,
+      "longitude": -122.1269,
+      "subdivisionId": "or",
+      "subdivisionName": "Oregon",
+      "weight": 0.024390243,
+      "institutions": [
+        "University of Oregon"
       ]
     },
     {
@@ -202,6 +196,115 @@
       "weight": 0.024390243,
       "institutions": [
         "University of Kentucky"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 41.6772,
+      "longitude": -71.5101,
+      "subdivisionId": "ri",
+      "subdivisionName": "Rhode Island",
+      "weight": 0.024390243,
+      "institutions": [
+        "Bryant University"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 44.2563,
+      "longitude": -89.6385,
+      "subdivisionId": "wi",
+      "subdivisionName": "Wisconsin",
+      "weight": 0.024390243,
+      "institutions": [
+        "University of Wisconsin-Madison"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 35.5376,
+      "longitude": -96.9247,
+      "subdivisionId": "ok",
+      "subdivisionName": "Oklahoma",
+      "weight": 0.024390243,
+      "institutions": [
+        "University of Oklahoma"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 31.106,
+      "longitude": -97.6475,
+      "subdivisionId": "tx",
+      "subdivisionName": "Texas",
+      "weight": 0.048780486,
+      "institutions": [
+        "Texas Christian University",
+        "University of Texas at Austin"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 40.5773,
+      "longitude": -77.264,
+      "subdivisionId": "pa",
+      "subdivisionName": "Pennsylvania",
+      "weight": 0.12195122,
+      "institutions": [
+        "La Salle University",
+        "Pennsylvania State University",
+        "Saint Josephs University",
+        "Temple University",
+        "University of Pennsylvania"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 32.9866,
+      "longitude": -83.6487,
+      "subdivisionId": "ga",
+      "subdivisionName": "Georgia",
+      "weight": 0.024390243,
+      "institutions": [
+        "University of Georgia"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 39.0646,
+      "longitude": -105.3272,
+      "subdivisionId": "co",
+      "subdivisionName": "Colorado",
+      "weight": 0.024390243,
+      "institutions": [
+        "University of Colorado Boulder"
+      ]
+    },
+    {
+      "countryId": "us",
+      "countryName": "United States",
+      "homeCountry": false,
+      "latitude": 39.3498,
+      "longitude": -75.5148,
+      "subdivisionId": "de",
+      "subdivisionName": "Delaware",
+      "weight": 0.024390243,
+      "institutions": [
+        "University of Delaware"
       ]
     },
     {
@@ -222,72 +325,6 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 39.0646,
-      "longitude": -105.3272,
-      "subdivisionId": "co",
-      "subdivisionName": "Colorado",
-      "weight": 0.024390243,
-      "institutions": [
-        "University of Colorado Boulder"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 40.3363,
-      "longitude": -89.0022,
-      "subdivisionId": "il",
-      "subdivisionName": "Illinois",
-      "weight": 0.048780486,
-      "institutions": [
-        "DePaul University",
-        "University of Illinois at Chicago"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 43.3504,
-      "longitude": -84.5603,
-      "subdivisionId": "mi",
-      "subdivisionName": "Michigan",
-      "weight": 0.024390243,
-      "institutions": [
-        "Michigan State University"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 39.3498,
-      "longitude": -75.5148,
-      "subdivisionId": "de",
-      "subdivisionName": "Delaware",
-      "weight": 0.024390243,
-      "institutions": [
-        "University of Delaware"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 39.8647,
-      "longitude": -86.2604,
-      "subdivisionId": "in",
-      "subdivisionName": "Indiana",
-      "weight": 0.024390243,
-      "institutions": [
-        "Purdue University"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
       "latitude": 42.1497,
       "longitude": -74.9384,
       "subdivisionId": "ny",
@@ -301,40 +338,15 @@
       "countryId": "us",
       "countryName": "United States",
       "homeCountry": false,
-      "latitude": 40.314,
-      "longitude": -74.5089,
-      "subdivisionId": "nj",
-      "subdivisionName": "New Jersey",
-      "weight": 0.024390243,
+      "latitude": 39.0724,
+      "longitude": -76.7902,
+      "subdivisionId": "md",
+      "subdivisionName": "Maryland",
+      "weight": 0.07317073,
       "institutions": [
-        "Rutgers - The State University of New Jersey, New Brunswick"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 32.9866,
-      "longitude": -83.6487,
-      "subdivisionId": "ga",
-      "subdivisionName": "Georgia",
-      "weight": 0.024390243,
-      "institutions": [
-        "University of Georgia"
-      ]
-    },
-    {
-      "countryId": "us",
-      "countryName": "United States",
-      "homeCountry": false,
-      "latitude": 31.106,
-      "longitude": -97.6475,
-      "subdivisionId": "tx",
-      "subdivisionName": "Texas",
-      "weight": 0.048780486,
-      "institutions": [
-        "Texas Christian University",
-        "University of Texas at Austin"
+        "U.S. Food and Drug Administration",
+        "United States Food and Drug Administration",
+        "University of Maryland, College Park"
       ]
     },
     {
@@ -374,6 +386,19 @@
       "countryId": "au",
       "countryName": "Australia",
       "homeCountry": false,
+      "latitude": -35.47347,
+      "longitude": 149.01237,
+      "subdivisionId": "act",
+      "subdivisionName": "Australian Capital Territory",
+      "weight": 0.024390243,
+      "institutions": [
+        "University of Canberra"
+      ]
+    },
+    {
+      "countryId": "au",
+      "countryName": "Australia",
+      "homeCountry": false,
       "latitude": -20.917574,
       "longitude": 142.70279,
       "subdivisionId": "qld",
@@ -394,19 +419,6 @@
       "weight": 0.024390243,
       "institutions": [
         "University of New South Wales"
-      ]
-    },
-    {
-      "countryId": "au",
-      "countryName": "Australia",
-      "homeCountry": false,
-      "latitude": -35.47347,
-      "longitude": 149.01237,
-      "subdivisionId": "act",
-      "subdivisionName": "Australian Capital Territory",
-      "weight": 0.024390243,
-      "institutions": [
-        "University of Canberra"
       ]
     },
     {

@@ -2835,13 +2835,11 @@
     },
     {
       "title": "Communication and Technology",
-      "link": "https://yonsei.elsevierpure.com/en/publications/communication-and-technology/",
+      "link": "https://yonsei.elsevierpure.com/en/publications/communication-and-technology-2/",
       "dc:date": "2018-01-01T00:00:00Z",
       "year": 2018,
       "authors": [
-        "Namkee Park",
-        "Seungyoon Lee",
-        "Jae Eun Chung"
+        "Namkee Park"
       ],
       "outlet": "Bloomsbury Publishing Plc.",
       "doi": "",
@@ -2849,11 +2847,13 @@
     },
     {
       "title": "Communication and Technology",
-      "link": "https://yonsei.elsevierpure.com/en/publications/communication-and-technology-2/",
+      "link": "https://yonsei.elsevierpure.com/en/publications/communication-and-technology/",
       "dc:date": "2018-01-01T00:00:00Z",
       "year": 2018,
       "authors": [
-        "Namkee Park"
+        "Namkee Park",
+        "Seungyoon Lee",
+        "Jae Eun Chung"
       ],
       "outlet": "Bloomsbury Publishing Plc.",
       "doi": "",
@@ -4165,5 +4165,5 @@
       "type": ""
     }
   ],
-  "generatedAt": "2026-09-16T09:16:59.435774+00:00"
+  "generatedAt": "2026-09-30T16:00:46.374137+00:00"
 }
