@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, re, sys, time
+import json, os, re, sys, time
 import ssl
 import certifi
 from datetime import datetime, timezone
@@ -9,11 +9,11 @@ import xml.etree.ElementTree as ET
 # --- 기본 설정 ---
 DEPT_SLUG = "department-of-communication"
 BASE_URL = f"https://yonsei.elsevierpure.com/en/organisations/{DEPT_SLUG}/publications/"
-QS = "ordering=publicationYearThenTitle&descending=true&format=rss"
-RSS_URL = f"{BASE_URL}?{QS}"
-OUT_PATH = "data/pure_publications_2000plus.json"
 MIN_YEAR = 2010
 MAX_ITEMS = 1000
+QS = f"ordering=publicationYearThenTitle&descending=true&format=rss&pageSize={MAX_ITEMS}"
+RSS_URL = f"{BASE_URL}?{QS}"
+OUT_PATH = "data/pure_publications_2000plus.json"
 
 # --- Network Map 설정 ---
 MAP_URL = f"https://yonsei.elsevierpure.com/en/organisations/{DEPT_SLUG}/network-map-json/"
@@ -48,9 +48,6 @@ def http_get(url: str, retries: int = 3, timeout: int = 60) -> bytes:
                 time.sleep(attempt * 5)
 
     raise last_error
-
-def rss_url(page: int) -> str:
-    return f"{BASE_URL}?{QS}&page={page}"
 
 def parse_rss_items(rss_xml: str):
     ns = {"dc": "http://purl.org/dc/elements/1.1/"}
@@ -121,57 +118,75 @@ def get_institution_list(country_id, subdivision_id=None):
 
 # --- 메인 실행 로직 ---
 def main():
-    # 1. Publication 수집 (기존 코드 유지)
+    # 기존 저장본의 크기를 안전장치로 사용합니다.
+    existing_count = 0
+    if os.path.exists(OUT_PATH):
+        try:
+            with open(OUT_PATH, "r", encoding="utf-8") as f:
+                existing_count = len(json.load(f).get("items", []))
+        except Exception as e:
+            print(f"Warning: could not read existing Pure JSON for sanity check: {e}")
+
+    # 1. Publication 수집
     print("Step 1: Fetching publications...")
     try:
         rss_xml = http_get(RSS_URL).decode("utf-8", errors="replace")
         root = ET.fromstring(rss_xml)
         channel = root.find("channel")
+        if channel is None:
+            raise ValueError("RSS channel not found")
         title = (channel.findtext("title") or "").strip()
         link = (channel.findtext("link") or "").strip()
         desc = (channel.findtext("description") or "").strip()
         last_build = (channel.findtext("lastBuildDate") or "").strip()
+        page_rows = parse_rss_items(rss_xml)
     except Exception as e:
         print(f"ERROR: Failed to fetch Pure publication feed after retries: {e}")
         raise SystemExit(1)
 
+    if not page_rows:
+        print("ERROR: Pure RSS returned no publication items; keeping the existing JSON unchanged.")
+        raise SystemExit(1)
+
+    print(f"  - RSS returned {len(page_rows)} publication records in one request.")
+
+    # pageSize 한도에 정확히 닿으면 결과가 잘렸을 가능성이 있으므로 저장하지 않습니다.
+    if len(page_rows) >= MAX_ITEMS:
+        print(
+            f"ERROR: Pure RSS returned {len(page_rows)} items, reaching pageSize={MAX_ITEMS}. "
+            "The feed may be truncated; keeping the existing JSON unchanged."
+        )
+        raise SystemExit(1)
+
     items = []
     seen = set()
-    page = 0
-    
-    while True:
-        print(f"  - RSS Page {page}...")
+
+    for (it_title, it_link, dc_date, y) in page_rows:
+        if it_link in seen:
+            continue
+        seen.add(it_link)
+        if y < MIN_YEAR:
+            continue
         try:
-            # The initial RSS_URL response is already page 0. Reuse it instead of
-            # requesting an explicit &page=0 URL, which Pure may reject with 403.
-            if page == 0:
-                current_rss = rss_xml
-            else:
-                current_rss = http_get(rss_url(page)).decode("utf-8", errors="replace")
-            page_rows = parse_rss_items(current_rss)
+            html = http_get(it_link).decode("utf-8", errors="replace")
+            items.append({
+                "title": it_title, "link": it_link, "dc:date": dc_date, "year": y,
+                "authors": normalize_authors(html), "outlet": normalize_outlet(html),
+                "doi": normalize_doi(html), "type": normalize_type(html),
+            })
+            time.sleep(0.1)
         except Exception as e:
-            print(f"ERROR: Failed to fetch or parse Pure RSS page {page}: {e}")
-            raise SystemExit(1)
+            print(f"Warning: failed to fetch publication detail; skipping {it_link}: {e}")
 
-        new_rows = [r for r in page_rows if r[1] not in seen]
-        if not new_rows: break
+    # 서버 측 차단/축약 때문에 대량 삭제가 생기는 것을 방지합니다.
+    if existing_count and len(items) < existing_count * 0.75:
+        print(
+            f"ERROR: New Pure dataset has only {len(items)} items versus {existing_count} existing items. "
+            "Refusing to overwrite because the new dataset may be incomplete."
+        )
+        raise SystemExit(1)
 
-        for (it_title, it_link, dc_date, y) in new_rows:
-            seen.add(it_link)
-            if y < MIN_YEAR: continue
-            try:
-                html = http_get(it_link).decode("utf-8", errors="replace")
-                items.append({
-                    "title": it_title, "link": it_link, "dc:date": dc_date, "year": y,
-                    "authors": normalize_authors(html), "outlet": normalize_outlet(html),
-                    "doi": normalize_doi(html), "type": normalize_type(html),
-                })
-                time.sleep(0.1)
-            except: continue
-
-        if min(r[3] for r in new_rows) < MIN_YEAR: break
-        page += 1
-        if page > 50: break
+    print(f"  - Collected {len(items)} publications from {MIN_YEAR} onward.")
 
     # 논문 데이터 저장
     with open(OUT_PATH, "w", encoding="utf-8") as f:
