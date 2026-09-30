@@ -24,20 +24,30 @@ MAP_OUT_PATH = "data/network_map.json"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 # --- 유틸리티 함수 ---
-def http_get(url: str) -> bytes:
-    """X-Requested-With 헤더를 포함하여 API 보안 요구사항을 충족합니다."""
+def http_get(url: str, retries: int = 3, timeout: int = 60) -> bytes:
+    """Fetch a URL with retry/backoff while preserving the existing Pure headers."""
     headers = {
         "User-Agent": UA,
         "X-Requested-With": "XMLHttpRequest",
         "Accept": "application/json, text/javascript, */*; q=0.01"
     }
-    req = Request(url, headers=headers)
 
     # 로컬 Python의 인증서 문제를 피하기 위해 certifi 인증서 묶음을 명시적으로 사용
     context = ssl.create_default_context(cafile=certifi.where())
+    last_error = None
 
-    with urlopen(req, timeout=30, context=context) as r:
-        return r.read()
+    for attempt in range(1, retries + 1):
+        try:
+            req = Request(url, headers=headers)
+            with urlopen(req, timeout=timeout, context=context) as r:
+                return r.read()
+        except Exception as e:
+            last_error = e
+            print(f"HTTP attempt {attempt}/{retries} failed: {e}")
+            if attempt < retries:
+                time.sleep(attempt * 5)
+
+    raise last_error
 
 def rss_url(page: int) -> str:
     return f"{BASE_URL}?{QS}&page={page}"
@@ -122,8 +132,8 @@ def main():
         desc = (channel.findtext("description") or "").strip()
         last_build = (channel.findtext("lastBuildDate") or "").strip()
     except Exception as e:
-        print(f"Error: {e}")
-        return
+        print(f"ERROR: Failed to fetch Pure publication feed after retries: {e}")
+        raise SystemExit(1)
 
     items = []
     seen = set()
