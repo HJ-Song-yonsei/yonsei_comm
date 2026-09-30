@@ -142,9 +142,16 @@ def main():
     while True:
         print(f"  - RSS Page {page}...")
         try:
-            current_rss = http_get(rss_url(page)).decode("utf-8", errors="replace")
+            # The initial RSS_URL response is already page 0. Reuse it instead of
+            # requesting an explicit &page=0 URL, which Pure may reject with 403.
+            if page == 0:
+                current_rss = rss_xml
+            else:
+                current_rss = http_get(rss_url(page)).decode("utf-8", errors="replace")
             page_rows = parse_rss_items(current_rss)
-        except: break
+        except Exception as e:
+            print(f"ERROR: Failed to fetch or parse Pure RSS page {page}: {e}")
+            raise SystemExit(1)
 
         new_rows = [r for r in page_rows if r[1] not in seen]
         if not new_rows: break
