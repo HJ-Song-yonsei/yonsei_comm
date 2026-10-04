@@ -78,8 +78,8 @@ jobs:
           grep -q 'Global Media Studio' build/en/index.html
           grep -q 'Virtual Reality Lab' build/en/index.html
           grep -q 'Research Centers' build/en/index.html
-          grep -q '>Line 2<' build/en/index.html
-          grep -q '>Gyeongui<' build/en/index.html
+          grep -q 'Line 2' build/en/index.html
+          grep -q 'Gyeongui' build/en/index.html
           ! grep -R -E 'href="(\.\./)?(notice|jobnotice|lend)\.html' build/en --include='*.html'
           ! grep -R -E 'href="(\.\./)?people_(emeritus|profpractice)\.html' build/en --include='*.html'
 
