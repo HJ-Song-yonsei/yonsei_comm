@@ -19,7 +19,7 @@ import shutil
 
 root = Path.cwd()
 build = root / "build"
-excluded = {".git", ".github", ".i18n-cache", "build"}
+excluded = {".git", ".github", ".i18n-cache", ".i18n-source", "build"}
 
 if build.exists():
     shutil.rmtree(build)
@@ -34,8 +34,6 @@ for item in root.iterdir():
     elif item.is_dir():
         shutil.copytree(item, target, symlinks=True)
     else:
-        # copyfile avoids unnecessary metadata/timestamp operations that can
-        # also be problematic with unusual filenames on macOS.
         shutil.copyfile(item, target)
 
 (build / ".nojekyll").touch()
@@ -43,12 +41,13 @@ print("Local static site assembled in build/")
 PY
 
 python3 scripts/prepare_korean_site.py
+python3 scripts/prepare_translation_source.py
 python3 scripts/build_english_site.py \
-  --source . \
+  --source .i18n-source \
   --output build/en \
   --cache .i18n-cache/en.json
 python3 scripts/build_additional_english_pages.py \
-  --source . \
+  --source .i18n-source \
   --output build/en \
   --cache .i18n-cache/en.json
 python3 scripts/postprocess_english_site.py
