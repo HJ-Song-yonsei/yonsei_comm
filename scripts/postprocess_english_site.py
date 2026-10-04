@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply deterministic English terminology, people metadata, and navigation."""
+"""Apply deterministic English terminology, people metadata, and page-specific refinements."""
 
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -8,22 +8,22 @@ from bs4 import BeautifulSoup, NavigableString
 ROOT = Path("build/en")
 
 PEOPLE = {
-    "taewookang.jpg": {"name": "Taewoo Kang", "fields": "Digital Platforms | AI | Political Communication"},
-    "kkmo.jpg": {"name": "Kyoungmo Kim", "role": "JMC YSJ Program Chair", "fields": "Journalism | Content Analysis | International Communication"},
-    "yckim.jpg": {"name": "Yong-Chan Kim", "role": "Vice President for International Affairs", "fields": "AI & Platform Media | Digital Cities | Risk Society & Polarization"},
-    "jrkim.jpg": {"name": "Jarim Kim", "fields": "Risk & Crisis Communication | Public Relations | Persuasion"},
-    "jkim.jpg": {"name": "Joohan Kim", "fields": "Neuroscience | Inner Communication | Communication Competence"},
-    "Namkee_Park.jpg": {"name": "Namkee Park", "role": "Dean, Graduate School of Journalism & Mass Communication", "fields": "New Media Technology | Human-AI Interaction"},
-    "ymbaek.jpg": {"name": "Young Min Baek", "fields": "Political Communication | Social Science Research Methods"},
-    "jpaek.jpg": {"name": "Jihyun Paik", "fields": "Interpersonal Communication | Organizational Communication"},
-    "ymsang.jpg": {"name": "Yoonmo Sang", "role": "JMC Journalism Program Chair", "fields": "Media Law | Journalism Ethics | Copyright"},
-    "yhsung.jpg": {"name": "Yoonhee Sung", "role": "Associate Dean, Graduate School of Journalism & Mass Communication; JMC PR/Advertising Program Chair", "fields": "Advertising & Media Technology | Consumer Analysis"},
-    "jso.jpg": {"name": "Jiyeon So", "role": "Graduate Program Chair", "fields": "Health Communication | Persuasion | Science Communication"},
-    "hyunjinsong.jpg": {"name": "Hyunjin Song", "role": "Department Head", "fields": "Political Communication | Computational Social Science | Processing Fluency"},
-    "larosa.jpg": {"name": "Nayeon Lee", "fields": "Journalism Principles | Online Journalism | News Audiences"},
-    "sylee.jpg": {"name": "Sang Yup Lee", "fields": "Computational Social Science | Data Science | Artificial Intelligence"},
-    "ccho.jpg": {"name": "Chang-Hoan Cho", "fields": "Digital Advertising | Advertising Campaigns | Branded Communication"},
-    "sychoi3.jpg": {"name": "Seokyoung Choi", "role": "JMC Broadcasting/Visual Media/Cultural Content Program Chair", "fields": "Communication Technology | AI | Games"},
+    "taewookang.jpg": {"name": "Taewoo Kang", "fields": "Digital Platforms"},
+    "kkmo.jpg": {"name": "Kyoungmo Kim", "role": "JMC YSJ Program Chair", "fields": "Journalism"},
+    "yckim.jpg": {"name": "Yong-Chan Kim", "role": "Vice President for International Affairs", "fields": "AI & Platform Media"},
+    "jrkim.jpg": {"name": "Jarim Kim", "fields": "Risk & Crisis Communication"},
+    "jkim.jpg": {"name": "Joohan Kim", "fields": "Neuroscience"},
+    "Namkee_Park.jpg": {"name": "Namkee Park", "role": "Dean, Graduate School of Journalism & Mass Communication", "fields": "New Media Technology"},
+    "ymbaek.jpg": {"name": "Young Min Baek", "fields": "Political Communication"},
+    "jpaek.jpg": {"name": "Jihyun Paik", "fields": "Interpersonal Communication"},
+    "ymsang.jpg": {"name": "Yoonmo Sang", "role": "JMC Journalism Program Chair", "fields": "Media Law"},
+    "yhsung.jpg": {"name": "Yoonhee Sung", "role": "JMC Associate Dean & PR/Advertising Program Chair", "fields": "Advertising & Media Technology"},
+    "jso.jpg": {"name": "Jiyeon So", "role": "Graduate Program Chair", "fields": "Health Communication"},
+    "hyunjinsong.jpg": {"name": "Hyunjin Song", "role": "Department Head", "fields": "Political Communication"},
+    "larosa.jpg": {"name": "Nayeon Lee", "fields": "Journalism Principles"},
+    "sylee.jpg": {"name": "Sang Yup Lee", "fields": "Computational Social Science"},
+    "ccho.jpg": {"name": "Chang-Hoan Cho", "fields": "Digital Advertising"},
+    "sychoi3.jpg": {"name": "Seokyoung Choi", "role": "JMC Broadcasting/Media Content Program Chair", "fields": "Communication Technology"},
 }
 
 # Historical spellings are curated rather than machine-transliterated.
@@ -47,6 +47,15 @@ def set_text(tag, text):
         return
     tag.clear()
     tag.append(text)
+
+
+def add_body_class(soup, name):
+    if not soup.body:
+        return
+    classes = list(soup.body.get("class", []))
+    if name not in classes:
+        classes.append(name)
+    soup.body["class"] = classes
 
 
 def inject_stylesheets(soup):
@@ -86,8 +95,6 @@ def fix_professional_menu(soup):
 
 
 def fix_people_menu(soup):
-    # Core builder removes deferred people pages. Re-introduce only the approved
-    # Professor Emeriti / Former Faculty page; Adjunct/Affiliated stays omitted.
     faculty = soup.find("a", href=lambda h: h and Path(urlsplit(h).path).name == "people.html")
     if not faculty:
         return
@@ -148,6 +155,7 @@ def fix_language_toggle(soup, page_name):
 
 
 def fix_people(soup):
+    add_body_class(soup, "page-people-en")
     for card in soup.select(".team-item"):
         img = card.find("img", src=True)
         if not img:
@@ -159,14 +167,66 @@ def fix_people(soup):
         body = card.select_one(".px-4.py-3")
         if not body:
             continue
+
         set_text(body.find("h5"), data["name"] + " |")
+
         paragraphs = body.find_all("p", recursive=False)
         if paragraphs and "role" in data:
             set_text(paragraphs[0].find("small"), data["role"])
+
         for child in body.children:
             if getattr(child, "name", None) == "small":
                 set_text(child, data["fields"])
                 break
+
+
+def fix_intro(soup):
+    block = soup.select_one(".about-section .custom-text-block")
+    if not block:
+        return
+
+    set_text(block.find("h2"), "Welcome")
+    subtitle = block.find("p", class_=lambda c: c and "text-muted" in c.split())
+    set_text(subtitle, "Department Head | Hyunjin Song")
+
+    paragraphs = [p for p in block.find_all("p", recursive=False) if p is not subtitle]
+    full_names = [
+        "The Department of Communication at Yonsei University",
+        "Yonsei University's Department of Communication",
+        "Yonsei University’s Department of Communication",
+        "Yonsei University Department of Communication",
+    ]
+
+    # Contextual shorthand: institutional belief/future -> We; institutional
+    # history/research record -> The Department.
+    replacements = {
+        1: "We",
+        2: "The Department",
+        3: "We",
+    }
+    for index, p in enumerate(paragraphs):
+        value = p.get_text(" ", strip=True)
+        replacement = replacements.get(index, "The Department")
+        for phrase in full_names:
+            value = value.replace(phrase, replacement)
+        set_text(p, value)
+
+
+def fix_curriculum(soup):
+    add_body_class(soup, "page-curriculum-en")
+
+    section = soup.select_one("#graduation-requirement")
+    if not section:
+        return
+
+    heading_wrap = section.select_one(".col-12.text-center")
+    if not heading_wrap:
+        return
+
+    set_text(heading_wrap.find("h2"), "Degree Requirements")
+    subtitle = heading_wrap.find("h5")
+    if subtitle:
+        subtitle.decompose()
 
 
 def fix_emeritus(soup):
@@ -202,10 +262,16 @@ def process(path):
     fix_professional_menu(soup)
     fix_people_menu(soup)
     fix_language_toggle(soup, path.name)
+
     if path.name == "people.html":
         fix_people(soup)
+    elif path.name == "intro.html":
+        fix_intro(soup)
+    elif path.name in {"curriculum.html", "curriculum_graduate.html"}:
+        fix_curriculum(soup)
     elif path.name == "people_emeritus.html":
         fix_emeritus(soup)
+
     path.write_text(str(soup), encoding="utf-8")
 
 
