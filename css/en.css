@@ -24,3 +24,20 @@ html[lang="en"] .head-convert .lang-label {
 html[lang="en"] .custom-btn {
   font-size: 16px;
 }
+
+/* English labels are longer than Korean labels.
+   Widen dropdown panels modestly and wrap within the panel instead of overflowing. */
+@media (min-width: 992px) {
+  html[lang="en"] .dropdown-menu {
+    min-width: 220px;
+    max-width: 270px;
+  }
+
+  html[lang="en"] .dropdown-item {
+    display: block;
+    width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 1.35;
+  }
+}
