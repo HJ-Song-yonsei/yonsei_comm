@@ -1,0 +1,26 @@
+/* English-only typographic fit. Layout geometry stays unchanged. */
+html[lang="en"] {
+  --h1-font-size: 50px;
+  --h2-font-size: 44px;
+  --h3-font-size: 30px;
+  --h4-font-size: 26px;
+  --h5-font-size: 22px;
+  --h6-font-size: 20px;
+  --btn-font-size: 16px;
+}
+
+html[lang="en"] .navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+html[lang="en"] .dropdown-item {
+  font-size: 14px;
+}
+
+html[lang="en"] .head-convert .lang-label {
+  font-size: 14px;
+}
+
+html[lang="en"] .custom-btn {
+  font-size: 16px;
+}
