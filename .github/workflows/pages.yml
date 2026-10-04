@@ -21,17 +21,51 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # ✅ "빌드"는 하지 않고, 레포의 정적 파일을 그대로 build/로 복사
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install English-site build dependencies
+        run: python -m pip install --disable-pip-version-check beautifulsoup4 deepl
+
+      - name: Restore DeepL translation cache
+        uses: actions/cache@v4
+        with:
+          path: .i18n-cache
+          key: deepl-en-${{ github.sha }}
+          restore-keys: |
+            deepl-en-
+
       - name: Assemble static site to build/
         run: |
           mkdir -p build
           rsync -av --delete \
             --exclude '.git' \
             --exclude '.github' \
+            --exclude '.i18n-cache' \
+            --exclude 'build' \
             ./ build/
-
-          # ✅ (권장) Jekyll 처리 비활성화: md/json 등 정적 파일이 그대로 서빙되게
           touch build/.nojekyll
+
+      - name: Build English static site with DeepL
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: |
+          python scripts/build_english_site.py \
+            --source . \
+            --output build/en \
+            --cache .i18n-cache/en.json
+
+      - name: Verify English build
+        run: |
+          test -f build/en/index.html
+          test -f build/en/intro.html
+          test -f build/en/people.html
+          test -f build/en/research_DPnAI.html
+          test -f build/en/data/digital_people.json
+          ! grep -R -E 'href="(\.\./)?(notice|jobnotice|lend)\.html' build/en --include='*.html'
+          ! grep -R -E 'href="(\.\./)?people_(emeritus|profpractice)\.html' build/en --include='*.html'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
