@@ -1,5 +1,5 @@
 (function () {
-  // jQuery 의존 (현재 사이트가 jQuery 기반이므로)
+  // Dropdown UI: keep the existing look/feel and behavior.
   if (typeof window.jQuery === "undefined") return;
 
   window.jQuery(function ($) {
@@ -19,7 +19,6 @@
       $btn.attr("aria-expanded", "false");
     }
 
-    // 버튼 클릭: 토글
     $btn.on("click", function (e) {
       e.preventDefault();
       e.stopPropagation();
@@ -27,45 +26,82 @@
       else openMenu();
     });
 
-    // 메뉴 항목 클릭: 닫기(번역 동작은 기존 #lang_* 핸들러가 수행)
     $menu.on("click", "a", function () {
       closeMenu();
     });
 
-    // 바깥 클릭: 닫기
-    $(document).on("click", function () {
-      closeMenu();
-    });
-
-    // ESC: 닫기
+    $(document).on("click", closeMenu);
     $(document).on("keydown", function (e) {
       if (e.key === "Escape") closeMenu();
     });
   });
 })();
 
-// langswitcher.js
 (function () {
   let gtLoading = null;
 
-  // 1) 전역 콜백을 반드시 window에 등록
+  function repoBase() {
+    // Custom domain: /index.html or /en/index.html => ""
+    // GitHub project page: /yonsei_comm/... => "/yonsei_comm"
+    const parts = location.pathname.split("/").filter(Boolean);
+    const isGithubIo = location.hostname.endsWith("github.io");
+    return isGithubIo && parts.length ? `/${parts[0]}` : "";
+  }
+
+  function pathAfterRepoBase() {
+    const base = repoBase();
+    return base && location.pathname.startsWith(base)
+      ? location.pathname.slice(base.length) || "/"
+      : location.pathname;
+  }
+
+  function isEnglishPage() {
+    const path = pathAfterRepoBase();
+    return path === "/en" || path.startsWith("/en/");
+  }
+
+  function currentPageName() {
+    let path = pathAfterRepoBase();
+    if (path === "/" || path === "/en" || path === "/en/") return "index.html";
+    path = path.replace(/^\/en\//, "/");
+    const last = path.split("/").filter(Boolean).pop();
+    return last || "index.html";
+  }
+
+  function currentHash() {
+    return location.hash || "";
+  }
+
+  function englishUrl() {
+    const base = repoBase();
+    const page = currentPageName();
+    return page === "index.html"
+      ? `${base}/en/${currentHash()}`
+      : `${base}/en/${page}${currentHash()}`;
+  }
+
+  function koreanUrl(extraQuery = "") {
+    const base = repoBase();
+    const page = currentPageName();
+    const pagePath = page === "index.html" ? `${base}/` : `${base}/${page}`;
+    return `${pagePath}${extraQuery}${currentHash()}`;
+  }
+
   window.googleTranslateElementInit = function () {
     new google.translate.TranslateElement(
       {
         pageLanguage: "ko",
-        includedLanguages: "en,ja,zh-CN",
+        includedLanguages: "ja,zh-CN",
         layout: google.translate.TranslateElement.InlineLayout.VERTICAL,
       },
       "google_translate_element"
     );
   };
 
-  // 2) element.js 로드 (1회)
   function loadGoogleTranslateWidget() {
     if (gtLoading) return gtLoading;
 
     gtLoading = new Promise((resolve, reject) => {
-      // 이미 로드된 경우
       if (window.google && window.google.translate && document.querySelector(".goog-te-combo")) {
         resolve();
         return;
@@ -82,7 +118,6 @@
     return gtLoading;
   }
 
-  // 3) 콤보박스가 실제로 생길 때까지 폴링
   function waitForCombo(maxTries = 20, intervalMs = 150) {
     return new Promise((resolve, reject) => {
       let tries = 0;
@@ -102,53 +137,80 @@
     });
   }
 
-  async function changeLanguage(langCode) {
+  async function changeGoogleLanguage(langCode) {
     await loadGoogleTranslateWidget();
     const combo = await waitForCombo();
     combo.value = langCode;
     combo.dispatchEvent(new Event("change"));
-    // 체크표시용(선택): html lang도 같이 갱신
     document.documentElement.setAttribute("lang", langCode);
   }
 
   function deleteGoogleTranslateCookies() {
     ["googtrans", "googtransopt"].forEach((name) => {
-      document.cookie = name + "=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+      document.cookie = `${name}=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT`;
     });
   }
 
-  // 4) 이벤트 바인딩
+  function bind(id, handler) {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener("click", handler);
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
-    // 위젯 로드는 페이지 로드 시 미리 시작(클릭 반응성↑)
-    loadGoogleTranslateWidget().catch(() => {});
+    const english = isEnglishPage();
 
-    const bind = (id, handler) => {
-      const el = document.getElementById(id);
-      if (el) el.addEventListener("click", handler);
-    };
-
-    bind("lang_en", async (e) => {
+    // English is now a first-class static site; do not run Google Translate for EN.
+    bind("lang_en", (e) => {
       e.preventDefault();
-      try { await changeLanguage("en"); } catch (err) { console.error(err); }
-      // loadGlossary("en"); // 필요 시
-    });
-
-    bind("lang_ja", async (e) => {
-      e.preventDefault();
-      try { await changeLanguage("ja"); } catch (err) { console.error(err); }
-      // loadGlossary("ja");
-    });
-
-    bind("lang_zh-CN", async (e) => {
-      e.preventDefault();
-      try { await changeLanguage("zh-CN"); } catch (err) { console.error(err); }
-      // loadGlossary("zh-CN");
+      deleteGoogleTranslateCookies();
+      if (!english) location.assign(englishUrl());
     });
 
     bind("lang_ko", (e) => {
       e.preventDefault();
       deleteGoogleTranslateCookies();
-      setTimeout(() => location.reload(), 300);
+      if (english) location.assign(koreanUrl());
+      else setTimeout(() => location.reload(), 50);
     });
+
+    // Japanese/Chinese continue to use the existing Google widget until their
+    // dedicated static builds are introduced. If clicked from /en/, return to
+    // the Korean counterpart first, then translate there.
+    [
+      ["lang_ja", "ja"],
+      ["lang_zh-CN", "zh-CN"],
+    ].forEach(([id, lang]) => {
+      bind(id, async (e) => {
+        e.preventDefault();
+        if (english) {
+          location.assign(koreanUrl(`?gt=${encodeURIComponent(lang)}`));
+          return;
+        }
+        try {
+          await changeGoogleLanguage(lang);
+        } catch (err) {
+          console.error(err);
+        }
+      });
+    });
+
+    // Handle a JA/ZH handoff originating from an English page.
+    if (!english) {
+      const params = new URLSearchParams(location.search);
+      const gt = params.get("gt");
+      if (gt === "ja" || gt === "zh-CN") {
+        loadGoogleTranslateWidget()
+          .then(() => changeGoogleLanguage(gt))
+          .then(() => {
+            params.delete("gt");
+            const query = params.toString();
+            history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}${location.hash}`);
+          })
+          .catch(console.error);
+      } else {
+        // Preserve current Korean-page behavior and responsiveness.
+        loadGoogleTranslateWidget().catch(() => {});
+      }
+    }
   });
 })();
