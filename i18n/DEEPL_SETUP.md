@@ -50,7 +50,7 @@ After exporting the key in the shell:
 
 ```bash
 export DEEPL_API_KEY='YOUR_KEY_HERE'
-./scripts/build_local_bilingual.sh
+bash scripts/build_local_bilingual.sh
 ```
 
 Then preview the generated deployment tree with:
