@@ -10,15 +10,37 @@ fi
 
 python3 -m pip install --disable-pip-version-check -r requirements-i18n.txt
 
-rm -rf build
-mkdir -p build
-rsync -a --delete \
-  --exclude '.git' \
-  --exclude '.github' \
-  --exclude '.i18n-cache' \
-  --exclude 'build' \
-  ./ build/
-touch build/.nojekyll
+# Assemble the local build tree with Python rather than macOS's bundled rsync.
+# The system rsync can fail with "Illegal byte sequence" on decomposed Korean
+# Unicode filenames (notably HWP attachments under data/files/).
+python3 - <<'PY'
+from pathlib import Path
+import shutil
+
+root = Path.cwd()
+build = root / "build"
+excluded = {".git", ".github", ".i18n-cache", "build"}
+
+if build.exists():
+    shutil.rmtree(build)
+build.mkdir(parents=True)
+
+for item in root.iterdir():
+    if item.name in excluded:
+        continue
+    target = build / item.name
+    if item.is_symlink():
+        target.symlink_to(item.readlink(), target_is_directory=item.is_dir())
+    elif item.is_dir():
+        shutil.copytree(item, target, symlinks=True)
+    else:
+        # copyfile avoids unnecessary metadata/timestamp operations that can
+        # also be problematic with unusual filenames on macOS.
+        shutil.copyfile(item, target)
+
+(build / ".nojekyll").touch()
+print("Local static site assembled in build/")
+PY
 
 python3 scripts/prepare_korean_site.py
 python3 scripts/build_english_site.py \
