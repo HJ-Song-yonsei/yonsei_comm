@@ -55,6 +55,7 @@ jobs:
             --exclude '.git' \
             --exclude '.github' \
             --exclude '.i18n-cache' \
+            --exclude '.i18n-source' \
             --exclude 'build' \
             ./ build/
           touch build/.nojekyll
@@ -62,12 +63,15 @@ jobs:
       - name: Prepare Korean site and EN toggle
         run: python scripts/prepare_korean_site.py
 
+      - name: Prepare protected English translation source
+        run: python scripts/prepare_translation_source.py
+
       - name: Build core English static site with DeepL
         env:
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: |
           python scripts/build_english_site.py \
-            --source . \
+            --source .i18n-source \
             --output build/en \
             --cache .i18n-cache/en.json
 
@@ -76,7 +80,7 @@ jobs:
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: |
           python scripts/build_additional_english_pages.py \
-            --source . \
+            --source .i18n-source \
             --output build/en \
             --cache .i18n-cache/en.json
 
