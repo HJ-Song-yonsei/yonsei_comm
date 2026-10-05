@@ -195,6 +195,7 @@ def fix_intro(soup):
         "Yonsei University's Department of Communication",
         "Yonsei University’s Department of Communication",
         "Yonsei University Department of Communication",
+        "Department of Communication at Yonsei University",
     ]
 
     # Contextual shorthand: institutional belief/future -> We; institutional
