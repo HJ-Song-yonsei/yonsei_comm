@@ -3,6 +3,8 @@ name: Build & Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -11,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.ref }}"
   cancel-in-progress: true
 
 jobs:
@@ -21,24 +23,84 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # ✅ "빌드"는 하지 않고, 레포의 정적 파일을 그대로 build/로 복사
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install i18n build dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements-i18n.txt
+
+      - name: Validate DeepL secret
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: |
+          if [ -z "$DEEPL_API_KEY" ]; then
+            echo "::error::DEEPL_API_KEY repository secret is not configured. See i18n/DEEPL_SETUP.md."
+            exit 1
+          fi
+
+      - name: Restore DeepL translation cache
+        uses: actions/cache@v4
+        with:
+          path: .i18n-cache
+          key: deepl-en-${{ github.sha }}
+          restore-keys: |
+            deepl-en-
+
       - name: Assemble static site to build/
         run: |
           mkdir -p build
           rsync -av --delete \
             --exclude '.git' \
             --exclude '.github' \
+            --exclude '.i18n-cache' \
+            --exclude '.i18n-source' \
+            --exclude 'build' \
             ./ build/
-
-          # ✅ (권장) Jekyll 처리 비활성화: md/json 등 정적 파일이 그대로 서빙되게
           touch build/.nojekyll
 
+      - name: Prepare Korean site and EN toggle
+        run: python scripts/prepare_korean_site.py
+
+      - name: Prepare protected English translation source
+        run: python scripts/prepare_translation_source.py
+
+      - name: Build core English static site with DeepL
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: |
+          python scripts/build_english_site.py \
+            --source .i18n-source \
+            --output build/en \
+            --cache .i18n-cache/en.json
+
+      - name: Build additional English pages
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: |
+          python scripts/build_additional_english_pages.py \
+            --source .i18n-source \
+            --output build/en \
+            --cache .i18n-cache/en.json
+
+      - name: Apply English terminology and navigation overrides
+        run: python scripts/postprocess_english_site.py
+
+      - name: Refine English homepage and navigation
+        run: python scripts/refine_english_site.py
+
+      - name: Verify production bilingual build
+        run: python scripts/verify_i18n_build.py
+
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: build
 
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:

@@ -1,0 +1,63 @@
+/* English-only typographic fit. Layout geometry stays unchanged. */
+html[lang="en"] {
+  --h1-font-size: 50px;
+  --h2-font-size: 44px;
+  --h3-font-size: 30px;
+  --h4-font-size: 26px;
+  --h5-font-size: 22px;
+  --h6-font-size: 20px;
+  --btn-font-size: 16px;
+}
+
+html[lang="en"] .navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+html[lang="en"] .dropdown-item {
+  font-size: 14px;
+}
+
+html[lang="en"] .head-convert .lang-label {
+  font-size: 14px;
+}
+
+html[lang="en"] .custom-btn {
+  font-size: 16px;
+}
+
+/* English carousel captions are longer than the Korean originals. */
+html[lang="en"] #hero-slide .carousel-caption h5 {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+/* Faculty cards: reduce only the name and academic-rank line by 1px. */
+html[lang="en"] body.page-people-en .team-item .px-4.py-3 > h5 {
+  font-size: 21px;
+}
+
+html[lang="en"] body.page-people-en .team-item .px-4.py-3 > h7 > small {
+  font-size: 13px;
+}
+
+/* Curriculum section headings: 2px smaller than the general English h2 size. */
+html[lang="en"] body.page-curriculum-en section .col-12.text-center > h2.d-inline {
+  font-size: 42px;
+}
+
+/* English labels are longer than Korean labels.
+   Widen dropdown panels modestly and wrap within the panel instead of overflowing. */
+@media (min-width: 992px) {
+  html[lang="en"] .dropdown-menu {
+    min-width: 220px;
+    max-width: 270px;
+  }
+
+  html[lang="en"] .dropdown-item {
+    display: block;
+    width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 1.35;
+  }
+}
