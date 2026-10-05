@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 
 BUILD = Path("build")
 EN = BUILD / "en"
+PROTECTED_SOURCE = Path(".i18n-source")
 
 REQUIRED_EN_PAGES = [
     "index.html",
@@ -54,6 +55,47 @@ def verify_korean() -> None:
     require(toggle is not None, "Korean index must contain the direct EN toggle")
     require(toggle.get_text(" ", strip=True).startswith("EN"), "Korean toggle must display EN")
     require(toggle.get("href") == "en/", "Korean index EN toggle must point to en/")
+
+
+def verify_pretranslation_source() -> None:
+    """Verify abbreviation protection without assuming where the copy is rendered.
+
+    '언홍원' is a terminology rule, not a mandatory homepage string.  The old
+    validation incorrectly required 'JMC Grad School' to occur in index.html,
+    which fails whenever the relevant source copy is absent or omitted from the
+    English homepage.  Instead, validate the actual pre-translation contract:
+    generic 언홍원 occurrences become JMC Grad School and no raw 언홍원 reaches
+    DeepL.  The longer '언홍원 최고위과정' exception remains Executive Program.
+    """
+    require(PROTECTED_SOURCE.is_dir(), "Missing protected English translation source")
+
+    saw_generic_abbreviation = False
+    for page in REQUIRED_EN_PAGES:
+        source_path = Path(page)
+        if not source_path.is_file():
+            continue
+        protected_path = PROTECTED_SOURCE / page
+        require(protected_path.is_file(), f"Missing protected source page: {page}")
+
+        source_value = source_path.read_text(encoding="utf-8")
+        protected_value = protected_path.read_text(encoding="utf-8")
+
+        # Ignore the approved longer phrase, which intentionally maps to
+        # Executive Program rather than JMC Grad School.
+        generic_source = source_value.replace("언홍원 최고위과정", "")
+        if "언홍원" in generic_source:
+            saw_generic_abbreviation = True
+            require(
+                "JMC Grad School" in protected_value,
+                f"Protected source did not convert generic 언홍원 in {page}",
+            )
+
+        require("언홍원" not in protected_value, f"Raw 언홍원 remains in protected source: {page}")
+
+    # This is informationally useful but not a requirement that a specific
+    # output page must contain the phrase.
+    if saw_generic_abbreviation:
+        print("Verified generic 언홍원 -> JMC Grad School pre-translation override")
 
 
 def verify_intro() -> None:
@@ -141,7 +183,6 @@ def verify_english() -> None:
         "Gyeongui",
         "Undergraduate",
         "Graduate Program",
-        "JMC Grad School",
     ]:
         require(required in index, f"English index missing fixed copy: {required}")
 
@@ -151,6 +192,8 @@ def verify_english() -> None:
     verify_curriculum("curriculum_graduate.html")
 
     combined = "\n".join(text(EN / page) for page in REQUIRED_EN_PAGES)
+    require("언홍원" not in combined, "English build still contains untranslated 언홍원")
+
     for forbidden in [
         'href="notice.html"',
         'href="jobnotice.html"',
@@ -180,6 +223,7 @@ def main() -> None:
     require("page-curriculum-en" in css, "English CSS missing curriculum typography override")
     require((BUILD / "css" / "language-toggle.css").is_file(), "Missing css/language-toggle.css")
     verify_korean()
+    verify_pretranslation_source()
     verify_english()
     verify_no_google_translate()
     print("i18n production verification passed")
