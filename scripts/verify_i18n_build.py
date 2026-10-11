@@ -31,6 +31,8 @@ REQUIRED_JSON = [
     "digital_people.json",
     "health_people.json",
     "jds_people.json",
+    "network_map.json",
+    "pure_publications_2000plus.json",
 ]
 
 

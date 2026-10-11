@@ -26,6 +26,7 @@ import os
 import re
 import sys
 from pathlib import Path
+import shutil
 from typing import Iterable
 from urllib.parse import urlsplit, urlunsplit
 
@@ -77,6 +78,13 @@ LOCALIZED_JSON = [
     "digital_people.json",
     "health_people.json",
     "jds_people.json",
+]
+
+# Shared read-only datasets used directly by English research-page JavaScript.
+# Copy these unchanged; publications and map data need no DeepL translation.
+SHARED_JSON = [
+    "network_map.json",
+    "pure_publications_2000plus.json",
 ]
 
 # User-confirmed official terminology + stable UI terminology.
@@ -468,6 +476,13 @@ def build_json_feeds(source_root: Path, output_root: Path, translator: EnglishTr
             json.dumps(localized, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
+
+    # JavaScript fetch() requests are relative to /en/, so mirror shared datasets.
+    for filename in SHARED_JSON:
+        src = source_root / "data" / filename
+        if not src.is_file():
+            raise FileNotFoundError(f"Missing shared research JSON for English site: {src}")
+        shutil.copyfile(src, data_out / filename)
 
 
 def build_page(source_root: Path, output_root: Path, page_name: str, translator: EnglishTranslator) -> None:
