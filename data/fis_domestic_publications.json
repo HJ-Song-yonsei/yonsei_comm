@@ -63,10 +63,10 @@
     {
       "name": "백지현",
       "status": "ok",
-      "allCount": 3,
+      "allCount": 4,
       "domesticCount": 0,
       "internationalCount": 0,
-      "reviewCount": 3
+      "reviewCount": 4
     },
     {
       "name": "상윤모",
@@ -3208,5 +3208,5 @@
       "classificationReason": "hangul_article_title"
     }
   ],
-  "generatedAt": "2026-09-16T15:18:07.827472+00:00"
+  "generatedAt": "2026-10-19T00:13:47.725024+00:00"
 }

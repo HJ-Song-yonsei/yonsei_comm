@@ -2,7 +2,7 @@
   "source": "Yonsei Faculty Information System (FIS)",
   "note": "English/non-Hangul journal titles that are not in either override list. If a journal is a Korean domestic journal, add it to domestic_journal_overrides in config/fis_publications.yml.",
   "minYear": 2010,
-  "itemCount": 229,
+  "itemCount": 230,
   "errors": [
     {
       "faculty": "강태우",
@@ -129,6 +129,17 @@
       "journal": "Information Communication and Society",
       "publicationUrl": "",
       "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=Pux1pfRduAJ9YrJvL9DbNA%3D%3D",
+      "classification": "review",
+      "classificationReason": "english_or_nonhangul_unclassified"
+    },
+    {
+      "faculty": "백지현",
+      "issueDate": "2026-02",
+      "year": 2026,
+      "title": "Why People Turn to ChatGPT for Health Information: Extending UTAUT with Healthcare Dissatisfaction and Perceived Credibility",
+      "journal": "Health Communication",
+      "publicationUrl": "",
+      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=JLKQraK1DSNePacRzCXX9A%3D%3D",
       "classification": "review",
       "classificationReason": "english_or_nonhangul_unclassified"
     },
@@ -2531,5 +2542,5 @@
       "classificationReason": "english_or_nonhangul_unclassified"
     }
   ],
-  "generatedAt": "2026-09-16T15:18:07.833345+00:00"
+  "generatedAt": "2026-10-19T00:13:47.729487+00:00"
 }
