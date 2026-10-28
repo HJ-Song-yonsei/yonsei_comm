@@ -35,6 +35,8 @@
   <!-- JS libs -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/dompurify.min.js"></script>
+  <script src="js/content-security.js"></script>
 
   <script>
     // ===== Helpers for robust static fetching =====
@@ -359,10 +361,10 @@
           <td class="text-center">${isPinned ? '<span class="badge badge-pill badge-pinned text-white">공지</span>' : (idx+1)}</td>
           <td class="text-center">${it.pinned ? '공지' : '일반'}</td>
           <td>
-            <a class="text-decoration-none" href="?id=${encodeURIComponent(it.id)}">${it.title || ''}</a>
+            <a class="text-decoration-none" href="?id=${encodeURIComponent(it.id)}">${ContentSecurity.escapeHTML(it.title || '')}</a>
             ${Array.isArray(it.attachments) && it.attachments.length ? ' <i class="bi-paperclip" title="첨부"></i>' : ''}
           </td>
-          <td class="text-end">${fmtDate(it.date)}</td>
+          <td class="text-end">${ContentSecurity.escapeHTML(fmtDate(it.date))}</td>
         </tr>
       `).join('');
 
@@ -395,12 +397,12 @@
       const text = await fetchTextSmart(file, bases);
 
       if (lower.endsWith('.md')) {
-        return { html: marked.parse(text) };
+        return { html: ContentSecurity.sanitizeHTML(marked.parse(text)) };
       }
       if (lower.endsWith('.html')) {
         const doc = new DOMParser().parseFromString(text, 'text/html');
         const bodyHtml = doc && doc.body ? doc.body.innerHTML : text;
-        return { html: bodyHtml };
+        return { html: ContentSecurity.sanitizeHTML(bodyHtml) };
       }
       return { html: '<pre>' + text.replace(/[&<>]/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[s])) + '</pre>' };
     }
@@ -414,14 +416,11 @@
     function renderAttachments(attachments) {
       if (!Array.isArray(attachments) || !attachments.length) return '';
       const items = attachments.map(a => {
-        if (typeof a === 'string') {
-          return `<li><a href="${normHref(a)}" target="_blank" rel="noopener">${baseName(a)}</a></li>`;
-        } else if (a && typeof a === 'object') {
-          const name = a.name || baseName(a.url||'');
-          const url = a.url || '#';
-          return `<li><a href="${normHref(url)}" target="_blank" rel="noopener">${name}</a></li>`;
-        }
-        return '';
+        const rawURL = typeof a === 'string' ? a : (a && a.url);
+        const href = ContentSecurity.safeURL(rawURL);
+        if (!href) return '';
+        const label = (typeof a === 'string') ? baseName(a) : (a.name || baseName(rawURL));
+        return `<li><a href="${ContentSecurity.escapeHTML(href)}" target="_blank" rel="noopener noreferrer">${ContentSecurity.escapeHTML(label)}</a></li>`;
       }).join('');
       return items ? `<div class="mt-3"><h6>첨부</h6><ul class="mb-0">${items}</ul></div>` : '';
     }
@@ -434,7 +433,7 @@
       try {
         if (it.body && String(it.body).trim().length) {
           //  jobpost.json 안에 body(마크다운)가 있으면 그걸 우선 사용
-          content = { html: marked.parse(it.body) };
+          content = { html: ContentSecurity.sanitizeHTML(marked.parse(it.body)) };
         } else if (it.contentfile) {
           //  없으면 contentfile로 fallback
           content = await loadContentFile(it.contentfile);
@@ -442,16 +441,16 @@
           content = { html: '<div class="alert alert-secondary">본문이 없습니다.</div>' };
         }
       } catch (e) {
-        content = { html: `<div class="alert alert-warning">본문을 불러오지 못했습니다. (${e.message||e})</div>` };
+        content = { html: `<div class="alert alert-warning">본문을 불러오지 못했습니다. (${ContentSecurity.escapeHTML(e.message || e)})</div>` };
       }
 
       const html = `
         <div class="d-flex justify-content-between align-items-center mb-2">
           <div>
-            <div class="small text-muted">${(it.notice || '일반')} · ${it.author || ''}</div>
-            <h4 class="mb-0">${it.title || ''}</h4>
+            <div class="small text-muted">${ContentSecurity.escapeHTML(it.notice || '일반')} · ${ContentSecurity.escapeHTML(it.author || '')}</div>
+            <h4 class="mb-0">${ContentSecurity.escapeHTML(it.title || '')}</h4>
           </div>
-          <div class="text-end small text-muted">${fmtDate(it.date)}</div>
+          <div class="text-end small text-muted">${ContentSecurity.escapeHTML(fmtDate(it.date))}</div>
         </div>
         <hr>
         <div class="mb-3" id="board-detail-body">${content.html}</div>

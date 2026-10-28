@@ -179,13 +179,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const lower = String(cf || '').toLowerCase();
     if (lower.endsWith('.md')) {
       if (typeof marked !== 'undefined' && typeof marked.parse === 'function') {
-        return marked.parse(text);
+        return window.ContentSecurity ? window.ContentSecurity.sanitizeHTML(marked.parse(text)) : `<pre>${escapeHtml(marked.parse(text))}</pre>`;
       }
       // marked not loaded: show raw
       return `<pre style="white-space:pre-wrap">${escapeHtml(text)}</pre>`;
     }
     // treat anything else as HTML fragment
-    return text;
+    return window.ContentSecurity ? window.ContentSecurity.sanitizeHTML(text) : `<pre>${escapeHtml(text)}</pre>`;
   }
 
   function renderAttachments(item) {
@@ -202,9 +202,11 @@ document.addEventListener('DOMContentLoaded', () => {
         : (f.name ? String(f.name) : basename(url));
 
       // attachment urls should also respect repo base; if url already starts with "http", keep it
-      const href = /^https?:\/\//i.test(url) ? encodeURI(url) : urlFromRepo(url);
+      const candidate = /^https?:\/\//i.test(url) ? url : urlFromRepo(url);
+      const href = window.ContentSecurity ? window.ContentSecurity.safeURL(candidate) : null;
+      if (!href) return '';
 
-      return `<a href="${href}" target="_blank" rel="noopener">${escapeHtml(name)}</a>`;
+      return `<a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(name)}</a>`;
     }).filter(Boolean).join('<br>');
 
     return links
