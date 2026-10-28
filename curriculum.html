@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
     <head>
+  <script src="js/dompurify.min.js"></script>
+  <script src="js/content-security.js"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -404,20 +406,20 @@
                       let html  = '<table id="timetable" class="table table-bordered text-center"><thead>';
                       // 3.1 요일
                       html += '<tr><th></th><th></th>';
-                      daysRow.slice(2).forEach(d => html += `<th data-day="${d}">${d}</th>`);
+                      daysRow.slice(2).forEach(d => html += `<th data-day="${ContentSecurity.escapeHTML(d)}">${ContentSecurity.escapeHTML(d)}</th>`);
                       html += '</tr>';
                       // 3.2 강의실
                       html += '<tr><th>교시</th><th>시간</th>';
-                      roomsRow.slice(2).forEach(r => html += `<th data-room="${r}">${r}</th>`);
+                      roomsRow.slice(2).forEach(r => html += `<th data-room="${ContentSecurity.escapeHTML(r)}">${ContentSecurity.escapeHTML(r)}</th>`);
                       html += '</tr>';
                       html += '</thead><tbody>';
                       // 3.3 본문
                       bodyRows.forEach(row => {
                         html += '<tr>';
-                        html += `<th>${row[0]||''}</th><td>${row[1]||''}</td>`;
+                        html += `<th>${ContentSecurity.escapeHTML(row[0] || '')}</th><td>${ContentSecurity.escapeHTML(row[1] || '')}</td>`;
                         row.slice(2).forEach((cell, idx) => {
                           const ci = idx + 2;
-                          html += `<td data-day="${daysRow[ci]||''}" data-room="${roomsRow[ci]||''}">${cell||''}</td>`;
+                          html += `<td data-day="${ContentSecurity.escapeHTML(daysRow[ci] || '')}" data-room="${ContentSecurity.escapeHTML(roomsRow[ci] || '')}">${ContentSecurity.sanitizeHTML(cell || '')}</td>`;
                         });
                         html += '</tr>';
                       });
@@ -441,13 +443,13 @@
 
                       dayList.forEach(d => dcont.insertAdjacentHTML('beforeend', `
                         <label class="form-check form-check-inline">
-                          <input type="checkbox" class="form-check-input filter-day" value="${d}" checked>
-                          <span class="form-check-label">${d}</span>
+                          <input type="checkbox" class="form-check-input filter-day" value="${ContentSecurity.escapeHTML(d)}" checked>
+                          <span class="form-check-label">${ContentSecurity.escapeHTML(d)}</span>
                         </label>`));
                       roomList.forEach(r => rcont.insertAdjacentHTML('beforeend', `
                         <label class="form-check form-check-inline">
-                          <input type="checkbox" class="form-check-input filter-room" value="${r}" checked>
-                          <span class="form-check-label">${r}</span>
+                          <input type="checkbox" class="form-check-input filter-room" value="${ContentSecurity.escapeHTML(r)}" checked>
+                          <span class="form-check-label">${ContentSecurity.escapeHTML(r)}</span>
                         </label>`));
 
                       const days = [...document.querySelectorAll('.filter-day')];
@@ -598,7 +600,7 @@
                 /<table[^>]*>/,
                 '<table class="table table-striped table-bordered table-hover table-sm text-nowrap">'
               );
-            document.getElementById('excel-table').innerHTML = tableHTML;
+            document.getElementById('excel-table').innerHTML = ContentSecurity.sanitizeHTML(tableHTML);
 
             // 5) “전기” / “전필” 강조
             document
@@ -628,8 +630,8 @@
                     <span
                       class="d-inline-block course-name-tooltip"
                       data-bs-toggle="tooltip"
-                      title="${info.replace(/"/g,'&quot;')}"
-                    >${nameText}</span>
+                      title="${ContentSecurity.escapeHTML(info)}"
+                    >${ContentSecurity.escapeHTML(nameText)}</span>
                   `;
                 }
               });
