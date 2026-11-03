@@ -1,4 +1,3 @@
-
 [
   {
     "id": "2026-01-12-주차권-신청-안내",
@@ -80,23 +79,13 @@
 
     ]
   },
- 
   {
-    "id": "2026-11-03-2027-1-recruitment",
+    "id": "2026-10-19-chunchoo-2027-recruitment",
     "notice": "일반",
-    "title": "2027학년도 1학기 언론홍보영상학부 비전임교원 채용 공고",
+    "title": "2027년 상반기 춘추화백실 신입실원 모집 안내",
     "author": "언론홍보영상학부",
-    "date": "2026-11-03",
-    "contentfile": "2027-1-recruitment-notice.html",
-    "file_attachment": [
-      {
-        "name": "2027학년도 1학기 비전임교원 채용 공고.hwp",
-        "url": "/data/files/2027-1_recruitment_notice.hwp"
-      },
-      {
-        "name": "공개채용 지원서 등 서식.hwp",
-        "url": "/data/files/2027-1_application_forms.hwp"
-      }
-    ]
+    "date": "2026-10-19",
+    "contentfile": "2026-10-19-chunchoo-recruitment.html",
+    "file_attachment": []
   }
 ]
