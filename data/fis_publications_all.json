@@ -2,7 +2,7 @@
   "source": "Yonsei Faculty Information System (FIS)",
   "note": "Complete FIS article feed used as the publication source of truth for research-area pages. Pure may enrich exact-title matches with DOI URLs downstream, but does not add publications.",
   "minYear": 2010,
-  "itemCount": 532,
+  "itemCount": 533,
   "facultyCount": 15,
   "faculty": [
     {
@@ -72,10 +72,10 @@
     {
       "name": "상윤모",
       "status": "ok",
-      "allCount": 4,
+      "allCount": 5,
       "domesticCount": 3,
       "internationalCount": 0,
-      "reviewCount": 1
+      "reviewCount": 2
     },
     {
       "name": "성윤희",
@@ -142,6 +142,17 @@
     }
   ],
   "items": [
+    {
+      "faculty": "상윤모",
+      "issueDate": "2026-11",
+      "year": 2026,
+      "title": "Theorizing platform governance as a communicative process",
+      "journal": "Journal of Digital Media & Policy",
+      "publicationUrl": "",
+      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=L4JKAvyk1a8oWn2jJMAYJA%3D%3D",
+      "classification": "review",
+      "classificationReason": "english_or_nonhangul_unclassified"
+    },
     {
       "faculty": "백지현",
       "issueDate": "2026-09",
@@ -5995,5 +6006,5 @@
       "classificationReason": "english_or_nonhangul_unclassified"
     }
   ],
-  "generatedAt": "2026-11-02T01:30:36.861699+00:00"
+  "generatedAt": "2026-11-09T01:44:46.212385+00:00"
 }

@@ -2,7 +2,7 @@
   "source": "Yonsei Faculty Information System (FIS)",
   "note": "English/non-Hangul journal titles that are not in either override list. If a journal is a Korean domestic journal, add it to domestic_journal_overrides in config/fis_publications.yml.",
   "minYear": 2010,
-  "itemCount": 230,
+  "itemCount": 231,
   "errors": [
     {
       "faculty": "강태우",
@@ -11,6 +11,17 @@
     }
   ],
   "items": [
+    {
+      "faculty": "상윤모",
+      "issueDate": "2026-11",
+      "year": 2026,
+      "title": "Theorizing platform governance as a communicative process",
+      "journal": "Journal of Digital Media & Policy",
+      "publicationUrl": "",
+      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=L4JKAvyk1a8oWn2jJMAYJA%3D%3D",
+      "classification": "review",
+      "classificationReason": "english_or_nonhangul_unclassified"
+    },
     {
       "faculty": "백지현",
       "issueDate": "2026-09",
@@ -2542,5 +2553,5 @@
       "classificationReason": "english_or_nonhangul_unclassified"
     }
   ],
-  "generatedAt": "2026-11-02T01:30:36.871449+00:00"
+  "generatedAt": "2026-11-09T01:44:46.227109+00:00"
 }

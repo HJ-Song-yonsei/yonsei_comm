@@ -71,10 +71,10 @@
     {
       "name": "상윤모",
       "status": "ok",
-      "allCount": 4,
+      "allCount": 5,
       "domesticCount": 3,
       "internationalCount": 0,
-      "reviewCount": 1
+      "reviewCount": 2
     },
     {
       "name": "성윤희",
@@ -3208,5 +3208,5 @@
       "classificationReason": "hangul_article_title"
     }
   ],
-  "generatedAt": "2026-10-19T00:13:47.725024+00:00"
+  "generatedAt": "2026-11-09T01:44:46.221792+00:00"
 }
