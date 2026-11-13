@@ -87,5 +87,19 @@
     "date": "2026-10-19",
     "contentfile": "2026-10-19-chunchoo-recruitment.html",
     "file_attachment": []
+  },
+    {
+    "id": "2026-11-13-open-house",
+    "notice": "공지",
+    "title": "「COMM:CONNECT」 대학원 오픈하우스 및 학부-대학원 연계과정 설명회",
+    "author": "언론홍보영상학부",
+    "date": "2026-11-13",
+    "contentfile": "/data/posts/2026-11-25_COMM_CONNECT_대학원_오픈하우스_및_연계과정_설명회.html",
+    "file_attachment": [
+      {
+        "name": "COMM_CONNECT.jpg",
+        "url": "/data/files/COMM_CONNECT.jpg"
+      }
+    ]
   }
 ]
