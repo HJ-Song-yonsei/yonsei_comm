@@ -333,6 +333,24 @@
           "featuredRank": 4
         },
         {
+          "year": 2026,
+          "title": "Do Virtual Influencers Need Self-Disclosure? Differential Effects on Parasocial Interaction Between Human and Virtual Influencers and the Moderating Role of Openness",
+          "outletRaw": "Journal of Current Issues and Research in Advertising",
+          "outlet": "Journal of Current Issues and Research in Advertising",
+          "url": "https://doi.org/10.1080/10641734.2026.2684946",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "strategic",
+            "persuasion"
+          ],
+          "featured": false,
+          "featuredRank": null
+        },
+        {
           "year": 2023,
           "title": "Virtual brand experience in digital reality advertising: Conceptualization and measurement",
           "outletRaw": "Journal of Consumer Behaviour",
@@ -1066,5 +1084,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-16T17:24:25.920371+00:00"
+  "generatedAt": "2026-11-15T00:55:41.212852+00:00"
 }

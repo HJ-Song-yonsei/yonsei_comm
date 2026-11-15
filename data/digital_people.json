@@ -894,6 +894,23 @@
           ],
           "featured": true,
           "featuredRank": 3
+        },
+        {
+          "year": 2026,
+          "title": "A snap of your true self: How self-presentation and temporal affordance influence self-concept on social media",
+          "outletRaw": "New Media and Society",
+          "outlet": "New Media and Society",
+          "url": "https://doi.org/10.1177/1461444820977199",
+          "urlSource": "Pure DOI",
+          "source": "Pure",
+          "publicationType": "international",
+          "classificationReason": "pure_primary",
+          "isKoreanTitle": false,
+          "topics": [
+            "platforms"
+          ],
+          "featured": false,
+          "featuredRank": null
         }
       ]
     },
@@ -1121,5 +1138,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-27T23:54:56.823627+00:00"
+  "generatedAt": "2026-11-15T00:55:41.069907+00:00"
 }
