@@ -2,7 +2,7 @@
   "source": "Yonsei Faculty Information System (FIS)",
   "note": "Complete FIS article feed used as the publication source of truth for research-area pages. Pure may enrich exact-title matches with DOI URLs downstream, but does not add publications.",
   "minYear": 2010,
-  "itemCount": 533,
+  "itemCount": 532,
   "facultyCount": 15,
   "faculty": [
     {
@@ -56,10 +56,10 @@
     {
       "name": "백영민",
       "status": "ok",
-      "allCount": 98,
+      "allCount": 97,
       "domesticCount": 57,
       "internationalCount": 4,
-      "reviewCount": 37
+      "reviewCount": 36
     },
     {
       "name": "백지현",
@@ -5731,17 +5731,6 @@
       "classificationReason": "english_or_nonhangul_unclassified"
     },
     {
-      "faculty": "백영민",
-      "issueDate": "2010-12",
-      "year": 2010,
-      "title": "To Buy or Not to Buy: Who are Political Consumers? What do they Think and How Do they Participate?",
-      "journal": "Political Studies",
-      "publicationUrl": "",
-      "fisProfileUrl": "https://fis.yonsei.ac.kr/faculty/depMember.do?mode=view&userId=pQXSuj%2FBDWN176s3YgiWbA%3D%3D",
-      "classification": "review",
-      "classificationReason": "english_or_nonhangul_unclassified"
-    },
-    {
       "faculty": "박남기",
       "issueDate": "2010-12",
       "year": 2010,
@@ -6006,5 +5995,5 @@
       "classificationReason": "english_or_nonhangul_unclassified"
     }
   ],
-  "generatedAt": "2026-11-09T01:44:46.212385+00:00"
+  "generatedAt": "2026-11-16T02:10:54.292261+00:00"
 }
